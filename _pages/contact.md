@@ -9,7 +9,7 @@ nav_order: 6
 
 <p class="lead">{% t contact.intro %}</p>
 
-<div class="two-grid">
+<div class="grid">
   <div class="article-card" data-aos="fade-up">
     <h2>BIOSIM Laboratory</h2>
     <p><strong>{{ site.lab.director }}</strong></p>
@@ -22,7 +22,6 @@ nav_order: 6
       <a href="https://www.linkedin.com/">LinkedIn</a>
     </div>
   </div>
-  <iframe class="map" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q={{ site.lab.map_query | uri_escape }}&output=embed"></iframe>
 </div>
 
 <section class="section">
