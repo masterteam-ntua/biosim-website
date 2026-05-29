@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://masterteam-ntua.github.io/biosim-website/sitemap.xml
