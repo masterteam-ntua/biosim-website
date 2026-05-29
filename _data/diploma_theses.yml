@@ -1,19 +1,19 @@
 ---
 - year: 2026
   entries:
-  - author: Νικόλαος Μπόθος Βουτεράκος
-    title: Πολυτροπική Μηχανική Μάθηση για την Ταξινόμηση Γνωστικής Έκπτωσης
-      με χρήση Δεδομένων Νευροαπεικόνισης Μορφομετρίας και Δομικής Συνδεσιμότητας
-    url: http://artemis.cslab.ece.ntua.gr:8080/jspui/handle/123456789/20012
-    details: ΕΜΠ, 2026.
+    - author: Νικόλαος Μπόθος Βουτεράκος
+      title: Πολυτροπική Μηχανική Μάθηση για την Ταξινόμηση Γνωστικής Έκπτωσης
+        με χρήση Δεδομένων Νευροαπεικόνισης Μορφομετρίας και Δομικής Συνδεσιμότητας
+      url: http://artemis.cslab.ece.ntua.gr:8080/jspui/handle/123456789/20012
+      details: ΕΜΠ, 2026.
 - year: 2025
   entries:
-  - author: Μιχαήλ Καλογερόπουλος
-    title: Optimizing Cardiology Diagnostic Accuracy via Synergistic AI-Human Integration
-    url: http://artemis.cslab.ece.ntua.gr:8080/jspui/handle/123456789/19755
-    details: ΕΜΠ, 2025.
-  - author: Καλλιόπη Σαράφη
-    title: Εκτίμηση αβεβαιότητας για την πρόβλεψη της αθηροσκλήρωσης με χρήση υπερηχογραφημάτων
-      καρωτίδων και τεχνικών βαθιάς μάθησης
-    url: http://artemis.cslab.ece.ntua.gr:8080/jspui/handle/123456789/19691
-    details: ΕΜΠ, 2025.
+    - author: Μιχαήλ Καλογερόπουλος
+      title: Optimizing Cardiology Diagnostic Accuracy via Synergistic AI-Human Integration
+      url: http://artemis.cslab.ece.ntua.gr:8080/jspui/handle/123456789/19755
+      details: ΕΜΠ, 2025.
+    - author: Καλλιόπη Σαράφη
+      title: Εκτίμηση αβεβαιότητας για την πρόβλεψη της αθηροσκλήρωσης με χρήση υπερηχογραφημάτων
+        καρωτίδων και τεχνικών βαθιάς μάθησης
+      url: http://artemis.cslab.ece.ntua.gr:8080/jspui/handle/123456789/19691
+      details: ΕΜΠ, 2025.

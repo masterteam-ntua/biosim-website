@@ -4,11 +4,10 @@
     {% include head.html %}
   </head>
   <body>
-    {% assign lang_prefix = '' %}
-    {% if site.lang != site.default_lang %}{% assign lang_prefix = '/' | append: site.lang %}{% endif %}
+    {% assign lang_prefix = '' %} {% if site.lang != site.default_lang %}{% assign lang_prefix = '/' | append: site.lang %}{% endif %}
     <header class="site-header">
       <a class="brand" href="{{ lang_prefix | append: '/' | relative_url }}" aria-label="{{ site.title }} home">
-        <img class="brand-logo" src="{{ '/assets/img/biosim-logo.png' | relative_url }}" alt="BIOSIM logo">
+        <img class="brand-logo" src="{{ '/assets/img/biosim-logo.png' | relative_url }}" alt="BIOSIM logo" />
       </a>
       <nav class="site-nav" aria-label="Primary navigation">
         <a href="{{ lang_prefix | append: '/' | relative_url }}">{% t nav.home %}</a>
@@ -29,20 +28,18 @@
       </nav>
       <div class="header-actions">
         {% if site.lang == 'el' %}
-          <a class="lang-switch" href="{{ page.url | replace_first: '/el', '' | relative_url }}">EN</a>
+        <a class="lang-switch" href="{{ page.url | replace_first: '/el', '' | relative_url }}">EN</a>
         {% else %}
-          <a class="lang-switch" href="{{ '/el' | append: page.url | relative_url }}">ΕΛ</a>
+        <a class="lang-switch" href="{{ '/el' | append: page.url | relative_url }}">ΕΛ</a>
         {% endif %}
         <button class="theme-toggle" type="button" aria-label="Toggle dark and light mode">◐</button>
       </div>
     </header>
 
-    <main>
-      {{ content }}
-    </main>
+    <main>{{ content }}</main>
 
     <footer class="site-footer">
-      <p><img class="footer-logo" src="{{ '/assets/img/biosim-logo.png' | relative_url }}" alt="BIOSIM logo"></p>
+      <p><img class="footer-logo" src="{{ '/assets/img/biosim-logo.png' | relative_url }}" alt="BIOSIM logo" /></p>
       <p>NTUA. {% t footer.tagline %}</p>
       <p><a href="mailto:{{ site.lab.email }}">{{ site.lab.email }}</a></p>
     </footer>

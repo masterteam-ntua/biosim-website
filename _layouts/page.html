@@ -4,28 +4,27 @@ layout: default
 
 <section class="page-hero compact">
   <div class="container" data-aos="fade-up">
-    {% assign page_title = page.title %}
-    {% assign page_description = page.description %}
-    {% if site.lang == 'el' %}
-      {% case page.permalink %}
-        {% when '/research/' %}{% assign page_title = site.translations[site.lang].research.areas %}{% assign page_description = site.translations[site.lang].research.intro %}
-        {% when '/research/thesis/' %}{% assign page_title = site.translations[site.lang].research.diploma_theses %}{% assign page_description = site.translations[site.lang].research.diploma_intro %}
-        {% when '/research/phds/' %}{% assign page_title = site.translations[site.lang].research.phd_theses %}{% assign page_description = site.translations[site.lang].research.phd_intro %}
-        {% when '/projects/' %}{% assign page_title = site.translations[site.lang].nav.projects %}{% assign page_description = site.translations[site.lang].projects.intro %}
-        {% when '/publications/' %}{% assign page_title = site.translations[site.lang].nav.publications %}{% assign page_description = 'Δημοσιεύσεις από το αρχείο BIOSIM, οργανωμένες με BibTeX.' %}
-        {% when '/people/' %}{% assign page_title = site.translations[site.lang].nav.people %}{% assign page_description = site.translations[site.lang].people.intro %}
-        {% when '/news/' %}{% assign page_title = site.translations[site.lang].nav.news %}{% assign page_description = site.translations[site.lang].news.intro %}
-        {% when '/courses/' %}{% assign page_title = site.translations[site.lang].nav.courses %}{% assign page_description = 'Προπτυχιακά και μεταπτυχιακά μαθήματα που συνδέονται με τη διδακτική δραστηριότητα του BIOSIM.' %}
-        {% when '/contact/' %}{% assign page_title = site.translations[site.lang].nav.contact %}{% assign page_description = site.translations[site.lang].contact.intro %}
-      {% endcase %}
-    {% endif %}
+    {% assign page_title = page.title %} {% assign page_description = page.description %} {% if site.lang == 'el' %} {% case page.permalink %} {% when
+    '/research/' %}{% assign page_title = site.translations[site.lang].research.areas %}{% assign page_description =
+    site.translations[site.lang].research.intro %} {% when '/research/thesis/' %}{% assign page_title =
+    site.translations[site.lang].research.diploma_theses %}{% assign page_description = site.translations[site.lang].research.diploma_intro %} {% when
+    '/research/phds/' %}{% assign page_title = site.translations[site.lang].research.phd_theses %}{% assign page_description =
+    site.translations[site.lang].research.phd_intro %} {% when '/projects/' %}{% assign page_title = site.translations[site.lang].nav.projects %}{%
+    assign page_description = site.translations[site.lang].projects.intro %} {% when '/publications/' %}{% assign page_title =
+    site.translations[site.lang].nav.publications %}{% assign page_description = 'Δημοσιεύσεις από το αρχείο BIOSIM, οργανωμένες με BibTeX.' %} {%
+    when '/people/' %}{% assign page_title = site.translations[site.lang].nav.people %}{% assign page_description =
+    site.translations[site.lang].people.intro %} {% when '/news/' %}{% assign page_title = site.translations[site.lang].nav.news %}{% assign
+    page_description = site.translations[site.lang].news.intro %} {% when '/courses/' %}{% assign page_title =
+    site.translations[site.lang].nav.courses %}{% assign page_description = 'Προπτυχιακά και μεταπτυχιακά μαθήματα που συνδέονται με τη διδακτική
+    δραστηριότητα του BIOSIM.' %} {% when '/contact/' %}{% assign page_title = site.translations[site.lang].nav.contact %}{% assign page_description =
+    site.translations[site.lang].contact.intro %} {% endcase %} {% endif %}
     <h1>{{ page_title }}</h1>
-    {% if page_description %}<p>{{ page_description }}</p>{% endif %}
+    {% if page_description %}
+    <p>{{ page_description }}</p>
+    {% endif %}
   </div>
 </section>
 
 <section class="section">
-  <div class="container">
-    {{ content }}
-  </div>
+  <div class="container">{{ content }}</div>
 </section>

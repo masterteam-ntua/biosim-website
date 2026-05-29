@@ -3,9 +3,9 @@
   title_el: ENDORSE
   image: "/assets/img/projects/endorse.png"
   tags:
-  - T1DM
-  - obesity
-  - gamification
+    - T1DM
+    - obesity
+    - gamification
   summary_en: Integrated platform using ICT, gamification, and biofeedback for self-management
     of Type 1 Diabetes Mellitus and obesity in children and adolescents.
   summary_el: Ολοκληρωμένη πλατφόρμα ΤΠΕ, παιχνιδοποίησης και βιοανάδρασης για αυτοδιαχείριση
@@ -14,9 +14,9 @@
   title_el: EDUSAFE
   image: "/assets/img/projects/edusafe.png"
   tags:
-  - VR
-  - AR
-  - safety
+    - VR
+    - AR
+    - safety
   summary_en: Training and research in advanced VR/AR systems for maintenance and
     safety in extreme environments.
   summary_el: Εκπαίδευση και έρευνα σε συστήματα εικονικής και επαυξημένης πραγματικότητας
@@ -25,8 +25,8 @@
   title_el: MOSAIC
   image: "/assets/img/projects/mosaic.png"
   tags:
-  - diabetes
-  - modeling
+    - diabetes
+    - modeling
   summary_en: Models and simulation techniques for discovering factors influencing
     diabetes risk, complications, and management.
   summary_el: Μοντέλα και τεχνικές προσομοίωσης για παράγοντες που επηρεάζουν τον

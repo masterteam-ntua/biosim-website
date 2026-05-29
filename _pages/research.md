@@ -10,6 +10,7 @@ nav_order: 2
 <p class="lead">{% t research.intro %}</p>
 
 {% assign lang_prefix = '' %}{% if site.lang != site.default_lang %}{% assign lang_prefix = '/' | append: site.lang %}{% endif %}
+
 <nav class="section-tabs" aria-label="Research sections">
   <a class="active" href="{{ lang_prefix | append: '/research/' | relative_url }}">{% t research.areas %}</a>
   <a href="{{ lang_prefix | append: '/research/thesis/' | relative_url }}">{% t research.diploma_theses %}</a>
@@ -19,6 +20,7 @@ nav_order: 2
 <h2>{% t research.areas %}</h2>
 
 {% assign research_areas = site.projects | sort: 'importance' %}
+
 <div class="grid">
   {% for area in research_areas %}
     {% if area.importance <= 3 %}

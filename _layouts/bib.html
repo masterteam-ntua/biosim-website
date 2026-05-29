@@ -1,5 +1,6 @@
 <div class="publication-entry">
   <p>{{ reference }}</p>
-  {% if entry.doi %}<a class="tag" href="https://doi.org/{{ entry.doi }}">DOI</a>{% endif %}
-  {% if entry.url %}<a class="tag" href="{{ entry.url }}">Link</a>{% endif %}
+  {% if entry.doi %}<a class="tag" href="https://doi.org/{{ entry.doi }}">DOI</a>{% endif %} {% if entry.url %}<a class="tag" href="{{ entry.url }}"
+    >Link</a
+  >{% endif %}
 </div>

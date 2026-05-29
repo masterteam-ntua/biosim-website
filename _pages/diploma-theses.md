@@ -9,6 +9,7 @@ nav: false
 <p class="lead">{% t research.diploma_intro %}</p>
 
 {% assign lang_prefix = '' %}{% if site.lang != site.default_lang %}{% assign lang_prefix = '/' | append: site.lang %}{% endif %}
+
 <nav class="section-tabs" aria-label="Research sections">
   <a href="{{ lang_prefix | append: '/research/' | relative_url }}">{% t research.areas %}</a>
   <a class="active" href="{{ lang_prefix | append: '/research/thesis/' | relative_url }}">{% t research.diploma_theses %}</a>

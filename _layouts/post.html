@@ -3,11 +3,11 @@ layout: page
 ---
 
 <article class="article-card" data-aos="fade-up">
-  {% if page.image %}<img class="article-image" src="{{ page.image | relative_url }}" alt="{% if site.lang == 'el' and page.title_el %}{{ page.title_el | escape }}{% else %}{{ page.title | escape }}{% endif %}">{% endif %}
+  {% if page.image %}<img
+    class="article-image"
+    src="{{ page.image | relative_url }}"
+    alt="{% if site.lang == 'el' and page.title_el %}{{ page.title_el | escape }}{% else %}{{ page.title | escape }}{% endif %}"
+  />{% endif %}
   <p class="meta">{{ page.date | date: "%B %-d, %Y" }}</p>
-  {% if site.lang == 'el' and page.content_el %}
-    {{ page.content_el | markdownify }}
-  {% else %}
-    {{ content }}
-  {% endif %}
+  {% if site.lang == 'el' and page.content_el %} {{ page.content_el | markdownify }} {% else %} {{ content }} {% endif %}
 </article>
