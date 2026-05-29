@@ -70,8 +70,8 @@ img { max-width: 100%; display: block; }
 .hero { position: relative; min-height: 78vh; display: grid; align-items: center; overflow: hidden; }
 #tsparticles { position: absolute; inset: 0; opacity: 0.52; }
 .hero-content { position: relative; z-index: 1; display: grid; align-items: center; justify-items: start; min-height: min(760px, calc(100vh - 72px)); padding: 92px 0 56px; }
-.hero-copy { position: relative; z-index: 3; width: min(820px, 64vw); padding: clamp(20px, 4vw, 38px); margin-left: clamp(-18px, -2vw, 0px); text-align: left; }
-.hero-copy::before { content: ""; position: absolute; inset: -96px -128px; z-index: -1; pointer-events: none; background: radial-gradient(ellipse at 36% 50%, color-mix(in srgb, var(--navy) 96%, transparent) 0%, color-mix(in srgb, var(--navy) 82%, transparent) 38%, color-mix(in srgb, var(--navy) 42%, transparent) 62%, transparent 82%); backdrop-filter: blur(12px); -webkit-mask-image: radial-gradient(ellipse at 36% 50%, black 0%, black 58%, transparent 82%); mask-image: radial-gradient(ellipse at 36% 50%, black 0%, black 58%, transparent 82%); }
+.hero-copy { position: relative; z-index: 3; width: min(820px, 64vw); padding: clamp(20px, 4vw, 38px); margin-left: clamp(-72px, -5vw, -24px); text-align: left; }
+.hero-copy::before { content: ""; position: absolute; inset: -150px -230px -150px -170px; z-index: -1; pointer-events: none; background: radial-gradient(ellipse at 38% 50%, color-mix(in srgb, var(--navy) 96%, transparent) 0%, color-mix(in srgb, var(--navy) 82%, transparent) 34%, color-mix(in srgb, var(--navy) 48%, transparent) 56%, color-mix(in srgb, var(--navy) 18%, transparent) 72%, transparent 88%); filter: blur(18px); }
 .eyebrow { color: var(--teal); text-transform: uppercase; letter-spacing: 0.14em; font-weight: 800; font-size: 0.78rem; }
 h1, h2, h3 { font-family: var(--font-heading); line-height: 1.08; margin: 0 0 18px; }
 h1 { font-size: clamp(2.65rem, 8vw, 6rem); letter-spacing: -0.06em; }
@@ -154,7 +154,7 @@ h3 { font-size: 1.25rem; }
   .nav-dropdown:hover .nav-dropdown-menu, .nav-dropdown:focus-within .nav-dropdown-menu { display: grid; }
   .hero-content { min-height: 0; padding-top: 72px; }
   .hero-copy { width: 100%; margin-left: 0; text-align: left; }
-  .hero-copy::before { inset: -56px -38px; }
+  .hero-copy::before { inset: -72px -56px; filter: blur(14px); }
   .hero-visual { position: relative; inset: auto; min-height: 360px; margin-top: 24px; margin-right: 0; border-radius: 28px; opacity: 1; transform: none; }
   .hero-visual::before { background: linear-gradient(180deg, color-mix(in srgb, var(--navy) 42%, transparent), transparent 52%); }
   .stats, .grid, .people-grid, .gallery, .two-grid { grid-template-columns: 1fr 1fr; }
