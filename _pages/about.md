@@ -42,12 +42,12 @@ permalink: /
       <p class="eyebrow">Activity</p>
       {% if site.lang == 'el' %}
         <h2>Μέλη, διπλωματικές και ερευνητικά έργα</h2>
-        <p>Η τρέχουσα έκδοση είναι δείγμα παρουσίασης και περιλαμβάνει ενδεικτικά μέλη, διπλωματικές εργασίες, δημοσιεύσεις και έργα.</p>
-        <p>Το πλήρες περιεχόμενο θα μεταφερθεί σταδιακά στην τελική έκδοση του ιστοτόπου.</p>
+        <p>Το BIOSIM συνδυάζει ερευνητική δραστηριότητα, διδασκαλία και συμμετοχή σε χρηματοδοτούμενα έργα στους τομείς της βιοϊατρικής τεχνολογίας και της ψηφιακής υγείας.</p>
+        <p>Στον ιστότοπο παρουσιάζονται μέλη, διπλωματικές εργασίες, δημοσιεύσεις και έργα του εργαστηρίου.</p>
       {% else %}
         <h2>People, theses, and funded projects</h2>
-        <p>This staging version is a showcase and includes representative members, theses, publications, and projects.</p>
-        <p>The full content will be migrated step by step into the final website.</p>
+        <p>BIOSIM combines research, teaching, and funded project activity across biomedical engineering and digital health.</p>
+        <p>The website presents laboratory members, theses, publications, and projects.</p>
       {% endif %}
     </article>
   </div>
