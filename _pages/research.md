@@ -23,7 +23,7 @@ nav_order: 2
 
 <div class="grid">
   {% for area in research_areas %}
-    {% if area.importance <= 3 %}
+    {% if area.importance <= 5 %}
       <article class="card" data-aos="fade-up" data-aos-delay="{{ forloop.index0 | times: 70 }}">
         {% assign area_image = area.image %}{% unless area_image contains '://' %}{% assign area_image = area.image | relative_url %}{% endunless %}
         <img src="{{ area_image }}" alt="{{ area.title | escape }}">

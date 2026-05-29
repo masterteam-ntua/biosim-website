@@ -1,0 +1,14 @@
+---
+layout: post
+title: 'Successful completion of the "e-Health and m-Health Technologies" course'
+short_title: "On the occasion of the completion of the “e-Health and m-Health Technologies” course for the current academic year, students had the opportunity of presenting their artifacts."
+title_el: 'Επιτυχής ολοκλήρωση του μαθήματος "Τεχνολογίες Κινητής και Ηλεκτρονικής Υγείας"'
+date: 2018-06-15
+source_url: https://www.biosim.ntua.gr/en/news/38
+image: /assets/img/news/successful-completion-of-the-e-health-and-m-health-technologies-course.jpg
+summary_el: 'Την Τετάρτη 13 Ιουνίου πραγματοποιήθηκε η εκδήλωση για την ολοκλήρωση του μαθήματος "Τεχνολογίες Κινητής και Ηλεκτρονικής Υγείας" για το τρέχον ακαδημαϊκό έτος. 27 ομάδες φοιτητών που εκπόνησαν με επιτυχία τις εξαμηνιαίε'
+content_el: |
+  Την Τετάρτη 13 Ιουνίου πραγματοποιήθηκε η εκδήλωση για την ολοκλήρωση του μαθήματος "Τεχνολογίες Κινητής και Ηλεκτρονικής Υγείας" για το τρέχον ακαδημαϊκό έτος. 27 ομάδες φοιτητών που εκπόνησαν με επιτυχία τις εξαμηνιαίες εργασίες τους, είχαν τη δυνατότητα να παρουσιάσουν τα αρχεία τεχνήματος που δημιούργησαν ως μέσο αναπαράστασης της διαδικασίας απόκτησης γνώσης στο πλαίσιο του μαθήματος. Στο πρώτο μέρος της εκδήλωσης, οι συμμετέχοντες απόλαυσαν τον καφέ τους και περιηγήθηκαν στη διαδραστική έκθεση που περιελάμβανε παρουσίαση τεχνημάτων όπως επιστημονικές αφίσες, διαδραστικά περιοδικά, βίντεο, ιστοσελίδες και apps, ενώ ακολούθησαν σύντομες παρουσιάσεις από τις ομάδες φοιτητών σχετικά με τη σύλληψη και την υλοποίηση των τεχνημάτων. Η εκδήλωση ολοκληρώθηκε με την ψηφοφορία για την επιλογή του καλύτερου τεχνήματος, που ανέδειξε νικήτρια την ομάδα των Γιαννάκη Ηλιάνας, Μάλαμα Ισιδώρας, Καλαφάτη Λευτέρη και Χριστοδουλάκη Μιχάλη, οι οποίοι ανέπτυξαν ένα σοβαρό παιχνίδι για τη βελτίωση της διαχείρισης της υπνικής άπνοιας. Δείτε το τέχνημα της νικήτριας ομάδας εδώ.
+---
+
+On 13.06.2018, a closure event for the “e-Health and m-Health Technologies” course was organized, on the occasion of its completion for the current academic year. 27 student teams successfully carried out their projects and had the opportunity of presenting evocative objects (artifacts) that they developed as hallmarks of their gained knowledge and experience within the framework of the course. An interactive demonstration session took place, featuring presentations of artifacts such as scientific posters, interactive magazines, videos, websites and apps, where attendees enjoyed a cup of coffee and engaged in fruitful discussions. An elevator pitch session followed, where teams were able to briefly present their artifact and the concept behind it. After the voting procedure for the selection of the best artifact was completed, the winner team was announced, consisting of Iliana Giannaki, Isidora Malama, Lefteris Kalafatis and Michalis Christodoulakis, who developed a serious game for the self-management of sleep apnea. You can check out the winners'artifact here.
