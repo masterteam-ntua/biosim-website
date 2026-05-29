@@ -81,7 +81,7 @@ h3 { font-size: 1.25rem; }
 .typed { color: var(--teal); }
 .hero-logo-title { margin-bottom: 24px; }
 .hero-logo-title img { width: min(420px, 82vw); border-radius: 28px; background: #fff; padding: 18px; box-shadow: var(--shadow); }
-.hero-visual { position: absolute; top: 52px; bottom: 34px; left: 50%; z-index: 1; width: min(1320px, calc(100vw - 32px)); overflow: hidden; opacity: 0.78; transform: translateX(-50%); }
+.hero-visual { position: absolute; top: 52px; bottom: 34px; left: 50%; z-index: 1; width: min(1320px, calc(100vw - 32px)); overflow: hidden; border-radius: 42px; opacity: 0.78; transform: translateX(-50%); -webkit-mask-image: radial-gradient(ellipse at center, black 0%, black 72%, rgba(0, 0, 0, 0.82) 84%, transparent 100%); mask-image: radial-gradient(ellipse at center, black 0%, black 72%, rgba(0, 0, 0, 0.82) 84%, transparent 100%); }
 .hero-visual::before { content: ""; position: absolute; inset: 0; z-index: 2; pointer-events: none; background: radial-gradient(ellipse at 32% 50%, transparent 10%, color-mix(in srgb, var(--navy) 32%, transparent) 72%), linear-gradient(180deg, rgba(0, 200, 232, 0.18), transparent 42%); }
 .hero-swiper, .hero-swiper .swiper-wrapper, .hero-swiper .swiper-slide { height: 100%; }
 .hero-swiper { padding: 0; }
@@ -155,7 +155,7 @@ h3 { font-size: 1.25rem; }
   .hero-content { min-height: 0; padding-top: 72px; }
   .hero-copy { width: 100%; margin-left: 0; text-align: left; }
   .hero-copy::before { inset: -72px -56px; filter: blur(14px); }
-  .hero-visual { position: relative; inset: auto; min-height: 360px; margin-top: 24px; margin-right: 0; border-radius: 28px; opacity: 1; transform: none; }
+  .hero-visual { position: relative; inset: auto; min-height: 360px; margin-top: 24px; margin-right: 0; border-radius: 28px; opacity: 1; transform: none; -webkit-mask-image: none; mask-image: none; }
   .hero-visual::before { background: linear-gradient(180deg, color-mix(in srgb, var(--navy) 42%, transparent), transparent 52%); }
   .stats, .grid, .people-grid, .gallery, .two-grid { grid-template-columns: 1fr 1fr; }
 }
