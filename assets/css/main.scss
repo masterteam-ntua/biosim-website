@@ -70,7 +70,7 @@ img { max-width: 100%; display: block; }
 .hero { position: relative; min-height: 78vh; display: grid; align-items: center; overflow: hidden; }
 #tsparticles { position: absolute; inset: 0; opacity: 0.52; }
 .hero-content { position: relative; z-index: 1; display: grid; align-items: center; justify-items: start; min-height: min(760px, calc(100vh - 72px)); padding: 92px 0 56px; }
-.hero-copy { position: relative; z-index: 3; width: min(820px, 64vw); padding: clamp(20px, 4vw, 38px); margin-left: clamp(-72px, -5vw, -24px); text-align: left; }
+.hero-copy { position: relative; z-index: 3; width: min(820px, 64vw); padding: clamp(20px, 4vw, 38px); margin-left: clamp(24px, 4vw, 76px); text-align: left; }
 .hero-copy::before { content: ""; position: absolute; inset: -150px -230px -150px -170px; z-index: -1; pointer-events: none; background: radial-gradient(ellipse at 38% 50%, color-mix(in srgb, var(--navy) 96%, transparent) 0%, color-mix(in srgb, var(--navy) 82%, transparent) 34%, color-mix(in srgb, var(--navy) 48%, transparent) 56%, color-mix(in srgb, var(--navy) 18%, transparent) 72%, transparent 88%); filter: blur(18px); }
 .eyebrow { color: var(--teal); text-transform: uppercase; letter-spacing: 0.14em; font-weight: 800; font-size: 0.78rem; }
 h1, h2, h3 { font-family: var(--font-heading); line-height: 1.08; margin: 0 0 18px; }
