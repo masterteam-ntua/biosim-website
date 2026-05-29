@@ -13,7 +13,7 @@ navbar_fixed: true
 footer_fixed: false
 search_enabled: true
 bib_search: true
-max_width: 1180px
+max_width: 1320px
 enable_darkmode: true
 back_to_top: true
 
