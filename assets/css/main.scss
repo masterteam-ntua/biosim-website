@@ -86,7 +86,7 @@ h3 { font-size: 1.25rem; }
 .hero-swiper, .hero-swiper .swiper-wrapper, .hero-swiper .swiper-slide { height: 100%; }
 .hero-swiper { height: 100%; padding: 0; border-radius: inherit; overflow: hidden; }
 .hero-swiper .swiper-slide { display: flex; align-items: center; justify-content: center; background: color-mix(in srgb, var(--navy) 92%, transparent); }
-.hero-swiper img { width: 100%; height: 100%; object-fit: contain; }
+.hero-swiper img { width: 100%; height: 100%; object-fit: cover; }
 .hero-swiper .swiper-pagination { z-index: 3; text-align: left; padding-left: 28px; }
 
 .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
