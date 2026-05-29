@@ -7,7 +7,8 @@ This repository is the BIOSIM Laboratory public website, built with Jekyll/al-fo
 - Public URL: `https://masterteam-ntua.github.io/biosim-website/`.
 - Production base path is `baseurl: /biosim-website` in `_config.yml`.
 - Default language is English; Greek pages are generated with `jekyll-multiple-languages-plugin` under `/el/`.
-- Current `biosim-staging` content is intentionally a lightweight showcase, not the full imported BIOSIM archive.
+- `biosim-staging` keeps the full imported BIOSIM archive for review and migration work.
+- Live GitHub Pages content should be deployed from `main`/`master`, not from `biosim-staging`.
 - Preserve language-aware navigation and links when editing layouts or pages.
 
 ## Local Commands
@@ -30,14 +31,14 @@ Do not rely on `npm run lint:style-contract` for this customized site unless the
 
 ## Deployment
 
-- `.github/workflows/deploy.yml` builds on pushes to `main`, `master`, or `biosim-staging`.
+- `.github/workflows/deploy.yml` builds on pushes to `main` or `master`.
 - The workflow publishes `_site` to the `gh-pages` branch.
 - GitHub Pages should be configured to serve from `gh-pages` at `/`.
 - If the repository name changes, update `_config.yml` `baseurl` or define `JEKYLL_BASEURL` in GitHub Actions variables.
 
 ## Content Rules
 
-- Keep the public staging branch small unless asked to expand it: 2-3 representative records per content-heavy page.
+- Keep `biosim-staging` full-content unless explicitly asked to trim it.
 - People live in `_data/members.yml`; do not link profile cards to the old BIOSIM website.
 - Funded projects for the Projects page live in `_data/projects.yml`.
 - Research-area pages live in `_projects/` and publish under `/research/:name/`.

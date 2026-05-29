@@ -13,7 +13,7 @@ The production project-site base path is configured in `_config.yml` as `baseurl
 
 ## Deployment
 
-The workflow in `.github/workflows/deploy.yml` builds the site on pushes to `main`, `master`, or `biosim-staging` and publishes `_site` to the `gh-pages` branch using `JamesIves/github-pages-deploy-action@v4`.
+The workflow in `.github/workflows/deploy.yml` builds the site on pushes to `main` or `master` and publishes `_site` to the `gh-pages` branch using `JamesIves/github-pages-deploy-action@v4`. The `biosim-staging` branch is for full-content review and does not deploy live Pages.
 
 For a custom domain, add a `CNAME` file and configure DNS in GitHub Pages settings.
 
