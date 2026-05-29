@@ -54,7 +54,18 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   if (window.Swiper) {
-    document.querySelectorAll(".swiper").forEach((el) => {
+    document.querySelectorAll(".hero-swiper").forEach((el) => {
+      new Swiper(el, {
+        autoplay: { delay: 4200, disableOnInteraction: false },
+        effect: "fade",
+        loop: true,
+        pagination: { el: el.querySelector(".swiper-pagination"), clickable: true },
+        slidesPerView: 1,
+        speed: 900,
+      });
+    });
+
+    document.querySelectorAll(".swiper:not(.hero-swiper)").forEach((el) => {
       new Swiper(el, {
         slidesPerView: 1,
         spaceBetween: 18,
