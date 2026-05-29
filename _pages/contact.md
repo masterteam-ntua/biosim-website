@@ -32,11 +32,11 @@ nav_order: 6
       <h2>{% if site.lang == 'el' %}Γραφεία{% else %}Offices{% endif %}</h2>
       {% if site.lang == 'el' %}
         <p><strong>Παλιά Κτίρια Ηλεκτρολόγων Μηχανικών και Μηχανικών Υπολογιστών</strong></p>
-        <p>Γραφείο Καθηγήτριας Κωνσταντίνας Νικήτα: Γραφείο 1.1.17<br>Γραφείο Υποψηφίων Διδακτόρων και Μεταδιδακτορικών ερευνητών: Γραφείο 1.1.2<br>Γραφείο Υποψηφίων Διδακτόρων και Μεταδιδακτορικών ερευνητών: Γραφείο 2.1.26</p>
+        <p>Γραφείο Καθηγήτριας Κωνσταντίνας Νικήτα: Γραφείο 1.1.18<br>Γραφείο Υποψηφίων Διδακτόρων και Μεταδιδακτορικών ερευνητών: Γραφείο 1.1.2<br>Γραφείο Υποψηφίων Διδακτόρων και Μεταδιδακτορικών ερευνητών: Γραφείο 2.1.26</p>
         <p><strong>Κτίριο Ηλεκτρονικών Υπολογιστών</strong></p><p>Γραφείο 1.16<br>Γραφείο 1.17</p>
       {% else %}
         <p><strong>Old Buildings of Faculty of Electrical and Computer Engineering</strong></p>
-        <p>Professor's Nikita Office: Room 1.1.17<br>PhD & Post Doc Office: Room 1.1.2<br>PhD & Post Doc Office: Room 2.1.26</p>
+        <p>Professor's Nikita Office: Room 1.1.18<br>PhD & Post Doc Office: Room 1.1.2<br>PhD & Post Doc Office: Room 2.1.26</p>
         <p><strong>Central Computer Building</strong></p><p>Room 1.16<br>Room 1.17</p>
       {% endif %}
     </article>
