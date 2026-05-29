@@ -1,0 +1,133 @@
+title: BioSim Lab NTUA
+first_name: BioSim
+last_name: Lab
+description: Biomedical simulation, computational physiology, and intelligent biosignal systems at the National Technical University of Athens.
+keywords: biomedical engineering, electrical engineering, biosignals, computational modeling, NTUA, BioSim
+lang: en
+icon: assets/img/biosim-logo.png
+
+url: "https://masterteam-ntua.github.io"
+baseurl: "/biosim-website"
+
+navbar_fixed: true
+footer_fixed: false
+search_enabled: true
+bib_search: true
+max_width: 1180px
+enable_darkmode: true
+back_to_top: true
+
+al_folio:
+  api_version: 1
+  style_engine: tailwind
+  tailwind:
+    version: 4.1.18
+    preflight: false
+    css_entry: assets/tailwind/app.css
+  distill:
+    engine: distillpub-template
+    source: al-org-dev/distill-template#al-folio
+
+languages: ["en", "el"]
+default_lang: "en"
+exclude_from_localizations: ["assets", "bin", "docs", "test", "readme_preview", "lighthouse_results"]
+parallel_localization: false
+
+theme: al_folio_core
+
+collections:
+  news:
+    output: true
+    permalink: /news/:name/
+  projects:
+    output: true
+    permalink: /research/:name/
+
+include: ["_pages"]
+exclude:
+  - .agents
+  - .claude
+  - .codex
+  - .devcontainer
+  - .gemini
+  - .github
+  - bin
+  - docs
+  - lighthouse_results
+  - node_modules
+  - readme_preview
+  - test
+  - vendor
+  - Dockerfile
+  - docker-compose.yml
+  - docker-compose-slim.yml
+  - package.json
+  - package-lock.json
+  - purgecss.config.js
+  - requirements.txt
+  - README.md
+keep_files:
+  - CNAME
+  - .nojekyll
+
+plugins:
+  - jekyll-multiple-languages-plugin
+  - jekyll/scholar
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-email-protect
+  - jekyll-link-attributes
+  - jekyll-paginate-v2
+  - jekyll-regex-replace
+  - jekyll-minifier
+  - jemoji
+  - al_folio_core
+  - al_icons
+  - al_search
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+
+sass:
+  style: compressed
+
+scholar:
+  last_name: [Papadopoulos, Karagiannis, Nikolaou, BioSim]
+  first_name: [Maria, M., Dimitris, D., Eleni, E.]
+  style: apa
+  locale: en
+  source: /_bibliography/
+  bibliography: papers.bib
+  bibliography_template: bib
+  bibtex_filters: [latex, smallcaps, superscript]
+  replace_strings: true
+  join_strings: true
+  details_dir: bibliography
+  details_link: Details
+  query: "@*"
+  group_by: year
+  group_order: descending
+
+external_links:
+  enabled: true
+  rel: external nofollow noopener
+  target: _blank
+
+jekyll-minifier:
+  compress_javascript: false
+  exclude: ["robots.txt"]
+
+lab:
+  email: knikita@ece.ntua.gr
+  phone: 0030 - 210 - 7722285 / 2968
+  director: Prof. Konstantina S. Nikita
+  address_en: BIOSIM Laboratory, Faculty of Electrical and Computer Engineering, National Technical University of Athens, 9 Iroon Polytechniou Str., 15780 Zografos, Athens, Greece
+  address_el: Εργαστήριο BIOSIM, Σχολή Ηλεκτρολόγων Μηχανικών και Μηχανικών Υπολογιστών, Εθνικό Μετσόβιο Πολυτεχνείο, Ηρώων Πολυτεχνείου 9, 15780 Ζωγράφου, Αθήνα
+  map_query: National Technical University of Athens Zografou Campus
+  stats:
+    publications: 600
+    members: 25
+    projects: 30
+    years: 27

@@ -1,0 +1,337 @@
+---
+- title_en: ENDORSE
+  title_el: ENDORSE
+  image: "/assets/img/projects/endorse.png"
+  tags:
+  - T1DM
+  - obesity
+  - gamification
+  summary_en: Integrated platform using ICT, gamification, and biofeedback for self-management
+    of Type 1 Diabetes Mellitus and obesity in children and adolescents.
+  summary_el: Ολοκληρωμένη πλατφόρμα ΤΠΕ, παιχνιδοποίησης και βιοανάδρασης για αυτοδιαχείριση
+    ΣΔΤ1 και παχυσαρκίας σε παιδιά και εφήβους.
+- title_en: smarty4covid
+  title_el: smarty4covid
+  tags:
+  - COVID-19
+  - explainable AI
+  summary_en: Intelligent multimodal framework for COVID-19 risk assessment and monitoring
+    using explainable deep learning and audio biomarkers.
+  summary_el: Πολυτροπικό πλαίσιο για εκτίμηση κινδύνου και παρακολούθηση COVID-19
+    με εξηγήσιμη βαθιά μάθηση και ηχητικούς βιοδείκτες.
+- title_en: Cockpit Crew Health Monitoring
+  title_el: Ανάπτυξη Συστήματος Παρακολούθησης της Κατάστασης Υγείας των Πιλότων Αεροσκαφών
+    σε Πραγματικό Χρόνο
+  tags:
+  - biosignals
+  - aviation
+  - monitoring
+  summary_en: Real-time monitoring of cockpit crew physiology with sensors and signal/image
+    processing to support pilot incapacitation warnings.
+  summary_el: Παρακολούθηση φυσιολογικών παραμέτρων πιλότων με αισθητήρες και επεξεργασία
+    σημάτων/εικόνας για έγκαιρη προειδοποίηση.
+- title_en: SMART-BLISTER
+  title_el: Σύστημα Διασφάλισης της Φαρμακευτικής Συμμόρφωσης Χρόνιων Ασθενών
+  tags:
+  - medication adherence
+  - chronic disease
+  summary_en: Smart blister packaging with printed passive electronics and cloud communication
+    to support medication adherence.
+  summary_el: Έξυπνη συσκευασία blister με παθητικό τυπωμένο ηλεκτρονικό κύκλωμα και
+    επικοινωνία με πληροφοριακό σύστημα νέφους.
+- title_en: EDUSAFE
+  title_el: EDUSAFE
+  image: "/assets/img/projects/edusafe.png"
+  tags:
+  - VR
+  - AR
+  - safety
+  summary_en: Training and research in advanced VR/AR systems for maintenance and
+    safety in extreme environments.
+  summary_el: Εκπαίδευση και έρευνα σε συστήματα εικονικής και επαυξημένης πραγματικότητας
+    για ασφάλεια σε ακραία περιβάλλοντα.
+- title_en: MOSAIC
+  title_el: MOSAIC
+  image: "/assets/img/projects/mosaic.png"
+  tags:
+  - diabetes
+  - modeling
+  summary_en: Models and simulation techniques for discovering factors influencing
+    diabetes risk, complications, and management.
+  summary_el: Μοντέλα και τεχνικές προσομοίωσης για παράγοντες που επηρεάζουν τον
+    κίνδυνο, τις επιπλοκές και τη διαχείριση του διαβήτη.
+- title_en: mBioRF
+  title_el: Πολυεπίπεδη εκτίμηση βιολογικών αποτελεσμάτων ηλεκτρομαγνητικών πεδίων
+    ραδιοσυχνοτήτων
+  tags:
+  - RF
+  - bioelectromagnetics
+  summary_en: Multilevel research on biological effects of radiofrequency electromagnetic
+    waves at cellular, tissue, and neurophysiological levels.
+  summary_el: Πολυεπίπεδη μελέτη βιολογικών αποτελεσμάτων ηλεκτρομαγνητικών πεδίων
+    ραδιοσυχνοτήτων σε κύτταρα, ιστούς και νευροφυσιολογία.
+- title_en: DEM-II-MED
+  title_el: Εμφυτεύσιμες και καταπόσιμες ιατρικές διατάξεις
+  image: "/assets/img/projects/dem-ii-med.png"
+  tags:
+  - implantable devices
+  - telemetry
+  summary_en: Design-and-evaluation methodology for implantable and ingestible medical
+    devices with telemetry and telemedicine links.
+  summary_el: Μεθοδολογία σχεδίασης και αξιολόγησης εμφυτεύσιμων και καταπόσιμων ιατρικών
+    διατάξεων με τηλεμετρία και τηλεϊατρική.
+- title_en: SIFEM
+  title_el: SIFEM
+  image: "/assets/img/projects/sifem.jpg"
+  tags:
+  - inner ear
+  - finite elements
+  summary_en: Semantic infrastructure linking finite element tools and model repositories
+    for multi-scale inner-ear modeling.
+  summary_el: Σημασιολογική υποδομή που συνδέει εργαλεία πεπερασμένων στοιχείων και
+    αποθετήρια μοντέλων για το έσω ους.
+- title_en: Carotid Atherosclerosis
+  title_el: Η αθηρωματική πλάκα στην καρωτίδα
+  image: "/assets/img/projects/carotid-atherosclerosis.png"
+  tags:
+  - cardiovascular
+  - imaging
+  summary_en: Multidisciplinary assessment of carotid atherosclerosis for improved
+    management of symptomatic and asymptomatic patients.
+  summary_el: Πολυεπιστημονική προσέγγιση της αθηρωμάτωσης στην καρωτίδα για βέλτιστη
+    διαχείριση συμπτωματικών και ασυμπτωματικών ασθενών.
+- title_en: Non-ionizing radiation source registry study
+  title_el: Μελέτη καταγραφής πηγών μη-ιονίζουσας ακτινοβολίας
+  tags:
+  - non-ionizing radiation
+  - GIS
+  summary_en: Study for auctioning documents on recording non-ionizing radiation sources
+    and linking the database with GIS.
+  summary_el: Μελέτη για τεύχη δημοπράτησης έργου καταγραφής πηγών μη ιονίζουσας ακτινοβολίας
+    και σύνδεσης βάσης δεδομένων με GIS.
+- title_en: Emerging EMF Technologies and Health Risk Management
+  title_el: Emerging EMF Technologies and Health Risk Management
+  tags:
+  - EMF
+  - risk management
+  summary_en: Knowledge-sharing structure for emerging electromagnetic-field technologies,
+    exposure characteristics, health concerns, and risk communication.
+  summary_el: Δομή ανταλλαγής γνώσης για νέες τεχνολογίες ΗΜΠ, χαρακτηριστικά έκθεσης,
+    πιθανές επιπτώσεις στην υγεία και επικοινωνία κινδύνου.
+- title_en: NEUROMATH
+  title_el: NEUROMATH
+  tags:
+  - brain activity
+  - connectivity
+  summary_en: Mathematical methods for estimating cortical activity and connectivity
+    from non-invasive neuroelectric and hemodynamic measurements.
+  summary_el: Μαθηματικές μέθοδοι εκτίμησης εγκεφαλικής δραστηριότητας και συνδεσιμότητας
+    από μη επεμβατικές μετρήσεις.
+- title_en: Neuronal network dynamics in motor disorders
+  title_el: Υπολογιστικές μέθοδοι για δυναμική δικτύων νευρώνων σε κινητικές διαταραχές
+  tags:
+  - neuroscience
+  - modeling
+  summary_en: Time-stepping computational methods for neuronal network dynamics and
+    control of neurological dysfunctions.
+  summary_el: Υπολογιστικές μέθοδοι χρονοβηματισμού για δυναμική δικτύων νευρώνων
+    και έλεγχο νευρολογικών δυσλειτουργιών.
+- title_en: Computational tools for Parkinson's disease and resistant epilepsy
+  title_el: Υπολογιστικά εργαλεία για νόσο Parkinson και ανθεκτική επιληψία
+  tags:
+  - Parkinson
+  - epilepsy
+  summary_en: Algorithms and tools for brain-signal processing and anatomical/neurophysiological
+    modeling to assist functional interventions.
+  summary_el: Αλγόριθμοι και εργαλεία επεξεργασίας εγκεφαλικών σημάτων και μοντελοποίησης
+    για υποβοήθηση λειτουργικών παρεμβάσεων.
+- title_en: Micro2DNA
+  title_el: Micro2DNA
+  tags:
+  - microfluidics
+  - DNA
+  summary_en: Integrated polymer-based microfluidic system for DNA extraction, amplification,
+    and silicon-based detection.
+  summary_el: Ολοκληρωμένο μικρορευστονικό σύστημα πολυμερών για εξαγωγή, πολλαπλασιασμό
+    και ανίχνευση DNA.
+- title_en: SMARTDIAB
+  title_el: SMARTDIAB
+  tags:
+  - diabetes
+  - insulin
+  summary_en: Smart insulin infusion system using telematics, embedded GSM, WPAN,
+    and glucose-insulin metabolic modeling.
+  summary_el: Ευφυές σύστημα έγχυσης ινσουλίνης με τηλεματική, GSM, WPAN και μοντελοποίηση
+    γλυκόζης-ινσουλίνης.
+- title_en: fastGATE
+  title_el: fastGATE
+  tags:
+  - Monte Carlo
+  - GATE
+  summary_en: Variance reduction techniques to improve GATE Monte Carlo simulation
+    efficiency on distributed computing platforms.
+  summary_el: Τεχνικές ελάττωσης πολυπλοκότητας για βελτίωση της απόδοσης προσομοιώσεων
+    Monte Carlo GATE σε κατανεμημένες πλατφόρμες.
+- title_en: Non ionizing radiation and public health
+  title_el: Μη ιοντίζουσα ακτινοβολία και δημόσια υγεία
+  tags:
+  - radiation
+  - public health
+  summary_en: Research activity on non-ionizing radiation and public-health implications.
+  summary_el: Ερευνητική δραστηριότητα για μη ιοντίζουσα ακτινοβολία και επιπτώσεις
+    στη δημόσια υγεία.
+- title_en: Telemedicine network for Aegean and Cyprus remote areas
+  title_el: Δίκτυο τηλεϊατρικής για απομακρυσμένες περιοχές στο Αιγαίο και την Κύπρο
+  tags:
+  - telemedicine
+  - remote care
+  summary_en: Telemedicine network for emergency medical support using biosignals,
+    video, image transmission, and specialist consultation.
+  summary_el: Δίκτυο τηλεϊατρικής για επείγουσα φροντίδα με βιοσήματα, video, εικόνες
+    και συμβουλευτική από ειδικευμένους ιατρούς.
+- title_en: EMedIT
+  title_el: EMedIT
+  tags:
+  - ICT
+  - Mediterranean
+  summary_en: East Mediterranean ICT roadmap, support services, training, and cooperation
+    to reduce the digital divide.
+  summary_el: Οδικός χάρτης ΤΠΕ, υπηρεσίες υποστήριξης, εκπαίδευση και συνεργασίες
+    στη Νοτιοανατολική Μεσόγειο.
+- title_en: Small animal biological process simulation
+  title_el: Προσομοίωση και μοντελοποίηση σύνθετων βιολογικών διεργασιών σε μικρά
+    πειραματόζωα
+  tags:
+  - small animal imaging
+  - gamma camera
+  summary_en: Optimization of compact gamma-camera systems for small-animal imaging
+    and related medical-imaging applications.
+  summary_el: Βελτιστοποίηση εξειδικευμένης γ-camera για απεικόνιση μικρών ζώων και
+    συναφείς εφαρμογές ιατρικής απεικόνισης.
+- title_en: INTERMED
+  title_el: INTERMED
+  tags:
+  - telehealth
+  - Mediterranean
+  summary_en: Broadband telecommunication platform for tele-collaboration, tele-monitoring,
+    tele-diagnosis, and e-learning in remote Mediterranean regions.
+  summary_el: Ευρυζωνική τηλεπικοινωνιακή πλατφόρμα για τηλεσυνεργασία, τηλεπαρακολούθηση,
+    τηλεδιάγνωση και εκπαίδευση στη Μεσόγειο.
+- title_en: EMC Related to Wireless Communications
+  title_el: EMC Related to Wireless Communications
+  tags:
+  - EMC
+  - wireless
+  summary_en: Postgraduate course series on electromagnetic compatibility in wireless
+    communications with emphasis on 3G/UMTS systems.
+  summary_el: Σειρά μεταπτυχιακών μαθημάτων για ηλεκτρομαγνητική συμβατότητα σε ασύρματες
+    επικοινωνίες με έμφαση σε 3G/UMTS.
+- title_en: Protection from non-ionizing radiation of mobile communications
+  title_el: Προστασία κοινού από μη ιοντίζουσα ακτινοβολία συστημάτων κινητών επικοινωνιών
+  tags:
+  - mobile communications
+  - radiation
+  summary_en: Study of public exposure to mobile terminal and base-station radiation,
+    with emphasis on children and protective measures.
+  summary_el: Μελέτη έκθεσης του κοινού σε ακτινοβολία τερματικών και σταθμών βάσης,
+    με έμφαση στα παιδιά και στα μέτρα προστασίας.
+- title_en: AMICA
+  title_el: AMICA
+  tags:
+  - decision support
+  - healthcare
+  summary_en: Assembling data and knowledge at the point of care to improve medical
+    decision-making and prevent errors.
+  summary_el: Συγκέντρωση δεδομένων και γνώσης στο σημείο φροντίδας για βελτίωση ιατρικών
+    αποφάσεων και αποτροπή λαθών.
+- title_en: Small animal PET
+  title_el: Monte-Carlo προσομοίωση συστημάτων small animal PET
+  tags:
+  - PET
+  - Monte Carlo
+  summary_en: Monte Carlo simulation of new-generation high-resolution compact PET
+    systems for small-animal imaging and tumor detection.
+  summary_el: Monte Carlo προσομοίωση τομογραφικών συστημάτων PET μικρών διαστάσεων
+    και υψηλής διακριτικής ικανότητας.
+- title_en: Potential Health Implications from Mobile Communication Systems
+  title_el: Potential Health Implications from Mobile Communication Systems
+  tags:
+  - mobile systems
+  - health
+  summary_en: Study of potential health impacts related to electromagnetic-field exposure
+    from mobile communication systems.
+  summary_el: Διερεύνηση πιθανών επιπτώσεων στην υγεία από έκθεση σε ηλεκτρομαγνητική
+    ακτινοβολία συστημάτων κινητών επικοινωνιών.
+- title_en: Inverse Scattering for Medical Diagnosis
+  title_el: Επίλυση του Προβλήματος της Αντίστροφης Σκέδασης
+  tags:
+  - inverse scattering
+  - diagnosis
+  summary_en: Algorithms for inverse scattering to define shape and diffraction index
+    of biological media for medical diagnosis.
+  summary_el: Αλγόριθμοι αντίστροφης σκέδασης για προσδιορισμό σχήματος και δείκτη
+    διάθλασης βιολογικών αντικειμένων.
+- title_en: GALENOS
+  title_el: Ανάπτυξη συστήματος εικονικής προσομοίωσης και σχεδίασης αγωγής στην ακτινο-ογκολογία
+  tags:
+  - radiation oncology
+  - imaging
+  summary_en: Virtual simulation and treatment-planning system in radiation oncology
+    with image processing, 3D visualization, and tele-collaboration.
+  summary_el: Σύστημα εικονικής προσομοίωσης και σχεδίασης ακτινοθεραπείας με επεξεργασία
+    εικόνας, 3D οπτικοποίηση και τηλεσυνεργασία.
+- title_en: Rational Assessment of Health Effects Related to Mobile Phones
+  title_el: Rational Assessment of Health Effects Related to the Use of Mobile Phones
+  tags:
+  - mobile phones
+  - dosimetry
+  summary_en: Standards for experimental and numerical procedures evaluating human-head
+    exposure to mobile-phone radiation.
+  summary_el: Τυποποίηση πειραματικών και υπολογιστικών διαδικασιών για εκτίμηση έκθεσης
+    κεφαλής σε ακτινοβολία κινητών τηλεφώνων.
+- title_en: CT-Based Diagnostic Ability Improvement
+  title_el: Αύξηση διαγνωστικής δυνατότητας εικόνων αξονικής τομογραφίας
+  tags:
+  - CT
+  - image processing
+  summary_en: CT archiving, management, and diagnosis-support system with DICOM tools,
+    segmentation, feature extraction, and 3D visualization.
+  summary_el: Σύστημα διαχείρισης και υποστήριξης διάγνωσης εικόνων CT με επεξεργασία
+    εικόνας και τηλεματική συνεργασία.
+- title_en: Biomedical Effects of Electromagnetic Fields
+  title_el: Biomedical Effects of Electromagnetic Fields
+  tags:
+  - EMF
+  - medicine
+  summary_en: Biomedical effects of electromagnetic fields, especially mobile-phone
+    users, and medical applications of electromagnetic waves.
+  summary_el: Μελέτη επιπτώσεων ηλεκτρομαγνητικών κυμάτων στην υγεία, με έμφαση σε
+    χρήστες κινητών, και εφαρμογές στην ιατρική.
+- title_en: VIRTUOSO
+  title_el: VIRTUOSO
+  image: "/assets/img/projects/virtuoso.jpg"
+  tags:
+  - radio-oncology
+  - telematics
+  summary_en: Virtual simulation and treatment planning in clinical radio-oncology
+    with telematics collaboration between centers.
+  summary_el: Εικονική προσομοίωση και σχεδίαση θεραπείας στην ακτινο-ογκολογία με
+    τηλεματική συνεργασία κέντρων.
+- title_en: Mobile Phone Antenna Optimization
+  title_el: Βελτιστοποίηση κεραίας και δομής συσκευής κινητού τηλεφώνου
+  tags:
+  - antenna
+  - exposure
+  summary_en: Optimization of mobile-phone antenna and device structure to minimize
+    human-head electromagnetic exposure.
+  summary_el: Βελτιστοποίηση κεραίας και συσκευής κινητού για ελαχιστοποίηση έκθεσης
+    κεφαλής σε ηλεκτρομαγνητική ακτινοβολία.
+- title_en: CEPHOS
+  title_el: CEPHOS
+  tags:
+  - dosimetry
+  - standardization
+  summary_en: European standardization of computational and experimental procedures
+    for human exposure assessment from mobile communication devices.
+  summary_el: Ευρωπαϊκή τυποποίηση διαδικασιών εκτίμησης έκθεσης σε ακτινοβολία συσκευών
+    κινητής τηλεφωνίας.

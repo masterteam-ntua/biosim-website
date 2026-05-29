@@ -1,0 +1,39 @@
+nav:
+  home: Home
+  research: Research
+  projects: Projects
+  publications: Publications
+  people: People
+  news: News
+  courses: Courses
+  contact: Contact
+footer:
+  tagline: Biomedical simulation and intelligent health technologies.
+home:
+  eyebrow: Biomedical Engineering at NTUA
+  title: BIOSIM Laboratory
+  intro: The Biomedical Simulations and Imaging Laboratory was founded in 1999 at NTUA and ICCS. Its goal is to turn cutting-edge technology into healthcare innovation across diabetes and obesity management, cardiovascular diseases, mobile health, neuroscience, and smart health systems.
+  cta_research: Explore research
+  cta_contact: Collaborate with us
+  stats_publications: Publications
+  stats_members: Team members
+  stats_projects: Active projects
+  stats_years: Years active
+  latest_news: Latest news
+  featured_projects: Featured projects
+  featured_intro: Research areas follow the original BIOSIM structure and are redesigned here as modern, accessible cards.
+research:
+  intro: BIOSIM research connects electrical and computer engineering with biomedical simulation, imaging, wireless telemetry, clinical decision support, and smart health technologies.
+  areas: Research Areas
+  diploma_theses: Diploma Theses
+  phd_theses: PhD Theses
+  diploma_intro: Diploma theses completed within BIOSIM research activities, grouped by year.
+  phd_intro: PhD theses completed within BIOSIM research activities.
+projects:
+  intro: European and national funded projects coordinated by or involving BIOSIM.
+people:
+  intro: The laboratory consists of faculty, researchers, PhD candidates, collaborators, visitors, and alumni.
+news:
+  intro: Lab announcements, project updates, talks, awards, and student milestones.
+contact:
+  intro: Visit BIOSIM at the NTUA Zografou Campus or contact Prof. Konstantina S. Nikita for collaboration and research opportunities.

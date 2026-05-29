@@ -1,0 +1,8 @@
+---
+layout: page
+---
+
+<article class="article-card" data-aos="fade-up">
+  {% if page.image %}{% assign project_image = page.image %}{% unless project_image contains '://' %}{% assign project_image = page.image | relative_url %}{% endunless %}<img class="article-image" src="{{ project_image }}" alt="{{ page.title }}">{% endif %}
+  {{ content }}
+</article>
