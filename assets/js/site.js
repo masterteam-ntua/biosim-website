@@ -8,6 +8,21 @@ document.addEventListener("DOMContentLoaded", () => {
     localStorage.setItem("biosim-theme", next);
   });
 
+  if (window.matchMedia("(pointer: fine)").matches && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    const root = document.documentElement;
+    let rafId = null;
+
+    window.addEventListener("pointermove", (event) => {
+      if (rafId) return;
+      rafId = window.requestAnimationFrame(() => {
+        root.style.setProperty("--mouse-x", `${event.clientX}px`);
+        root.style.setProperty("--mouse-y", `${event.clientY}px`);
+        root.classList.add("has-pointer-glow");
+        rafId = null;
+      });
+    });
+  }
+
   if (window.AOS) AOS.init({ duration: 650, easing: "ease-out-cubic", once: true, offset: 80 });
 
   if (window.Typed && document.querySelector(".typed")) {
@@ -27,8 +42,8 @@ document.addEventListener("DOMContentLoaded", () => {
         background: { color: { value: "transparent" } },
         fpsLimit: 60,
         particles: {
-          color: { value: ["#1a73e8", "#00b4d8", "#ffffff"] },
-          links: { color: "#00b4d8", distance: 145, enable: true, opacity: 0.18, width: 1 },
+          color: { value: ["#00c8e8", "#28f0f8", "#ffffff"] },
+          links: { color: "#00c8e8", distance: 145, enable: true, opacity: 0.18, width: 1 },
           move: { enable: true, speed: 0.65 },
           number: { value: 58, density: { enable: true, area: 900 } },
           opacity: { value: 0.3 },

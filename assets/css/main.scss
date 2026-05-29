@@ -16,6 +16,21 @@ body {
   line-height: 1.65;
 }
 
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background: radial-gradient(circle 380px at var(--mouse-x, 50%) var(--mouse-y, 18%), var(--cursor-glow), var(--cursor-glow-aqua) 34%, transparent 72%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+html.has-pointer-glow body::before {
+  opacity: 1;
+}
+
 a { color: inherit; text-decoration: none; }
 a:hover { color: var(--teal); }
 
@@ -136,4 +151,8 @@ h3 { font-size: 1.25rem; }
   .stats, .grid, .people-grid, .gallery, .two-grid { grid-template-columns: 1fr; }
   .hero-content { padding-top: 72px; }
   .section { padding: 54px 0; }
+}
+
+@media (prefers-reduced-motion: reduce), (pointer: coarse) {
+  body::before { display: none; }
 }
