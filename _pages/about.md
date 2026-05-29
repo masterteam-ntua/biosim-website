@@ -42,12 +42,12 @@ permalink: /
       <p class="eyebrow">Activity</p>
       {% if site.lang == 'el' %}
         <h2>Μέλη, διπλωματικές και ερευνητικά έργα</h2>
-        <p>Το BIOSIM αποτελείται από 25 μέλη, 13 από τα οποία είναι κάτοχοι διδακτορικού διπλώματος και 12 υποψήφιοι διδάκτορες. Κάθε χρόνο εκπονούνται 10-12 διπλωματικές εργασίες υπό την επίβλεψη έμπειρου προσωπικού.</p>
-        <p>Τα τελευταία χρόνια το εργαστήριο έχει συμμετάσχει σε περισσότερα από 30 ευρωπαϊκά και εθνικά χρηματοδοτούμενα έργα.</p>
+        <p>Η τρέχουσα έκδοση είναι δείγμα παρουσίασης και περιλαμβάνει ενδεικτικά μέλη, διπλωματικές εργασίες, δημοσιεύσεις και έργα.</p>
+        <p>Το πλήρες περιεχόμενο θα μεταφερθεί σταδιακά στην τελική έκδοση του ιστοτόπου.</p>
       {% else %}
         <h2>People, theses, and funded projects</h2>
-        <p>BIOSIM currently consists of 25 people, including researchers with PhD degrees and PhD candidates. Each year, 10-12 diploma theses are developed under the supervision of experienced staff.</p>
-        <p>Over the last years, BIOSIM has participated in more than 30 European and national funded projects.</p>
+        <p>This staging version is a showcase and includes representative members, theses, publications, and projects.</p>
+        <p>The full content will be migrated step by step into the final website.</p>
       {% endif %}
     </article>
   </div>

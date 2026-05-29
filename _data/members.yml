@@ -7,41 +7,6 @@
   group_el: Μέλη ΔΕΠ
   image: "/assets/img/people/konstantina-nikita.jpg"
   email: knikita@ece.ntua.gr
-- name_en: Ioannis Andreadis
-  name_el: Ιωάννης Ανδρεάδης
-  role_en: Researcher
-  role_el: Ερευνητής
-  group_en: Researchers
-  group_el: Ερευνητές
-  image: "/assets/img/people/ioannis-andreadis.png"
-- name_en: Maria Athanasiou
-  name_el: Μαρία Αθανασίου
-  role_en: Postdoctoral Researcher
-  role_el: Μεταδιδακτορική Ερευνήτρια
-  group_en: Researchers
-  group_el: Ερευνητές
-  image: "/assets/img/people/maria-athanasiou.jpg"
-- name_en: Nikos Melanitis-Paraskevas
-  name_el: Νίκος Μελανίτης-Παρασκευάς
-  role_en: Postdoctoral Researcher
-  role_el: Μεταδιδακτορικός Ερευνητής
-  group_en: Researchers
-  group_el: Ερευνητές
-  image: "/assets/img/people/nikos-melanitis-paraskevas.png"
-- name_en: Kostas Mitsis
-  name_el: Κώστας Μήτσης
-  role_en: Postdoctoral Researcher
-  role_el: Μεταδιδακτορικός Ερευνητής
-  group_en: Researchers
-  group_el: Ερευνητές
-  image: "/assets/img/people/kostas-mitsis.jfif"
-- name_en: Aikaterini Fragkou
-  name_el: Αικατερίνη Φράγκου
-  role_en: PhD Candidate
-  role_el: Υποψήφια Διδάκτορας
-  group_en: PhD Candidates
-  group_el: Υποψήφιοι Διδάκτορες
-  image: "/assets/img/people/aikaterini-fragkou.png"
 - name_en: Theofanis Ganitidis
   name_el: Θεοφάνης Γκανιτίδης
   role_en: Postdoctoral Researcher
@@ -56,31 +21,3 @@
   group_en: Researchers
   group_el: Ερευνητές
   image: "/assets/img/people/eleftherios-kalafatis.png"
-- name_en: Vasileios Kolias
-  name_el: Βασίλειος Κόλιας
-  role_en: PhD Candidate
-  role_el: Υποψήφιος Διδάκτορας
-  group_en: PhD Candidates
-  group_el: Υποψήφιοι Διδάκτορες
-  image: "/assets/img/people/vasileios-kolias.JPG"
-- name_en: Glikeria Theodorou
-  name_el: Γλυκερία Θεοδώρου
-  role_en: PhD Candidate
-  role_el: Υποψήφια Διδάκτορας
-  group_en: PhD Candidates
-  group_el: Υποψήφιοι Διδάκτορες
-  image: "/assets/img/people/glikeria-theodorou.jpg"
-- name_en: Daphne Tsolisou
-  name_el: Δάφνη Τσολίσου
-  role_en: PhD Candidate
-  role_el: Υποψήφια Διδάκτορας
-  group_en: PhD Candidates
-  group_el: Υποψήφιοι Διδάκτορες
-  image: "/assets/img/people/daphne-tsolisou.jpeg"
-- name_en: Konstantia Zarkogianni
-  name_el: Κωνσταντία Ζαρκογιάννη
-  role_en: Collaborator
-  role_el: Συνεργάτιδα
-  group_en: Collaborators
-  group_el: Συνεργάτες
-  image: "/assets/img/people/konstantia-zarkogianni.png"
