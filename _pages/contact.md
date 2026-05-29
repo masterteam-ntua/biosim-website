@@ -19,10 +19,11 @@ nav_order: 6
     <div class="member-links">
       <a href="https://www.ntua.gr/">NTUA</a>
       <a href="https://www.ece.ntua.gr/">ECE NTUA</a>
+      <a href="{{ site.lab.map_url }}">Google Maps</a>
       <a href="https://www.linkedin.com/">LinkedIn</a>
     </div>
   </div>
-  <iframe class="map" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q={{ site.lab.map_query | uri_escape }}&output=embed"></iframe>
+  <iframe class="map" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade" src="{{ site.lab.map_embed_url }}"></iframe>
 </div>
 
 <section class="section">
