@@ -70,18 +70,18 @@ img { max-width: 100%; display: block; }
 .hero { position: relative; min-height: 78vh; display: grid; align-items: center; overflow: hidden; }
 #tsparticles { position: absolute; inset: 0; opacity: 0.52; }
 .hero-content { position: relative; z-index: 1; display: grid; align-items: center; justify-items: start; min-height: min(760px, calc(100vh - 72px)); padding: 92px 0 56px; }
-.hero-copy { position: relative; z-index: 3; width: min(700px, 58vw); padding: clamp(20px, 4vw, 38px); margin-left: clamp(-18px, -2vw, 0px); text-align: left; }
-.hero-copy::before { content: ""; position: absolute; inset: -64px -78px; z-index: -1; pointer-events: none; background: radial-gradient(ellipse at 38% 50%, color-mix(in srgb, var(--navy) 94%, transparent) 0%, color-mix(in srgb, var(--navy) 78%, transparent) 42%, color-mix(in srgb, var(--navy) 32%, transparent) 66%, transparent 84%); backdrop-filter: blur(10px); }
+.hero-copy { position: relative; z-index: 3; width: min(820px, 64vw); padding: clamp(20px, 4vw, 38px); margin-left: clamp(-18px, -2vw, 0px); text-align: left; }
+.hero-copy::before { content: ""; position: absolute; inset: -96px -128px; z-index: -1; pointer-events: none; background: radial-gradient(ellipse at 36% 50%, color-mix(in srgb, var(--navy) 96%, transparent) 0%, color-mix(in srgb, var(--navy) 82%, transparent) 38%, color-mix(in srgb, var(--navy) 42%, transparent) 62%, transparent 82%); backdrop-filter: blur(12px); -webkit-mask-image: radial-gradient(ellipse at 36% 50%, black 0%, black 58%, transparent 82%); mask-image: radial-gradient(ellipse at 36% 50%, black 0%, black 58%, transparent 82%); }
 .eyebrow { color: var(--teal); text-transform: uppercase; letter-spacing: 0.14em; font-weight: 800; font-size: 0.78rem; }
 h1, h2, h3 { font-family: var(--font-heading); line-height: 1.08; margin: 0 0 18px; }
 h1 { font-size: clamp(2.65rem, 8vw, 6rem); letter-spacing: -0.06em; }
 h2 { font-size: clamp(2rem, 4vw, 3.2rem); letter-spacing: -0.04em; }
 h3 { font-size: 1.25rem; }
 .lead { min-height: 3.4em; color: var(--muted); font-size: clamp(1.05rem, 2vw, 1.28rem); max-width: 760px; }
-.typed { display: inline-block; min-width: 25ch; color: var(--teal); text-align: left; }
+.typed { color: var(--teal); }
 .hero-logo-title { margin-bottom: 24px; }
 .hero-logo-title img { width: min(420px, 82vw); border-radius: 28px; background: #fff; padding: 18px; box-shadow: var(--shadow); }
-.hero-visual { position: absolute; top: 52px; bottom: 34px; left: 50%; z-index: 1; width: min(1120px, calc(100vw - 32px)); overflow: hidden; opacity: 0.78; transform: translateX(-50%); }
+.hero-visual { position: absolute; top: 52px; bottom: 34px; left: 50%; z-index: 1; width: min(1320px, calc(100vw - 32px)); overflow: hidden; opacity: 0.78; transform: translateX(-50%); }
 .hero-visual::before { content: ""; position: absolute; inset: 0; z-index: 2; pointer-events: none; background: radial-gradient(ellipse at 32% 50%, transparent 10%, color-mix(in srgb, var(--navy) 32%, transparent) 72%), linear-gradient(180deg, rgba(0, 200, 232, 0.18), transparent 42%); }
 .hero-swiper, .hero-swiper .swiper-wrapper, .hero-swiper .swiper-slide { height: 100%; }
 .hero-swiper { padding: 0; }
@@ -154,7 +154,7 @@ h3 { font-size: 1.25rem; }
   .nav-dropdown:hover .nav-dropdown-menu, .nav-dropdown:focus-within .nav-dropdown-menu { display: grid; }
   .hero-content { min-height: 0; padding-top: 72px; }
   .hero-copy { width: 100%; margin-left: 0; text-align: left; }
-  .hero-copy::before { inset: -42px -28px; }
+  .hero-copy::before { inset: -56px -38px; }
   .hero-visual { position: relative; inset: auto; min-height: 360px; margin-top: 24px; margin-right: 0; border-radius: 28px; opacity: 1; transform: none; }
   .hero-visual::before { background: linear-gradient(180deg, color-mix(in srgb, var(--navy) 42%, transparent), transparent 52%); }
   .stats, .grid, .people-grid, .gallery, .two-grid { grid-template-columns: 1fr 1fr; }
@@ -163,7 +163,6 @@ h3 { font-size: 1.25rem; }
 @media (max-width: 620px) {
   .stats, .grid, .people-grid, .gallery, .two-grid { grid-template-columns: 1fr; }
   .hero-content { padding-top: 72px; }
-  .typed { min-width: 0; }
   .section { padding: 54px 0; }
 }
 
