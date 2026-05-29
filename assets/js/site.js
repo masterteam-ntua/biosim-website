@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
       typeSpeed: 48,
       backSpeed: 24,
       backDelay: 1300,
-      loop: true
+      loop: true,
     });
   }
 
@@ -32,9 +32,9 @@ document.addEventListener("DOMContentLoaded", () => {
           move: { enable: true, speed: 0.65 },
           number: { value: 58, density: { enable: true, area: 900 } },
           opacity: { value: 0.3 },
-          size: { value: { min: 1, max: 3 } }
-        }
-      }
+          size: { value: { min: 1, max: 3 } },
+        },
+      },
     });
   }
 
@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", () => {
         slidesPerView: 1,
         spaceBetween: 18,
         pagination: { el: el.querySelector(".swiper-pagination"), clickable: true },
-        breakpoints: { 760: { slidesPerView: 2 }, 1080: { slidesPerView: 3 } }
+        breakpoints: { 760: { slidesPerView: 2 }, 1080: { slidesPerView: 3 } },
       });
     });
   }
