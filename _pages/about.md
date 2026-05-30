@@ -8,7 +8,6 @@ permalink: /
   <div id="tsparticles" aria-hidden="true"></div>
   <div class="container hero-content" data-aos="fade-up">
     <div class="hero-copy">
-      <p class="eyebrow">{% t home.eyebrow %}</p>
       <h1 class="hero-logo-title"><img src="{{ '/assets/img/biosim-logo.png' | relative_url }}" alt="BIOSIM Laboratory"></h1>
       <p class="lead">{% t home.intro %} <span class="typed"></span></p>
       <div class="hero-actions">
@@ -40,7 +39,6 @@ permalink: /
 <section class="section">
   <div class="container two-grid">
     <article class="article-card" data-aos="fade-up">
-      <p class="eyebrow">About BIOSIM</p>
       {% if site.lang == 'el' %}
         <h2>Βιοϊατρικές Προσομοιώσεις και Απεικονιστική Τεχνολογία από το 1999</h2>
         <p>Το εργαστήριο BIOSIM υπάγεται στη Σχολή Ηλεκτρολόγων Μηχανικών και Μηχανικών Υπολογιστών και στο ΕΠΙΣΕΥ του Εθνικού Μετσόβιου Πολυτεχνείου.</p>
@@ -52,7 +50,6 @@ permalink: /
       {% endif %}
     </article>
     <article class="article-card" data-aos="fade-up" data-aos-delay="80">
-      <p class="eyebrow">Activity</p>
       {% if site.lang == 'el' %}
         <h2>Μέλη, διπλωματικές και ερευνητικά έργα</h2>
         <p>Το BIOSIM αποτελείται από 25 μέλη, 13 από τα οποία είναι κάτοχοι διδακτορικού διπλώματος και 12 υποψήφιοι διδάκτορες. Κάθε χρόνο εκπονούνται 10-12 διπλωματικές εργασίες υπό την επίβλεψη έμπειρου προσωπικού.</p>
@@ -69,7 +66,7 @@ permalink: /
 <section class="section">
   <div class="container">
     <div class="section-heading" data-aos="fade-up">
-      <div><p class="eyebrow">Updates</p><h2>{% t home.latest_news %}</h2></div>
+      <div><h2>{% t home.latest_news %}</h2></div>
       <a class="button secondary" href="{{ lang_prefix | append: '/news/' | relative_url }}">{% t nav.news %}</a>
     </div>
     <div class="swiper news-swiper" data-aos="fade-up">
@@ -97,7 +94,7 @@ permalink: /
 <section class="section">
   <div class="container">
     <div class="section-heading" data-aos="fade-up">
-      <div><p class="eyebrow">Research portfolio</p><h2>{% t home.featured_projects %}</h2></div>
+      <div><h2>{% t home.featured_projects %}</h2></div>
       <p>{% t home.featured_intro %}</p>
     </div>
     <div class="grid">
