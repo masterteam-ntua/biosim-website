@@ -7,7 +7,10 @@ permalink: /
 <section class="hero">
   <div id="tsparticles" aria-hidden="true"></div>
   <div class="container hero-content" data-aos="fade-up">
-    <h1 class="hero-logo-title"><img src="{{ '/biosim_logo_files/svg/biosim_logo.svg' | relative_url }}" alt="BIOSIM Laboratory"></h1>
+    <h1 class="hero-logo-title">
+      <img class="logo-rgb" src="{{ '/biosim_logo_files/svg/biosim_logo.svg' | relative_url }}" alt="BIOSIM Laboratory">
+      <img class="logo-dark" src="{{ '/biosim_logo_files/svg/biosim_logo_grayscale.svg' | relative_url }}" alt="BIOSIM Laboratory">
+    </h1>
     <p class="lead">{% t home.intro %} <span class="typed"></span></p>
     <div class="hero-actions">
       {% assign lang_prefix = '' %}{% if site.lang != site.default_lang %}{% assign lang_prefix = '/' | append: site.lang %}{% endif %}

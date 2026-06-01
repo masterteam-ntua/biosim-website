@@ -37,7 +37,11 @@ img { max-width: 100%; display: block; }
 }
 
 .brand { display: inline-flex; align-items: center; gap: 10px; font-weight: 800; font-family: var(--font-heading); }
-.brand-logo { width: 152px; height: 44px; object-fit: contain; border-radius: 12px; background: #fff; padding: 6px; }
+.brand-logo { width: 152px; height: 44px; object-fit: contain; }
+.logo-dark { display: none; }
+html[data-theme="dark"] .logo-rgb { display: none; }
+html[data-theme="dark"] .logo-dark { display: block; filter: brightness(0) invert(1); }
+html[data-theme="light"] .logo-rgb { display: block; }
 .brand-mark { display: grid; place-items: center; width: 34px; height: 34px; border-radius: 12px; background: linear-gradient(135deg, var(--teal), var(--aqua)); color: #fff; }
 
 .site-nav { display: flex; gap: 18px; font-size: 0.95rem; color: var(--muted); }
@@ -62,7 +66,8 @@ h3 { font-size: 1.25rem; }
 .lead { color: var(--muted); font-size: clamp(1.05rem, 2vw, 1.28rem); max-width: 760px; }
 .typed { color: var(--teal); }
 .hero-logo-title { margin-bottom: 24px; }
-.hero-logo-title img { width: min(460px, 82vw); border-radius: 24px; background: #fff; padding: 18px; box-shadow: var(--shadow); }
+.hero-logo-title img { width: min(460px, 82vw); }
+html[data-theme="light"] .hero-logo-title img { border-radius: 24px; background: #fff; padding: 18px; box-shadow: var(--shadow); }
 
 .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
 .button { display: inline-flex; align-items: center; gap: 8px; border-radius: 999px; padding: 12px 18px; background: linear-gradient(135deg, var(--teal), var(--aqua)); color: #fff; font-weight: 800; box-shadow: var(--shadow); }
