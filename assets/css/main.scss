@@ -125,7 +125,11 @@ html[data-theme="light"] .hero-logo-title img { border-radius: 24px; background:
 .map { width: 100%; min-height: 360px; border: 0; border-radius: 24px; filter: grayscale(0.2) contrast(1.05); }
 
 .site-footer { border-top: 1px solid var(--line); padding: 32px; color: var(--muted); text-align: center; }
-.footer-logo { display: inline-block; width: 150px; border-radius: 14px; background: #fff; padding: 7px; }
+.footer-logo { width: 150px; margin: 0 auto; }
+html[data-theme="light"] .site-footer .logo-rgb { display: block; }
+html[data-theme="light"] .site-footer .logo-dark { display: none; }
+html[data-theme="dark"] .site-footer .logo-rgb { display: none; }
+html[data-theme="dark"] .site-footer .logo-dark { display: block; filter: brightness(0) invert(1); }
 
 @media (max-width: 900px) {
   .site-header { align-items: flex-start; flex-wrap: wrap; }
