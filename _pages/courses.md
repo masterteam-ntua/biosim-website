@@ -2,7 +2,6 @@
 layout: page
 permalink: /courses/
 title: Courses
-description: Undergraduate and graduate courses connected to BIOSIM teaching activity.
 nav: true
 nav_order: 7
 ---

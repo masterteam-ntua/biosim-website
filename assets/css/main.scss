@@ -53,7 +53,7 @@ img { max-width: 100%; display: block; }
 }
 
 .brand { display: inline-flex; align-items: center; gap: 10px; font-weight: 800; font-family: var(--font-heading); }
-.brand-logo { width: 112px; height: 42px; object-fit: contain; border-radius: 10px; background: #fff; padding: 4px; }
+.brand-logo { width: 152px; height: 44px; object-fit: contain; border-radius: 12px; background: #fff; padding: 6px; }
 .brand-mark { display: grid; place-items: center; width: 34px; height: 34px; border-radius: 12px; background: linear-gradient(135deg, var(--teal), var(--aqua)); color: #fff; }
 
 .site-nav { display: flex; gap: 18px; font-size: 0.95rem; color: var(--muted); }
@@ -80,7 +80,7 @@ h3 { font-size: 1.25rem; }
 .lead { min-height: 3.4em; color: var(--muted); font-size: clamp(1.05rem, 2vw, 1.28rem); max-width: 760px; }
 .typed { color: var(--teal); }
 .hero-logo-title { margin-bottom: 24px; }
-.hero-logo-title img { width: min(420px, 82vw); border-radius: 28px; background: #fff; padding: 18px; box-shadow: var(--shadow); }
+.hero-logo-title img { width: min(460px, 82vw); border-radius: 24px; background: #fff; padding: 18px; box-shadow: var(--shadow); }
 .hero-visual { position: absolute; top: 52px; bottom: 34px; left: 50%; z-index: 1; width: min(1320px, calc(100vw - 32px)); overflow: hidden; border-radius: 42px; background: color-mix(in srgb, var(--navy) 86%, transparent); opacity: 0.78; transform: translateX(-50%); }
 .hero-visual::before { content: ""; position: absolute; inset: 0; z-index: 2; pointer-events: none; background: radial-gradient(ellipse at 32% 50%, transparent 10%, color-mix(in srgb, var(--navy) 32%, transparent) 72%), linear-gradient(180deg, rgba(0, 200, 232, 0.18), transparent 42%), linear-gradient(90deg, color-mix(in srgb, var(--navy) 28%, transparent), transparent 12%, transparent 88%, color-mix(in srgb, var(--navy) 28%, transparent)); }
 .hero-swiper, .hero-swiper .swiper-wrapper, .hero-swiper .swiper-slide { height: 100%; }
@@ -145,7 +145,7 @@ h3 { font-size: 1.25rem; }
 .map { width: 100%; min-height: 360px; border: 0; border-radius: 24px; filter: grayscale(0.2) contrast(1.05); }
 
 .site-footer { border-top: 1px solid var(--line); padding: 32px; color: var(--muted); text-align: center; }
-.footer-logo { display: inline-block; width: 120px; border-radius: 14px; background: #fff; padding: 6px; }
+.footer-logo { display: inline-block; width: 150px; border-radius: 14px; background: #fff; padding: 7px; }
 
 @media (max-width: 900px) {
   .site-header { align-items: flex-start; flex-wrap: wrap; }

@@ -2,11 +2,8 @@
 layout: page
 title: Diploma Theses
 permalink: /research/thesis/
-description: Diploma theses completed in BIOSIM research areas.
 nav: false
 ---
-
-<p class="lead">{% t research.diploma_intro %}</p>
 
 {% assign lang_prefix = '' %}{% if site.lang != site.default_lang %}{% assign lang_prefix = '/' | append: site.lang %}{% endif %}
 

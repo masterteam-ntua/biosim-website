@@ -8,7 +8,7 @@ permalink: /
   <div id="tsparticles" aria-hidden="true"></div>
   <div class="container hero-content" data-aos="fade-up">
     <div class="hero-copy">
-      <h1 class="hero-logo-title"><img src="{{ '/assets/img/biosim-logo.png' | relative_url }}" alt="BIOSIM Laboratory"></h1>
+      <h1 class="hero-logo-title"><img src="{{ '/biosim_logo_files/svg/biosim_logo.svg' | relative_url }}" alt="BIOSIM Laboratory"></h1>
       <p class="lead">{% t home.intro %} <span class="typed"></span></p>
       <div class="hero-actions">
         {% assign lang_prefix = '' %}{% if site.lang != site.default_lang %}{% assign lang_prefix = '/' | append: site.lang %}{% endif %}
@@ -95,7 +95,6 @@ permalink: /
   <div class="container">
     <div class="section-heading" data-aos="fade-up">
       <div><h2>{% t home.featured_projects %}</h2></div>
-      <p>{% t home.featured_intro %}</p>
     </div>
     <div class="grid">
       {% assign featured_projects = site.data.projects | slice: 0, 3 %}

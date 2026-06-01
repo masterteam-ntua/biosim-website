@@ -2,12 +2,9 @@
 layout: page
 permalink: /contact/
 title: Contact
-description: Find BioSim Lab at NTUA.
 nav: true
 nav_order: 6
 ---
-
-<p class="lead">{% t contact.intro %}</p>
 
 <div class="two-grid">
   <div class="article-card" data-aos="fade-up">

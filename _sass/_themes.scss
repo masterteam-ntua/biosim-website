@@ -1,12 +1,28 @@
+@font-face {
+  font-family: "Red Hat Display";
+  src: url("../../RedHatDisplay/RedHatDisplay-VariableFont_wght.ttf") format("truetype");
+  font-weight: 300 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Red Hat Display";
+  src: url("../../RedHatDisplay/RedHatDisplay-Italic-VariableFont_wght.ttf") format("truetype");
+  font-weight: 300 900;
+  font-style: italic;
+  font-display: swap;
+}
+
 :root {
-  --font-body: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  --font-heading: "Plus Jakarta Sans", "Inter", system-ui, sans-serif;
+  --font-body: "Red Hat Display", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-heading: "Red Hat Display", system-ui, sans-serif;
   --navy: #081418;
   --navy-2: #12313a;
-  --blue: #008fbd;
-  --teal: #00c8e8;
-  --aqua: #28f0f8;
-  --graphite: #484848;
+  --blue: #00caed;
+  --teal: #00caed;
+  --aqua: #25def4;
+  --graphite: #4b4b4b;
   --white: #ffffff;
   --muted: #a8b6cc;
   --site-bg:

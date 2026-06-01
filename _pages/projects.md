@@ -2,12 +2,9 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: European and national funded projects coordinated by or involving BIOSIM.
 nav: true
 nav_order: 3
 ---
-
-<p class="lead">{% t projects.intro %}</p>
 
 <div class="grid">
   {% for project in site.data.projects %}
