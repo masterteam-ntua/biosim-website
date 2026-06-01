@@ -53,7 +53,11 @@ img { max-width: 100%; display: block; }
 }
 
 .brand { display: inline-flex; align-items: center; gap: 10px; font-weight: 800; font-family: var(--font-heading); }
-.brand-logo { width: 152px; height: 44px; object-fit: contain; border-radius: 12px; background: #fff; padding: 6px; }
+.brand-logo { width: 152px; height: 44px; object-fit: contain; }
+.logo-dark { display: none; }
+html[data-theme="dark"] .logo-rgb { display: none; }
+html[data-theme="dark"] .logo-dark { display: block; filter: brightness(0) invert(1); }
+html[data-theme="light"] .logo-rgb { display: block; }
 .brand-mark { display: grid; place-items: center; width: 34px; height: 34px; border-radius: 12px; background: linear-gradient(135deg, var(--teal), var(--aqua)); color: #fff; }
 
 .site-nav { display: flex; gap: 18px; font-size: 0.95rem; color: var(--muted); }
@@ -80,7 +84,8 @@ h3 { font-size: 1.25rem; }
 .lead { min-height: 3.4em; color: var(--muted); font-size: clamp(1.05rem, 2vw, 1.28rem); max-width: 760px; }
 .typed { color: var(--teal); }
 .hero-logo-title { margin-bottom: 24px; }
-.hero-logo-title img { width: min(460px, 82vw); border-radius: 24px; background: #fff; padding: 18px; box-shadow: var(--shadow); }
+.hero-logo-title img { width: min(460px, 82vw); }
+html[data-theme="light"] .hero-logo-title img { border-radius: 24px; background: #fff; padding: 18px; box-shadow: var(--shadow); }
 .hero-visual { position: absolute; top: 52px; bottom: 34px; left: 50%; z-index: 1; width: min(1320px, calc(100vw - 32px)); overflow: hidden; border-radius: 42px; background: color-mix(in srgb, var(--navy) 86%, transparent); opacity: 0.78; transform: translateX(-50%); }
 .hero-visual::before { content: ""; position: absolute; inset: 0; z-index: 2; pointer-events: none; background: radial-gradient(ellipse at 32% 50%, transparent 10%, color-mix(in srgb, var(--navy) 32%, transparent) 72%), linear-gradient(180deg, rgba(0, 200, 232, 0.18), transparent 42%), linear-gradient(90deg, color-mix(in srgb, var(--navy) 28%, transparent), transparent 12%, transparent 88%, color-mix(in srgb, var(--navy) 28%, transparent)); }
 .hero-swiper, .hero-swiper .swiper-wrapper, .hero-swiper .swiper-slide { height: 100%; }
