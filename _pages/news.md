@@ -2,12 +2,9 @@
 layout: page
 permalink: /news/
 title: News
-description: Lab announcements and updates.
 nav: true
 nav_order: 5
 ---
-
-<p class="lead">{% t news.intro %}</p>
 
 <div class="grid">
   {% assign news_items = site.news | sort: 'date' | reverse %}

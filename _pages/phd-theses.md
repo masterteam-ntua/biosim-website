@@ -2,11 +2,8 @@
 layout: page
 title: PhD Theses
 permalink: /research/phds/
-description: PhD theses completed in BIOSIM research areas.
 nav: false
 ---
-
-<p class="lead">{% t research.phd_intro %}</p>
 
 {% assign lang_prefix = '' %}{% if site.lang != site.default_lang %}{% assign lang_prefix = '/' | append: site.lang %}{% endif %}
 

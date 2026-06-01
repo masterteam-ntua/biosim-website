@@ -2,7 +2,6 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: BibTeX-driven publication list with year filters.
 nav: true
 nav_order: 3
 ---

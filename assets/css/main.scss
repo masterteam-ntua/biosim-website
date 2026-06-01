@@ -9,7 +9,7 @@ html { scroll-behavior: smooth; }
 
 body {
   margin: 0;
-  background: radial-gradient(circle at top left, rgba(0, 180, 216, 0.2), transparent 28%), var(--navy);
+  background: radial-gradient(circle at top left, rgba(37, 222, 244, 0.2), transparent 28%), var(--navy);
   color: var(--white);
   font-family: var(--font-body);
   line-height: 1.65;
@@ -37,8 +37,8 @@ img { max-width: 100%; display: block; }
 }
 
 .brand { display: inline-flex; align-items: center; gap: 10px; font-weight: 800; font-family: var(--font-heading); }
-.brand-logo { width: 112px; height: 42px; object-fit: contain; border-radius: 10px; background: #fff; padding: 4px; }
-.brand-mark { display: grid; place-items: center; width: 34px; height: 34px; border-radius: 12px; background: linear-gradient(135deg, var(--blue), var(--teal)); color: #fff; }
+.brand-logo { width: 152px; height: 44px; object-fit: contain; border-radius: 12px; background: #fff; padding: 6px; }
+.brand-mark { display: grid; place-items: center; width: 34px; height: 34px; border-radius: 12px; background: linear-gradient(135deg, var(--teal), var(--aqua)); color: #fff; }
 
 .site-nav { display: flex; gap: 18px; font-size: 0.95rem; color: var(--muted); }
 .site-nav a:hover { color: var(--white); }
@@ -62,10 +62,10 @@ h3 { font-size: 1.25rem; }
 .lead { color: var(--muted); font-size: clamp(1.05rem, 2vw, 1.28rem); max-width: 760px; }
 .typed { color: var(--teal); }
 .hero-logo-title { margin-bottom: 24px; }
-.hero-logo-title img { width: min(420px, 82vw); border-radius: 28px; background: #fff; padding: 18px; box-shadow: var(--shadow); }
+.hero-logo-title img { width: min(460px, 82vw); border-radius: 24px; background: #fff; padding: 18px; box-shadow: var(--shadow); }
 
 .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
-.button { display: inline-flex; align-items: center; gap: 8px; border-radius: 999px; padding: 12px 18px; background: linear-gradient(135deg, var(--blue), var(--teal)); color: #fff; font-weight: 800; box-shadow: var(--shadow); }
+.button { display: inline-flex; align-items: center; gap: 8px; border-radius: 999px; padding: 12px 18px; background: linear-gradient(135deg, var(--teal), var(--aqua)); color: #fff; font-weight: 800; box-shadow: var(--shadow); }
 .button.secondary { background: transparent; border: 1px solid var(--line); color: var(--white); box-shadow: none; }
 
 .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-top: 42px; }
@@ -88,7 +88,7 @@ h3 { font-size: 1.25rem; }
 
 .section-tabs { display: flex; flex-wrap: wrap; gap: 10px; margin: 28px 0 36px; }
 .section-tabs a { border: 1px solid var(--line); border-radius: 999px; padding: 10px 14px; color: var(--muted); background: var(--card); font-weight: 800; }
-.section-tabs a.active, .section-tabs a:hover { color: #fff; border-color: transparent; background: linear-gradient(135deg, var(--blue), var(--teal)); }
+.section-tabs a.active, .section-tabs a:hover { color: #fff; border-color: transparent; background: linear-gradient(135deg, var(--teal), var(--aqua)); }
 .thesis-list { display: grid; gap: 22px; }
 .thesis-year { border: 1px solid var(--line); border-radius: 24px; background: var(--card); padding: clamp(20px, 4vw, 32px); box-shadow: var(--shadow); }
 .thesis-year ul { margin: 0; padding-left: 1.2rem; }
@@ -101,7 +101,7 @@ h3 { font-size: 1.25rem; }
 .swiper { width: 100%; padding: 8px 2px 42px; }
 .swiper-pagination-bullet { background: var(--teal); }
 
-.page-hero { padding: 90px 0 30px; background: linear-gradient(135deg, rgba(26, 115, 232, 0.18), rgba(0, 180, 216, 0.08)); border-bottom: 1px solid var(--line); }
+.page-hero { padding: 90px 0 30px; background: linear-gradient(135deg, rgba(0, 202, 237, 0.18), rgba(37, 222, 244, 0.08)); border-bottom: 1px solid var(--line); }
 .page-hero.compact h1 { font-size: clamp(2.3rem, 6vw, 4.6rem); }
 .article-card { padding: clamp(22px, 4vw, 40px); }
 .article-image { width: 100%; max-height: 430px; object-fit: cover; border-radius: 22px; margin-bottom: 24px; }
@@ -120,7 +120,7 @@ h3 { font-size: 1.25rem; }
 .map { width: 100%; min-height: 360px; border: 0; border-radius: 24px; filter: grayscale(0.2) contrast(1.05); }
 
 .site-footer { border-top: 1px solid var(--line); padding: 32px; color: var(--muted); text-align: center; }
-.footer-logo { display: inline-block; width: 120px; border-radius: 14px; background: #fff; padding: 6px; }
+.footer-logo { display: inline-block; width: 150px; border-radius: 14px; background: #fff; padding: 7px; }
 
 @media (max-width: 900px) {
   .site-header { align-items: flex-start; flex-wrap: wrap; }

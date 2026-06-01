@@ -2,12 +2,9 @@
 layout: page
 permalink: /people/
 title: People
-description: Faculty, researchers, engineers, and students.
 nav: true
 nav_order: 4
 ---
-
-<p class="lead">{% t people.intro %}</p>
 
 <div class="people-grid">
   {% for member in site.data.members %}

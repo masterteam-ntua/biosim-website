@@ -7,7 +7,7 @@
     {% assign lang_prefix = '' %} {% if site.lang != site.default_lang %}{% assign lang_prefix = '/' | append: site.lang %}{% endif %}
     <header class="site-header">
       <a class="brand" href="{{ lang_prefix | append: '/' | relative_url }}" aria-label="{{ site.title }} home">
-        <img class="brand-logo" src="{{ '/assets/img/biosim-logo.png' | relative_url }}" alt="BIOSIM logo" />
+        <img class="brand-logo" src="{{ '/biosim_logo_files/svg/biosim_logo.svg' | relative_url }}" alt="BIOSIM logo" />
       </a>
       <nav class="site-nav" aria-label="Primary navigation">
         <a href="{{ lang_prefix | append: '/' | relative_url }}">{% t nav.home %}</a>
@@ -39,7 +39,7 @@
     <main>{{ content }}</main>
 
     <footer class="site-footer">
-      <p><img class="footer-logo" src="{{ '/assets/img/biosim-logo.png' | relative_url }}" alt="BIOSIM logo" /></p>
+      <p><img class="footer-logo" src="{{ '/biosim_logo_files/svg/biosim_logo.svg' | relative_url }}" alt="BIOSIM logo" /></p>
       <p>NTUA. {% t footer.tagline %}</p>
       <p><a href="mailto:{{ site.lab.email }}">{{ site.lab.email }}</a></p>
     </footer>

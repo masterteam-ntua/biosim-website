@@ -4,7 +4,7 @@ last_name: Lab
 description: Biomedical simulation, computational physiology, and intelligent biosignal systems at the National Technical University of Athens.
 keywords: biomedical engineering, electrical engineering, biosignals, computational modeling, NTUA, BioSim
 lang: en
-icon: assets/img/biosim-logo.png
+icon: biosim_logo_files/png/biosim_logo_RGB.png
 
 url: "https://masterteam-ntua.github.io"
 baseurl: "/biosim-website"

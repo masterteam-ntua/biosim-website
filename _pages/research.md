@@ -2,12 +2,9 @@
 layout: page
 title: Research Areas
 permalink: /research/
-description: Research areas, diploma theses, and PhD theses of BIOSIM Laboratory.
 nav: true
 nav_order: 2
 ---
-
-<p class="lead">{% t research.intro %}</p>
 
 {% assign lang_prefix = '' %}{% if site.lang != site.default_lang %}{% assign lang_prefix = '/' | append: site.lang %}{% endif %}
 
