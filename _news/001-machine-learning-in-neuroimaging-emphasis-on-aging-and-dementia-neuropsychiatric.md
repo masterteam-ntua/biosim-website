@@ -2,7 +2,6 @@
 layout: post
 title: "Machine learning in neuroimaging: Emphasis on aging and dementia, neuropsychiatric disorders, and brain cancer"
 short_title: "Machine learning in neuroimaging"
-short_title_el: "Machine learning in neuroimaging"
 date: 2025-11-26
 source_url: https://www.biosim.ntua.gr/en/news/114
 image: /assets/img/news/machine-learning-in-neuroimaging-emphasis-on-aging-and-dementia-neuropsychiatric.png

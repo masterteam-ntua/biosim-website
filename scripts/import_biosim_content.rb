@@ -185,6 +185,8 @@ def import_news
       title_el = el_html ? detail_title_from_html(el_html, nil) : nil
       title_el = nil if title_el.empty? || title_el == title
       content_el = nil unless content_el.to_s.match?(/[Α-Ωα-ω]/)
+      title_el = nil unless content_el
+      short_title_el = content_el ? teaser_titles_el[href] : nil
 
       slug = slugify(title)
       image = download_news_image(image_source, slug)
@@ -195,7 +197,7 @@ def import_news
         title: title,
         short_title: teaser_titles[href] || preview_title,
         title_el: title_el,
-        short_title_el: teaser_titles_el[href],
+        short_title_el: short_title_el,
         image: image,
         content_en: content_en.nil? || content_en.empty? ? title : content_en,
         content_el: content_el.nil? || content_el.empty? ? nil : content_el,
