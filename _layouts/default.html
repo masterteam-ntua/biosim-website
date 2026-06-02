@@ -20,11 +20,9 @@
             <a href="{{ lang_prefix | append: '/research/phds/' | relative_url }}">{% t research.phd_theses %}</a>
           </div>
         </div>
-        <a href="{{ lang_prefix | append: '/projects/' | relative_url }}">{% t nav.projects %}</a>
         <a href="{{ lang_prefix | append: '/publications/' | relative_url }}">{% t nav.publications %}</a>
         <a href="{{ lang_prefix | append: '/people/' | relative_url }}">{% t nav.people %}</a>
         <a href="{{ lang_prefix | append: '/news/' | relative_url }}">{% t nav.news %}</a>
-        <a href="{{ lang_prefix | append: '/courses/' | relative_url }}">{% t nav.courses %}</a>
         <a href="{{ lang_prefix | append: '/contact/' | relative_url }}">{% t nav.contact %}</a>
       </nav>
       <div class="header-actions">
@@ -44,8 +42,7 @@
         <img class="footer-logo logo-rgb" src="{{ '/biosim_logo_files/svg/biosim_logo.svg' | relative_url }}" alt="BIOSIM logo" />
         <img class="footer-logo logo-dark" src="{{ '/biosim_logo_files/svg/biosim_logo_grayscale.svg' | relative_url }}" alt="BIOSIM logo" />
       </p>
-      <p>NTUA. {% t footer.tagline %}</p>
-      <p><a href="mailto:{{ site.lab.email }}">{{ site.lab.email }}</a></p>
+      <p class="copyright">© {{ 'now' | date: '%Y' }} BIOSIM Laboratory. All rights reserved.</p>
     </footer>
   </body>
 </html>
