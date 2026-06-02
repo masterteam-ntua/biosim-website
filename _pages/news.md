@@ -15,13 +15,13 @@ nav_order: 5
       {% if site.lang == 'el' %}{% assign preview_title = item.short_title_el | default: item.title_el | default: preview_title %}{% endif %}
       {% assign long_title = item.title %}
       {% if site.lang == 'el' and item.title_el %}{% assign long_title = item.title_el %}{% endif %}
-      {% assign preview_text = preview_title %}
-      {% if long_title == preview_text %}{% assign preview_text = item.content | strip_html | truncate: 180 %}{% endif %}
+      {% assign preview_text = long_title %}
+      {% if preview_title == preview_text %}{% assign preview_text = item.content | strip_html | truncate: 180 %}{% endif %}
       {% if site.lang == 'el' and item.summary_el %}{% assign preview_text = item.summary_el | truncate: 180 %}{% endif %}
       {% if news_image %}<img src="{{ news_image | relative_url }}" alt="{{ preview_title | escape }}">{% endif %}
       <p class="meta">{{ item.date | date: "%B %-d, %Y" }}</p>
       {% assign lang_prefix = '' %}{% if site.lang != site.default_lang %}{% assign lang_prefix = '/' | append: site.lang %}{% endif %}
-      <h3><a href="{{ lang_prefix | append: item.url | relative_url }}">{{ long_title }}</a></h3>
+      <h3><a href="{{ lang_prefix | append: item.url | relative_url }}">{{ preview_title }}</a></h3>
       {% if preview_text %}<p>{{ preview_text }}</p>{% endif %}
     </article>
   {% endfor %}
