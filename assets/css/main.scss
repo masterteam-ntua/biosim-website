@@ -78,8 +78,8 @@ html[data-theme="light"] .logo-rgb { display: block; }
 .hero-copy::before { content: ""; position: absolute; inset: -92px -180px -92px -180px; z-index: -1; pointer-events: none; background: radial-gradient(ellipse at 42% 50%, color-mix(in srgb, var(--navy) 86%, transparent) 0%, color-mix(in srgb, var(--navy) 68%, transparent) 24%, color-mix(in srgb, var(--navy) 28%, transparent) 42%, transparent 64%); backdrop-filter: blur(18px) saturate(0.94); -webkit-backdrop-filter: blur(18px) saturate(0.94); -webkit-mask-image: radial-gradient(ellipse at 42% 50%, black 0%, black 48%, transparent 68%); mask-image: radial-gradient(ellipse at 42% 50%, black 0%, black 48%, transparent 68%); }
 .eyebrow { color: var(--teal); text-transform: uppercase; letter-spacing: 0.14em; font-weight: 800; font-size: 0.78rem; }
 h1, h2, h3 { font-family: var(--font-heading); line-height: 1.08; margin: 0 0 18px; }
-h1 { font-size: clamp(2.65rem, 8vw, 6rem); letter-spacing: -0.06em; }
-h2 { font-size: clamp(2rem, 4vw, 3.2rem); letter-spacing: -0.04em; }
+h1 { font-size: clamp(2.65rem, 8vw, 6rem); letter-spacing: -0.025em; }
+h2 { font-size: clamp(2rem, 4vw, 3.2rem); letter-spacing: -0.012em; }
 h3 { font-size: 1.25rem; }
 .lead { min-height: 3.4em; color: var(--muted); font-size: clamp(1.05rem, 2vw, 1.28rem); max-width: 760px; }
 .typed { color: var(--teal); }
