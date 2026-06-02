@@ -304,7 +304,6 @@ def import_publications
         venue: venue,
         volume: volume,
         pages: pages,
-        url: "#{BASE}/en/publication/#{id}",
       }
     end
   end
@@ -325,7 +324,6 @@ def import_publications
       bib_field(venue_field, entry[:venue]),
       bib_field("volume", entry[:volume]),
       bib_field("pages", entry[:pages]),
-      bib_field("url", entry[:url]),
     ].compact
 
     "@#{entry[:type]}{#{entry[:key]},\n#{fields.join(",\n")}\n}\n"
