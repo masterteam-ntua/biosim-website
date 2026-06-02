@@ -2,7 +2,6 @@
 layout: post
 title: "Record breaking participation in ISBI 2024"
 short_title: "ISBI 2024 was successfully completed"
-short_title_el: "ISBI 2024 was successfully completed"
 date: 2024-07-10
 source_url: https://www.biosim.ntua.gr/en/news/109
 image: /assets/img/news/record-breaking-participation-in-isbi-2024.jpg

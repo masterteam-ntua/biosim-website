@@ -2,7 +2,6 @@
 layout: post
 title: 'On Tuesday, May 29, BioSim Laboratory of the School of ECE, NTUA hosted a lecture by Professor Jose C. Principe titled "Time Based Computation with Pulse Trains".'
 short_title: 'On Tuesday, May 29, BioSim Laboratory of the School of ECE, NTUA hosted a lecture by Professor Jose C. Principe titled "Time Based Computation with Pulse Trains".'
-title_el: "Την Τρίτη 29 Μαΐου το BioSim φιλοξένησε τη διάλεξη του καθηγητή Jose C. Principe με τίτλο “Time Based Computation with Pulse Trains”"
 date: 2018-05-30
 source_url: https://www.biosim.ntua.gr/en/news/37
 image: /assets/img/news/on-tuesday-may-29-biosim-laboratory-of-the-school-of-ece-ntua-hosted-a-lecture-b.png

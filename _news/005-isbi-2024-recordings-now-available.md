@@ -2,7 +2,6 @@
 layout: post
 title: "ISBI 2024 – Recordings Now Available"
 short_title: "ISBI 2024 – Recordings Now Available"
-short_title_el: "ISBI 2024 – Recordings Now Available"
 date: 2024-09-09
 source_url: https://www.biosim.ntua.gr/en/news/110
 image: /assets/img/news/isbi-2024-recordings-now-available.jpg

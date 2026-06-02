@@ -2,7 +2,6 @@
 layout: post
 title: "BIOSIM’s team Wins 1st place at the SUNRISE-6G Hackathon CAMARA track in Athens with an Adaptive Biofeedback Serious Game for Health"
 short_title: "BIOSIM Wins 1st place at the SUNRISE-6G Hackathon CAMARA track"
-short_title_el: "BIOSIM Wins 1st place at the SUNRISE-6G Hackathon CAMARA track"
 date: 2025-11-13
 source_url: https://www.biosim.ntua.gr/en/news/113
 image: /assets/img/news/biosim-s-team-wins-1st-place-at-the-sunrise-6g-hackathon-camara-track-in-athens.jpg

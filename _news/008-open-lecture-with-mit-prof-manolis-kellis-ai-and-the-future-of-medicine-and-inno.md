@@ -2,7 +2,6 @@
 layout: post
 title: "Open Lecture with MIT Prof. Manolis Kellis - AI and the Future of Medicine and Innovation"
 short_title: "Open Lecture with MIT Prof. Manolis Kellis"
-short_title_el: "Open Lecture with MIT Prof. Manolis Kellis"
 date: 2023-10-30
 source_url: https://www.biosim.ntua.gr/en/news/105
 image: /assets/img/news/open-lecture-with-mit-prof-manolis-kellis-ai-and-the-future-of-medicine-and-inno.jpg

@@ -2,7 +2,6 @@
 layout: post
 title: "Prof. Konstantina Nikita delivered a keynote talk on “Building divergent career paths based on convergence principles” at IEEE AP-S/URSI 2023."
 short_title: "Konstantina Nikita was a keynote speaker at Women in Engineering and Radio Science at IEEE AP-S/URSI 2023."
-short_title_el: "Konstantina Nikita was a keynote speaker at Women in Engineering and Radio Science at IEEE AP-S/URSI 2023."
 date: 2023-10-27
 source_url: https://www.biosim.ntua.gr/en/news/104
 image: /assets/img/news/prof-konstantina-nikita-delivered-a-keynote-talk-on-building-divergent-career-pa.jpg

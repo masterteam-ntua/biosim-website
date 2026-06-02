@@ -2,7 +2,6 @@
 layout: post
 title: "Positions for software engineers are open at the Center for AI and Data Science for Integrated Diagnostics (AI2D) at the University of Pennsylvania"
 short_title: "Positions for software engineers at the University of Pennsylvania"
-short_title_el: "Positions for software engineers at the University of Pennsylvania"
 date: 2024-03-12
 source_url: https://www.biosim.ntua.gr/en/news/108
 image: /assets/img/news/positions-for-software-engineers-are-open-at-the-center-for-ai-and-data-science.png
