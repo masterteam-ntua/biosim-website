@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Machine learning in neuroimaging"
+title: "Machine learning in neuroimaging: Emphasis on aging and dementia, neuropsychiatric disorders, and brain cancer"
 short_title: "Machine learning in neuroimaging"
 short_title_el: "Machine learning in neuroimaging"
 date: 2025-11-26
 source_url: https://www.biosim.ntua.gr/en/news/114
-image: /assets/img/news/machine-learning-in-neuroimaging.png
+image: /assets/img/news/machine-learning-in-neuroimaging-emphasis-on-aging-and-dementia-neuropsychiatric.png
 ---
 
 Prof. Christos Davatzikos, Director of the AI2D Center for AI and Data Science for Integrated Diagnostics, University of Pensylvania, to give a lecture at ECE-NTUA on December 8th, 2025, at 16:30 (Multimedia Amphitheatre, Ground Floor, Central Library, Zografos campus)
