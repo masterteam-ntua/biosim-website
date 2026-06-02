@@ -113,11 +113,11 @@ h3 { font-size: 1.25rem; }
 .card img, .member-card img { width: 100%; height: 190px; object-fit: cover; border-radius: 18px; margin-bottom: 18px; }
 .card p, .member-card p, .news-card p, .meta { color: var(--muted); }
 .news-card { display: flex; flex-direction: column; height: 460px; }
-.news-card-media { flex: 0 0 190px; height: 190px; overflow: hidden; border-radius: 18px; margin-bottom: 18px; background: color-mix(in srgb, var(--card) 68%, transparent); }
+.news-card-media { flex: 0 0 190px; height: 190px; overflow: hidden; border-radius: 18px; margin-bottom: 12px; background: color-mix(in srgb, var(--card) 68%, transparent); }
 .news-card-media img { width: 100%; height: 100%; object-fit: cover; }
-.news-card-meta { flex: none; margin: 0 0 8px; }
-.news-card-title { flex: none; overflow-wrap: anywhere; }
-.news-card-preview { flex: 1 1 auto; min-height: 0; display: -webkit-box; overflow: hidden; -webkit-box-orient: vertical; -webkit-line-clamp: 3; }
+.news-card-meta { flex: none; margin: 0 0 6px; font-size: 0.92rem; }
+.news-card-title { flex: none; margin: 0 0 8px; overflow-wrap: anywhere; }
+.news-card-preview { flex: 1 1 auto; min-height: 0; margin: 0; display: -webkit-box; overflow: hidden; -webkit-box-orient: vertical; -webkit-line-clamp: 4; }
 .tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
 .tag { border: 1px solid var(--line); border-radius: 999px; padding: 5px 10px; color: var(--muted); font-size: 0.82rem; }
 
@@ -134,7 +134,7 @@ h3 { font-size: 1.25rem; }
 .thesis-year .meta { display: inline; }
 
 .swiper { width: 100%; padding: 8px 2px 42px; }
-.news-swiper .swiper-slide { height: auto; }
+.news-swiper .swiper-slide.news-card { height: 460px; }
 .swiper-pagination-bullet { background: var(--teal); }
 
 .page-hero { padding: 64px 0 18px; }
