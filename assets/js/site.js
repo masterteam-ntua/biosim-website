@@ -65,7 +65,21 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     });
 
-    document.querySelectorAll(".swiper:not(.hero-swiper)").forEach((el) => {
+    document.querySelectorAll(".news-swiper").forEach((el) => {
+      new Swiper(el, {
+        grid: { rows: 2, fill: "row" },
+        pagination: { el: el.querySelector(".swiper-pagination"), clickable: true },
+        slidesPerGroup: 2,
+        slidesPerView: 1,
+        spaceBetween: 18,
+        breakpoints: {
+          760: { slidesPerGroup: 4, slidesPerView: 2 },
+          1080: { slidesPerGroup: 6, slidesPerView: 3 },
+        },
+      });
+    });
+
+    document.querySelectorAll(".swiper:not(.hero-swiper):not(.news-swiper)").forEach((el) => {
       new Swiper(el, {
         slidesPerView: 1,
         spaceBetween: 18,

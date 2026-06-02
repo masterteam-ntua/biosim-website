@@ -74,7 +74,7 @@ permalink: /
     </div>
     <div class="swiper news-swiper" data-aos="fade-up">
       <div class="swiper-wrapper">
-        {% assign latest_news = site.news | sort: 'date' | reverse | slice: 0, 5 %}
+        {% assign latest_news = site.news | sort: 'date' | reverse | slice: 0, 12 %}
         {% for item in latest_news %}
           <article class="swiper-slide news-card">
             {% assign news_image = item.image %}
