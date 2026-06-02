@@ -21,7 +21,6 @@ permalink: /
       <div class="stats" data-aos="fade-up" data-aos-delay="100">
         <div class="stat-card"><span class="stat-number" data-count="{{ site.lab.stats.publications }}">0</span><span class="stat-label">{% t home.stats_publications %}</span></div>
         <div class="stat-card"><span class="stat-number" data-count="{{ site.lab.stats.members }}">0</span><span class="stat-label">{% t home.stats_members %}</span></div>
-        <div class="stat-card"><span class="stat-number" data-count="{{ site.lab.stats.projects }}">0</span><span class="stat-label">{% t home.stats_projects %}</span></div>
         <div class="stat-card"><span class="stat-number" data-count="{{ site.lab.stats.years }}">0</span><span class="stat-label">{% t home.stats_years %}</span></div>
       </div>
     </div>
