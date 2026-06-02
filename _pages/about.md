@@ -75,7 +75,8 @@ permalink: /
       <div class="swiper-wrapper">
         {% assign latest_news = site.news | sort: 'date' | reverse | slice: 0, 12 %}
         {% for item in latest_news %}
-          <article class="swiper-slide news-card">
+          <div class="swiper-slide">
+            <article class="news-card">
             {% assign news_image = item.image %}
             {% assign preview_title = item.short_title | default: item.title %}
             {% if site.lang == 'el' %}{% assign preview_title = item.short_title_el | default: item.title_el | default: preview_title %}{% endif %}
@@ -87,8 +88,9 @@ permalink: /
             <div class="news-card-media">{% if news_image %}<img src="{{ news_image | relative_url }}" alt="{{ preview_title | escape }}">{% endif %}</div>
             <p class="meta news-card-meta">{{ item.date | date: "%b %-d, %Y" }}</p>
             <h3 class="news-card-title"><a href="{{ lang_prefix | append: item.url | relative_url }}">{{ preview_title }}</a></h3>
-            {% if preview_text %}<p class="news-card-preview">{{ preview_text }}</p>{% endif %}
-          </article>
+              {% if preview_text %}<p class="news-card-preview">{{ preview_text }}</p>{% endif %}
+            </article>
+          </div>
         {% endfor %}
       </div>
       <div class="swiper-pagination"></div>
