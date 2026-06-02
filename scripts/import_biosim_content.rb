@@ -35,33 +35,89 @@ def clean_text(value)
   CGI.unescapeHTML(value.to_s).gsub(/\s+/, " ").strip
 end
 
+def absolute_url(href)
+  return nil if href.nil? || href.empty? || href.start_with?("#", "mailto:", "javascript:")
+  return href if href.start_with?("http")
+
+  "#{BASE}#{href.start_with?("/") ? href : "/#{href}"}"
+end
+
+def inline_markdown(node)
+  node.children.map do |child|
+    case child.name
+    when "text"
+      CGI.unescapeHTML(child.text).gsub(/\s+/, " ")
+    when "a"
+      text = clean_text(child.text)
+      href = absolute_url(child["href"])
+      href && !text.empty? ? "[#{text}](#{href})" : text
+    when "strong", "b"
+      text = inline_markdown(child).strip
+      text.empty? ? nil : "**#{text}**"
+    when "em", "i"
+      text = inline_markdown(child).strip
+      text.empty? ? nil : "_#{text}_"
+    when "br"
+      "\n"
+    when "img", "script", "style"
+      nil
+    else
+      inline_markdown(child)
+    end
+  end.compact.join.gsub(/[ \t]+\n/, "\n").gsub(/\n[ \t]+/, "\n").strip
+end
+
+def block_markdown(node)
+  case node.name
+  when "p", "h3", "h4", "h5", "h6"
+    inline_markdown(node)
+  when "ul", "ol"
+    node.css("li").map { |li| text = inline_markdown(li); text.empty? ? nil : "- #{text}" }.compact.join("\n")
+  when "div"
+    block_children = node.children.select { |child| %w[p ul ol h3 h4 h5 h6].include?(child.name) }
+    return block_children.map { |child| block_markdown(child) }.reject(&:empty?).join("\n\n") unless block_children.empty?
+
+    inline_markdown(node)
+  else
+    ""
+  end
+end
+
+def content_heading(news_doc)
+  news_doc.css("article h2, .tm-content h2, main h2, h2").find { |node| clean_text(node.text).length > 10 }
+end
+
 def detail_content(news_doc)
-  h2 = news_doc.css("h2").find { |node| clean_text(node.text).length > 10 }
+  h2 = content_heading(news_doc)
   return [nil, nil] unless h2
 
   image = news_doc.css("article img, .tm-content img, img").map { |img| img["src"] }.find { |src| src && !src.include?("/themes/biosim/assets/img/biosim.png") }
   image ||= news_doc.css("meta[property='og:image'], meta[name='twitter:image']").map { |meta| meta["content"] }.find { |src| src && !src.include?("/themes/biosim/assets/img/biosim.png") }
   image ||= news_doc.to_html[/url\(['"]?([^)'"]+\.(?:png|jpe?g|gif|webp))['"]?\)/i, 1]
-  paragraphs = []
+  blocks = []
   node = h2.next_element
   while node
     if %w[p div ul ol].include?(node.name)
-      text = clean_text(node.text)
-      paragraphs << text if text.length > 20 && !text.start_with?("Copyright")
+      text = block_markdown(node)
+      break if clean_text(text).start_with?("Copyright")
+      blocks << text unless text.empty?
     end
     node = node.next_element
   end
-  [image, paragraphs.first(8).join("\n\n")]
+  [image, blocks.join("\n\n")]
 end
 
 def detail_title_from_html(html, fallback)
   match = html.match(/<!--\s*<li class="uk-active">(.*?)<\/li>\s*-->/m)
-  title = clean_text(match && Nokogiri::HTML.fragment(match[1]).text)
-  return title unless title.empty?
-
   doc = Nokogiri::HTML(html)
-  title = clean_text(doc.css("h2").find { |node| clean_text(node.text).length > 10 }&.text)
-  title.empty? ? fallback : title
+
+  candidates = []
+  candidates << clean_text(match && Nokogiri::HTML.fragment(match[1]).text)
+  candidates.concat(doc.css("article h2, .tm-content h2, main h2, h2").map { |node| clean_text(node.text) })
+  candidates.concat(doc.css("meta[property='og:title'], meta[name='twitter:title']").map { |meta| clean_text(meta["content"]) })
+  candidates << clean_text(doc.at_css("title")&.text).sub(/\s*•\s*BioSim\z/, "")
+  title = candidates.reject(&:empty?).max_by(&:length)
+  title.nil? || title.empty? ? fallback : title
 end
 
 def download_news_image(source, slug)
