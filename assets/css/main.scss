@@ -61,8 +61,8 @@ html[data-theme="light"] .logo-rgb { display: block; }
 .hero-logo-title, .hero .lead, .hero-actions, .hero .stats { max-width: min(100%, 616px); }
 .eyebrow { color: var(--teal); text-transform: uppercase; letter-spacing: 0.14em; font-weight: 800; font-size: 0.78rem; }
 h1, h2, h3 { font-family: var(--font-heading); line-height: 1.08; margin: 0 0 18px; }
-h1 { font-size: clamp(2.65rem, 8vw, 6rem); letter-spacing: -0.06em; }
-h2 { font-size: clamp(2rem, 4vw, 3.2rem); letter-spacing: -0.04em; }
+h1 { font-size: clamp(2.65rem, 8vw, 6rem); letter-spacing: -0.025em; }
+h2 { font-size: clamp(2rem, 4vw, 3.2rem); letter-spacing: -0.012em; }
 h3 { font-size: 1.25rem; }
 .lead { color: var(--muted); font-size: clamp(1.05rem, 2vw, 1.28rem); max-width: 760px; }
 .typed { color: var(--teal); }
