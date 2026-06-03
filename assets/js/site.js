@@ -98,6 +98,44 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (window.GLightbox) GLightbox({ selector: ".glightbox" });
 
+  const fitNewsPreviews = () => {
+    document.querySelectorAll(".news-card").forEach((card) => {
+      const preview = card.querySelector(".news-card-preview");
+      if (!preview) return;
+
+      const cardStyle = window.getComputedStyle(card);
+      const previewStyle = window.getComputedStyle(preview);
+      const fontSize = Number.parseFloat(previewStyle.fontSize) || 16;
+      const lineHeight = Number.parseFloat(previewStyle.lineHeight) || fontSize * 1.45;
+      const cardInnerHeight = card.clientHeight - Number.parseFloat(cardStyle.paddingTop || 0) - Number.parseFloat(cardStyle.paddingBottom || 0);
+      const usedHeight = [...card.children]
+        .filter((child) => child !== preview)
+        .reduce((total, child) => {
+          const style = window.getComputedStyle(child);
+          return total + child.offsetHeight + Number.parseFloat(style.marginTop || 0) + Number.parseFloat(style.marginBottom || 0);
+        }, 0);
+      const availableHeight = Math.max(0, cardInnerHeight - usedHeight);
+      const lines = Math.max(1, Math.floor(availableHeight / lineHeight));
+
+      preview.style.setProperty("--preview-lines", lines);
+    });
+  };
+
+  fitNewsPreviews();
+  window.setTimeout(fitNewsPreviews, 120);
+  document.fonts?.ready.then(fitNewsPreviews);
+
+  let newsPreviewResizeTimer = null;
+  window.addEventListener("resize", () => {
+    window.clearTimeout(newsPreviewResizeTimer);
+    newsPreviewResizeTimer = window.setTimeout(fitNewsPreviews, 120);
+  });
+
+  if (window.ResizeObserver) {
+    const newsPreviewObserver = new ResizeObserver(fitNewsPreviews);
+    document.querySelectorAll(".news-card").forEach((card) => newsPreviewObserver.observe(card));
+  }
+
   const publicationFilters = document.querySelector("[data-publication-filters]");
   const publications = document.querySelector(".publications");
   if (publicationFilters && publications) {
