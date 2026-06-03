@@ -82,4 +82,107 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   if (window.GLightbox) GLightbox({ selector: ".glightbox" });
+
+  const publicationFilters = document.querySelector("[data-publication-filters]");
+  const publications = document.querySelector(".publications");
+  if (publicationFilters && publications) {
+    const searchInput = publicationFilters.querySelector("[data-publication-search]");
+    const minRange = publicationFilters.querySelector("[data-publication-year-min]");
+    const maxRange = publicationFilters.querySelector("[data-publication-year-max]");
+    const rangeTrack = publicationFilters.querySelector(".publication-range-inputs");
+    const minLabel = publicationFilters.querySelector("[data-publication-min-label]");
+    const maxLabel = publicationFilters.querySelector("[data-publication-max-label]");
+    const yearButtons = [...publicationFilters.querySelectorAll("[data-publication-year]")];
+    const count = publicationFilters.querySelector("[data-publication-count]");
+    const empty = publications.querySelector("[data-publication-empty]");
+    const groups = [...publications.querySelectorAll("h2.bibliography")]
+      .map((heading) => {
+        const list = heading.nextElementSibling?.matches("ol.bibliography") ? heading.nextElementSibling : null;
+        const entries = list ? [...list.querySelectorAll("li")] : [];
+        const year = heading.textContent.trim();
+
+        entries.forEach((entry) => {
+          entry.dataset.publicationYear = year;
+          entry.dataset.publicationText = entry.textContent.toLowerCase();
+        });
+
+        return { heading, list, entries, year };
+      })
+      .filter((group) => group.list);
+    const years = groups.map((group) => Number(group.year)).filter(Number.isFinite);
+    const minYear = Math.min(...years);
+    const maxYear = Math.max(...years);
+
+    [minRange, maxRange].forEach((range) => {
+      if (!range || !Number.isFinite(minYear) || !Number.isFinite(maxYear)) return;
+      range.min = minYear;
+      range.max = maxYear;
+      range.step = 1;
+    });
+
+    if (minRange) minRange.value = minYear;
+    if (maxRange) maxRange.value = maxYear;
+
+    const applyPublicationFilters = () => {
+      let selectedMin = Number(minRange?.value || minYear);
+      let selectedMax = Number(maxRange?.value || maxYear);
+      const query = searchInput?.value.trim().toLowerCase() || "";
+      let visibleCount = 0;
+
+      if (selectedMin > selectedMax) {
+        [selectedMin, selectedMax] = [selectedMax, selectedMin];
+      }
+
+      if (minLabel) minLabel.textContent = selectedMin;
+      if (maxLabel) maxLabel.textContent = selectedMax;
+      if (rangeTrack) {
+        const span = maxYear - minYear || 1;
+        rangeTrack.style.setProperty("--range-start", `${((selectedMin - minYear) / span) * 100}%`);
+        rangeTrack.style.setProperty("--range-end", `${((selectedMax - minYear) / span) * 100}%`);
+      }
+
+      groups.forEach(({ heading, list, entries, year }) => {
+        let groupVisible = 0;
+        const numericYear = Number(year);
+
+        entries.forEach((entry) => {
+          const matchesYear = numericYear >= selectedMin && numericYear <= selectedMax;
+          const matchesQuery = !query || entry.dataset.publicationText.includes(query);
+          const visible = matchesYear && matchesQuery;
+          entry.hidden = !visible;
+          if (visible) groupVisible += 1;
+        });
+
+        heading.hidden = groupVisible === 0;
+        list.hidden = groupVisible === 0;
+        visibleCount += groupVisible;
+      });
+
+      yearButtons.forEach((button) => {
+        const year = button.dataset.publicationYear;
+        const active = year ? selectedMin === Number(year) && selectedMax === Number(year) : selectedMin === minYear && selectedMax === maxYear;
+        button.classList.toggle("active", active);
+      });
+
+      if (count) {
+        const label = visibleCount === 1 ? count.dataset.singular : count.dataset.plural;
+        count.textContent = `${visibleCount} ${label}`;
+      }
+      if (empty) empty.hidden = visibleCount > 0;
+    };
+
+    searchInput?.addEventListener("input", applyPublicationFilters);
+    minRange?.addEventListener("input", applyPublicationFilters);
+    maxRange?.addEventListener("input", applyPublicationFilters);
+    yearButtons.forEach((button) => {
+      button.addEventListener("click", () => {
+        const year = button.dataset.publicationYear;
+        if (minRange) minRange.value = year || minYear;
+        if (maxRange) maxRange.value = year || maxYear;
+        applyPublicationFilters();
+      });
+    });
+
+    applyPublicationFilters();
+  }
 });
