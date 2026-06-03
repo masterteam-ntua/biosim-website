@@ -104,6 +104,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const searchInput = publicationFilters.querySelector("[data-publication-search]");
     const minRange = publicationFilters.querySelector("[data-publication-year-min]");
     const maxRange = publicationFilters.querySelector("[data-publication-year-max]");
+    const rangeTrack = publicationFilters.querySelector(".publication-range-inputs");
     const minLabel = publicationFilters.querySelector("[data-publication-min-label]");
     const maxLabel = publicationFilters.querySelector("[data-publication-max-label]");
     const yearButtons = [...publicationFilters.querySelectorAll("[data-publication-year]")];
@@ -149,6 +150,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
       if (minLabel) minLabel.textContent = selectedMin;
       if (maxLabel) maxLabel.textContent = selectedMax;
+      if (rangeTrack) {
+        const span = maxYear - minYear || 1;
+        rangeTrack.style.setProperty("--range-start", `${((selectedMin - minYear) / span) * 100}%`);
+        rangeTrack.style.setProperty("--range-end", `${((selectedMax - minYear) / span) * 100}%`);
+      }
 
       groups.forEach(({ heading, list, entries, year }) => {
         let groupVisible = 0;
