@@ -86,8 +86,8 @@ permalink: /
             {% assign long_title = item.title %}
             {% if site.lang == 'el' and item.title_el %}{% assign long_title = item.title_el %}{% endif %}
             {% assign preview_text = long_title %}
-            {% if preview_title == preview_text %}{% assign preview_text = item.content | strip_html | truncate: 150 %}{% endif %}
-            {% if site.lang == 'el' and item.summary_el %}{% assign preview_text = item.summary_el | truncate: 150 %}{% endif %}
+            {% if preview_title == preview_text %}{% assign preview_text = item.content | strip_html %}{% endif %}
+            {% if site.lang == 'el' and item.summary_el %}{% assign preview_text = item.summary_el %}{% endif %}
             <div class="news-card-media">{% if news_image %}<img src="{{ news_image | relative_url }}" alt="{{ preview_title | escape }}">{% endif %}</div>
             <p class="meta news-card-meta">{{ item.date | date: "%b %-d, %Y" }}</p>
             <h3 class="news-card-title"><a href="{{ lang_prefix | append: item.url | relative_url }}">{{ preview_title }}</a></h3>

@@ -114,10 +114,11 @@ document.addEventListener("DOMContentLoaded", () => {
           const style = window.getComputedStyle(child);
           return total + child.offsetHeight + Number.parseFloat(style.marginTop || 0) + Number.parseFloat(style.marginBottom || 0);
         }, 0);
-      const availableHeight = Math.max(0, cardInnerHeight - usedHeight);
+      const availableHeight = Math.max(0, cardInnerHeight - usedHeight - 2);
       const lines = Math.max(1, Math.floor(availableHeight / lineHeight));
 
       preview.style.setProperty("--preview-lines", lines);
+      preview.style.setProperty("--preview-max-height", `${lines * lineHeight}px`);
     });
   };
 
