@@ -12,7 +12,10 @@ permalink: /
         <img class="logo-rgb" src="{{ '/biosim_logo_files/svg/biosim_logo.svg' | relative_url }}" alt="BIOSIM Laboratory">
         <img class="logo-dark" src="{{ '/biosim_logo_files/svg/biosim_logo_grayscale.svg' | relative_url }}" alt="BIOSIM Laboratory">
       </h1>
-      <p class="lead">{% t home.intro %} <span class="typed"></span></p>
+      <p class="lead">
+        <span class="lead-static">{% t home.intro %}</span>
+        <span class="typed-wrap"><span class="typed"></span></span>
+      </p>
       <div class="hero-actions">
         {% assign lang_prefix = '' %}{% if site.lang != site.default_lang %}{% assign lang_prefix = '/' | append: site.lang %}{% endif %}
         <a class="button" href="{{ lang_prefix | append: '/research/' | relative_url }}">{% t home.cta_research %}</a>
