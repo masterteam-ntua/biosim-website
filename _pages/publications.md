@@ -8,11 +8,9 @@ nav_order: 3
 
 <div class="publication-tools" data-aos="fade-up" data-publication-filters>
   <label class="publication-search">
-    <span>{% t publications.search %}</span>
-    <input type="search" data-publication-search placeholder="{% t publications.search_placeholder %}">
+    <input type="search" data-publication-search aria-label="{% t publications.search %}" placeholder="{% t publications.search_placeholder %}">
   </label>
   <div class="publication-year-range">
-    <span>{% t publications.year_range %}</span>
     <div class="publication-range-labels">
       <output data-publication-min-label></output>
       <output data-publication-max-label></output>
