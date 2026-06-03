@@ -87,7 +87,7 @@ h3 { font-size: 1.25rem; }
 .hero-logo-title { margin-bottom: 24px; }
 .hero-logo-title img { width: min(460px, 82vw); }
 .hero-visual { position: absolute; top: 52px; bottom: 34px; left: 50%; z-index: 1; width: min(1320px, calc(100vw - 32px)); overflow: hidden; border-radius: 42px; background: color-mix(in srgb, var(--navy) 86%, transparent); opacity: 0.78; transform: translateX(-50%); }
-.hero-visual::before { content: ""; position: absolute; inset: 0; z-index: 2; pointer-events: none; background: radial-gradient(ellipse at 32% 50%, transparent 10%, color-mix(in srgb, var(--navy) 32%, transparent) 72%), linear-gradient(180deg, rgba(0, 200, 232, 0.18), transparent 42%), linear-gradient(90deg, color-mix(in srgb, var(--navy) 28%, transparent), transparent 12%, transparent 88%, color-mix(in srgb, var(--navy) 28%, transparent)); }
+.hero-visual::before { content: ""; position: absolute; inset: 0; z-index: 2; pointer-events: none; background: radial-gradient(ellipse at 32% 50%, transparent 10%, color-mix(in srgb, var(--navy) 32%, transparent) 72%), linear-gradient(180deg, rgba(0, 200, 232, 0.18), transparent 42%), linear-gradient(90deg, transparent 0%, transparent 84%, color-mix(in srgb, var(--navy) 34%, transparent) 100%); }
 .hero-swiper, .hero-swiper .swiper-wrapper, .hero-swiper .swiper-slide { height: 100%; }
 .hero-swiper.swiper { height: 100%; padding: 0; border-radius: inherit; overflow: hidden; }
 .hero-swiper .swiper-slide { display: flex; align-items: center; justify-content: center; background: color-mix(in srgb, var(--navy) 92%, transparent); }
