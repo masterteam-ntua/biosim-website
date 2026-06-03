@@ -111,6 +111,7 @@ h3 { font-size: 1.25rem; }
 .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); gap: 22px; }
 .two-grid { display: grid; grid-template-columns: minmax(0, 1.18fr) minmax(320px, 0.82fr); gap: 28px; align-items: start; }
 .card, .member-card, .news-card { padding: 24px; overflow: hidden; }
+.research-card-link { display: block; color: inherit; }
 .card img, .member-card img { width: 100%; height: 190px; object-fit: cover; border-radius: 18px; margin-bottom: 18px; }
 .card p, .member-card p, .news-card p, .meta { color: var(--muted); }
 .news-card { display: flex; flex-direction: column; width: 100%; height: 460px; }

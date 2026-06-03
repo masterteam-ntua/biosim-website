@@ -21,13 +21,13 @@ nav_order: 2
 <div class="grid">
   {% for area in research_areas %}
     {% if area.importance <= 5 %}
-      <article class="card" data-aos="fade-up" data-aos-delay="{{ forloop.index0 | times: 70 }}">
+      <a class="card research-card-link" href="{{ lang_prefix | append: area.url | relative_url }}" data-aos="fade-up" data-aos-delay="{{ forloop.index0 | times: 70 }}">
         {% assign area_image = area.image %}{% unless area_image contains '://' %}{% assign area_image = area.image | relative_url %}{% endunless %}
         <img src="{{ area_image }}" alt="{{ area.title | escape }}">
         <h3>{{ area.title }}</h3>
         <p>{% if site.lang == 'el' %}{{ area.summary_el }}{% else %}{{ area.summary_en }}{% endif %}</p>
         <div class="tags">{% for tag in area.tags %}<span class="tag">{{ tag }}</span>{% endfor %}</div>
-      </article>
+      </a>
     {% endif %}
   {% endfor %}
 </div>
