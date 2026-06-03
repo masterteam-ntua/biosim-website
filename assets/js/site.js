@@ -102,7 +102,10 @@ document.addEventListener("DOMContentLoaded", () => {
   const publications = document.querySelector(".publications");
   if (publicationFilters && publications) {
     const searchInput = publicationFilters.querySelector("[data-publication-search]");
-    const yearSelect = publicationFilters.querySelector("[data-publication-year-select]");
+    const minRange = publicationFilters.querySelector("[data-publication-year-min]");
+    const maxRange = publicationFilters.querySelector("[data-publication-year-max]");
+    const minLabel = publicationFilters.querySelector("[data-publication-min-label]");
+    const maxLabel = publicationFilters.querySelector("[data-publication-max-label]");
     const yearButtons = [...publicationFilters.querySelectorAll("[data-publication-year]")];
     const count = publicationFilters.querySelector("[data-publication-count]");
     const empty = publications.querySelector("[data-publication-empty]");
@@ -120,25 +123,39 @@ document.addEventListener("DOMContentLoaded", () => {
         return { heading, list, entries, year };
       })
       .filter((group) => group.list);
+    const years = groups.map((group) => Number(group.year)).filter(Number.isFinite);
+    const minYear = Math.min(...years);
+    const maxYear = Math.max(...years);
 
-    groups.forEach(({ year }) => {
-      if (!yearSelect || yearSelect.querySelector(`option[value="${year}"]`)) return;
-      const option = document.createElement("option");
-      option.value = year;
-      option.textContent = year;
-      yearSelect.append(option);
+    [minRange, maxRange].forEach((range) => {
+      if (!range || !Number.isFinite(minYear) || !Number.isFinite(maxYear)) return;
+      range.min = minYear;
+      range.max = maxYear;
+      range.step = 1;
     });
 
+    if (minRange) minRange.value = minYear;
+    if (maxRange) maxRange.value = maxYear;
+
     const applyPublicationFilters = () => {
-      const selectedYear = yearSelect?.value || "";
+      let selectedMin = Number(minRange?.value || minYear);
+      let selectedMax = Number(maxRange?.value || maxYear);
       const query = searchInput?.value.trim().toLowerCase() || "";
       let visibleCount = 0;
 
+      if (selectedMin > selectedMax) {
+        [selectedMin, selectedMax] = [selectedMax, selectedMin];
+      }
+
+      if (minLabel) minLabel.textContent = selectedMin;
+      if (maxLabel) maxLabel.textContent = selectedMax;
+
       groups.forEach(({ heading, list, entries, year }) => {
         let groupVisible = 0;
+        const numericYear = Number(year);
 
         entries.forEach((entry) => {
-          const matchesYear = !selectedYear || year === selectedYear;
+          const matchesYear = numericYear >= selectedMin && numericYear <= selectedMax;
           const matchesQuery = !query || entry.dataset.publicationText.includes(query);
           const visible = matchesYear && matchesQuery;
           entry.hidden = !visible;
@@ -150,16 +167,27 @@ document.addEventListener("DOMContentLoaded", () => {
         visibleCount += groupVisible;
       });
 
-      yearButtons.forEach((button) => button.classList.toggle("active", button.dataset.publicationYear === selectedYear));
-      if (count) count.textContent = `${visibleCount} publication${visibleCount === 1 ? "" : "s"}`;
+      yearButtons.forEach((button) => {
+        const year = button.dataset.publicationYear;
+        const active = year ? selectedMin === Number(year) && selectedMax === Number(year) : selectedMin === minYear && selectedMax === maxYear;
+        button.classList.toggle("active", active);
+      });
+
+      if (count) {
+        const label = visibleCount === 1 ? count.dataset.singular : count.dataset.plural;
+        count.textContent = `${visibleCount} ${label}`;
+      }
       if (empty) empty.hidden = visibleCount > 0;
     };
 
     searchInput?.addEventListener("input", applyPublicationFilters);
-    yearSelect?.addEventListener("change", applyPublicationFilters);
+    minRange?.addEventListener("input", applyPublicationFilters);
+    maxRange?.addEventListener("input", applyPublicationFilters);
     yearButtons.forEach((button) => {
       button.addEventListener("click", () => {
-        if (yearSelect) yearSelect.value = button.dataset.publicationYear;
+        const year = button.dataset.publicationYear;
+        if (minRange) minRange.value = year || minYear;
+        if (maxRange) maxRange.value = year || maxYear;
         applyPublicationFilters();
       });
     });

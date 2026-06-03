@@ -149,9 +149,12 @@ h3 { font-size: 1.25rem; }
 .member-role { color: var(--teal); font-weight: 800; }
 .member-links { display: flex; gap: 10px; margin-top: 14px; color: var(--muted); }
 
-.publication-tools { display: grid; grid-template-columns: minmax(240px, 1fr) minmax(150px, 220px); gap: 14px; align-items: end; margin-bottom: 24px; }
-.publication-search, .publication-year-filter { display: grid; gap: 7px; color: var(--muted); font-size: 0.86rem; font-weight: 800; }
-.publication-search input, .publication-year-filter select { width: 100%; border: 1px solid var(--line); border-radius: 16px; background: var(--card); color: var(--white); padding: 11px 13px; font: inherit; }
+.publication-tools { display: grid; grid-template-columns: minmax(240px, 1fr) minmax(280px, 0.9fr); gap: 14px; align-items: end; margin-bottom: 24px; }
+.publication-search, .publication-year-range { display: grid; gap: 7px; color: var(--muted); font-size: 0.86rem; font-weight: 800; }
+.publication-search input { width: 100%; border: 1px solid var(--line); border-radius: 16px; background: var(--card); color: var(--white); padding: 11px 13px; font: inherit; }
+.publication-range-labels { display: flex; justify-content: space-between; color: var(--white); font-size: 0.95rem; }
+.publication-range-inputs { display: grid; gap: 4px; border: 1px solid var(--line); border-radius: 16px; background: var(--card); padding: 8px 12px; }
+.publication-range-inputs input { width: 100%; accent-color: var(--teal); }
 .publication-quick-years { display: flex; flex-wrap: wrap; grid-column: 1 / -1; gap: 10px; }
 .filter-button { border: 1px solid var(--line); background: var(--card); color: var(--white); border-radius: 999px; padding: 8px 13px; cursor: pointer; }
 .filter-button.active { color: #fff; border-color: transparent; background: linear-gradient(135deg, var(--teal), var(--aqua)); }

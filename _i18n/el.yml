@@ -24,3 +24,14 @@ research:
   areas: Ερευνητικές Περιοχές
   diploma_theses: Διπλωματικές Εργασίες
   phd_theses: Διδακτορικές Διατριβές
+publications:
+  search: Αναζήτηση δημοσιεύσεων
+  search_placeholder: Τίτλος, συγγραφέας, περιοδικό...
+  year_range: Εύρος ετών
+  year_from: Από έτος
+  year_to: Έως έτος
+  quick_years: Γρήγορα φίλτρα ετών
+  all_years: Όλα τα έτη
+  count_singular: δημοσίευση
+  count_plural: δημοσιεύσεις
+  no_matches: Δεν βρέθηκαν δημοσιεύσεις με αυτά τα φίλτρα.
