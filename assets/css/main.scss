@@ -149,9 +149,16 @@ h3 { font-size: 1.25rem; }
 .member-role { color: var(--teal); font-weight: 800; }
 .member-links { display: flex; gap: 10px; margin-top: 14px; color: var(--muted); }
 
-.publication-tools { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px; }
+.publication-tools { display: grid; grid-template-columns: minmax(240px, 1fr) minmax(150px, 220px); gap: 14px; align-items: end; margin-bottom: 24px; }
+.publication-search, .publication-year-filter { display: grid; gap: 7px; color: var(--muted); font-size: 0.86rem; font-weight: 800; }
+.publication-search input, .publication-year-filter select { width: 100%; border: 1px solid var(--line); border-radius: 16px; background: var(--card); color: var(--white); padding: 11px 13px; font: inherit; }
+.publication-quick-years { display: flex; flex-wrap: wrap; grid-column: 1 / -1; gap: 10px; }
 .filter-button { border: 1px solid var(--line); background: var(--card); color: var(--white); border-radius: 999px; padding: 8px 13px; cursor: pointer; }
+.filter-button.active { color: #fff; border-color: transparent; background: linear-gradient(135deg, var(--teal), var(--aqua)); }
+.publication-count { grid-column: 1 / -1; margin: -4px 0 0; color: var(--muted); }
 .publications { border: 1px solid var(--line); border-radius: 24px; padding: 24px; background: var(--card); }
+.publications ol[hidden], .publications h2[hidden], .publication-entry[hidden], .publication-empty[hidden] { display: none; }
+.publication-empty { margin: 0; color: var(--muted); }
 
 .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 16px; }
 .gallery img { height: 180px; width: 100%; object-fit: cover; border-radius: 18px; }

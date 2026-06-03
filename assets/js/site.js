@@ -97,4 +97,73 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   if (window.GLightbox) GLightbox({ selector: ".glightbox" });
+
+  const publicationFilters = document.querySelector("[data-publication-filters]");
+  const publications = document.querySelector(".publications");
+  if (publicationFilters && publications) {
+    const searchInput = publicationFilters.querySelector("[data-publication-search]");
+    const yearSelect = publicationFilters.querySelector("[data-publication-year-select]");
+    const yearButtons = [...publicationFilters.querySelectorAll("[data-publication-year]")];
+    const count = publicationFilters.querySelector("[data-publication-count]");
+    const empty = publications.querySelector("[data-publication-empty]");
+    const groups = [...publications.querySelectorAll("h2.bibliography")]
+      .map((heading) => {
+        const list = heading.nextElementSibling?.matches("ol.bibliography") ? heading.nextElementSibling : null;
+        const entries = list ? [...list.querySelectorAll("li")] : [];
+        const year = heading.textContent.trim();
+
+        entries.forEach((entry) => {
+          entry.dataset.publicationYear = year;
+          entry.dataset.publicationText = entry.textContent.toLowerCase();
+        });
+
+        return { heading, list, entries, year };
+      })
+      .filter((group) => group.list);
+
+    groups.forEach(({ year }) => {
+      if (!yearSelect || yearSelect.querySelector(`option[value="${year}"]`)) return;
+      const option = document.createElement("option");
+      option.value = year;
+      option.textContent = year;
+      yearSelect.append(option);
+    });
+
+    const applyPublicationFilters = () => {
+      const selectedYear = yearSelect?.value || "";
+      const query = searchInput?.value.trim().toLowerCase() || "";
+      let visibleCount = 0;
+
+      groups.forEach(({ heading, list, entries, year }) => {
+        let groupVisible = 0;
+
+        entries.forEach((entry) => {
+          const matchesYear = !selectedYear || year === selectedYear;
+          const matchesQuery = !query || entry.dataset.publicationText.includes(query);
+          const visible = matchesYear && matchesQuery;
+          entry.hidden = !visible;
+          if (visible) groupVisible += 1;
+        });
+
+        heading.hidden = groupVisible === 0;
+        list.hidden = groupVisible === 0;
+        visibleCount += groupVisible;
+      });
+
+      yearButtons.forEach((button) => button.classList.toggle("active", button.dataset.publicationYear === selectedYear));
+      if (count) count.textContent = `${visibleCount} publication${visibleCount === 1 ? "" : "s"}`;
+      if (empty) empty.hidden = visibleCount > 0;
+    };
+
+    searchInput?.addEventListener("input", applyPublicationFilters);
+    yearSelect?.addEventListener("change", applyPublicationFilters);
+    yearButtons.forEach((button) => {
+      button.addEventListener("click", () => {
+        if (yearSelect) yearSelect.value = button.dataset.publicationYear;
+        applyPublicationFilters();
+      });
+    });
+
+    applyPublicationFilters();
+  }
 });
