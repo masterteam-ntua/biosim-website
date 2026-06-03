@@ -24,3 +24,14 @@ research:
   areas: Research Areas
   diploma_theses: Diploma Theses
   phd_theses: PhD Theses
+publications:
+  search: Search publications
+  search_placeholder: Title, author, venue...
+  year_range: Year range
+  year_from: From year
+  year_to: To year
+  quick_years: Quick year filters
+  all_years: All years
+  count_singular: publication
+  count_plural: publications
+  no_matches: No publications match these filters.
