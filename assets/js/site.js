@@ -8,6 +8,21 @@ document.addEventListener("DOMContentLoaded", () => {
     localStorage.setItem("biosim-theme", next);
   });
 
+  if (window.matchMedia("(pointer: fine)").matches && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    const root = document.documentElement;
+    let rafId = null;
+
+    window.addEventListener("pointermove", (event) => {
+      if (rafId) return;
+      rafId = window.requestAnimationFrame(() => {
+        root.style.setProperty("--mouse-x", `${event.clientX}px`);
+        root.style.setProperty("--mouse-y", `${event.clientY}px`);
+        root.classList.add("has-pointer-glow");
+        rafId = null;
+      });
+    });
+  }
+
   if (window.AOS) AOS.init({ duration: 650, easing: "ease-out-cubic", once: true, offset: 80 });
 
   if (window.Typed && document.querySelector(".typed")) {
