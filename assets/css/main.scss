@@ -200,6 +200,7 @@ html[data-theme="dark"] .site-footer .logo-dark { display: block; filter: bright
   .stats, .grid, .people-grid, .gallery, .two-grid { grid-template-columns: 1fr; }
   .hero-content { padding-top: 72px; }
   .hero-visual { aspect-ratio: 4 / 3; border-radius: 22px; }
+  .publication-tools { grid-template-columns: 1fr; }
   .section { padding: 0 0 44px; }
 }
 
