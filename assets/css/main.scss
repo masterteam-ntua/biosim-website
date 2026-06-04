@@ -63,7 +63,7 @@ html[data-theme="light"] .logo-rgb { display: block; }
 .site-nav { display: flex; gap: 18px; font-size: 0.95rem; color: var(--muted); }
 .site-nav a:hover { color: var(--white); }
 .nav-dropdown { position: relative; padding-bottom: 12px; margin-bottom: -12px; }
-.nav-dropdown-menu { position: absolute; top: 100%; left: 0; display: grid; min-width: 220px; gap: 4px; padding: 10px; border: 1px solid var(--line); border-radius: 18px;   background: var(--menu-bg); box-shadow: var(--shadow); opacity: 0; pointer-events: none; transform: translateY(-6px); transition: opacity 0.18s ease, transform 0.18s ease; }
+.nav-dropdown-menu { position: absolute; top: 100%; left: 0; display: grid; min-width: 220px; gap: 4px; padding: 10px; border: 1px solid var(--line); border-radius: 18px; background: var(--menu-bg); box-shadow: var(--shadow); opacity: 0; pointer-events: none; transform: translateY(-6px); transition: opacity 0.18s ease, transform 0.18s ease; }
 .nav-dropdown:hover .nav-dropdown-menu, .nav-dropdown:focus-within .nav-dropdown-menu { opacity: 1; pointer-events: auto; transform: translateY(0); }
 .nav-dropdown-menu a { padding: 8px 10px; border-radius: 12px; }
 .nav-dropdown-menu a:hover { background: var(--card); }
