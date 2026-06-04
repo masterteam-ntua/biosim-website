@@ -190,7 +190,7 @@ html[data-theme="dark"] .site-footer .logo-dark { display: block; filter: bright
   .hero-content { min-height: 0; padding-top: 72px; }
   .hero-content::before { display: none; }
   .hero-copy { width: 100%; margin-left: 0; text-align: left; }
-  .hero-copy::before { content: ""; position: absolute; inset: -54px -36px; z-index: -1; display: block; pointer-events: none; border: 1px solid color-mix(in srgb, var(--line) 72%, transparent); border-radius: 28px; background: color-mix(in srgb, var(--navy) 72%, transparent); backdrop-filter: blur(18px) saturate(0.94); -webkit-backdrop-filter: blur(18px) saturate(0.94); box-shadow: 0 24px 80px color-mix(in srgb, var(--navy) 32%, transparent); }
+  .hero-copy::before { display: none; }
   .hero-visual { position: relative; inset: auto; width: 100%; aspect-ratio: 16 / 10; min-height: 0; max-height: 420px; margin-top: 24px; margin-right: 0; border-radius: 28px; opacity: 1; transform: none; -webkit-mask-image: none; mask-image: none; }
   .hero-visual::before { background: linear-gradient(180deg, color-mix(in srgb, var(--navy) 42%, transparent), transparent 52%); }
   .stats, .grid, .people-grid, .gallery, .two-grid { grid-template-columns: 1fr 1fr; }
