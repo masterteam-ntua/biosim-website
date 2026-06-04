@@ -7,6 +7,7 @@ permalink: /
 <section class="hero">
   <div id="tsparticles" aria-hidden="true"></div>
   <div class="container hero-content" data-aos="fade-up">
+    <div class="hero-panel" aria-hidden="true"></div>
     <div class="hero-copy">
       <h1 class="hero-logo-title">
         <img class="logo-rgb" src="{{ '/biosim_logo_files/svg/biosim_logo.svg' | relative_url }}" alt="BIOSIM Laboratory">
