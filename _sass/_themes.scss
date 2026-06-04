@@ -28,6 +28,8 @@
   --site-bg:
     radial-gradient(circle at top left, rgba(40, 240, 248, 0.2), transparent 30%),
     radial-gradient(circle at 78% 12%, rgba(0, 200, 232, 0.14), transparent 26%), linear-gradient(145deg, #081418, #0d232a 54%, #182326);
+  --header-bg: color-mix(in srgb, #081418 88%, transparent);
+  --menu-bg: #0a181c;
   --cursor-glow: rgba(255, 255, 255, 0.06);
   --cursor-glow-aqua: rgba(40, 240, 248, 0.045);
   --line: rgba(0, 200, 232, 0.18);
@@ -44,6 +46,8 @@ html[data-theme="light"] {
   --site-bg:
     radial-gradient(circle at top left, rgba(40, 240, 248, 0.22), transparent 30%),
     radial-gradient(circle at 78% 12%, rgba(0, 200, 232, 0.16), transparent 26%), linear-gradient(145deg, #f3fcfd, #e9fbfd 54%, #dff7fa);
+  --header-bg: rgba(243, 252, 253, 0.88);
+  --menu-bg: #f3fcfd;
   --cursor-glow: rgba(255, 255, 255, 0.2);
   --cursor-glow-aqua: rgba(0, 200, 232, 0.06);
   --line: rgba(0, 143, 189, 0.18);
