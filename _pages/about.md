@@ -7,20 +7,36 @@ permalink: /
 <section class="hero">
   <div id="tsparticles" aria-hidden="true"></div>
   <div class="container hero-content" data-aos="fade-up">
-    <h1 class="hero-logo-title">
-      <img class="logo-rgb" src="{{ '/biosim_logo_files/svg/biosim_logo.svg' | relative_url }}" alt="BIOSIM Laboratory">
-      <img class="logo-dark" src="{{ '/biosim_logo_files/svg/biosim_logo_grayscale.svg' | relative_url }}" alt="BIOSIM Laboratory">
-    </h1>
-    <p class="lead">{% t home.intro %} <span class="typed"></span></p>
-    <div class="hero-actions">
-      {% assign lang_prefix = '' %}{% if site.lang != site.default_lang %}{% assign lang_prefix = '/' | append: site.lang %}{% endif %}
-      <a class="button" href="{{ lang_prefix | append: '/research/' | relative_url }}">{% t home.cta_research %}</a>
-      <a class="button secondary" href="{{ lang_prefix | append: '/contact/' | relative_url }}">{% t home.cta_contact %}</a>
+    <div class="hero-copy">
+      <h1 class="hero-logo-title">
+        <img class="logo-rgb" src="{{ '/biosim_logo_files/svg/biosim_logo.svg' | relative_url }}" alt="BIOSIM Laboratory">
+        <img class="logo-dark" src="{{ '/biosim_logo_files/svg/biosim_logo_grayscale.svg' | relative_url }}" alt="BIOSIM Laboratory">
+      </h1>
+      <p class="lead">
+        <span class="lead-static">{% t home.intro %}</span>
+        <span class="typed-wrap"><span class="typed"></span></span>
+      </p>
+      <div class="hero-actions">
+        {% assign lang_prefix = '' %}{% if site.lang != site.default_lang %}{% assign lang_prefix = '/' | append: site.lang %}{% endif %}
+        <a class="button" href="{{ lang_prefix | append: '/research/' | relative_url }}">{% t home.cta_research %}</a>
+        <a class="button secondary" href="{{ lang_prefix | append: '/contact/' | relative_url }}">{% t home.cta_contact %}</a>
+      </div>
+      <div class="stats" data-aos="fade-up" data-aos-delay="100">
+        <div class="stat-card"><span class="stat-number" data-count="{{ site.lab.stats.publications }}">0</span><span class="stat-label">{% t home.stats_publications %}</span></div>
+        <div class="stat-card"><span class="stat-number" data-count="{{ site.lab.stats.members }}">0</span><span class="stat-label">{% t home.stats_members %}</span></div>
+        <div class="stat-card"><span class="stat-number" data-count="{{ site.lab.stats.years }}">0</span><span class="stat-label">{% t home.stats_years %}</span></div>
+      </div>
     </div>
-    <div class="stats" data-aos="fade-up" data-aos-delay="100">
-      <div class="stat-card"><span class="stat-number" data-count="{{ site.lab.stats.publications }}">0</span><span class="stat-label">{% t home.stats_publications %}</span></div>
-      <div class="stat-card"><span class="stat-number" data-count="{{ site.lab.stats.members }}">0</span><span class="stat-label">{% t home.stats_members %}</span></div>
-      <div class="stat-card"><span class="stat-number" data-count="{{ site.lab.stats.years }}">0</span><span class="stat-label">{% t home.stats_years %}</span></div>
+    <div class="hero-visual" aria-label="BIOSIM Laboratory highlights">
+      <div class="swiper hero-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="{{ '/assets/img/news/ntua-digital-health-day-2023.webp' | relative_url }}" alt="NTUA Digital Health Day audience"></div>
+          <div class="swiper-slide"><img src="{{ '/assets/img/news/the-2021-ntua-biotech-day-was-a-success.png' | relative_url }}" alt="NTUA Biotech Day event"></div>
+          <div class="swiper-slide"><img src="{{ '/assets/img/news/biosim-at-ece-ntua-lab-day-2018.jpg' | relative_url }}" alt="BIOSIM at ECE NTUA Lab Day"></div>
+          <div class="swiper-slide"><img src="{{ '/assets/img/news/professor-nantia-nikita-presents-research-activities-at-biosim-lab.png' | relative_url }}" alt="BIOSIM research presentation"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
     </div>
   </div>
 </section>
