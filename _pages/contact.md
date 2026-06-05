@@ -6,22 +6,24 @@ nav: true
 nav_order: 6
 ---
 
-<div class="two-grid">
-  <div class="article-card" data-aos="fade-up">
-    <h2>BIOSIM Laboratory</h2>
-    <p><strong>{{ site.lab.director }}</strong></p>
-    <p>{% if site.lang == 'el' %}{{ site.lab.address_el }}{% else %}{{ site.lab.address_en }}{% endif %}</p>
-    <p><strong>Tel:</strong> {{ site.lab.phone }}</p>
-    <p><strong>Email:</strong> <a href="mailto:{{ site.lab.email }}">{{ site.lab.email }}</a></p>
-    <div class="member-links">
-      <a href="https://www.ntua.gr/">NTUA</a>
-      <a href="https://www.ece.ntua.gr/">ECE NTUA</a>
-      <a href="{{ site.lab.map_url }}">Google Maps</a>
-      <a href="https://www.linkedin.com/">LinkedIn</a>
+<section class="section">
+  <div class="two-grid">
+    <div class="article-card" data-aos="fade-up">
+      <h2>BIOSIM Laboratory</h2>
+      <p><strong>{{ site.lab.director }}</strong></p>
+      <p>{% if site.lang == 'el' %}{{ site.lab.address_el }}{% else %}{{ site.lab.address_en }}{% endif %}</p>
+      <p><strong>Tel:</strong> {{ site.lab.phone }}</p>
+      <p><strong>Email:</strong> <a href="mailto:{{ site.lab.email }}">{{ site.lab.email }}</a></p>
+      <div class="member-links">
+        <a href="https://www.ntua.gr/">NTUA</a>
+        <a href="https://www.ece.ntua.gr/">ECE NTUA</a>
+        <a href="{{ site.lab.map_url }}">Google Maps</a>
+        <a href="https://www.linkedin.com/">LinkedIn</a>
+      </div>
     </div>
+    <iframe class="map" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade" src="{{ site.lab.map_embed_url }}"></iframe>
   </div>
-  <iframe class="map" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade" src="{{ site.lab.map_embed_url }}"></iframe>
-</div>
+</section>
 
 <section class="section">
   <div class="two-grid">
