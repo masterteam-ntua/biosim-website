@@ -13,7 +13,7 @@ navbar_fixed: true
 footer_fixed: false
 search_enabled: true
 bib_search: true
-max_width: 1180px
+max_width: 1320px
 enable_darkmode: true
 back_to_top: true
 
@@ -125,9 +125,11 @@ lab:
   director: Prof. Konstantina S. Nikita
   address_en: BIOSIM Laboratory, Faculty of Electrical and Computer Engineering, National Technical University of Athens, 9 Iroon Polytechniou Str., 15780 Zografos, Athens, Greece
   address_el: Εργαστήριο BIOSIM, Σχολή Ηλεκτρολόγων Μηχανικών και Μηχανικών Υπολογιστών, Εθνικό Μετσόβιο Πολυτεχνείο, Ηρώων Πολυτεχνείου 9, 15780 Ζωγράφου, Αθήνα
-  map_query: National Technical University of Athens Zografou Campus
+  map_query: Biosim Laboratory, National Technical University of Athens
+  map_embed_url: "https://www.google.com/maps?q=37.9755341,23.7850034&z=15&output=embed"
+  map_url: https://maps.app.goo.gl/xUGaEwgBPpYdWgc87
   stats:
-    publications: 3
-    members: 3
-    projects: 3
+    publications: 600
+    members: 25
+    projects: 30
     years: 27
