@@ -6,7 +6,7 @@ nav: true
 nav_order: 6
 ---
 
-<div class="grid">
+<div class="two-grid">
   <div class="article-card" data-aos="fade-up">
     <h2>BIOSIM Laboratory</h2>
     <p><strong>{{ site.lab.director }}</strong></p>
@@ -16,9 +16,11 @@ nav_order: 6
     <div class="member-links">
       <a href="https://www.ntua.gr/">NTUA</a>
       <a href="https://www.ece.ntua.gr/">ECE NTUA</a>
+      <a href="{{ site.lab.map_url }}">Google Maps</a>
       <a href="https://www.linkedin.com/">LinkedIn</a>
     </div>
   </div>
+  <iframe class="map" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade" src="{{ site.lab.map_embed_url }}"></iframe>
 </div>
 
 <section class="section">
@@ -28,11 +30,9 @@ nav_order: 6
       {% if site.lang == 'el' %}
         <p><strong>Παλιά Κτίρια Ηλεκτρολόγων Μηχανικών και Μηχανικών Υπολογιστών</strong></p>
         <p>Γραφείο Καθηγήτριας Κωνσταντίνας Νικήτα: Γραφείο 1.1.18<br>Γραφείο Υποψηφίων Διδακτόρων και Μεταδιδακτορικών ερευνητών: Γραφείο 1.1.2<br>Γραφείο Υποψηφίων Διδακτόρων και Μεταδιδακτορικών ερευνητών: Γραφείο 2.1.26</p>
-        <p><strong>Κτίριο Ηλεκτρονικών Υπολογιστών</strong></p><p>Γραφείο 1.16<br>Γραφείο 1.17</p>
       {% else %}
         <p><strong>Old Buildings of Faculty of Electrical and Computer Engineering</strong></p>
         <p>Professor's Nikita Office: Room 1.1.18<br>PhD & Post Doc Office: Room 1.1.2<br>PhD & Post Doc Office: Room 2.1.26</p>
-        <p><strong>Central Computer Building</strong></p><p>Room 1.16<br>Room 1.17</p>
       {% endif %}
     </article>
     <article class="article-card" data-aos="fade-up" data-aos-delay="80">
