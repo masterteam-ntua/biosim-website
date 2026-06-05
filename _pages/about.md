@@ -79,23 +79,45 @@ permalink: /
       <div class="swiper-wrapper">
         {% assign latest_news = site.news | sort: 'date' | reverse | slice: 0, 12 %}
         {% for item in latest_news %}
-          <article class="swiper-slide news-card">
+          <div class="swiper-slide">
+            <article class="news-card">
             {% assign news_image = item.image %}
             {% assign preview_title = item.short_title | default: item.title %}
             {% if site.lang == 'el' %}{% assign preview_title = item.short_title_el | default: item.title_el | default: preview_title %}{% endif %}
             {% assign long_title = item.title %}
             {% if site.lang == 'el' and item.title_el %}{% assign long_title = item.title_el %}{% endif %}
             {% assign preview_text = long_title %}
-            {% if preview_title == preview_text %}{% assign preview_text = item.content | strip_html | truncate: 150 %}{% endif %}
-            {% if site.lang == 'el' and item.summary_el %}{% assign preview_text = item.summary_el | truncate: 150 %}{% endif %}
+            {% if preview_title == preview_text %}{% assign preview_text = item.content | strip_html %}{% endif %}
+            {% if site.lang == 'el' and item.summary_el %}{% assign preview_text = item.summary_el %}{% endif %}
             <div class="news-card-media">{% if news_image %}<img src="{{ news_image | relative_url }}" alt="{{ preview_title | escape }}">{% endif %}</div>
             <p class="meta news-card-meta">{{ item.date | date: "%b %-d, %Y" }}</p>
             <h3 class="news-card-title"><a href="{{ lang_prefix | append: item.url | relative_url }}">{{ preview_title }}</a></h3>
-            {% if preview_text %}<p class="news-card-preview">{{ preview_text }}</p>{% endif %}
-          </article>
+              {% if preview_text %}<p class="news-card-preview">{{ preview_text }}</p>{% endif %}
+            </article>
+          </div>
         {% endfor %}
       </div>
       <div class="swiper-pagination"></div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-heading" data-aos="fade-up">
+      <div><h2>{% t home.featured_projects %}</h2></div>
+    </div>
+    <div class="grid">
+      {% assign featured_projects = site.data.projects | slice: 0, 3 %}
+      {% for project in featured_projects %}
+        <article class="card" data-aos="fade-up" data-aos-delay="{{ forloop.index0 | times: 80 }}">
+          {% assign project_image = project.image %}{% if project_image %}{% unless project_image contains '://' %}{% assign project_image = project_image | relative_url %}{% endunless %}{% endif %}
+          {% if project_image %}<img src="{{ project_image }}" alt="{% if site.lang == 'el' %}{{ project.title_el }}{% else %}{{ project.title_en }}{% endif %}">{% endif %}
+          <h3>{% if site.lang == 'el' %}{{ project.title_el }}{% else %}{{ project.title_en }}{% endif %}</h3>
+          <p>{% if site.lang == 'el' %}{{ project.summary_el }}{% else %}{{ project.summary_en }}{% endif %}</p>
+          <div class="tags">{% for tag in project.tags %}<span class="tag">{{ tag }}</span>{% endfor %}</div>
+        </article>
+      {% endfor %}
     </div>
   </div>
 </section>
