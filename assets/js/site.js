@@ -67,15 +67,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     document.querySelectorAll(".news-swiper").forEach((el) => {
       new Swiper(el, {
-        grid: { rows: 2, fill: "row" },
         pagination: { el: el.querySelector(".swiper-pagination"), clickable: true },
-        slidesPerGroup: 2,
         slidesPerView: 1,
         spaceBetween: 18,
-        breakpoints: {
-          760: { slidesPerGroup: 4, slidesPerView: 2 },
-          1080: { slidesPerGroup: 6, slidesPerView: 3 },
-        },
       });
     });
 
@@ -147,6 +141,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const minLabel = publicationFilters.querySelector("[data-publication-min-label]");
     const maxLabel = publicationFilters.querySelector("[data-publication-max-label]");
     const yearButtons = [...publicationFilters.querySelectorAll("[data-publication-year]")];
+    const typeButtons = [...publicationFilters.querySelectorAll("[data-publication-type]")];
     const count = publicationFilters.querySelector("[data-publication-count]");
     const empty = publications.querySelector("[data-publication-empty]");
     const groups = [...publications.querySelectorAll("h2.bibliography")]
@@ -181,6 +176,7 @@ document.addEventListener("DOMContentLoaded", () => {
       let selectedMin = Number(minRange?.value || minYear);
       let selectedMax = Number(maxRange?.value || maxYear);
       const query = searchInput?.value.trim().toLowerCase() || "";
+      const selectedType = publicationFilters.querySelector("[data-publication-type].active")?.dataset.publicationType || "";
       let visibleCount = 0;
 
       if (selectedMin > selectedMax) {
@@ -202,7 +198,8 @@ document.addEventListener("DOMContentLoaded", () => {
         entries.forEach((entry) => {
           const matchesYear = numericYear >= selectedMin && numericYear <= selectedMax;
           const matchesQuery = !query || entry.dataset.publicationText.includes(query);
-          const visible = matchesYear && matchesQuery;
+          const matchesType = !selectedType || entry.querySelector("[data-publication-type]")?.dataset.publicationType === selectedType;
+          const visible = matchesYear && matchesQuery && matchesType;
           entry.hidden = !visible;
           if (visible) groupVisible += 1;
         });
@@ -216,6 +213,11 @@ document.addEventListener("DOMContentLoaded", () => {
         const year = button.dataset.publicationYear;
         const active = year ? selectedMin === Number(year) && selectedMax === Number(year) : selectedMin === minYear && selectedMax === maxYear;
         button.classList.toggle("active", active);
+      });
+
+      typeButtons.forEach((button) => {
+        const t = button.dataset.publicationType;
+        button.classList.toggle("active", selectedType === t);
       });
 
       if (count) {
@@ -233,6 +235,14 @@ document.addEventListener("DOMContentLoaded", () => {
         const year = button.dataset.publicationYear;
         if (minRange) minRange.value = year || minYear;
         if (maxRange) maxRange.value = year || maxYear;
+        applyPublicationFilters();
+      });
+    });
+
+    typeButtons.forEach((button) => {
+      button.addEventListener("click", () => {
+        typeButtons.forEach((btn) => btn.classList.remove("active"));
+        button.classList.add("active");
         applyPublicationFilters();
       });
     });
