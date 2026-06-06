@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<section class="section">
+  <div class="container">
+    <a href="{{ '/people/' | relative_url }}" class="person-back-link">&larr; Back to People</a>
+
+    <div class="person-profile">
+      <aside class="person-sidebar">
+        {% if page.image %} {% assign person_image = page.image %} {% unless person_image contains '://' %} {% assign person_image = page.image |
+        relative_url %} {% endunless %}
+        <img
+          src="{{ person_image }}"
+          alt="{% if site.lang == 'el' and page.name_el %}{{ page.name_el }}{% else %}{{ page.title }}{% endif %}"
+          class="person-image"
+        />
+        {% endif %}
+        <h1 class="person-name">{% if site.lang == 'el' and page.name_el %}{{ page.name_el }}{% else %}{{ page.title }}{% endif %}</h1>
+        <p class="person-role">{% if site.lang == 'el' and page.role_el %}{{ page.role_el }}{% else %}{{ page.role }}{% endif %}</p>
+        {% if page.email %}
+        <a href="mailto:{{ page.email }}" class="person-email">Email</a>
+        {% endif %} {% if page.room %}
+        <p class="person-room">Room {{ page.room }}</p>
+        {% endif %}
+      </aside>
+
+      <div class="person-content">
+        {% if site.lang == 'el' and page.content_el %} {{ page.content_el | markdownify }} {% else %} {{ content }} {% endif %}
+      </div>
+    </div>
+  </div>
+</section>

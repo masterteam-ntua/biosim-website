@@ -32,6 +32,11 @@ publications:
   year_to: To year
   quick_years: Quick year filters
   all_years: All years
+  all_types: All types
+  journal: Journal Papers
+  conference: Conference Papers
+  book: Books
+  chapter: Book Chapters
   count_singular: publication
   count_plural: publications
   no_matches: No publications match these filters.

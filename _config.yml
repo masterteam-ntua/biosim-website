@@ -42,6 +42,9 @@ collections:
   projects:
     output: true
     permalink: /research/:name/
+  people:
+    output: true
+    permalink: /people/:name/
 
 include: ["_pages"]
 exclude:

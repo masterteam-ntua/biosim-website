@@ -20,11 +20,12 @@ nav_order: 3
       <input type="range" data-publication-year-max aria-label="{% t publications.year_to %}">
     </div>
   </div>
-  <div class="publication-quick-years" aria-label="{% t publications.quick_years %}">
-    <button class="filter-button active" type="button" data-publication-year="">{% t publications.all_years %}</button>
-    <button class="filter-button" type="button" data-publication-year="2026">2026</button>
-    <button class="filter-button" type="button" data-publication-year="2025">2025</button>
-    <button class="filter-button" type="button" data-publication-year="2024">2024</button>
+  <div class="publication-types">
+    <button class="filter-button active" type="button" data-publication-type="">{% t publications.all_types %}</button>
+    <button class="filter-button" type="button" data-publication-type="article">{% t publications.journal %}</button>
+    <button class="filter-button" type="button" data-publication-type="inproceedings">{% t publications.conference %}</button>
+    <button class="filter-button" type="button" data-publication-type="book">{% t publications.book %}</button>
+    <button class="filter-button" type="button" data-publication-type="incollection">{% t publications.chapter %}</button>
   </div>
   <p class="publication-count" data-publication-count data-singular="{% t publications.count_singular %}" data-plural="{% t publications.count_plural %}" aria-live="polite"></p>
 </div>

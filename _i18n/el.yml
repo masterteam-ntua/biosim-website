@@ -32,6 +32,11 @@ publications:
   year_to: Έως έτος
   quick_years: Γρήγορα φίλτρα ετών
   all_years: Όλα τα έτη
+  all_types: Όλοι οι τύποι
+  journal: Άρθρα σε περιοδικά
+  conference: Ανακοινώσεις σε συνέδρια
+  book: Βιβλία
+  chapter: Κεφάλαια βιβλίων
   count_singular: δημοσίευση
   count_plural: δημοσιεύσεις
   no_matches: Δεν βρέθηκαν δημοσιεύσεις με αυτά τα φίλτρα.

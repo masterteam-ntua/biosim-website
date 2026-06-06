@@ -78,22 +78,29 @@ permalink: /
     <div class="swiper news-swiper" data-aos="fade-up">
       <div class="swiper-wrapper">
         {% assign latest_news = site.news | sort: 'date' | reverse | slice: 0, 12 %}
-        {% for item in latest_news %}
+        {% assign page1 = latest_news | slice: 0, 6 %}
+        {% assign page2 = latest_news | slice: 6, 6 %}
+        {% for page_items in (1..2) %}
+          {% if page_items == 1 %}{% assign items = page1 %}{% else %}{% assign items = page2 %}{% endif %}
           <div class="swiper-slide">
-            <article class="news-card">
-            {% assign news_image = item.image %}
-            {% assign preview_title = item.short_title | default: item.title %}
-            {% if site.lang == 'el' %}{% assign preview_title = item.short_title_el | default: item.title_el | default: preview_title %}{% endif %}
-            {% assign long_title = item.title %}
-            {% if site.lang == 'el' and item.title_el %}{% assign long_title = item.title_el %}{% endif %}
-            {% assign preview_text = long_title %}
-            {% if preview_title == preview_text %}{% assign preview_text = item.content | strip_html %}{% endif %}
-            {% if site.lang == 'el' and item.summary_el %}{% assign preview_text = item.summary_el %}{% endif %}
-            <div class="news-card-media">{% if news_image %}<img src="{{ news_image | relative_url }}" alt="{{ preview_title | escape }}">{% endif %}</div>
-            <p class="meta news-card-meta">{{ item.date | date: "%b %-d, %Y" }}</p>
-            <h3 class="news-card-title"><a href="{{ lang_prefix | append: item.url | relative_url }}">{{ preview_title }}</a></h3>
-              {% if preview_text %}<p class="news-card-preview">{{ preview_text }}</p>{% endif %}
-            </article>
+            <div class="news-swiper-grid">
+              {% for item in items %}
+                <article class="news-card">
+                {% assign news_image = item.image %}
+                {% assign preview_title = item.short_title | default: item.title %}
+                {% if site.lang == 'el' %}{% assign preview_title = item.short_title_el | default: item.title_el | default: preview_title %}{% endif %}
+                {% assign long_title = item.title %}
+                {% if site.lang == 'el' and item.title_el %}{% assign long_title = item.title_el %}{% endif %}
+                {% assign preview_text = long_title %}
+                {% if preview_title == preview_text %}{% assign preview_text = item.content | strip_html %}{% endif %}
+                {% if site.lang == 'el' and item.summary_el %}{% assign preview_text = item.summary_el %}{% endif %}
+                <div class="news-card-media">{% if news_image %}<img src="{{ news_image | relative_url }}" alt="{{ preview_title | escape }}">{% endif %}</div>
+                <p class="meta news-card-meta">{{ item.date | date: "%b %-d, %Y" }}</p>
+                <h3 class="news-card-title"><a href="{{ lang_prefix | append: item.url | relative_url }}">{{ preview_title }}</a></h3>
+                  {% if preview_text %}<p class="news-card-preview">{{ preview_text }}</p>{% endif %}
+                </article>
+              {% endfor %}
+            </div>
           </div>
         {% endfor %}
       </div>
