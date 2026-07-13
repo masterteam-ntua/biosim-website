@@ -22,8 +22,12 @@ content_el: |
   - Τεχνική και οικονομική διαχείριση χρηματοδοτούμενων ερευνητικών έργων
   - Εκπόνηση ερευνητικού έργου (διεξαγωγή πρωτότυπης έρευνας, συγγραφή επιστημονικών δημοσιεύσεων)
 
-  Το ύψος της αμοιβής θα εξαρτηθεί από τις δεξιότητες και την εμπειρία που διαθέτει ο υποψήφιος.
+  Το ύψος της αμοιβής θα εξαρτηθεί από τις δεξιότητες και την εμπειρία που διαθέτει ο υποψήφιος.  
   Οι ενδιαφερόμενοι θα πρέπει να στείλουν με ηλεκτρονική αλληλογραφία πλήρες βιογραφικό σημείωμα μέχρι την **Παρασκευή, 26 Ιανουαρίου 2018**, στις ηλεκτρονικές διευθύνσεις **knikita@ece.ntua.gr** και **kzarkog@biosim.ntua.gr**.
+
+  [Postdoctoral position - BIOSIM.pdf](https://www.biosim.ntua.gr/file/get/news/phpA2XLBv.pdf)
 ---
 
 The [Biomedical Simulations and Imaging Laboratory](http://biosim.ntua.gr) of the National Technical University of Athens is seeking applications for the paid position of one (1) Postdoctoral Researcher. Find out more in the attached file.
+
+[Postdoctoral position - BIOSIM.pdf](https://www.biosim.ntua.gr/file/get/news/phpA2XLBv.pdf)

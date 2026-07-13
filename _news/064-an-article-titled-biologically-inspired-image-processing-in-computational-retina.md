@@ -9,6 +9,10 @@ image: /assets/img/news/an-article-titled-biologically-inspired-image-processing
 summary_el: 'Το άρθρο του Νίκου Μελανίτη και της Κωνσταντίνας Νικήτα με τίτλο "[Biologically-inspired image processing in computational retina models](https://www.sciencedirect.com/science/article/pii/S0010482519302768?dgcid=coauthor'
 content_el: |
   Το άρθρο του Νίκου Μελανίτη και της Κωνσταντίνας Νικήτα με τίτλο "[Biologically-inspired image processing in computational retina models](https://www.sciencedirect.com/science/article/pii/S0010482519302768?dgcid=coauthor)" δημοσιεύθηκε στο περιοδικό Computers in Biology and Medicine.
+
+  [1-s2.0-S0010482519302768-main.pdf](https://www.biosim.ntua.gr/file/get/news/phpIqtFR8.pdf)
 ---
 
 A new article by Nikos Melanitis and Konstantina S. Nikita, titled "[Biologically-inspired image processing in computational retina models](https://www.sciencedirect.com/science/article/pii/S0010482519302768?dgcid=coauthor)", has been published in Computers in Biology and Medicine journal.
+
+[1-s2.0-S0010482519302768-main.pdf](https://www.biosim.ntua.gr/file/get/news/phpIqtFR8.pdf)

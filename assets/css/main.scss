@@ -139,7 +139,7 @@ h3 { font-size: 1.25rem; }
 .card p, .member-card p, .news-card p, .meta { color: var(--muted); }
 .news-card { display: flex; flex-direction: column; width: 100%; height: 460px; }
 .news-card-media { flex: 0 0 190px; height: 190px; overflow: hidden; border-radius: 18px; margin-bottom: 12px; background: color-mix(in srgb, var(--card) 68%, transparent); }
-.news-card-media img { width: 100%; height: 100%; object-fit: cover; }
+.news-card-media img { width: 100%; height: 100%; object-fit: contain; background: color-mix(in srgb, var(--card) 68%, transparent); }
 .news-card-meta { flex: none; margin: 0 0 6px; font-size: 0.92rem; }
 .news-card-title { flex: none; margin: 0 0 6px; overflow-wrap: anywhere; }
 .news-card-preview { flex: none; max-height: var(--preview-max-height, none); min-height: 0; margin: 0; display: -webkit-box; overflow: hidden; line-height: 1.45; -webkit-box-orient: vertical; -webkit-line-clamp: var(--preview-lines, 3); }
@@ -167,7 +167,10 @@ h3 { font-size: 1.25rem; }
 .page-hero { padding: 64px 0 18px; }
 .page-hero.compact h1 { font-size: clamp(2.3rem, 6vw, 4.6rem); }
 .article-card { padding: clamp(22px, 4vw, 40px); }
-.article-image { width: 100%; max-height: 430px; object-fit: cover; border-radius: 22px; margin-bottom: 24px; }
+.article-image { width: 100%; height: auto; max-height: 620px; object-fit: contain; border-radius: 22px; margin-bottom: 24px; background: color-mix(in srgb, var(--card) 68%, transparent); }
+.video-embed { position: relative; width: 100%; aspect-ratio: 16 / 9; margin: 24px 0; overflow: hidden; border-radius: 18px; background: #000; }
+.video-embed iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.video-embed-file { width: 100%; margin: 24px 0; border-radius: 18px; background: #000; }
 
 .people-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 20px; margin-bottom: 42px; }
 .people-category-heading { margin-top: 42px; }
@@ -236,3 +239,9 @@ html[data-theme="dark"] .site-footer .logo-dark { display: block; filter: bright
 @media (prefers-reduced-motion: reduce), (pointer: coarse) {
   body::before { display: none; }
 }
+
+.article-card table { width: 100%; border-collapse: collapse; margin-top: 16px; }
+.article-card th, .article-card td { padding: 8px 10px; text-align: left; border-bottom: 1px solid var(--line); }
+.article-card th { color: var(--teal); font-weight: 800; font-size: 0.86rem; }
+.article-card td { color: var(--white); }
+.article-card tbody tr:hover td { background: color-mix(in srgb, var(--teal) 8%, transparent); }

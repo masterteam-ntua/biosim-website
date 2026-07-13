@@ -9,6 +9,10 @@ image: /assets/img/news/nantia-nikita-was-an-invited-speaker-at-the-multidiscipl
 summary_el: "Η παρουσίαση της ομιλίας είναι διαθέσιμη παρακάτω."
 content_el: |
   Η παρουσίαση της ομιλίας είναι διαθέσιμη παρακάτω.
+
+  [Embedded video](https://drive.google.com/file/d/1-euZC2P8sHDwA0UCUVc4VdnVP0tSJd6H/preview)
 ---
 
 The speech's presentation file is available below.
+
+[Embedded video](https://drive.google.com/file/d/1-euZC2P8sHDwA0UCUVc4VdnVP0tSJd6H/preview)

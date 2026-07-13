@@ -9,7 +9,7 @@ image: /assets/img/news/students-are-participating-in-several-projects-with-the-
 
 The undergraduate ECE course "m-health and e-health Technologies" (3.2.3382.8) focuses on innovative and disruptive technologies and applications in health. The course started in the academic year 2016 – 2017. You can find its [regular syllabus](https://www.ece.ntua.gr/en/undergraduate/courses/3382) on its official school page. The course applies project-based learning in order to provide students the opportunity to gain hands-on experience in academic research, design and development theories and methodologies for healthcare solutions. This academic year, many of the student projects are related to AI technologies addressing COVID-19 pandemic challenges.
 
-**Projects**
+**Projects**  
 The following COVID-19 related projects supported by the Biomedical Simulations and Imaging ([BioSim](https://www.biosim.ntua.gr/en)) Lab are underway:
 
 - AI techniques to investigate the spread of COVID-19 based on epidemiological, demographic, healthcare policy and geospatial data.
@@ -17,6 +17,6 @@ The following COVID-19 related projects supported by the Biomedical Simulations 
 - Design and development of a Chatbot for physical activity recommendations to quarantined population, based on emotion detection through AI techniques.
 - Design and development of a Serious Game for the empowerment of isolated people suffering from depression.
 
-**Staff**
-For all course and above project-related questions, please contact:
+**Staff**  
+For all course and above project-related questions, please contact:  
 Kostas Mitsis (Teaching Assistant, kmhtshs@biosim.ntua.gr)

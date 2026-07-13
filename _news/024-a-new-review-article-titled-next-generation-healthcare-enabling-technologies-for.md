@@ -7,3 +7,5 @@ source_url: https://www.biosim.ntua.gr/en/news/89
 ---
 
 A new article by Asimina Kiourti, Amin M. Abbosh, Maria Athanasiou, Toni Björninen, Aline Eid, Cynthia Furse, Koichi Ito, Gianluca Lazzi, Mohamed Manoufali, Matteo Pastorino, Manos M. Tentzeris, Katrina Tisdale, Erdem Topsakal, Leena Ukkonen, William G. Whittow, Huanan Zhang, and Konstantina S. Nikita, titled "[Next-Generation Healthcare: Enabling Technologies for Emerging Bioelectromagnetics Applications](https://ieeexplore.ieee.org/document/9741310)" has been published in the IEEE Open Journal of Antennas and Propagation.
+
+<div class="video-embed"><iframe src="https://www.youtube.com/embed/m3jjvC8tYko" title="Embedded video" loading="lazy" allowfullscreen></iframe></div>

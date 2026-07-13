@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How will 5G catalyse the healthcare digital transformation in the post-Covid era?"
+title: "Article by Nantia Nikita in kathimerini.gr"
 short_title: "Article by Nantia Nikita in kathimerini.gr"
 date: 2021-06-01
 source_url: https://www.biosim.ntua.gr/en/news/76

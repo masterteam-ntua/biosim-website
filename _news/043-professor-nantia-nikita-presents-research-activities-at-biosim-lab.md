@@ -8,3 +8,5 @@ image: /assets/img/news/professor-nantia-nikita-presents-research-activities-at-
 ---
 
 Professor Nantia Nikita presents current research activities at the Biomedical Simulations and Imaging Lab of the [School of ECE](https://www.ece.ntua.gr/en), [NTUA](https://www.ntua.gr/el/). Wireless, wearable, and ambient technologies are combined with simulation techniques and advanced data analytics, harnessing Explainable Artificial Intelligence, towards the enhanced understanding of pathophysiological mechanisms, with the ultimate goal to facilitate self-disease management and assist tailored therapeutic interventions.
+
+<div class="video-embed"><iframe src="https://www.youtube.com/embed/aDFRTUjMPno" title="Embedded video" loading="lazy" allowfullscreen></iframe></div>

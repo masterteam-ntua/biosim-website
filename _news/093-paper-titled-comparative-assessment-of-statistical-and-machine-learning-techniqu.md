@@ -8,6 +8,10 @@ source_url: https://www.biosim.ntua.gr/en/news/17
 summary_el: 'Το άρθρο των Καλλιόπη Δαλακλείδη, Κωνσταντία Ζαρκογιάννη, Αναστασία Θανοπούλου και Κωνσταντίνα Νικήτα, με τίτλο "Comparative assessment of statistical and machine learning techniques towards estimating the risk of develo'
 content_el: |
   Το άρθρο των Καλλιόπη Δαλακλείδη, Κωνσταντία Ζαρκογιάννη, Αναστασία Θανοπούλου και Κωνσταντίνα Νικήτα, με τίτλο "Comparative assessment of statistical and machine learning techniques towards estimating the risk of developing type 2 diabetes and cardiovascular complications" δημοσιεύτηκε στο τεύχος Απριλίου του περιοδικού Expert Systems.
+
+  [Dalakleidi_et_al-2017-Expert_Systems.pdf](https://www.biosim.ntua.gr/file/get/news/phpCF55ut.pdf)
 ---
 
 Paper by Kalliopi Dalakleidi, Konstantia Zarkogianni, Anastasia C. Thanopoulou and Konstantina S. Nikita, titled "Comparative assessment of statistical and machine learning techniques towards estimating the risk of developing type 2 diabetes and cardiovascular complications" has been published in the April issue of Expert Systems journal.
+
+[Dalakleidi_et_al-2017-Expert_Systems.pdf](https://www.biosim.ntua.gr/file/get/news/phpCF55ut.pdf)
