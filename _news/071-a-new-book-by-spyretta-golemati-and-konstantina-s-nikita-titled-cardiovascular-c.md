@@ -10,11 +10,11 @@ summary_el: 'Το βιβλίο "New Directions in Wireless Communications System
 content_el: |
   Το βιβλίο "New Directions in Wireless Communications Systems: From Mobile to 5G" από την Σπυρέττα Γολεματή και την Κωνσταντίνα Νικήτα εκδόθηκε από τον οίκο Springer. Μπορείτε να δείτε το βιβλίο [εδώ](https://www.springer.com/gp/book/9789811050916).
 
-  **Περίληψη**
+  **Περίληψη**  
   This book provides a comprehensive guide to the state-of-the-art in cardiovascular computing and highlights novel directions and challenges in this constantly evolving multidisciplinary field. The topics covered span a wide range of methods and clinical applications of cardiovascular computing, including advanced technologies for the acquisition and analysis of signals and images, cardiovascular informatics, and mathematical and computational modeling.
 ---
 
 A new book by Spyretta Golemati and Konstantina S. Nikita, titled "Cardiovascular Computing—Methodologies and Clinical Applications", has been published by Springer. You can find the book [here](https://www.springer.com/gp/book/9789811050916).
 
-**Summary**
+**Summary**  
 This book provides a comprehensive guide to the state-of-the-art in cardiovascular computing and highlights novel directions and challenges in this constantly evolving multidisciplinary field. The topics covered span a wide range of methods and clinical applications of cardiovascular computing, including advanced technologies for the acquisition and analysis of signals and images, cardiovascular informatics, and mathematical and computational modeling.

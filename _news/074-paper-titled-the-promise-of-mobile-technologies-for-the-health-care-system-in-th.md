@@ -8,6 +8,10 @@ source_url: https://www.biosim.ntua.gr/en/news/39
 summary_el: 'Το άρθρο των Γ. Καραγεώργου, Ι. Ανδρεάδη, Κ. Ψυχά, Γ. Μουρκούση, Α. Κιούρτη, G. Lazzi, και Κ. Νικήταμε τίτλο "The Promise of Mobile Technologies for the Health Care System in the Developing World: A Systematic Review" θα'
 content_el: |
   Το άρθρο των Γ. Καραγεώργου, Ι. Ανδρεάδη, Κ. Ψυχά, Γ. Μουρκούση, Α. Κιούρτη, G. Lazzi, και Κ. Νικήταμε τίτλο "The Promise of Mobile Technologies for the Health Care System in the Developing World: A Systematic Review" θα δημοσιευθεί στο περιοδικό IEEE Reviews in Biomedical Engineering. Το σχετικό άρθρο επισυνάπτεται.
+
+  [PID5530147.pdf](https://www.biosim.ntua.gr/file/get/news/phpYrPOSG.pdf)
 ---
 
 Paper by G. Karageorgos, I. Andreadis, K. Psychas, G. Mourkousis, A. Kiourti, G. Lazzi and K. S. Nikita, titled "The Promise of Mobile Technologies for the Health Care System in the Developing World: A Systematic Review" will be published in IEEE Reviews in Biomedical Engineering journal. The relevant paper is attached.
+
+[PID5530147.pdf](https://www.biosim.ntua.gr/file/get/news/phpYrPOSG.pdf)

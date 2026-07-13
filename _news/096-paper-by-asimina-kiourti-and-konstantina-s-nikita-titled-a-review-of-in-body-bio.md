@@ -8,6 +8,10 @@ source_url: https://www.biosim.ntua.gr/en/news/14
 summary_el: 'Το άρθρο των Α. Κιουρτή, Κ. Νικήτα με τίτλο "A Review of In-Body Biotelemetry Devices: Implantables, Ingestibles, and Injectables" θα δημοσιευτεί στο περιοδικό IEEE Transactions on Biomedical Engineering (ΤΜΒΕ). Το άρθρο'
 content_el: |
   Το άρθρο των Α. Κιουρτή, Κ. Νικήτα με τίτλο "A Review of In-Body Biotelemetry Devices: Implantables, Ingestibles, and Injectables" θα δημοσιευτεί στο περιοδικό IEEE Transactions on Biomedical Engineering (ΤΜΒΕ). Το άρθρο βρίσκεται στο συνημμένο αρχείο.
+
+  [TBME_final_.pdf](https://www.biosim.ntua.gr/file/get/news/phpbqmbvL.pdf)
 ---
 
 Paper by Asimina Kiourti and Konstantina S. Nikita titled "A Review of In-Body Biotelemetry Devices: Implantables, Ingestibles, and Injectables" will be published in IEEE Transactions on Biomedical Engineering (TBME). The paper can be found in the attached file.
+
+[TBME*final*.pdf](https://www.biosim.ntua.gr/file/get/news/phpbqmbvL.pdf)

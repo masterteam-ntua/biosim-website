@@ -14,3 +14,5 @@ SMARTY is an intelligent decision support tool that aims to (i) detect undiagnos
 The team participating in #HackCoronaGreece consisted of: Dr Konstantia Zarkogianni (permanent teaching laboratory staff at BIOSIM), Kostas Mitsis (PhD candidate at BIOSIM), Charalampos Papakonstantinou (PhD candidate at AILS) and Maria Athanasiou (PhD candidate at BIOSIM).
 
 Learn more about SMARTY:
+
+<div class="video-embed"><iframe src="https://www.youtube.com/embed/RFMDj-DRsQk" title="Embedded video" loading="lazy" allowfullscreen></iframe></div>

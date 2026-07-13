@@ -8,6 +8,10 @@ source_url: https://www.biosim.ntua.gr/en/news/47
 summary_el: "Video της ομιλίας είναι διαθέσιμο στον ακόλουθο σύνδεσμο."
 content_el: |
   Video της ομιλίας είναι διαθέσιμο στον ακόλουθο σύνδεσμο.
+
+  <div class="video-embed"><iframe src="https://www.youtube.com/embed/wP1_g6hkleg" title="Embedded video" loading="lazy" allowfullscreen></iframe></div>
 ---
 
 A video of the speech in Greek is available below.
+
+<div class="video-embed"><iframe src="https://www.youtube.com/embed/wP1_g6hkleg" title="Embedded video" loading="lazy" allowfullscreen></iframe></div>

@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Online lecture by Dr. Effie Bastounis, Interfaculty institute of Microbiology and Infection Medicine, University of Tübingen, Germany, on Wednesday, 21 April 2021, at 6 pm"
+title: "Effie will discuss how mechanical forces govern interactions of host cells with intracellular bacterial pathogens"
 short_title: "Effie will discuss how mechanical forces govern interactions of host cells with intracellular bacterial pathogens"
 date: 2021-04-13
 source_url: https://www.biosim.ntua.gr/en/news/73
-image: /assets/img/news/online-lecture-by-dr-effie-bastounis-interfaculty-institute-of-microbiology-and.png
+image: /assets/img/news/effie-will-discuss-how-mechanical-forces-govern-interactions-of-host-cells-with.png
 ---
 
 The IEEE Greece Section in cooperation with the IEEE Engineering in Medicine and Biology (EMB) Greece, the Women in Engineering (WiE) Greece, and the Biomedical Simulations and Imaging (BioSim) Laboratory of the School of Electrical and Computer Engineering, National Technical University of Athens invite you to the online lecture entitled “**Mechanical forces govern interactions of host cells with intracellular bacterial pathogens**” which will be given by Dr. Effie Bastounis, Junior Group Leader in the Interfaculty institute of Microbiology and Infection Medicine at the University of Tübingen, Germany, on Wednesday, 21 April 2021, at 6 pm.

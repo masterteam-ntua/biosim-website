@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "BioSim featured in the Greek newspaper taNea.gr"
+title: "Managing diabetes and obesity through gaming"
 short_title: "Managing diabetes and obesity through gaming"
 title_el: 'Πολεμούν με "παιχνίδια" διαβήτη και παχυσαρκία'
 date: 2019-03-05
 source_url: https://www.biosim.ntua.gr/en/news/43
-image: /assets/img/news/biosim-featured-in-the-greek-newspaper-tanea-gr.png
+image: /assets/img/news/managing-diabetes-and-obesity-through-gaming.png
 summary_el: 'Αφιέρωμα στο BioSim δημοσιεύθηκε πρόσφατα στην εφημερίδα "Τα Νέα", με τίτλο "Πολεμούν με "παιχνίδια" διαβήτη και παχυσαρκία". Το σχετικό άρθρο αναφέρεται στην ερευνητική δραστηριότητα του εργαστηρίου προς την ανάπτυξη εξ'
 content_el: |
   Αφιέρωμα στο BioSim δημοσιεύθηκε πρόσφατα στην εφημερίδα "Τα Νέα", με τίτλο "Πολεμούν με "παιχνίδια" διαβήτη και παχυσαρκία". Το σχετικό άρθρο αναφέρεται στην ερευνητική δραστηριότητα του εργαστηρίου προς την ανάπτυξη εξατομικευμένων τεχνολογικών λύσεων, βασισμένων στην αξιοποίηση προηγμένων τεχνικών μοντελοποίησης και πρωτότυπων μηχανισμών παιχνιδοποίησης, που παρέχουν τη δυνατότητα σε άτομα με διαβήτη και παχυσαρκία να αυτοδιαχειρίζονται την υγεία και την ευζωία τους. Το άρθρο είναι διαθέσιμο [εδώ](https://drive.google.com/file/d/1pij0LXs2CK_cHDyq0Fdl8SkQ5RbMkOAZ/view?usp=sharing).

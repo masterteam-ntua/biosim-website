@@ -36,10 +36,61 @@ def clean_text(value)
 end
 
 def absolute_url(href)
-  return nil if href.nil? || href.empty? || href.start_with?("#", "mailto:", "javascript:")
+  return nil if href.nil?
+  href = CGI.unescapeHTML(href.to_s.strip).sub(%r{\Ahttps?://https?://}i) { |match| match.split("://").first + "://" }
+  return nil if href.empty? || href.start_with?("#", "mailto:", "javascript:")
   return href if href.start_with?("http")
 
   "#{BASE}#{href.start_with?("/") ? href : "/#{href}"}"
+end
+
+def file_or_media_link?(node)
+  href = node["href"].to_s
+  text = clean_text(node.text)
+  href.match?(%r{\.(?:pdf|docx?|pptx?|xlsx?|zip|mp4|mov)(?:[?#].*)?\z}i) || text.match?(/\b(?:cv|pdf|video)\b/i)
+end
+
+def stop_content_node?(node)
+  return false unless node.element?
+
+  marker = [node["id"], node["class"]].compact.join(" ")
+  return true if marker.match?(/(?:share|social|footer|copyright|breadcrumb|pagination|navbar|navigation|tm-footer|uk-breadcrumb)/i)
+
+  clean_text(node.text).match?(/\A(?:copyright|share this|posted in|read more|περισσότερα)\b/i)
+end
+
+def media_markdown(node)
+  case node.name
+  when "iframe"
+    src = absolute_url(node["src"])
+    return "[Embedded video](#{src})" unless src&.match?(/(?:youtube(?:-nocookie)?\.com|youtu\.be|vimeo\.com)/i)
+
+    %(<div class="video-embed"><iframe src="#{src}" title="Embedded video" loading="lazy" allowfullscreen></iframe></div>)
+  when "video"
+    src = absolute_url(node["src"] || node.at_css("source[src]")&.[]("src"))
+    src ? %(<video class="video-embed-file" controls src="#{src}"></video>) : nil
+  end
+end
+
+def normalize_line_breaks(text)
+  lines = text.to_s.split("\n").map { |line| clean_text(line) }.reject(&:empty?)
+  return text.strip if lines.length <= 1
+
+  award_index = lines.index { |line| line.match?(/\A(?:\*\*)?(?:first|second|third|fourth|attendees'? choice|winner|runner|\d+(?:st|nd|rd|th) place|βραβ|διάκρι)/i) && line.include?(":") }
+  if award_index
+    intro = lines[0...award_index].join("  \n")
+    awards = lines[award_index..].map { |line| "- #{line.sub(/\A[-•*]\s*/, "")}" }.join("\n")
+    return [intro, awards].reject(&:empty?).join("\n\n")
+  end
+
+  lines.join("  \n")
+end
+
+def cleanup_markdown(text)
+  text.to_s
+      .gsub(%r{https?://https?://}i) { |match| "#{match.split("://").first}://" }
+      .gsub(/\bt\[he\s+([^\]]+)\]\(([^\)]+)\)/i, 'the [\1](\2)')
+      .gsub(/\bT\[he\s+([^\]]+)\]\(([^\)]+)\)/, 'The [\1](\2)')
 end
 
 def inline_markdown(node)
@@ -59,7 +110,7 @@ def inline_markdown(node)
       text.empty? ? nil : "_#{text}_"
     when "br"
       "\n"
-    when "img", "script", "style"
+    when "img", "script", "style", "iframe", "video"
       nil
     else
       inline_markdown(child)
@@ -70,14 +121,28 @@ end
 def block_markdown(node)
   case node.name
   when "p", "h3", "h4", "h5", "h6"
-    inline_markdown(node)
+    media = node.css("iframe, video").map { |media_node| media_markdown(media_node) }.compact
+    text = normalize_line_breaks(inline_markdown(node))
+    ([text] + media).reject(&:empty?).join("\n\n")
   when "ul", "ol"
     node.css("li").map { |li| text = inline_markdown(li); text.empty? ? nil : "- #{text}" }.compact.join("\n")
+  when "a"
+    return "" unless file_or_media_link?(node)
+
+    text = clean_text(node.text)
+    href = absolute_url(node["href"])
+    href ? "[#{text.empty? ? File.basename(URI(href).path) : text}](#{href})" : text
+  when "iframe", "video"
+    media_markdown(node).to_s
   when "div"
-    block_children = node.children.select { |child| %w[p ul ol h3 h4 h5 h6].include?(child.name) }
+    return "" if stop_content_node?(node)
+
+    block_children = node.children.select { |child| child.text? || %w[p ul ol h3 h4 h5 h6 div a iframe video].include?(child.name) }
     return block_children.map { |child| block_markdown(child) }.reject(&:empty?).join("\n\n") unless block_children.empty?
 
-    inline_markdown(node)
+    normalize_line_breaks(inline_markdown(node))
+  when "text"
+    clean_text(node.text)
   else
     ""
   end
@@ -91,29 +156,40 @@ def detail_content(news_doc)
   h2 = content_heading(news_doc)
   return [nil, nil] unless h2
 
-  image = news_doc.css("article img, .tm-content img, img").map { |img| img["src"] }.find { |src| src && !src.include?("/themes/biosim/assets/img/biosim.png") }
+  image = nil
   image ||= news_doc.css("meta[property='og:image'], meta[name='twitter:image']").map { |meta| meta["content"] }.find { |src| src && !src.include?("/themes/biosim/assets/img/biosim.png") }
   image ||= news_doc.to_html[/url\(['"]?([^)'"]+\.(?:png|jpe?g|gif|webp))['"]?\)/i, 1]
   blocks = []
-  node = h2.next_element
+  node = h2.next_sibling
   while node
-    if %w[p div ul ol].include?(node.name)
+    if node.element? && stop_content_node?(node)
+      break
+    elsif node.element? && node.name == "img"
+      image ||= node["src"] unless node["src"].to_s.include?("/themes/biosim/assets/img/biosim.png")
+    elsif node.element? && node.at_css("img") && image.nil?
+      img = node.css("img").find { |candidate| !candidate["src"].to_s.include?("/themes/biosim/assets/img/biosim.png") }
+      image = img["src"] if img
+      text = block_markdown(node)
+      blocks << text unless text.empty?
+    elsif node.text? || %w[p div ul ol h3 h4 h5 h6 a iframe video].include?(node.name)
       text = block_markdown(node)
       break if clean_text(text).start_with?("Copyright")
       blocks << text unless text.empty?
     end
-    node = node.next_element
+    node = node.next_sibling
   end
-  [image, blocks.join("\n\n")]
+  [image, cleanup_markdown(blocks.join("\n\n"))]
 end
 
 def detail_title_from_html(html, fallback)
   match = html.match(/<!--\s*<li class="uk-active">(.*?)<\/li>\s*-->/m)
   doc = Nokogiri::HTML(html)
 
+  heading_title = doc.css("article h2, .tm-content h2, main h2, h2").map { |node| clean_text(node.text) }.find { |text| text.length > 3 }
+  return heading_title unless heading_title.to_s.empty?
+
   candidates = []
   candidates << clean_text(match && Nokogiri::HTML.fragment(match[1]).text)
-  candidates.concat(doc.css("article h2, .tm-content h2, main h2, h2").map { |node| clean_text(node.text) })
   candidates.concat(doc.css("meta[property='og:title'], meta[name='twitter:title']").map { |meta| clean_text(meta["content"]) })
   candidates << clean_text(doc.at_css("title")&.text).sub(/\s*•\s*BioSim\z/, "")
   title = candidates.reject(&:empty?).max_by(&:length)

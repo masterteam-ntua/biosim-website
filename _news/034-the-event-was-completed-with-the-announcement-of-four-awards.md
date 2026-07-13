@@ -26,9 +26,10 @@ The panel of experts consisted of Dr. Yannis Caloghirou, Professor Emeritus in E
 The panel congratulated the student teams for the creativity and high quality of their projects and provided them with valuable feedback. The participants had the opportunity to interact and exchange ideas in an inspiring and fruitful environment.
 
 The event was completed with the announcement of the following awards:
-First Award: “A smart serious game for stroke rehabilitation”, Panagiotou F., Papadopoulos K., Terzoglou A. (SECE)
-Second Award: “Empowerment of visually impaired through AI”, Georgaras E., Mprili D.-D., Tsilivaki S. (SECE)
-Third Award: “Biobots - Blood sample collection device for thyroid assessment”, Anastasiou D., Konstantopoulos G., Paspalidis P., Tsiopani N. (SME)
-Attendees' Choice Award: “A smart serious game for stroke rehabilitation”, Panagiotou F., Papadopoulos K., Terzoglou A. (SECE)
+
+- First Award: “A smart serious game for stroke rehabilitation”, Panagiotou F., Papadopoulos K., Terzoglou A. (SECE)
+- Second Award: “Empowerment of visually impaired through AI”, Georgaras E., Mprili D.-D., Tsilivaki S. (SECE)
+- Third Award: “Biobots - Blood sample collection device for thyroid assessment”, Anastasiou D., Konstantopoulos G., Paspalidis P., Tsiopani N. (SME)
+- Attendees' Choice Award: “A smart serious game for stroke rehabilitation”, Panagiotou F., Papadopoulos K., Terzoglou A. (SECE)
 
 Congratulations to all participants of the event! Looking forward to the 2022 NTUA Biotech Day!

@@ -6,12 +6,16 @@ title_el: "Στις 31 Οκτωβρίου 2018 το BioSim συμμετείχε 
 date: 2018-11-08
 source_url: https://www.biosim.ntua.gr/en/news/41
 image: /assets/img/news/on-october-31-2018-biosim-participated-in-the-ece-ntua-freshmen-welcome-event.jpg
-summary_el: "Η κύρια εκδήλωση πραγματοποιήθηκε στην αίθουσα τελετών του κτιρίου διοίκησης. Μετά τον χαιρετισμό του κοσμήτορα, η καθ. Κωνσταντίνα Νικήτα, συντονίστρια της Επιτροπής Προπτυχιακών Σπουδών της Σχολής Ηλεκτρολόγων Μηχανικώ"
+summary_el: "[Embedded video](https://drive.google.com/file/d/13gVRTFwXZJhnicp6x_3kbx67RuyUoBRj/preview)"
 content_el: |
+  [Embedded video](https://drive.google.com/file/d/13gVRTFwXZJhnicp6x_3kbx67RuyUoBRj/preview)
+
   Η κύρια εκδήλωση πραγματοποιήθηκε στην αίθουσα τελετών του κτιρίου διοίκησης. Μετά τον χαιρετισμό του κοσμήτορα, η καθ. Κωνσταντίνα Νικήτα, συντονίστρια της Επιτροπής Προπτυχιακών Σπουδών της Σχολής Ηλεκτρολόγων Μηχανικών και Μηχανικών Υπολογιστών, παρουσίασε το πρόγραμμα προπτυχιακών σπουδών, υπογραμμίζοντας το πλήθος των ευκαιριών για εποικοδομητικές συνεργασίες μεταξύ φοιτητών και ερευνητικών ομάδων, που προσφέρει η Σχολή.
 
   Παράλληλα, οι ποικίλες ερευνητικές δραστηριότητες της Σχολής παρουσιάζονταν στα περίπτερα των εκπαιδευτικών εργαστηρίων και των ερευνητικών ομάδων, που βρίσκονταν στο χώρο υποδοχής. Στο περίπτερό μας οι φοιτητές είχαν τη δυνατότητα να μάθουν περισσότερα για το υπό εξέλιξη ακαδημαϊκό και ερευνητικό έργο, καθώς και για τις κύριες ερευνητικές δραστηριότητες του BioSim στις περιοχές της κινητής υγείας, της διαχείρισης χρόνιων παθήσεων και της υπολογιστικής νευροεπιστήμης. Επιπλέον, πολλές συζητήσεις σχετίζονταν με τους ακαδημαϊκούς στόχους συγκεκριμένων μαθημάτων, καθώς και με ζητήματα επαγγελματικής και ακαδημαϊκής σταδιοδρομίας.
 ---
+
+[Embedded video](https://drive.google.com/file/d/13gVRTFwXZJhnicp6x_3kbx67RuyUoBRj/preview)
 
 The main event took place at the Ceremony Hall of the Administration Building. After the Dean’s welcome speech, Prof. Konstantina Nikita, coordinator of the Undergraduate Studies Committee, presented the undergraduate program of the School of ECE, highlighting the multitude of opportunities for fruitful collaborations among students and research groups, offered by the School.
 
