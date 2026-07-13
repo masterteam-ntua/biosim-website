@@ -3,6 +3,7 @@
 require "cgi"
 require "date"
 require "fileutils"
+require "json"
 require "net/http"
 require "nokogiri"
 require "set"
@@ -11,6 +12,8 @@ require "yaml"
 
 ROOT = File.expand_path("..", __dir__)
 BASE = "https://www.biosim.ntua.gr"
+ARTEMIS_BASE = "https://artemis.ece.ntua.gr"
+ARTEMIS_RESOLUTION_CACHE = {}
 
 def fetch(path)
   uri = URI(path.start_with?("http") ? path : "#{BASE}#{path}")
@@ -42,6 +45,52 @@ def absolute_url(href)
   return href if href.start_with?("http")
 
   "#{BASE}#{href.start_with?("/") ? href : "/#{href}"}"
+end
+
+def json_get(url)
+  uri = URI(url)
+  request = Net::HTTP::Get.new(uri)
+  request["Accept"] = "application/json"
+  request["User-Agent"] = "biosim-website-importer"
+  response = Net::HTTP.start(uri.hostname, uri.port, use_ssl: uri.scheme == "https") { |http| http.request(request) }
+  raise "#{uri} returned #{response.code}" unless response.is_a?(Net::HTTPSuccess)
+
+  JSON.parse(response.body)
+end
+
+def artemis_item_url(url)
+  match = url.to_s.match(%r{\Ahttps?://artemis\.cslab\.ece\.ntua\.gr:8080/jspui/handle/(\d+/\d+)\z})
+  return url unless match
+
+  handle = match[1]
+  ARTEMIS_RESOLUTION_CACHE[handle] ||= begin
+    search_uri = URI("#{ARTEMIS_BASE}/server/api/discover/search/objects")
+    search_uri.query = URI.encode_www_form(query: handle, size: 5)
+    search = json_get(search_uri.to_s)
+    objects = search.dig("_embedded", "searchResult", "_embedded", "objects") || []
+
+    item = objects.filter_map do |object|
+      item_url = object.dig("_links", "indexableObject", "href")
+      next unless item_url
+
+      json_get(item_url)
+    rescue StandardError
+      nil
+    end.find do |candidate|
+      identifiers = candidate.dig("metadata", "dc.identifier.uri").to_a.map { |identifier| identifier["value"].to_s }
+      identifiers.include?(url) || identifiers.any? { |identifier| identifier.end_with?("/#{handle}") }
+    end
+
+    if item && item["uuid"]
+      "#{ARTEMIS_BASE}/items/#{item["uuid"]}"
+    else
+      warn "Could not resolve Artemis handle #{handle}"
+      url
+    end
+  rescue StandardError => e
+    warn "Artemis resolution failed for #{handle}: #{e.message}"
+    url
+  end
 end
 
 def file_or_media_link?(node)
@@ -419,7 +468,7 @@ def thesis_entry(li)
   {
     "author" => author,
     "title" => title.empty? ? text : title,
-    "url" => link && URI.join(BASE, link["href"].to_s.strip).to_s,
+    "url" => link && artemis_item_url(URI.join(BASE, link["href"].to_s.strip).to_s),
     "details" => details,
   }.compact
 end
