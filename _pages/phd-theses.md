@@ -16,7 +16,8 @@ nav: false
 <div class="thesis-list">
   <section class="thesis-year" data-aos="fade-up">
     <ul>
-      {% for thesis in site.data.phd_theses %}
+      {% assign phd_theses = site.data.phd_theses.entries | default: site.data.phd_theses %}
+      {% for thesis in phd_theses %}
         <li>
           {% if site.lang == 'el' %}
             <strong>{{ thesis.author_el }}</strong>,

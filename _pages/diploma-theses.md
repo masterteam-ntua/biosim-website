@@ -14,7 +14,8 @@ nav: false
 </nav>
 
 <div class="thesis-list">
-  {% for group in site.data.diploma_theses %}
+  {% assign diploma_thesis_years = site.data.diploma_theses.years | default: site.data.diploma_theses %}
+  {% for group in diploma_thesis_years %}
     <section class="thesis-year" data-aos="fade-up">
       <h2>{{ group.year }}</h2>
       <ul>

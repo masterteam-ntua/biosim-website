@@ -1,0 +1,86 @@
+backend:
+  name: github
+  repo: masterteam-ntua/biosim-website
+  branch: main
+
+site_url: https://masterteam-ntua.github.io/biosim-website/
+display_url: https://masterteam-ntua.github.io/biosim-website/
+logo_url: https://masterteam-ntua.github.io/biosim-website/assets/img/biosim_logo_files/png/biosim_logo_RGB.png
+
+media_folder: assets/img/uploads
+public_folder: /biosim-website/assets/img/uploads
+
+collections:
+  - name: news
+    label: News
+    label_singular: News post
+    folder: _news
+    create: true
+    extension: md
+    format: frontmatter
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    summary: "{{date}} — {{title}}"
+    editor:
+      preview: false
+    fields:
+      - { label: Layout, name: layout, widget: hidden, default: post }
+      - { label: Title, name: title, widget: string }
+      - { label: Short title, name: short_title, widget: string, required: false }
+      - { label: Date, name: date, widget: datetime, date_format: YYYY-MM-DD, time_format: false, format: YYYY-MM-DD }
+      - { label: Source URL, name: source_url, widget: string, required: false }
+      - { label: Image, name: image, widget: image, required: false }
+      - { label: Body, name: body, widget: markdown, required: false }
+
+  - name: theses
+    label: Theses data
+    editor:
+      preview: false
+    files:
+      - name: diploma_theses
+        label: Diploma theses
+        file: _data/diploma_theses.yml
+        fields:
+          - label: Years
+            name: years
+            widget: list
+            label_singular: Year
+            summary: "{{fields.year}}"
+            fields:
+              - { label: Year, name: year, widget: number, value_type: int }
+              - label: Entries
+                name: entries
+                widget: list
+                label_singular: Thesis
+                summary: "{{fields.author}} — {{fields.title}}"
+                fields:
+                  - { label: Author, name: author, widget: string }
+                  - { label: Title, name: title, widget: text }
+                  - { label: URL, name: url, widget: string, required: false }
+                  - { label: Details, name: details, widget: string, required: false }
+      - name: phd_theses
+        label: PhD theses
+        file: _data/phd_theses.yml
+        fields:
+          - label: Entries
+            name: entries
+            widget: list
+            label_singular: Thesis
+            fields:
+              - { label: Author (English), name: author_en, widget: string }
+              - { label: Author (Greek), name: author_el, widget: string, required: false }
+              - { label: Title (English), name: title_en, widget: text }
+              - { label: Title (Greek), name: title_el, widget: text, required: false }
+              - { label: URL, name: url, widget: string, required: false }
+              - { label: Details (English), name: details_en, widget: string, required: false }
+              - { label: Details (Greek), name: details_el, widget: string, required: false }
+
+  - name: bibliography
+    label: Bibliography
+    editor:
+      preview: false
+    files:
+      - name: papers
+        label: papers.bib
+        file: _bibliography/papers.bib
+        fields:
+          - { label: BibTeX, name: body, widget: code, default_language: bibtex, allow_language_selection: false }

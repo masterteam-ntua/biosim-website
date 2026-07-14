@@ -518,8 +518,8 @@ end
 def import_theses
   data_dir = File.join(ROOT, "_data")
   FileUtils.mkdir_p(data_dir)
-  File.write(File.join(data_dir, "diploma_theses.yml"), diploma_theses("en").to_yaml)
-  File.write(File.join(data_dir, "phd_theses.yml"), merge_localized_entries(phd_theses("en"), phd_theses("gr")).to_yaml)
+  File.write(File.join(data_dir, "diploma_theses.yml"), { "years" => diploma_theses("en") }.to_yaml)
+  File.write(File.join(data_dir, "phd_theses.yml"), { "entries" => merge_localized_entries(phd_theses("en"), phd_theses("gr")) }.to_yaml)
   puts "Imported diploma and PhD theses"
 end
 
