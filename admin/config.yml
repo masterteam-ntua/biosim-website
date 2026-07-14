@@ -32,7 +32,13 @@ collections:
       - { label: Short title, name: short_title, widget: string, required: false }
       - { label: Date, name: date, widget: datetime, date_format: YYYY-MM-DD, time_format: false, format: YYYY-MM-DD }
       - { label: Source URL, name: source_url, widget: string, required: false }
-      - { label: Image, name: image, widget: image, required: false }
+      - label: Image
+        name: image
+        widget: image
+        required: false
+        media_folder: /assets/img/news
+        public_folder: /assets/img/news
+        hint: Optional. Uploaded files are stored in assets/img/news.
       - { label: Body, name: body, widget: markdown, required: false }
 
   - name: theses
