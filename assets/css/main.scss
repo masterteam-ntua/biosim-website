@@ -34,6 +34,52 @@ html.has-pointer-glow body::before {
 a { color: inherit; text-decoration: none; }
 a:hover { color: var(--teal); }
 
+/* Content links: visible teal/aqua treatment with underline on hover/focus */
+.article-card a,
+.card p a,
+.member-card p a,
+.news-card-preview a,
+.publications a,
+.thesis-year a,
+.article-card table a {
+  color: color-mix(in srgb, var(--teal) 85%, var(--white));
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  text-decoration-color: color-mix(in srgb, var(--teal) 40%, transparent);
+  transition: color 0.15s ease, text-decoration-color 0.15s ease;
+}
+
+.article-card a:hover,
+.card p a:hover,
+.member-card p a:hover,
+.news-card-preview a:hover,
+.publications a:hover,
+.thesis-year a:hover,
+.article-card table a:hover {
+  color: var(--teal);
+  text-decoration-color: var(--teal);
+}
+
+.article-card a:focus-visible,
+.card p a:focus-visible,
+.member-card p a:focus-visible,
+.news-card-preview a:focus-visible,
+.publications a:focus-visible,
+.thesis-year a:focus-visible,
+.article-card table a:focus-visible {
+  outline: 2px solid var(--aqua);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* Thesis-year links: add bold weight to the content-link treatment */
+.thesis-year a {
+  font-weight: 700;
+}
+
+.thesis-year .meta { display: inline; }
+
 img { max-width: 100%; display: block; }
 
 .container { width: min(1320px, calc(100% - 32px)); margin: 0 auto; }
@@ -133,10 +179,6 @@ h3 { font-size: 1.25rem; }
 .thesis-year ul { margin: 0; padding-left: 1.2rem; }
 .thesis-year li { margin-bottom: 14px; color: var(--muted); }
 .thesis-year li:last-child { margin-bottom: 0; }
-.thesis-year a { color: var(--white); font-weight: 700; }
-.thesis-year a:hover { color: var(--teal); }
-.thesis-year .meta { display: inline; }
-
 .swiper { width: 100%; padding: 8px 2px 42px; }
 .news-swiper .swiper-slide { display: flex; height: auto; }
 .swiper-pagination-bullet { background: var(--teal); }
