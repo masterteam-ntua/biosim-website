@@ -5,7 +5,7 @@ short_title: 'PhD Thesis Defense by Eleni Adamidi titled "Control System and Dat
 title_el: 'Υποστήριξη διδακτορικής διατριβής της Ελένης Αδαμίδη με τίτλο "Σύστημα Ελέγχου και Απόκτηση Δεδομένων για την Απομακρυσμένη Παρακολούθηση του προσωπικού στις εγκαταστάσεις του πειράματος ATLAS στο CERN"'
 date: 2019-07-17
 source_url: https://www.biosim.ntua.gr/en/news/44
-image: /assets/img/news/phd-thesis-defense-by-eleni-adamidi-titled-control-system-and-data-acquisition-f.jpg
+image: /assets/img/news/phd-thesis-defense-by-eleni-adamidi-titled-control-system-and-data-acquisition-f.webp
 summary_el: 'Τη Δευτέρα 15.07.2019 η Ελένη Αδαμίδη υποστήριξε με επιτυχία τη διδακτορική διατριβή της με τίτλο "Σύστημα Ελέγχου και Απόκτηση Δεδομένων για την Απομακρυσμένη Παρακολούθηση του προσωπικού στις εγκαταστάσεις του πειράματ'
 content_el: |
   Τη Δευτέρα 15.07.2019 η Ελένη Αδαμίδη υποστήριξε με επιτυχία τη διδακτορική διατριβή της με τίτλο "Σύστημα Ελέγχου και Απόκτηση Δεδομένων για την Απομακρυσμένη Παρακολούθηση του προσωπικού στις εγκαταστάσεις του πειράματος ATLAS στο CERN".  

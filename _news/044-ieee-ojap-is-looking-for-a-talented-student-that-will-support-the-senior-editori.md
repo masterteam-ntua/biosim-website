@@ -4,7 +4,7 @@ title: "IEEE OJAP is looking for a talented student that will support the senior
 short_title: "IEEE OJAP is looking for a talented student that will support the senior editorial staff in the production of a podcast series"
 date: 2021-01-26
 source_url: https://www.biosim.ntua.gr/en/news/69
-image: /assets/img/news/ieee-ojap-is-looking-for-a-talented-student-that-will-support-the-senior-editori.jpg
+image: /assets/img/news/ieee-ojap-is-looking-for-a-talented-student-that-will-support-the-senior-editori.webp
 ---
 
 The Editorial Office of the [IEEE Open Journal of Antennas and Propagation (IEEE OJAP)](https://ieeeaps.org/ieee-ojap), the first gold fully open access journal of the IEEE Antennas and Propagation Society, is looking for a talented student that will support the senior editorial staff in the production of digital content, emphasizing on the launch of a scientific podcast series for OJAP.

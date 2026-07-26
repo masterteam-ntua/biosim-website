@@ -5,7 +5,7 @@ short_title: "Smarty4covid: BIOSIM join forces with AHEPA and launches the first
 title_el: "Ξεκινάει η πρώτη ερευνητική μελέτη με συμμετέχοντες νοσηλευόμενους ασθενείς με COVID-19, που έχει στόχο την εξεύρεση δεικτών υψηλής προγνωστικής αξίας της εξέλιξης της νόσου."
 date: 2021-11-29
 source_url: https://www.biosim.ntua.gr/en/news/87
-image: /assets/img/news/smarty4covid-biosim-join-forces-with-ahepa-and-launches-the-first-clinical-pilot.jpg
+image: /assets/img/news/smarty4covid-biosim-join-forces-with-ahepa-and-launches-the-first-clinical-pilot.webp
 summary_el: "Η θεωρία γίνεται πράξη και για τους επόμενους μήνες η ομάδα του smarty4covid, που αποτελείται από ερευνητές δύο εργαστηρίων ([BIOSIM](http://www.biosim.ntua.gr/en) και [AILS](http://www.ails.ece.ntua.gr/)) του Εθνικού Με"
 content_el: |
   Η θεωρία γίνεται πράξη και για τους επόμενους μήνες η ομάδα του smarty4covid, που αποτελείται από ερευνητές δύο εργαστηρίων ([BIOSIM](http://www.biosim.ntua.gr/en) και [AILS](http://www.ails.ece.ntua.gr/)) του Εθνικού Μετσόβιου Πολυτεχνείου, συνεργάζεται με την επιστημονική και νοσηλευτική ομάδα του Πανεπιστημιακού Γενικού Νοσοκομείου Θεσσαλονίκης - ΑΧΕΠΑ για την συλλογή πρωτότυπων δεδομένων ηχητικών καταγραφών φωνής, βήχα και αναπνοής νοσηλευόμενων ασθενών με COVID-19. Το υλικό αυτό θα αποδειχτεί πολύτιμο για την δημιουργία μοντέλων πρόγνωσης της εξέλιξης της τόσο απρόβλεπτης νόσου COVΙD-19.

@@ -5,7 +5,7 @@ short_title: 'A new book by Spyretta Golemati and Konstantina S. Nikita titled "
 title_el: 'Έκδοση νέου βιβλίου από την Σπυρέττα Γολεμάτη και την Κωνσταντίνα Νικήτα με τίτλο "Cardiovascular Computing: Methodologies and Clinical Applications"'
 date: 2019-02-22
 source_url: https://www.biosim.ntua.gr/en/news/42
-image: /assets/img/news/a-new-book-by-spyretta-golemati-and-konstantina-s-nikita-titled-cardiovascular-c.jpg
+image: /assets/img/news/a-new-book-by-spyretta-golemati-and-konstantina-s-nikita-titled-cardiovascular-c.webp
 summary_el: 'Το βιβλίο "New Directions in Wireless Communications Systems: From Mobile to 5G" από την Σπυρέττα Γολεματή και την Κωνσταντίνα Νικήτα εκδόθηκε από τον οίκο Springer. Μπορείτε να δείτε το βιβλίο [εδώ](https://www.springer'
 content_el: |
   Το βιβλίο "New Directions in Wireless Communications Systems: From Mobile to 5G" από την Σπυρέττα Γολεματή και την Κωνσταντίνα Νικήτα εκδόθηκε από τον οίκο Springer. Μπορείτε να δείτε το βιβλίο [εδώ](https://www.springer.com/gp/book/9789811050916).

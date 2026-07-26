@@ -4,7 +4,7 @@
   role_en: Professor
   role_el: Καθηγήτρια
   category: faculty
-  image: "/assets/img/people/konstantina-nikita.jpg"
+  image: "/assets/img/people/konstantina-nikita.webp"
   email: knikita@ece.ntua.gr
   profile: "/people/konstantina-nikita/"
 - name_en: Ioannis Andreadis
@@ -12,21 +12,21 @@
   role_en: Researcher
   role_el: Ερευνητής
   category: researchers
-  image: "/assets/img/people/ioannis-andreadis.png"
+  image: "/assets/img/people/ioannis-andreadis.webp"
   profile: "/people/ioannis-andreadis/"
 - name_en: Maria Athanasiou
   name_el: Μαρία Αθανασίου
   role_en: Postdoctoral Researcher
   role_el: Μεταδιδακτορική Ερευνήτρια
   category: researchers
-  image: "/assets/img/people/maria-athanasiou.jpg"
+  image: "/assets/img/people/maria-athanasiou.webp"
   profile: "/people/maria-athanasiou/"
 - name_en: Nikos Melanitis-Paraskevas
   name_el: Νίκος Μελανίτης-Παρασκευάς
   role_en: Postdoctoral Researcher
   role_el: Μεταδιδακτορικός Ερευνητής
   category: researchers
-  image: "/assets/img/people/nikos-melanitis-paraskevas.png"
+  image: "/assets/img/people/nikos-melanitis-paraskevas.webp"
   profile: "/people/nikos-melanitis-paraskevas/"
 - name_en: Kostas Mitsis
   name_el: Κωνσταντίνος Μήτσης
@@ -40,42 +40,42 @@
   role_en: Postdoctoral Researcher
   role_el: Μεταδιδακτορικός Ερευνητής
   category: researchers
-  image: "/assets/img/people/theofanis-ganitidis.png"
+  image: "/assets/img/people/theofanis-ganitidis.webp"
   profile: "/people/theofanis-ganitidis/"
 - name_en: Eleftherios Kalafatis
   name_el: Ελευθέριος Καλαφάτης
   role_en: Postdoctoral Researcher
   role_el: Μεταδιδακτορικός Ερευνητής
   category: researchers
-  image: "/assets/img/people/eleftherios-kalafatis.png"
+  image: "/assets/img/people/eleftherios-kalafatis.webp"
   profile: "/people/eleftherios-kalafatis/"
 - name_en: Aikaterini Fragkou
   name_el: Αικατερίνη Φράγκου
   role_en: PhD Candidate
   role_el: Υποψήφια Διδάκτορας
   category: phd_candidates
-  image: "/assets/img/people/aikaterini-fragkou.png"
+  image: "/assets/img/people/aikaterini-fragkou.webp"
   profile: "/people/aikaterini-fragkou/"
 - name_en: Vasileios Kolias
   name_el: Βασίλειος Κόλιας
   role_en: PhD Candidate
   role_el: Υποψήφιος Διδάκτορας
   category: phd_candidates
-  image: "/assets/img/people/vasileios-kolias.JPG"
+  image: "/assets/img/people/vasileios-kolias.webp"
   profile: "/people/vasileios-kolias/"
 - name_en: Glikeria Theodorou
   name_el: Γλυκερία Θεοδώρου
   role_en: PhD Candidate
   role_el: Υποψήφια Διδάκτορας
   category: phd_candidates
-  image: "/assets/img/people/glikeria-theodorou.jpg"
+  image: "/assets/img/people/glikeria-theodorou.webp"
   profile: "/people/glikeria-theodorou/"
 - name_en: Daphne Tsolisou
   name_el: Δάφνη Τσολίσου
   role_en: PhD Candidate
   role_el: Υποψήφια Διδάκτορας
   category: phd_candidates
-  image: "/assets/img/people/daphne-tsolisou.jpeg"
+  image: "/assets/img/people/daphne-tsolisou.webp"
   profile: "/people/daphne-tsolisou/"
 - name_en: Ina Mpouzi
   name_el: Ίνα Μπούζη
@@ -96,28 +96,28 @@
   role_en: Collaborator
   role_el: Συνεργάτιδα
   category: collaborators
-  image: "/assets/img/people/konstantia-zarkogianni.png"
+  image: "/assets/img/people/konstantia-zarkogianni.webp"
   profile: "/people/konstantia-zarkogianni/"
 - name_en: Maria Christopoulou
   name_el: Μαρία Χριστοπούλου
   role_en: Collaborator
   role_el: Συνεργάτιδα
   category: collaborators
-  image: "/assets/img/people/maria-christopoulou.jpg"
+  image: "/assets/img/people/maria-christopoulou.webp"
   profile: "/people/maria-christopoulou/"
 - name_en: Kalliopi Dalakleidi
   name_el: Καλλιόπη Δαλακλείδη
   role_en: Collaborator
   role_el: Συνεργάτιδα
   category: collaborators
-  image: "/assets/img/people/kalliopi-dalakleidi.png"
+  image: "/assets/img/people/kalliopi-dalakleidi.webp"
   profile: "/people/kalliopi-dalakleidi/"
 - name_en: Aimilia Gastounioti
   name_el: Αιμιλία Γαστουνιώτη
   role_en: Collaborator
   role_el: Συνεργάτιδα
   category: collaborators
-  image: "/assets/img/people/aimilia-gastounioti.jpg"
+  image: "/assets/img/people/aimilia-gastounioti.webp"
   profile: "/people/aimilia-gastounioti/"
 - name_en: Spyretta Golemati
   name_el: Σπυρέττα Γολεμάτη
@@ -145,21 +145,21 @@
   role_en: Collaborator
   role_el: Συνεργάτιδα
   category: collaborators
-  image: "/assets/img/people/asimenia-kiourti.JPG"
+  image: "/assets/img/people/asimenia-kiourti.webp"
   profile: "/people/asimenia-kiourti/"
 - name_en: Kostis Michmizos
   name_el: Κωστής Μιχμίζος
   role_en: Collaborator
   role_el: Συνεργάτης
   category: collaborators
-  image: "/assets/img/people/kostis-michmizos.jpg"
+  image: "/assets/img/people/kostis-michmizos.webp"
   profile: "/people/kostis-michmizos/"
 - name_en: Georgia-Stavroula Polychronaki
   name_el: Γεωργία-Σταυρούλα Πολυχρονάκη
   role_en: Collaborator
   role_el: Συνεργάτιδα
   category: collaborators
-  image: "/assets/img/people/georgia-polychronaki.jpg"
+  image: "/assets/img/people/georgia-polychronaki.webp"
   profile: "/people/georgia-stavroula-polychronaki/"
 - name_en: Marios Skevofilakas
   name_el: Μάριος Σκευοφύλακας
@@ -173,28 +173,28 @@
   role_en: Collaborator
   role_el: Συνεργάτης
   category: collaborators
-  image: "/assets/img/people/john-stoitsis.jpg"
+  image: "/assets/img/people/john-stoitsis.webp"
   profile: "/people/john-stoitsis/"
 - name_en: Nikolaos Tsiaparas
   name_el: Νικόλαος Τσιαπάρας
   role_en: Collaborator
   role_el: Συνεργάτης
   category: collaborators
-  image: "/assets/img/people/nikolaos-tsiaparas.JPG"
+  image: "/assets/img/people/nikolaos-tsiaparas.webp"
   profile: "/people/nikolaos-tsiaparas/"
 - name_en: George Tsirogiannis
   name_el: Γιώργος Τσιρογιάννης
   role_en: Collaborator
   role_el: Συνεργάτης
   category: collaborators
-  image: "/assets/img/people/george-tsirogiannis.JPG"
+  image: "/assets/img/people/george-tsirogiannis.webp"
   profile: "/people/george-tsirogiannis/"
 - name_en: Ioannis Valavanis
   name_el: Ιωάννης Βαλαβάνης
   role_en: Collaborator
   role_el: Συνεργάτης
   category: collaborators
-  image: "/assets/img/people/ioannis-valavanis.png"
+  image: "/assets/img/people/ioannis-valavanis.webp"
   profile: "/people/ioannis-valavanis/"
 - name_en: Denys Nikolayev
   name_el: Denys Nikolayev
@@ -208,7 +208,7 @@
   role_en: Visitor
   role_el: Επισκέπτης
   category: visitors
-  image: "/assets/img/people/amyn-jaafar.jpg"
+  image: "/assets/img/people/amyn-jaafar.webp"
   profile: "/people/amyn-jaafar/"
 - name_en: Anastasia Alexandridou
   name_el: Αναστασία Αλεξανδρίδου
@@ -257,7 +257,7 @@
   role_en: Alumnus 2023
   role_el: Απόφοιτος 2023
   category: alumni
-  image: "/assets/img/people/dimitris-karagiannis.png"
+  image: "/assets/img/people/dimitris-karagiannis.webp"
   profile: "/people/dimitris-karagiannis/"
 - name_en: Sofia Karamintziou
   name_el: Σοφία Καραμίντιζιου

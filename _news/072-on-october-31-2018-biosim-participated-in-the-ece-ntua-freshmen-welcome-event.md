@@ -5,7 +5,7 @@ short_title: "On October 31, 2018, BioSim participated in the ECE NTUA Freshmen 
 title_el: "Στις 31 Οκτωβρίου 2018 το BioSim συμμετείχε στην Εκδήλωση Υποδοχής Πρωτοετών"
 date: 2018-11-08
 source_url: https://www.biosim.ntua.gr/en/news/41
-image: /assets/img/news/on-october-31-2018-biosim-participated-in-the-ece-ntua-freshmen-welcome-event.jpg
+image: /assets/img/news/on-october-31-2018-biosim-participated-in-the-ece-ntua-freshmen-welcome-event.webp
 summary_el: "[Embedded video](https://drive.google.com/file/d/13gVRTFwXZJhnicp6x_3kbx67RuyUoBRj/preview)"
 content_el: |
   [Embedded video](https://drive.google.com/file/d/13gVRTFwXZJhnicp6x_3kbx67RuyUoBRj/preview)

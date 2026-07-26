@@ -5,7 +5,7 @@ name_el: "Γεωργία-Σταυρούλα Πολυχρονάκη"
 role: "Collaborator"
 role_el: "Συνεργάτιδα"
 email: "gpolychronaki@biosim.ntua.gr"
-image: "/assets/img/people/georgia-polychronaki.jpg"
+image: "/assets/img/people/georgia-polychronaki.webp"
 category: "collaborators"
 content_el: |
   **Διδακτορική Διατριβή**

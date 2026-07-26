@@ -1,7 +1,7 @@
 ---
 - title_en: ENDORSE
   title_el: ENDORSE
-  image: "/assets/img/projects/endorse.png"
+  image: "/assets/img/projects/endorse.webp"
   tags:
     - T1DM
     - obesity
@@ -41,7 +41,7 @@
     επικοινωνία με πληροφοριακό σύστημα νέφους.
 - title_en: EDUSAFE
   title_el: EDUSAFE
-  image: "/assets/img/projects/edusafe.png"
+  image: "/assets/img/projects/edusafe.webp"
   tags:
     - VR
     - AR
@@ -52,7 +52,7 @@
     για ασφάλεια σε ακραία περιβάλλοντα.
 - title_en: MOSAIC
   title_el: MOSAIC
-  image: "/assets/img/projects/mosaic.png"
+  image: "/assets/img/projects/mosaic.webp"
   tags:
     - diabetes
     - modeling
@@ -72,7 +72,7 @@
     ραδιοσυχνοτήτων σε κύτταρα, ιστούς και νευροφυσιολογία.
 - title_en: DEM-II-MED
   title_el: Εμφυτεύσιμες και καταπόσιμες ιατρικές διατάξεις
-  image: "/assets/img/projects/dem-ii-med.png"
+  image: "/assets/img/projects/dem-ii-med.webp"
   tags:
     - implantable devices
     - telemetry
@@ -82,7 +82,7 @@
     διατάξεων με τηλεμετρία και τηλεϊατρική.
 - title_en: SIFEM
   title_el: SIFEM
-  image: "/assets/img/projects/sifem.jpg"
+  image: "/assets/img/projects/sifem.webp"
   tags:
     - inner ear
     - finite elements
@@ -92,7 +92,7 @@
     αποθετήρια μοντέλων για το έσω ους.
 - title_en: Carotid Atherosclerosis
   title_el: Η αθηρωματική πλάκα στην καρωτίδα
-  image: "/assets/img/projects/carotid-atherosclerosis.png"
+  image: "/assets/img/projects/carotid-atherosclerosis.webp"
   tags:
     - cardiovascular
     - imaging
@@ -309,7 +309,7 @@
     χρήστες κινητών, και εφαρμογές στην ιατρική.
 - title_en: VIRTUOSO
   title_el: VIRTUOSO
-  image: "/assets/img/projects/virtuoso.jpg"
+  image: "/assets/img/projects/virtuoso.webp"
   tags:
     - radio-oncology
     - telematics

@@ -5,7 +5,7 @@ short_title: 'Nantia Nikita was an invited speaker at the "Multidisciplinary Car
 title_el: 'Η ομιλία πραγματοποιήθηκε στο πλαίσιο του συνεδρίου "Multidisciplinary Care Discussions in Oncology (MDcON 2019)" , που έλαβε χώρα στην Αθήνα, 8-9 Νοεμβρίου 2019.'
 date: 2019-11-10
 source_url: https://www.biosim.ntua.gr/en/news/54
-image: /assets/img/news/nantia-nikita-was-an-invited-speaker-at-the-multidisciplinary-care-discussions-i.png
+image: /assets/img/news/nantia-nikita-was-an-invited-speaker-at-the-multidisciplinary-care-discussions-i.webp
 summary_el: "Η παρουσίαση της ομιλίας είναι διαθέσιμη παρακάτω."
 content_el: |
   Η παρουσίαση της ομιλίας είναι διαθέσιμη παρακάτω.

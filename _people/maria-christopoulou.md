@@ -6,7 +6,7 @@ role: "Collaborator"
 role_el: "Συνεργάτιδα"
 email: "mchrist@biosim.ntua.gr"
 room: "1.1.2"
-image: "/assets/img/people/maria-christopoulou.jpg"
+image: "/assets/img/people/maria-christopoulou.webp"
 category: "collaborators"
 content_el: |
   **Διδακτορική Διατριβή**

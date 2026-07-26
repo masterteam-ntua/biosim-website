@@ -3,7 +3,7 @@ layout: project
 title: NEUROMATH
 published: false
 importance: 8
-image: /assets/img/7.jpg
+image: /assets/img/7.webp
 tags: [brain activity, connectivity, neuroscience]
 summary_en: Advanced mathematical methods for estimating human cortical activity and connectivity from non-invasive neuroelectric and hemodynamic measurements.
 summary_el: Προηγμένες μαθηματικές μέθοδοι για εκτίμηση φλοιϊκής δραστηριότητας και συνδεσιμότητας από μη επεμβατικές νευροηλεκτρικές και αιμοδυναμικές μετρήσεις.

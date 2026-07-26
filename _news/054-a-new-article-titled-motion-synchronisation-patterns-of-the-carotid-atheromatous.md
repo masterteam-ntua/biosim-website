@@ -4,7 +4,7 @@ title: "A new article titled “Motion synchronisation patterns of the carotid 
 short_title: "A new article titled “Motion synchronisation patterns of the carotid atheromatous plaque from B-mode ultrasound” has been accepted for publication in Nature Scientific Reports."
 date: 2020-04-22
 source_url: https://www.biosim.ntua.gr/en/news/59
-image: /assets/img/news/a-new-article-titled-motion-synchronisation-patterns-of-the-carotid-atheromatous.jpg
+image: /assets/img/news/a-new-article-titled-motion-synchronisation-patterns-of-the-carotid-atheromatous.webp
 ---
 
 A new article by S. Golemati, E. Patelaki , A. Gastounioti, I. Andreadis, C. Liapis , and K. S. Nikita, titled “[Motion synchronisation patterns of the carotid atheromatous plaque from B-mode ultrasound](https://www.nature.com/articles/s41598-020-65340-2)”, has been accepted for publication in Nature Scientific Reports.

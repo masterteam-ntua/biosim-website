@@ -32,9 +32,9 @@ permalink: /
       <div class="swiper hero-swiper">
         <div class="swiper-wrapper">
           <div class="swiper-slide"><img src="{{ '/assets/img/news/ntua-digital-health-day-2023.webp' | relative_url }}" alt="NTUA Digital Health Day audience"></div>
-          <div class="swiper-slide"><img src="{{ '/assets/img/news/the-2021-ntua-biotech-day-was-a-success.png' | relative_url }}" alt="NTUA Biotech Day event"></div>
-          <div class="swiper-slide"><img src="{{ '/assets/img/news/biosim-at-ece-ntua-lab-day-2018.jpg' | relative_url }}" alt="BIOSIM at ECE NTUA Lab Day"></div>
-          <div class="swiper-slide"><img src="{{ '/assets/img/news/professor-nantia-nikita-presents-research-activities-at-biosim-lab.png' | relative_url }}" alt="BIOSIM research presentation"></div>
+          <div class="swiper-slide"><img src="{{ '/assets/img/news/the-2021-ntua-biotech-day-was-a-success.webp' | relative_url }}" alt="NTUA Biotech Day event"></div>
+          <div class="swiper-slide"><img src="{{ '/assets/img/news/biosim-at-ece-ntua-lab-day-2018.webp' | relative_url }}" alt="BIOSIM at ECE NTUA Lab Day"></div>
+          <div class="swiper-slide"><img src="{{ '/assets/img/news/professor-nantia-nikita-presents-research-activities-at-biosim-lab.webp' | relative_url }}" alt="BIOSIM research presentation"></div>
         </div>
         <div class="swiper-pagination"></div>
       </div>

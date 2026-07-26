@@ -4,7 +4,7 @@ title: "BioSIm's alumna Dr. Asimina Kiourti, an assistant professor in electrica
 short_title: "BioSIm's alumna Dr. Asimina Kiourti, an assistant professor in electrical and computer engineering at The Ohio State University, has been named to the prestigious Columbus Business First 40 Under 40 list for 2021."
 date: 2021-05-31
 source_url: https://www.biosim.ntua.gr/en/news/77
-image: /assets/img/news/biosim-s-alumna-dr-asimina-kiourti-an-assistant-professor-in-electrical-and-comp.jpg
+image: /assets/img/news/biosim-s-alumna-dr-asimina-kiourti-an-assistant-professor-in-electrical-and-comp.webp
 ---
 
 BioSIm's alumna Dr. Asimina Kiourti, an Assistant Professor in electrical and computer engineering at [The Ohio State University](https://electroscience.osu.edu/people/kiourti.1), has been announced as a member of “Columbus Business First” [40 Under 40 Class of 2021](https://www.bizjournals.com/columbus/news/2021/04/12/the-business-first-40-under-40-here-are-the-2020.html). This annual award program recognizes Central Ohio’s best and brightest young community leaders who champion people and their potential through partnerships, creating opportunities for communities and future leaders to thrive.

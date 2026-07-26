@@ -4,7 +4,7 @@ title: "Biotech Day 2022 was completed with the announcement of four awards"
 short_title: "Biotech Day 2022 was completed with the announcement of four awards"
 date: 2022-07-11
 source_url: https://www.biosim.ntua.gr/en/news/94
-image: /assets/img/news/biotech-day-2022-was-completed-with-the-announcement-of-four-awards.JPG
+image: /assets/img/news/biotech-day-2022-was-completed-with-the-announcement-of-four-awards.webp
 ---
 
 Twelve teams from the School of Electrical and Computer Engineering (SECE) and the School of Mechanical Engineering (SME) came together for the second consecutive year in a virtual meeting, on July 6, to present their projects to a panel of distinguished experts. The student teams were mentored within the framework of the undergraduate courses “e-health and m-health technologies” and “Biodesign” of the SECE and SME, respectively. The event was jointly organized by the Biomedical Simulations and Imaging (BioSIM) Laboratory and the Biomedical Systems (BioSys) Laboratory and was supported by the IEEE Greece Section.

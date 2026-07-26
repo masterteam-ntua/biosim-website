@@ -4,7 +4,7 @@ title: 'A new article titled "Carotid Wall Longitudinal Motion in Ultrasound Ima
 short_title: 'A new article titled "Carotid Wall Longitudinal Motion in Ultrasound Imaging: An Expert Consensus Review" has been published in Ultrasound in Medicine & Biology'
 date: 2020-07-28
 source_url: https://www.biosim.ntua.gr/en/news/64
-image: /assets/img/news/a-new-article-titled-carotid-wall-longitudinal-motion-in-ultrasound-imaging-an-e.jpg
+image: /assets/img/news/a-new-article-titled-carotid-wall-longitudinal-motion-in-ultrasound-imaging-an-e.webp
 ---
 
 A new article by Fereshteh Yousefi Rizi, Jason Au, Heikki Yli-Ollila, Spyretta Golemati, Monika Makūnaitė, Maciej Orkisz, Nassir Navab, Maureen MacDonald, Tiina Marja Laitinen, Hamid Behnam, Zhifan Gao, Aimilia Gastounioti, Rytis Jurkonis, Didier Vray, Tomi Laitinen, André Sérusclat, Konstantina S. Nikita, and Guillaume Zahnd, titled "[Carotid Wall Longitudinal Motion in Ultrasound Imaging: An Expert Consensus Review](https://www.sciencedirect.com/science/article/abs/pii/S0301562920302593)" has been published in Ultrasound in Medicine & Biology.

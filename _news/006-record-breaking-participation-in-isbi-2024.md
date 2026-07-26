@@ -4,7 +4,7 @@ title: "Record breaking participation in ISBI 2024"
 short_title: "ISBI 2024 was successfully completed"
 date: 2024-07-10
 source_url: https://www.biosim.ntua.gr/en/news/109
-image: /assets/img/news/record-breaking-participation-in-isbi-2024.jpg
+image: /assets/img/news/record-breaking-participation-in-isbi-2024.webp
 ---
 
 The 21st International Symposium in Biomedical Imaging (ISBI), chaired by Prof. Konstantina Nikita (National Technical University) and Prof. Christos Davatzikos (University of Pennsylvnia), took place in Athens, Greece, in 27-30 May; four incredible days of innovation, collaboration, and discovery in the heart of the Greek capital's insurmountable history and beauty. This year's symposium was a resounding success, thanks to the vast participation -more than 1,200 participants from 6 continents and more than 50 countries- the committees' vibrant vision, as well as a global community of researchers, reviewers, industry leaders, and professionals.

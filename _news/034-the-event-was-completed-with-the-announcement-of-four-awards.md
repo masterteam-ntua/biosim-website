@@ -5,7 +5,7 @@ short_title: "The event was completed with the announcement of four awards"
 title_el: "Την Τρίτη 6/7 πραγματοποιήθηκε με επιτυχία, διαδικτυακά, η εκδήλωση 2021 NTUA Biotech Day"
 date: 2021-07-08
 source_url: https://www.biosim.ntua.gr/en/news/79
-image: /assets/img/news/the-event-was-completed-with-the-announcement-of-four-awards.png
+image: /assets/img/news/the-event-was-completed-with-the-announcement-of-four-awards.webp
 summary_el: "Την Τρίτη 6/7 πραγματοποιήθηκε με επιτυχία, διαδικτυακά, η εκδήλωση 2021 NTUA Biotech Day, στο πλαίσιο της οποίας παρουσιάστηκαν θέματα σχεδίασης και ανάπτυξης συστημάτων/υπηρεσιών που εκπονήθηκαν από φοιτητικές ομάδες κ"
 content_el: |
   Την Τρίτη 6/7 πραγματοποιήθηκε με επιτυχία, διαδικτυακά, η εκδήλωση 2021 NTUA Biotech Day, στο πλαίσιο της οποίας παρουσιάστηκαν θέματα σχεδίασης και ανάπτυξης συστημάτων/υπηρεσιών που εκπονήθηκαν από φοιτητικές ομάδες κατά τη διάρκεια των μαθημάτων "Τεχνολογίες Κινητής και Ηλεκτρονικής Υγείας" της Σχολής Ηλεκτρολόγων Μηχανικών και Μηχανικών Υπολογιστών και "Σχεδιασμός Βιοϊατρικών Συστημάτων" της Σχολής Μηχανολόγων Μηχανικών.

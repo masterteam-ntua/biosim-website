@@ -5,7 +5,7 @@ name_el: "Γιάννης Στοΐτσης"
 role: "Collaborator"
 role_el: "Συνεργάτης"
 email: "jstoits@biosim.ntua.gr"
-image: "/assets/img/people/john-stoitsis.jpg"
+image: "/assets/img/people/john-stoitsis.webp"
 category: "collaborators"
 content_el: |
   **Διδακτορική Διατριβή**

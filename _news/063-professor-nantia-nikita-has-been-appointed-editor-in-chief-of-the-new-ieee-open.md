@@ -4,7 +4,7 @@ title: "Professor Nantia Nikita has been appointed Editor-in-Chief of the new IE
 short_title: "Professor Nantia Nikita has been appointed Editor-in-Chief of the new IEEE Open Journal of Antennas and Propagation, the first fully open access publication from the IEEE Antennas and Propagation Society, that launches in September 2019."
 date: 2019-09-30
 source_url: https://www.biosim.ntua.gr/en/news/50
-image: /assets/img/news/professor-nantia-nikita-has-been-appointed-editor-in-chief-of-the-new-ieee-open.png
+image: /assets/img/news/professor-nantia-nikita-has-been-appointed-editor-in-chief-of-the-new-ieee-open.webp
 ---
 
 Professor Nantia Nikita has been appointed **Editor-in-Chief** of the new **IEEE Open Journal of Antennas and Propagation** (IEEE OJAP), the first fully open access publication from the IEEE Antennas and Propagation Society (AP-S). The IEEE OJAP spans the full scope of the AP-S field of interest and encompasses: antennas, including analysis, design, development, measurement, standards, and testing; radiation, propagation, and the interaction of electromagnetic waves with discrete and continuous media; and applications and systems pertinent to antennas, propagation, and sensing, such as applied optics, millimeter-and sub-millimeter-wave techniques, antenna signal processing and control, radio astronomy, and propagation and radiation aspects of terrestrial and space-based communication, including wireless, mobile, satellite, and telecommunications at all frequencies.

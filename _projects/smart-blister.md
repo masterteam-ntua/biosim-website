@@ -3,7 +3,7 @@ layout: project
 title: SMART-BLISTER
 published: false
 importance: 11
-image: /assets/img/10.jpg
+image: /assets/img/10.webp
 tags: [medication adherence, chronic disease, sensors]
 summary_en: A low-cost smart blister concept to support medication adherence for chronic patients.
 summary_el: Έξυπνη κυψέλη φαρμάκων χαμηλού κόστους για ενίσχυση της συμμόρφωσης χρόνιων ασθενών.

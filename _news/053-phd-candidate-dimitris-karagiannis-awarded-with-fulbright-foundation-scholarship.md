@@ -4,7 +4,7 @@ title: "PhD candidate Dimitris Karagiannis awarded with Fulbright Foundation Sch
 short_title: "PhD candidate Dimitris Karagiannis awarded with Fulbright Foundation Scholarship in order to conduct research at the Intelligent and Connected Systems Lab in the Department of Electrical Engineering at Columbia University, USA."
 date: 2020-05-07
 source_url: https://www.biosim.ntua.gr/en/news/60
-image: /assets/img/news/phd-candidate-dimitris-karagiannis-awarded-with-fulbright-foundation-scholarship.jpg
+image: /assets/img/news/phd-candidate-dimitris-karagiannis-awarded-with-fulbright-foundation-scholarship.webp
 ---
 
 **PhD candidate Dimitris Karagiannis has been awarded with [Fulbright](https://www.fulbright.gr/en/) Foundation Scholarship in order to conduct research at the [Intelligent and Connected Systems Lab](http://icsl.ee.columbia.edu/) in the Department of Electrical Engineering at Columbia University, USA.**

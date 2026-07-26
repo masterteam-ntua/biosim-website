@@ -5,7 +5,7 @@ short_title: 'BioSim Laboratory and Electronics Laboratory of the School of ECE,
 title_el: 'Το BioSim και το Εργαστήριο Ηλεκτρονικής της Σχολής ΗΜΜΥ, ΕΜΠ, και το Ελληνικό Τμήμα του ΙΕΕΕ διοργάνωσαν τη διάλεξη του Αναπληρωτή Καθηγητή του Πανεπιστημίου Κύπρου Ιούλιου Γεωργίου, με θέμα "Microelectronic Systems for Improved Quality of Life"'
 date: 2018-03-29
 source_url: https://www.biosim.ntua.gr/en/news/33
-image: /assets/img/news/biosim-laboratory-and-electronics-laboratory-of-the-school-of-ece-ntua-and-ieee.jpg
+image: /assets/img/news/biosim-laboratory-and-electronics-laboratory-of-the-school-of-ece-ntua-and-ieee.webp
 summary_el: "Το Εργαστήριο Βιοϊατρικών Προσομοιώσεων και Απεικονιστικής Τεχνολογίας (Biomedical Simulations and Imaging Laboratory - BioSim) και το Εργαστήριο Ηλεκτρονικής (Electronics Laboratory) της Σχολής Ηλεκτρολόγων Μηχανικών κα"
 content_el: |
   Το Εργαστήριο Βιοϊατρικών Προσομοιώσεων και Απεικονιστικής Τεχνολογίας (Biomedical Simulations and Imaging Laboratory - BioSim) και το Εργαστήριο Ηλεκτρονικής (Electronics Laboratory) της Σχολής Ηλεκτρολόγων Μηχανικών και Μηχανικών Υπολογιστών του Ε. Μ. Πολυτεχνείου, και το Ελληνικό Τμήμα του ΙΕΕΕ διοργάνωσαν τη διάλεξη του Αναπληρωτή Καθηγητή του Πανεπιστημίου Κύπρου Ιούλιου Γεωργίου, με θέμα "Microelectronic Systems for Improved Quality of Life", που πραγματοποιήθηκε στις 28 Μαρτίου 2018.

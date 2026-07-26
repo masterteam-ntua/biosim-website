@@ -4,7 +4,7 @@ title: "ISBI 2024 – Recordings Now Available"
 short_title: "ISBI 2024 – Recordings Now Available"
 date: 2024-09-09
 source_url: https://www.biosim.ntua.gr/en/news/110
-image: /assets/img/news/isbi-2024-recordings-now-available.jpg
+image: /assets/img/news/isbi-2024-recordings-now-available.webp
 ---
 
 We are pleased to announce that a selection of recordings from the 21st IEEE International Symposium on Biomedical Imaging is now available for viewing. These recordings capture a range of insightful presentations and talks from leading experts in biomedical imaging. The sessions showcase groundbreaking research, innovative technologies, and real-world applications that are shaping the future of healthcare. You can find the recordings [here](https://www.blod.gr/events/21st-international-symposium-on-biomedical-imaging-isbi-2024/) on the Bodossaki Lectures on Demand platform.

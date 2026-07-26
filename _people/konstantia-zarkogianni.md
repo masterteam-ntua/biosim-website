@@ -6,7 +6,7 @@ role: "Collaborator"
 role_el: "Συνεργάτιδα"
 email: "kzarkog@biosim.ntua.gr"
 room: "2.1.26"
-image: "/assets/img/people/konstantia-zarkogianni.png"
+image: "/assets/img/people/konstantia-zarkogianni.webp"
 category: "collaborators"
 content_el: |
   **Διδακτορική Διατριβή**

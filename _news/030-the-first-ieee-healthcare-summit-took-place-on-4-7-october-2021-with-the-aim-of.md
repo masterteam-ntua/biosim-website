@@ -4,7 +4,7 @@ title: "The first IEEE Healthcare Summit took place on 4-7 October, 2021, with t
 short_title: "The first IEEE Healthcare Summit took place on 4-7 October, 2021, with the aim of highlighting progress in integrating AI and BHI to combat pandemics."
 date: 2021-10-14
 source_url: https://www.biosim.ntua.gr/en/news/83
-image: /assets/img/news/the-first-ieee-healthcare-summit-took-place-on-4-7-october-2021-with-the-aim-of.jpg
+image: /assets/img/news/the-first-ieee-healthcare-summit-took-place-on-4-7-october-2021-with-the-aim-of.webp
 ---
 
 The first annual [IEEE Healthcare Summit](https://healthcaresummit.ieee.org/) was a virtual event held on 4-7 October 2021, that aimed at reporting progress made in the fight against COVID-19, and in better preparations for future pandemics, through the integration of Artificial Intelligence (AI) methods and tools with Biomedical and Health Informatics (BHI).

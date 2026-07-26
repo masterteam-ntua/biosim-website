@@ -6,7 +6,7 @@ role: "PhD Candidate"
 role_el: "Υποψήφιος Διδάκτορας"
 email: "vaskolias@biosim.ntua.gr"
 room: "1.1.2"
-image: "/assets/img/people/vasileios-kolias.JPG"
+image: "/assets/img/people/vasileios-kolias.webp"
 category: "phd_candidates"
 content_el: |
   **Επιστημονικές Επαγγελματικές Κοινότητες**

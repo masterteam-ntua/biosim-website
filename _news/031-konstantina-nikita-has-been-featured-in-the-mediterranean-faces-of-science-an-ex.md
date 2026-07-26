@@ -4,7 +4,7 @@ title: "Konstantina Nikita has been featured in the “Mediterranean Faces of Sc
 short_title: "Konstantina Nikita has been featured in the “Mediterranean Faces of Science”, an exhibition on women scientists, held within the framework of MEDNIGHT – Mediterranean Researchers’ Night."
 date: 2021-09-24
 source_url: https://www.biosim.ntua.gr/en/news/82
-image: /assets/img/news/konstantina-nikita-has-been-featured-in-the-mediterranean-faces-of-science-an-ex.jpeg
+image: /assets/img/news/konstantina-nikita-has-been-featured-in-the-mediterranean-faces-of-science-an-ex.webp
 ---
 
 Konstantina Nikita has been featured in the “[Mediterranean Faces of Science](https://mednight.eu/mediterranean-faces-of-science/)”, an exhibition on women scientists, produced by the [Seneca Foundation – Science and Technology Agency](https://www.fseneca.es/mednight/en/) of the Region of Murcia, Spain, within the framework of MEDNIGHT – Mediterranean Researchers’ Night.

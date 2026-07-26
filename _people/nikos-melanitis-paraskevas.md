@@ -6,7 +6,7 @@ role: "Postdoctoral Researcher"
 role_el: "Μεταδιδακτορικός Ερευνητής"
 email: "nmelan@biosim.ntua.gr"
 room: "1.1.2"
-image: "/assets/img/people/nikos-melanitis-paraskevas.png"
+image: "/assets/img/people/nikos-melanitis-paraskevas.webp"
 category: "researchers"
 content_el: |
   Ο Νίκος Μελανίτης αποφοίτησε από την ΣΗΜΜΥ, ΕΜΠ το 2014. Σήμερα είναι υποψήφιος διδάκτορας στο εργαστήριο BIOSIM. Η έρευνα του σχετίζεται με την εφαρμογή retinal prosthesis, ένα ιατρικό εμφύτευμα που αναπτύσσεται και αφορά άτομα με προβλήματα όρασης.

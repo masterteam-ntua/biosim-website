@@ -6,7 +6,7 @@ role: "Researcher"
 role_el: "Ερευνητής"
 email: "iandr@biosim.ntua.gr"
 room: "1.1.2"
-image: "/assets/img/people/ioannis-andreadis.png"
+image: "/assets/img/people/ioannis-andreadis.webp"
 category: "researchers"
 content_el: |
   **Διδακτορική Διατριβή**

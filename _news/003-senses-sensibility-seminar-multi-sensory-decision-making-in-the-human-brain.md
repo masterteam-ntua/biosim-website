@@ -6,7 +6,7 @@ title_el: "Σεμινάριο I. Δελή: Senses & Sensibility: Multi-sensory d
 short_title_el: "Σεμινάριο I. Δελή: Senses & Sensibility"
 date: 2025-04-03
 source_url: https://www.biosim.ntua.gr/en/news/111
-image: /assets/img/news/senses-sensibility-seminar-multi-sensory-decision-making-in-the-human-brain.png
+image: /assets/img/news/senses-sensibility-seminar-multi-sensory-decision-making-in-the-human-brain.webp
 summary_el: "Σας προσκαλούμε στο σεμινάριο του Δρ. Ιωάννη Δελή, Associate Professor, University of Leeds, που θα πραγματοποιηθεί τη Δευτέρα 07/04/2025, στις 18:00, στην Αίθουσα Γενικών Συνελεύσεων, Νέα Κτήρια Ηλεκτρολόγων. Ο τίτλος τ"
 content_el: |
   Σας προσκαλούμε στο σεμινάριο του Δρ. Ιωάννη Δελή, Associate Professor, University of Leeds, που θα πραγματοποιηθεί τη Δευτέρα 07/04/2025, στις 18:00, στην Αίθουσα Γενικών Συνελεύσεων, Νέα Κτήρια Ηλεκτρολόγων. Ο τίτλος της ομιλίας είναι: "Senses & Sensibility: multi-sensory decision-making in the human brain".

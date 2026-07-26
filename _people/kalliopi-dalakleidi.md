@@ -6,7 +6,7 @@ role: "Collaborator"
 role_el: "Συνεργάτιδα"
 email: "kdalakleidi@biosim.ntua.gr"
 room: "1.1.2"
-image: "/assets/img/people/kalliopi-dalakleidi.png"
+image: "/assets/img/people/kalliopi-dalakleidi.webp"
 category: "collaborators"
 content_el: |
   **Διδακτορική Διατριβή**

@@ -5,7 +5,7 @@ name_el: "Amyn Jaafar"
 role: "Visitor"
 role_el: "Επισκέπτης"
 email: "amyn.jaafar@outlook.fr"
-image: "/assets/img/people/amyn-jaafar.jpg"
+image: "/assets/img/people/amyn-jaafar.webp"
 category: "visitors"
 content_el: |
   Ο Amyn Jaafar είναι φοιτητής στη Σχολή Physical Telecom Strasbourg στο πανεπιστήμιο του Στρασβούργου στη Γαλλία. Ο Amyn ενδιαφέρεται για τις εφαρμογές της Ψηφιακής Επεξεργασίας Εικόνας και της Υπολογιστικής Όρασης στη Βιοϊατρική Τεχνολογία.

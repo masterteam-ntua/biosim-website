@@ -5,7 +5,7 @@ name_el: "Γιώργος Τσιρογιάννης"
 role: "Collaborator"
 role_el: "Συνεργάτης"
 email: "gtsirog@biosim.ntua.gr"
-image: "/assets/img/people/george-tsirogiannis.JPG"
+image: "/assets/img/people/george-tsirogiannis.webp"
 category: "collaborators"
 content_el: |
   **Διδακτορική Διατριβή**

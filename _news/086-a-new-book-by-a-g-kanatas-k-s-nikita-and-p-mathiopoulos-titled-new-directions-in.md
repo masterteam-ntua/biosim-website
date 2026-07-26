@@ -5,7 +5,7 @@ short_title: 'A new book by A. G. Kanatas, K. S. Nikita, and P. Mathiopoulos tit
 title_el: 'Το βιβλίο των Α. Κανατά, Κ. Νικήτα και Π. Μαθιόπουλου, με τίτλο "New Directions in Wireless Communications Systems: From Mobile to 5G", δημοσιεύτηκε από τον εκδοτικό οίκο CRC Press'
 date: 2017-11-08
 source_url: https://www.biosim.ntua.gr/en/news/24
-image: /assets/img/news/a-new-book-by-a-g-kanatas-k-s-nikita-and-p-mathiopoulos-titled-new-directions-in.png
+image: /assets/img/news/a-new-book-by-a-g-kanatas-k-s-nikita-and-p-mathiopoulos-titled-new-directions-in.webp
 summary_el: 'Το βιβλίο των Α. Κανατά, Κ. Νικήτα και Π. Μαθιόπουλου, με τίτλο "New Directions in Wireless Communications Systems: From Mobile to 5G", δημοσιεύτηκε από τον εκδοτικό οίκο CRC Press. Μπορείτε να δείτε το βιβλίο [εδώ](http'
 content_el: |
   Το βιβλίο των Α. Κανατά, Κ. Νικήτα και Π. Μαθιόπουλου, με τίτλο "New Directions in Wireless Communications Systems: From Mobile to 5G", δημοσιεύτηκε από τον εκδοτικό οίκο CRC Press. Μπορείτε να δείτε το βιβλίο [εδώ](https://www.crcpress.com/New-Directions-in-Wireless-Communications-Systems-From-Mobile-to-5G/Kanatas-Nikita-Mathiopoulos/p/book/9781498785457).

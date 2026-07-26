@@ -5,7 +5,7 @@ name_el: "Ασημένια Κιούρτη"
 role: "Collaborator"
 role_el: "Συνεργάτιδα"
 email: "kiourti.1@osu.edu"
-image: "/assets/img/people/asimenia-kiourti.JPG"
+image: "/assets/img/people/asimenia-kiourti.webp"
 category: "collaborators"
 content_el: |
   **Διδακτορική Διατριβή**

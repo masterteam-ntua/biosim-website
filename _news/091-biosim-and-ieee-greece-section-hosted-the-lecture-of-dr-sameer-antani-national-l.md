@@ -5,7 +5,7 @@ short_title: 'BioSim and IEEE Greece Section hosted the lecture of Dr. Sameer An
 title_el: 'Το BioSim και το Ελληνικό Τμήμα του IEEE διοργάνωσαν τη διάλεξη του Dr. Sameer Antani, της Εθνικής Βιβλιοθήκης Ιατρικής, ΗΠΑ, με θέμα "Biomedical Imaging and Informatics Research at the US National Library of Medicine"'
 date: 2017-07-13
 source_url: https://www.biosim.ntua.gr/en/news/19
-image: /assets/img/news/biosim-and-ieee-greece-section-hosted-the-lecture-of-dr-sameer-antani-national-l.JPG
+image: /assets/img/news/biosim-and-ieee-greece-section-hosted-the-lecture-of-dr-sameer-antani-national-l.webp
 summary_el: "Το Εργαστήριο Βιοϊατρικών Προσομοιώσεων και Απεικονιστικής Τεχνολογίας (BioSim) της Σχολής Ηλεκτρολόγων Μηχανικών και Μηχανικών Υπολογιστών του Ε. Μ. Πολυτεχνείου και το Ελληνικό Τμήμα του ΙΕΕΕ διοργάνωσαν τη διάλεξη του"
 content_el: |
   Το Εργαστήριο Βιοϊατρικών Προσομοιώσεων και Απεικονιστικής Τεχνολογίας (BioSim) της Σχολής Ηλεκτρολόγων Μηχανικών και Μηχανικών Υπολογιστών του Ε. Μ. Πολυτεχνείου και το Ελληνικό Τμήμα του ΙΕΕΕ διοργάνωσαν τη διάλεξη του Dr. Sameer Antani της Εθνικής Βιβλιοθήκης Ιατρικής (National Library of Medicine), ΗΠΑ, με θέμα **"Biomedical Imaging and Informatics Research at the US National Library of Medicine"**, στις 26 Ιουνίου 2017.

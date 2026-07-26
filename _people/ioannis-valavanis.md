@@ -5,7 +5,7 @@ name_el: "Ιωάννης Βαλαβάνης"
 role: "Collaborator"
 role_el: "Συνεργάτης"
 email: "ivalav@biosim.ntua.gr"
-image: "/assets/img/people/ioannis-valavanis.png"
+image: "/assets/img/people/ioannis-valavanis.webp"
 category: "collaborators"
 content_el: |
   **Διδακτορική Διατριβή**

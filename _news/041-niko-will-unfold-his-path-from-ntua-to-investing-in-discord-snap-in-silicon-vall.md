@@ -4,7 +4,7 @@ title: "Niko will unfold his path from NTUA to investing in Discord & Snap in Si
 short_title: "Niko will unfold his path from NTUA to investing in Discord & Snap in Silicon Valley as a VC a few years later"
 date: 2021-03-17
 source_url: https://www.biosim.ntua.gr/en/news/72
-image: /assets/img/news/niko-will-unfold-his-path-from-ntua-to-investing-in-discord-snap-in-silicon-vall.png
+image: /assets/img/news/niko-will-unfold-his-path-from-ntua-to-investing-in-discord-snap-in-silicon-vall.webp
 ---
 
 The IEEE Greece Section in cooperation with the Biomedical Simulations and Imaging (BioSim) Laboratory of the School of Electrical and Computer Engineering (ECE) and the IEEE NTUA Student Branch organizes a lecture on Wednesday, 17 March 2021, at 5 pm entitled “From NTUA to investing in Discord & Snap in Silicon Valley as a VC a few years later” which will be given by the ECE-NTUA alumnus, Niko Bonatsos, managing director at General Catalyst.

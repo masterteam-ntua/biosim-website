@@ -5,6 +5,6 @@ name_el: "Γλυκερία Θεοδώρου"
 role: "PhD Candidate"
 role_el: "Υποψήφια Διδάκτορας"
 email: "gtheodorou@biosim.ntua.gr"
-image: "/assets/img/people/glikeria-theodorou.jpg"
+image: "/assets/img/people/glikeria-theodorou.webp"
 category: "phd_candidates"
 ---

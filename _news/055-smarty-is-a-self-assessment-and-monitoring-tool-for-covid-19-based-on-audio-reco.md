@@ -4,7 +4,7 @@ title: "SMARTY is a Self-Assessment and Monitoring Tool for COVID-19 based on Au
 short_title: "SMARTY is a Self-Assessment and Monitoring Tool for COVID-19 based on Audio Records and Artificial Intelligence"
 date: 2020-04-16
 source_url: https://www.biosim.ntua.gr/en/news/57
-image: /assets/img/news/smarty-is-a-self-assessment-and-monitoring-tool-for-covid-19-based-on-audio-reco.png
+image: /assets/img/news/smarty-is-a-self-assessment-and-monitoring-tool-for-covid-19-based-on-audio-reco.webp
 ---
 
 The Biomedical Simulations and Imaging ([BioSim](https://www.biosim.ntua.gr/en)) Laboratory and the Artificial Intelligence and Learning Systems ([AILS](https://www.ails.ece.ntua.gr/)) Laboratory joined forces and participated in [#HackCoronaGreece](https://hackcorona.world/el/), an online Hackathon co-organised by Dataconomy and the Greek Ministry of Digital Governance that took place on April 7-13. Participants, including 300 selected data scientists, developers, project managers, designers, healthcare experts and psychologists, were asked to craft easy-scalable and marketable solutions and help in tackling the crisis caused by #COVID19. Researchers from BIOSIM lab and AILS lab came up with [SMARTY](https://www.smarty4covid.org/), a Self-Assessment and Monitoring Tool for COVID-19 based on Audio Records and Artificial Intelligence. Among 55 teams, SMARTY made it to the top 5 winners and won the second prize.

@@ -4,7 +4,7 @@ title: "Konstantina Nikita and Konstantia Zarkogianni participated in the online
 short_title: "Konstantina Nikita and Konstantia Zarkogianni participated in the online workshop entitled “From research to market: promoting high-technology women entrepreneurship”, organized by LIEE NTUA."
 date: 2021-10-25
 source_url: https://www.biosim.ntua.gr/en/news/86
-image: /assets/img/news/konstantina-nikita-and-konstantia-zarkogianni-participated-in-the-online-worksho.jpg
+image: /assets/img/news/konstantina-nikita-and-konstantia-zarkogianni-participated-in-the-online-worksho.webp
 ---
 
 On Oct 25, 2021, Konstantina Nikita and Konstantia Zarkogianni presented their lectures during the online workshop entitled “From research to market: promoting high-technology women entrepreneurship”, which was organized by the Laboratory of Industrial and Energy Economics at the National Technical University of Athens (LIEE NTUA) in collaboration with the Incubator EPI.noo and the Invent ICT Program.

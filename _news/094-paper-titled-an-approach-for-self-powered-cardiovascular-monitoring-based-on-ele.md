@@ -5,7 +5,7 @@ short_title: 'Paper titled "An Approach for Self-Powered Cardiovascular Monitori
 title_el: 'Το άρθρο με τίτλο "An Approach for Self-Powered Cardiovascular Monitoring Based on Electromagnetic Induction" θα δημοσιευτεί στο περιοδικό IEEE Sensors'
 date: 2017-05-01
 source_url: https://www.biosim.ntua.gr/en/news/16
-image: /assets/img/news/paper-titled-an-approach-for-self-powered-cardiovascular-monitoring-based-on-ele.png
+image: /assets/img/news/paper-titled-an-approach-for-self-powered-cardiovascular-monitoring-based-on-ele.webp
 summary_el: 'Το άρθρο των Γ. Μ. Καραγεώργου, Χ. Μανόπουλου, Α. Κιούρτη, Α. Καραγιάννη, Σ. Τσαγκάρη, Κ. Νικήτα με τίτλο "An Approach for Self-Powered Cardiovascular Monitoring Based on Electromagnetic Induction" θα δημοσιευτεί στο περ'
 content_el: |
   Το άρθρο των Γ. Μ. Καραγεώργου, Χ. Μανόπουλου, Α. Κιούρτη, Α. Καραγιάννη, Σ. Τσαγκάρη, Κ. Νικήτα με τίτλο "An Approach for Self-Powered Cardiovascular Monitoring Based on Electromagnetic Induction" θα δημοσιευτεί στο περιοδικό IEEE Sensors και είναι ηλεκτρονικά διαθέσιμο.

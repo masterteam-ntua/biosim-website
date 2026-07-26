@@ -1,0 +1,36 @@
+name: Convert uploaded images to WebP
+
+on:
+  push:
+    branches-ignore:
+      - gh-pages
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  convert-images:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3.5"
+
+      - name: Install WebP tools
+        run: sudo apt-get update && sudo apt-get install -y webp
+
+      - name: Convert images
+        run: ruby scripts/convert_images_to_webp.rb
+
+      - name: Auto-commit WebP conversions
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Convert uploaded images to WebP
+          file_pattern: "assets/img _news _people _projects _data _pages admin/config.yml"

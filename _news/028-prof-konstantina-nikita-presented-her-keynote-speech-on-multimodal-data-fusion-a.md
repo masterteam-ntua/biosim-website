@@ -4,7 +4,7 @@ title: "Prof. Konstantina Nikita presented her keynote speech on “Multimodal d
 short_title: "Prof. Konstantina Nikita presented her keynote speech on “Multimodal data fusion and AI towards personalized diabetes care” at EAI BODYNETS 2021."
 date: 2021-10-27
 source_url: https://www.biosim.ntua.gr/en/news/85
-image: /assets/img/news/prof-konstantina-nikita-presented-her-keynote-speech-on-multimodal-data-fusion-a.jpg
+image: /assets/img/news/prof-konstantina-nikita-presented-her-keynote-speech-on-multimodal-data-fusion-a.webp
 ---
 
 On October 26, 2021, Konstantina Nikita delivered a keynote speech on “Multimodal data fusion and AI towards personalized diabetes care” at the EAI BODYNETS 2021-16th EAI International Conference on Body Area Networks: Smart IoT and big data for intelligent health management, which was held online on Oct 25-26, 2021.

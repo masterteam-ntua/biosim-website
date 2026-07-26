@@ -5,7 +5,7 @@ name_el: "Νικόλαος Τσιαπάρας"
 role: "Collaborator"
 role_el: "Συνεργάτης"
 email: "ntsiapar@biosim.ntua.gr"
-image: "/assets/img/people/nikolaos-tsiaparas.JPG"
+image: "/assets/img/people/nikolaos-tsiaparas.webp"
 category: "collaborators"
 content_el: |
   **Διδακτορική Διατριβή**

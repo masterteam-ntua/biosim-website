@@ -5,7 +5,7 @@ short_title: 'Paper titled "STIR: software for tomographic image reconstruction 
 title_el: 'Το άρθρο με τίτλο "STIR: software for tomographic image reconstruction release 2" κερδίζει το βραβείο για τις περισσότερες αναφορές στο περιοδικό Physics in Medicine & Biology (PMB) για το 2017'
 date: 2017-12-07
 source_url: https://www.biosim.ntua.gr/en/news/26
-image: /assets/img/news/paper-titled-stir-software-for-tomographic-image-reconstruction-release-2-wins-t.jpg
+image: /assets/img/news/paper-titled-stir-software-for-tomographic-image-reconstruction-release-2-wins-t.webp
 summary_el: 'Οι απόφοιτοι του BioSim, Χαράλαμπος Τσούμπας και Νικόλαος Δικαίος, κέρδισαν το βραβείο για τις περισσότερες αναφορές στο περιοδικό Physics in Medicine & Biology (PMB) για το 2017, ως συν-συγγραφείς του άρθρου με τίτλο "S'
 content_el: |
   Οι απόφοιτοι του BioSim, Χαράλαμπος Τσούμπας και Νικόλαος Δικαίος, κέρδισαν το βραβείο για τις περισσότερες αναφορές στο περιοδικό Physics in Medicine & Biology (PMB) για το 2017, ως συν-συγγραφείς του άρθρου με τίτλο "STIR: software for tomographic image reconstruction release 2". Μάθετε περισσότερα [εδώ](http://medicalphysicsweb.org/cws/article/research/70630).

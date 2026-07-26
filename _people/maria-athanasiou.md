@@ -6,7 +6,7 @@ role: "Postdoctoral Researcher"
 role_el: "Μεταδιδακτορική Ερευνήτρια"
 email: "mathanasiou@biosim.ntua.gr"
 room: "2.1.26"
-image: "/assets/img/people/maria-athanasiou.jpg"
+image: "/assets/img/people/maria-athanasiou.webp"
 category: "researchers"
 content_el: |
   Η Μαρία Αθανασίου ελαβε το δίπλωμα του Ηλεκτρολόγου Μηχανικού και Μηχανικού Υπολογιστών (ΗΜΜΥ) το 2015 και το δίπλωμα του Διδάκτορα Μηχανικού το 2023 από το Εθνικό Μετσόβιο Πολυτεχνείο (ΕΜΠ). Η ερευνά της επικεντρώνεται στην ανάπτυξη ευφυών συστημάτων για την υποστήριξη κλινικών αποφάσεων και της διαχείρισης του Σακχαρώδους Διαβήτη.

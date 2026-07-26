@@ -6,7 +6,7 @@ role: "Postdoctoral Researcher"
 role_el: "Μεταδιδακτορικός Ερευνητής"
 email: "leftkal@biosim.ntua.gr"
 room: "2.1.26"
-image: "/assets/img/people/eleftherios-kalafatis.png"
+image: "/assets/img/people/eleftherios-kalafatis.webp"
 category: "researchers"
 content_el: |
   Απέκτησε το δίπλωμα του Ηλεκτρολόγου Μηχανικού και Μηχανικού Υπολογιστών στο Εθνικό Μετσόβιο Πολυτεχνείο το 2020 με βαθμό 8.72. Από τις αρχές του 2020 έγινε μέλος του Εργαστηρίου Βιοϊατρικών Προσομοιώσεων και Απεικονιστικής Τεχνολογίας (BioSim) της σχολής ΗΜΜΥ του ΕΜΠ όπου αυτή τη στιγμή εκπονεί τη διδακτορική του διατριβή. Έχει μία δημοσίευση σε διεθνές συνέδριο και μία σε εθνικό συνέδριο.

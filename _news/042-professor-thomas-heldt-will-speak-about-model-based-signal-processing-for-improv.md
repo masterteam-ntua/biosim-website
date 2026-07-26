@@ -4,7 +4,7 @@ title: 'Professor Thomas Heldt will speak about "Model-based Signal Processing f
 short_title: 'Professor Thomas Heldt will speak about "Model-based Signal Processing for Improved Neurocritical Care"'
 date: 2021-03-08
 source_url: https://www.biosim.ntua.gr/en/news/71
-image: /assets/img/news/professor-thomas-heldt-will-speak-about-model-based-signal-processing-for-improv.png
+image: /assets/img/news/professor-thomas-heldt-will-speak-about-model-based-signal-processing-for-improv.webp
 ---
 
 The IEEE Greece Section, the IEEE Engineering in Medicine and Biology (EMB) Greece Chapter, and the IEEE National Technical University of Athens Student Branch invite you to the online lecture entitled ‘Model-based Signal Processing for Improved Neurocritical Care’ which will be given by the EMBS Distinguished Lecturer, Dr. Thomas Heldt, Associate Professor at the Department of Electrical Engineering & Computer Science, Massachusetts Institute of Technology, on Tuesday, 9 March 2021, at 6 pm.

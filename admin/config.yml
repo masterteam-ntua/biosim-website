@@ -38,7 +38,7 @@ collections:
         required: false
         media_folder: /assets/img/news
         public_folder: /assets/img/news
-        hint: Optional. Uploaded files are stored in assets/img/news.
+        hint: Optional. Prefer WebP images; uploaded files are stored in assets/img/news.
       - { label: Body, name: body, widget: markdown, required: false }
 
   - name: theses

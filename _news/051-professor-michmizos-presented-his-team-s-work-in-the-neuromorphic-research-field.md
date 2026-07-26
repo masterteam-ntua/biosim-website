@@ -4,7 +4,7 @@ title: "Professor Michmizos presented his team's work in the neuromorphic resear
 short_title: "Professor Michmizos presented his team's work in the neuromorphic research field in an online event that was held on June 9th."
 date: 2020-06-22
 source_url: https://www.biosim.ntua.gr/en/news/62
-image: /assets/img/news/professor-michmizos-presented-his-team-s-work-in-the-neuromorphic-research-field.jpg
+image: /assets/img/news/professor-michmizos-presented-his-team-s-work-in-the-neuromorphic-research-field.webp
 summary_el: "A snapshot of the event"
 content_el: |
   A snapshot of the event

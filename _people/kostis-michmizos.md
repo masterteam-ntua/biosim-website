@@ -5,7 +5,7 @@ name_el: "Κωστής Μιχμίζος"
 role: "Collaborator"
 role_el: "Συνεργάτης"
 email: "kmichm@biosim.ntua.gr"
-image: "/assets/img/people/kostis-michmizos.jpg"
+image: "/assets/img/people/kostis-michmizos.webp"
 category: "collaborators"
 content_el: |
   **Διδακτορική Διατριβή**

@@ -4,7 +4,7 @@ title: "A new article titled “AI and Medical Imaging Informatics: Current Chal
 short_title: "A new article titled “AI and Medical Imaging Informatics: Current Challenges and Future Directions” has been published in the IEEE Journal of Biomedical and Health Informatics"
 date: 2020-06-05
 source_url: https://www.biosim.ntua.gr/en/news/61
-image: /assets/img/news/a-new-article-titled-ai-and-medical-imaging-informatics-current-challenges-and-f.png
+image: /assets/img/news/a-new-article-titled-ai-and-medical-imaging-informatics-current-challenges-and-f.webp
 ---
 
 A new article by A. Panayides, A. Amini, A. Sharma, S. Tsaftaris, A. Young, D. Foran, N. Do, S. Golemati, T. Kurc, K. Huang, K. Nikita, B. Veasey, M. Zervakis, J. Saltz, C. Pattichis, titled [“AI and Medical Imaging Informatics: Current Challenges and Future Directions”](https://ieeexplore.ieee.org/abstract/document/9103969), has been published in the IEEE Journal of Biomedical and Health Informatics.

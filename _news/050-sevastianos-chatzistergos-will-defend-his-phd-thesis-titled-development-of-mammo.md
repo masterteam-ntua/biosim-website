@@ -4,7 +4,7 @@ title: 'Sevastianos Chatzistergos will defend his PhD Thesis, titled "Developmen
 short_title: 'Sevastianos Chatzistergos will defend his PhD Thesis, titled "Development of Mammographic Image Processing Methods, Based on Local Morphological Characteristics, for Computer Aided Diagnosis", on July 13, 2020, at 12:00'
 date: 2020-07-11
 source_url: https://www.biosim.ntua.gr/en/news/63
-image: /assets/img/news/sevastianos-chatzistergos-will-defend-his-phd-thesis-titled-development-of-mammo.jpg
+image: /assets/img/news/sevastianos-chatzistergos-will-defend-his-phd-thesis-titled-development-of-mammo.webp
 ---
 
 The event will be held via e:Presence. Please contact Mr. Chatzistergos (sevastc@gmail.com) in case you would like to attend the telecoference.

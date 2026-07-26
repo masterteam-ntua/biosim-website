@@ -4,7 +4,7 @@ title: "An online seminar titled “Beyond breast density: AI-driven breast canc
 short_title: "An online seminar titled “Beyond breast density: AI-driven breast cancer risk assessment from mammographic images” was given by Dr. Aimilia Gastounioti, on Wednesday 3 November 2021."
 date: 2021-11-08
 source_url: https://www.biosim.ntua.gr/en/news/84
-image: /assets/img/news/an-online-seminar-titled-beyond-breast-density-ai-driven-breast-cancer-risk-asse.png
+image: /assets/img/news/an-online-seminar-titled-beyond-breast-density-ai-driven-breast-cancer-risk-asse.webp
 ---
 
 The seminar highlighted the crucial contribution of artificial intelligence and technology in the early detection and treatment of breast cancer.

@@ -5,7 +5,7 @@ name_el: "Αιμιλία Γαστουνιώτη"
 role: "Collaborator"
 role_el: "Συνεργάτιδα"
 email: "gaimilia@biosim.ntua.gr"
-image: "/assets/img/people/aimilia-gastounioti.jpg"
+image: "/assets/img/people/aimilia-gastounioti.webp"
 category: "collaborators"
 content_el: |
   **Διδακτορική Διατριβή**
