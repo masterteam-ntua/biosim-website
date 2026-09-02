@@ -12,6 +12,7 @@
     ΣΔΤ1 και παχυσαρκίας σε παιδιά και εφήβους.
 - title_en: smarty4covid
   title_el: smarty4covid
+  image: "/assets/img/projects/smarty4covid.webp"
   tags:
     - COVID-19
     - explainable AI
@@ -32,6 +33,7 @@
     σημάτων/εικόνας για έγκαιρη προειδοποίηση.
 - title_en: SMART-BLISTER
   title_el: Σύστημα Διασφάλισης της Φαρμακευτικής Συμμόρφωσης Χρόνιων Ασθενών
+  image: "/assets/img/projects/smart-blister.webp"
   tags:
     - medication adherence
     - chronic disease
