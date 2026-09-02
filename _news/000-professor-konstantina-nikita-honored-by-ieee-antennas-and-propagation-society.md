@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Professor Konstantina Nikita Honored by the IEEE Antennas and Propagation Society for Transformative Leadership and Outstanding Contributions to Scientific Publications and Global Impact"
-short_title: "Professor Konstantina Nikita honored by IEEE AP-S"
+short_title: "IEEE Honors Konstantina Nikita for her Transformative Leadership and Exceptional Service"
 date: 2026-09-02
 source_url: https://www.biosim.ntua.gr/en/news/115
 image: /assets/img/news/professor-konstantina-nikita-honored-by-ieee-antennas-and-propagation-society.webp
