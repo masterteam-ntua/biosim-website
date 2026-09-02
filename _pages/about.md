@@ -115,15 +115,19 @@ permalink: /
       <div><h2>{% t home.featured_projects %}</h2></div>
     </div>
     <div class="grid">
-      {% assign featured_projects = site.data.projects | slice: 0, 3 %}
-      {% for project in featured_projects %}
-        <article class="card" data-aos="fade-up" data-aos-delay="{{ forloop.index0 | times: 80 }}">
-          {% assign project_image = project.image %}{% if project_image %}{% unless project_image contains '://' %}{% assign project_image = project_image | relative_url %}{% endunless %}{% endif %}
-          {% if project_image %}<img src="{{ project_image }}" alt="{% if site.lang == 'el' %}{{ project.title_el }}{% else %}{{ project.title_en }}{% endif %}">{% endif %}
-          <h3>{% if site.lang == 'el' %}{{ project.title_el }}{% else %}{{ project.title_en }}{% endif %}</h3>
-          <p>{% if site.lang == 'el' %}{{ project.summary_el }}{% else %}{{ project.summary_en }}{% endif %}</p>
-          <div class="tags">{% for tag in project.tags %}<span class="tag">{{ tag }}</span>{% endfor %}</div>
-        </article>
+      {% assign featured_project_titles = 'ENDORSE,SMART-BLISTER,smarty4covid' | split: ',' %}
+      {% for featured_title in featured_project_titles %}
+        {% for project in site.data.projects %}
+          {% if project.title_en == featured_title %}
+            <article class="card" data-aos="fade-up" data-aos-delay="{{ forloop.index0 | times: 80 }}">
+              {% assign project_image = project.image %}{% if project_image %}{% unless project_image contains '://' %}{% assign project_image = project_image | relative_url %}{% endunless %}{% endif %}
+              {% if project_image %}<img src="{{ project_image }}" alt="{% if site.lang == 'el' %}{{ project.title_el }}{% else %}{{ project.title_en }}{% endif %}">{% endif %}
+              <h3>{% if site.lang == 'el' %}{{ project.title_el }}{% else %}{{ project.title_en }}{% endif %}</h3>
+              <p>{% if site.lang == 'el' %}{{ project.summary_el }}{% else %}{{ project.summary_en }}{% endif %}</p>
+              <div class="tags">{% for tag in project.tags %}<span class="tag">{{ tag }}</span>{% endfor %}</div>
+            </article>
+          {% endif %}
+        {% endfor %}
       {% endfor %}
     </div>
   </div>
