@@ -10,7 +10,12 @@
         <img class="brand-logo logo-rgb" src="{{ '/biosim_logo_files/svg/biosim_logo.svg' | relative_url }}" alt="BIOSIM logo" />
         <img class="brand-logo logo-dark" src="{{ '/biosim_logo_files/svg/biosim_logo_grayscale.svg' | relative_url }}" alt="BIOSIM logo" />
       </a>
-      <nav class="site-nav" aria-label="Primary navigation">
+      <button class="mobile-nav-toggle" type="button" aria-controls="primary-nav" aria-expanded="false" aria-label="Open navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav id="primary-nav" class="site-nav" aria-label="Primary navigation">
         <a href="{{ lang_prefix | append: '/' | relative_url }}">{% t nav.home %}</a>
         <div class="nav-dropdown">
           <a href="{{ lang_prefix | append: '/research/' | relative_url }}">{% t nav.research %}</a>
@@ -36,6 +41,7 @@
         <button class="theme-toggle" type="button" aria-label="Toggle dark and light mode">◐</button>
       </div>
     </header>
+    <button class="mobile-nav-backdrop" type="button" aria-label="Close navigation"></button>
 
     <main>{{ content }}</main>
 
