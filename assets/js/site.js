@@ -8,6 +8,23 @@ document.addEventListener("DOMContentLoaded", () => {
     localStorage.setItem("biosim-theme", next);
   });
 
+  const mobileNavToggle = document.querySelector(".mobile-nav-toggle");
+  const mobileNavBackdrop = document.querySelector(".mobile-nav-backdrop");
+  const mobileNav = document.querySelector(".site-nav");
+
+  const setMobileNavOpen = (open) => {
+    document.body.classList.toggle("nav-open", open);
+    mobileNavToggle?.setAttribute("aria-expanded", String(open));
+    mobileNavToggle?.setAttribute("aria-label", open ? "Close navigation" : "Open navigation");
+  };
+
+  mobileNavToggle?.addEventListener("click", () => setMobileNavOpen(!document.body.classList.contains("nav-open")));
+  mobileNavBackdrop?.addEventListener("click", () => setMobileNavOpen(false));
+  mobileNav?.querySelectorAll("a").forEach((link) => link.addEventListener("click", () => setMobileNavOpen(false)));
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") setMobileNavOpen(false);
+  });
+
   if (window.matchMedia("(pointer: fine)").matches && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
     const root = document.documentElement;
     let rafId = null;
