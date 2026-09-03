@@ -93,11 +93,13 @@ document.addEventListener("DOMContentLoaded", () => {
     document.querySelectorAll(".research-area-swiper").forEach((el) => {
       new Swiper(el, {
         autoplay: { delay: 3800, disableOnInteraction: false },
+        centeredSlides: true,
         loop: true,
         pagination: { el: el.querySelector(".swiper-pagination"), clickable: true },
-        slidesPerView: 1,
-        spaceBetween: 18,
+        slidesPerView: 1.18,
+        spaceBetween: 10,
         speed: 650,
+        breakpoints: { 760: { slidesPerView: 1.28, spaceBetween: 16 } },
       });
     });
 

@@ -164,12 +164,16 @@ h3 { font-size: 1.25rem; }
 .two-grid { display: grid; grid-template-columns: minmax(0, 1.18fr) minmax(320px, 0.82fr); gap: 28px; align-items: start; }
 .card, .member-card, .news-card { padding: 24px; overflow: hidden; }
 .research-card-link { display: block; color: inherit; }
-.home-research-showcase { align-items: stretch; }
+.home-research-showcase { display: grid; grid-template-columns: minmax(0, 0.9fr) minmax(360px, 1.1fr); gap: clamp(24px, 4vw, 56px); align-items: center; overflow: hidden; }
 .home-research-copy { display: grid; align-content: center; }
 .home-research-copy .button { justify-self: start; margin-top: 8px; }
-.research-area-swiper { height: 100%; padding: 0 2px 42px; }
-.research-area-swiper .swiper-slide { display: flex; height: auto; }
-.research-area-tile { display: block; width: 100%; min-height: 100%; padding: 24px; overflow: hidden; color: inherit; border: 1px solid var(--line); border-radius: 24px; background: var(--card); box-shadow: var(--shadow); }
+.article-card .button { text-decoration: none; }
+.research-area-swiper { width: 100%; height: 100%; padding: 2px 0 42px; }
+.research-area-swiper .swiper-slide { display: flex; height: auto; opacity: 0.28; transform: scale(0.92); transition: opacity 0.24s ease, transform 0.24s ease; }
+.research-area-swiper .swiper-slide-active { opacity: 1; transform: scale(1); }
+.research-area-tile { display: block; width: 100%; min-height: 100%; padding: 14px; overflow: hidden; color: inherit; border: 1px solid var(--line); border-radius: 22px; background: color-mix(in srgb, var(--card) 70%, transparent); }
+.article-card .research-area-tile { color: inherit; text-decoration: none; }
+.article-card .research-area-tile:hover { color: inherit; border-color: color-mix(in srgb, var(--teal) 45%, var(--line)); }
 .research-area-tile img { width: 100%; height: 260px; object-fit: cover; border-radius: 18px; margin-bottom: 18px; }
 .research-area-tile p { color: var(--muted); }
 .member-card[onclick]:hover { transform: translateY(-3px); transition: transform 0.2s ease; }
@@ -288,6 +292,7 @@ html[data-theme="dark"] .site-footer .logo-dark { display: block; filter: bright
   .nav-dropdown-menu a { padding: 9px 12px; color: var(--muted); font-size: 0.92rem; }
   .project-list-item { grid-template-columns: 1fr; }
   .project-list-item .tags { justify-content: flex-start; }
+  .home-research-showcase { grid-template-columns: 1fr; }
   .research-area-tile img { height: 220px; }
   body.nav-open .site-nav { transform: translateX(0); }
   body.nav-open .mobile-nav-backdrop { display: block; opacity: 1; }
