@@ -90,7 +90,18 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     });
 
-    document.querySelectorAll(".swiper:not(.hero-swiper):not(.news-swiper)").forEach((el) => {
+    document.querySelectorAll(".research-area-swiper").forEach((el) => {
+      new Swiper(el, {
+        autoplay: { delay: 3800, disableOnInteraction: false },
+        loop: true,
+        pagination: { el: el.querySelector(".swiper-pagination"), clickable: true },
+        slidesPerView: 1,
+        spaceBetween: 18,
+        speed: 650,
+      });
+    });
+
+    document.querySelectorAll(".swiper:not(.hero-swiper):not(.news-swiper):not(.research-area-swiper)").forEach((el) => {
       new Swiper(el, {
         slidesPerView: 1,
         spaceBetween: 18,
