@@ -26,6 +26,36 @@ nav_order: 6
 </section>
 
 <section class="section">
+  <div class="section-heading" data-aos="fade-up">
+    <div><h2>{% if site.lang == 'el' %}Σχετικά με το BIOSIM{% else %}About BIOSIM{% endif %}</h2></div>
+  </div>
+  <div class="two-grid">
+    <article class="article-card" data-aos="fade-up">
+      {% if site.lang == 'el' %}
+        <h2>Βιοϊατρικές Προσομοιώσεις και Απεικονιστική Τεχνολογία από το 1999</h2>
+        <p>Το εργαστήριο BIOSIM υπάγεται στη Σχολή Ηλεκτρολόγων Μηχανικών και Μηχανικών Υπολογιστών και στο ΕΠΙΣΕΥ του Εθνικού Μετσόβιου Πολυτεχνείου.</p>
+        <p>Συμμετέχει στη διδασκαλία προπτυχιακών και μεταπτυχιακών μαθημάτων σε μικροκύματα, ιατρική απεικόνιση, βιοϊατρική τεχνολογία, προσομοίωση φυσιολογικών συστημάτων, τεχνολογίες e-Health/m-Health, βιοηλεκτρομαγνητισμό και βιοπληροφορική.</p>
+      {% else %}
+        <h2>Biomedical Simulations and Imaging since 1999</h2>
+        <p>The Biomedical Simulations and Imaging Laboratory is part of the Institute of Communication and Computer Systems and the Faculty of Electrical and Computer Engineering of the National Technical University of Athens.</p>
+        <p>The laboratory contributes to undergraduate and postgraduate teaching in microwaves, medical imaging and digital image processing, biomedical engineering laboratory work, simulation of physiological systems, e-Health and m-Health technologies, bioelectromagnetics, and bioinformatics.</p>
+      {% endif %}
+    </article>
+    <article class="article-card" data-aos="fade-up" data-aos-delay="80">
+      {% if site.lang == 'el' %}
+        <h2>Μέλη, διπλωματικές και ερευνητικά έργα</h2>
+        <p>Το BIOSIM συνδυάζει ερευνητική δραστηριότητα, διδασκαλία και συμμετοχή σε χρηματοδοτούμενα έργα στους τομείς της βιοϊατρικής τεχνολογίας και της ψηφιακής υγείας.</p>
+        <p>Στον ιστότοπο παρουσιάζονται μέλη, διπλωματικές εργασίες, δημοσιεύσεις και έργα του εργαστηρίου.</p>
+      {% else %}
+        <h2>People, theses, and funded projects</h2>
+        <p>BIOSIM combines research, teaching, and funded project activity across biomedical engineering and digital health.</p>
+        <p>The website presents laboratory members, theses, publications, and projects.</p>
+      {% endif %}
+    </article>
+  </div>
+</section>
+
+<section class="section">
   <div class="two-grid">
     <article class="article-card" data-aos="fade-up">
       <h2>{% if site.lang == 'el' %}Γραφεία{% else %}Offices{% endif %}</h2>

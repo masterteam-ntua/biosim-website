@@ -43,29 +43,41 @@ permalink: /
 </section>
 
 <section class="section">
-  <div class="container two-grid">
-    <article class="article-card" data-aos="fade-up">
+  <div class="container two-grid home-research-showcase">
+    <article class="article-card home-research-copy" data-aos="fade-up">
       {% if site.lang == 'el' %}
-        <h2>Βιοϊατρικές Προσομοιώσεις και Απεικονιστική Τεχνολογία από το 1999</h2>
-        <p>Το εργαστήριο BIOSIM υπάγεται στη Σχολή Ηλεκτρολόγων Μηχανικών και Μηχανικών Υπολογιστών και στο ΕΠΙΣΕΥ του Εθνικού Μετσόβιου Πολυτεχνείου.</p>
-        <p>Συμμετέχει στη διδασκαλία προπτυχιακών και μεταπτυχιακών μαθημάτων σε μικροκύματα, ιατρική απεικόνιση, βιοϊατρική τεχνολογία, προσομοίωση φυσιολογικών συστημάτων, τεχνολογίες e-Health/m-Health, βιοηλεκτρομαγνητισμό και βιοπληροφορική.</p>
+        <p class="eyebrow">Ερευνητική δραστηριότητα</p>
+        <h2>Από τα βιοϊατρικά δεδομένα σε κλινικά χρήσιμη γνώση</h2>
+        <p>Το BIOSIM αναπτύσσει υπολογιστικές μεθόδους, μοντέλα φυσιολογικών συστημάτων και τεχνολογίες Τεχνητής Νοημοσύνης για εφαρμογές στη βιοϊατρική τεχνολογία και την ψηφιακή υγεία.</p>
+        <p>Οι ερευνητικές περιοχές του εργαστηρίου συνδυάζουν απεικονιστικά δεδομένα, βιοσήματα, προσομοιώσεις και συστήματα υποστήριξης αποφάσεων για αξιόπιστες και εξατομικευμένες λύσεις υγείας.</p>
       {% else %}
-        <h2>Biomedical Simulations and Imaging since 1999</h2>
-        <p>The Biomedical Simulations and Imaging Laboratory is part of the Institute of Communication and Computer Systems and the Faculty of Electrical and Computer Engineering of the National Technical University of Athens.</p>
-        <p>The laboratory contributes to undergraduate and postgraduate teaching in microwaves, medical imaging and digital image processing, biomedical engineering laboratory work, simulation of physiological systems, e-Health and m-Health technologies, bioelectromagnetics, and bioinformatics.</p>
+        <p class="eyebrow">Research activity</p>
+        <h2>From biomedical data to clinically meaningful intelligence</h2>
+        <p>BIOSIM develops computational methods, physiological system models, and AI technologies for biomedical engineering and digital health applications.</p>
+        <p>The lab's research areas combine imaging data, biosignals, simulations, and decision-support systems to support reliable and personalized healthcare solutions.</p>
       {% endif %}
+      <a class="button secondary" href="{{ lang_prefix | append: '/research/' | relative_url }}">{% t home.cta_research %}</a>
     </article>
-    <article class="article-card" data-aos="fade-up" data-aos-delay="80">
-      {% if site.lang == 'el' %}
-        <h2>Μέλη, διπλωματικές και ερευνητικά έργα</h2>
-        <p>Το BIOSIM συνδυάζει ερευνητική δραστηριότητα, διδασκαλία και συμμετοχή σε χρηματοδοτούμενα έργα στους τομείς της βιοϊατρικής τεχνολογίας και της ψηφιακής υγείας.</p>
-        <p>Στον ιστότοπο παρουσιάζονται μέλη, διπλωματικές εργασίες, δημοσιεύσεις και έργα του εργαστηρίου.</p>
-      {% else %}
-        <h2>People, theses, and funded projects</h2>
-        <p>BIOSIM combines research, teaching, and funded project activity across biomedical engineering and digital health.</p>
-        <p>The website presents laboratory members, theses, publications, and projects.</p>
-      {% endif %}
-    </article>
+    <div class="swiper research-area-swiper" data-aos="fade-up" data-aos-delay="80">
+      <div class="swiper-wrapper">
+        {% assign research_areas = site.projects | sort: 'importance' %}
+        {% for area in research_areas %}
+          {% if area.importance <= 5 %}
+            {% assign area_title = area.title %}{% if site.lang == 'el' and area.title_el %}{% assign area_title = area.title_el %}{% endif %}
+            {% assign area_image = area.image %}{% unless area_image contains '://' %}{% assign area_image = area.image | relative_url %}{% endunless %}
+            <div class="swiper-slide">
+              <a class="research-area-tile" href="{{ lang_prefix | append: area.url | relative_url }}">
+                <img src="{{ area_image }}" alt="{{ area_title | escape }}">
+                <h3>{{ area_title }}</h3>
+                <p>{% if site.lang == 'el' %}{{ area.summary_el }}{% else %}{{ area.summary_en }}{% endif %}</p>
+                <div class="tags">{% for tag in area.tags %}<span class="tag">{{ tag }}</span>{% endfor %}</div>
+              </a>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
   </div>
 </section>
 
