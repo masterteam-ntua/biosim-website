@@ -4,14 +4,14 @@ layout: default
 
 <section class="page-hero compact">
   <div class="container" data-aos="fade-up">
-    {% assign page_title = page.title %} {% if site.lang == 'el' %} {% case page.permalink %} {% when '/research/' %}{% assign page_title =
-    site.translations[site.lang].research.areas %} {% when '/research/thesis/' %}{% assign page_title =
-    site.translations[site.lang].research.diploma_theses %} {% when '/research/phds/' %}{% assign page_title =
-    site.translations[site.lang].research.phd_theses %} {% when '/projects/' %}{% assign page_title = site.translations[site.lang].nav.projects %} {%
-    when '/publications/' %}{% assign page_title = site.translations[site.lang].nav.publications %} {% when '/people/' %}{% assign page_title =
-    site.translations[site.lang].nav.people %} {% when '/news/' %}{% assign page_title = site.translations[site.lang].nav.news %} {% when '/courses/'
-    %}{% assign page_title = site.translations[site.lang].nav.courses %} {% when '/contact/' %}{% assign page_title =
-    site.translations[site.lang].nav.contact %} {% endcase %} {% endif %}
+    {% assign page_title = page.title %} {% if site.lang == 'el' and page.title_el %}{% assign page_title = page.title_el %}{% endif %} {% if
+    site.lang == 'el' %} {% case page.permalink %} {% when '/research/' %}{% assign page_title = site.translations[site.lang].research.areas %} {%
+    when '/research/thesis/' %}{% assign page_title = site.translations[site.lang].research.diploma_theses %} {% when '/research/phds/' %}{% assign
+    page_title = site.translations[site.lang].research.phd_theses %} {% when '/projects/' %}{% assign page_title =
+    site.translations[site.lang].nav.projects %} {% when '/publications/' %}{% assign page_title = site.translations[site.lang].nav.publications %} {%
+    when '/people/' %}{% assign page_title = site.translations[site.lang].nav.people %} {% when '/news/' %}{% assign page_title =
+    site.translations[site.lang].nav.news %} {% when '/courses/' %}{% assign page_title = site.translations[site.lang].nav.courses %} {% when
+    '/contact/' %}{% assign page_title = site.translations[site.lang].nav.contact %} {% endcase %} {% endif %}
     <h1>{{ page_title }}</h1>
   </div>
 </section>

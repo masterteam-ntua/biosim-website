@@ -23,8 +23,9 @@ nav_order: 2
     {% if area.importance <= 5 %}
       <a class="card research-card-link" href="{{ lang_prefix | append: area.url | relative_url }}" data-aos="fade-up" data-aos-delay="{{ forloop.index0 | times: 70 }}">
         {% assign area_image = area.image %}{% unless area_image contains '://' %}{% assign area_image = area.image | relative_url %}{% endunless %}
-        <img src="{{ area_image }}" alt="{{ area.title | escape }}">
-        <h3>{{ area.title }}</h3>
+        {% assign area_title = area.title %}{% if site.lang == 'el' and area.title_el %}{% assign area_title = area.title_el %}{% endif %}
+        <img src="{{ area_image }}" alt="{{ area_title | escape }}">
+        <h3>{{ area_title }}</h3>
         <p>{% if site.lang == 'el' %}{{ area.summary_el }}{% else %}{{ area.summary_en }}{% endif %}</p>
         <div class="tags">{% for tag in area.tags %}<span class="tag">{{ tag }}</span>{% endfor %}</div>
       </a>

@@ -3,7 +3,8 @@ layout: page
 ---
 
 <article class="article-card" data-aos="fade-up">
-  {% if page.image %}{% assign project_image = page.image %}{% unless project_image contains '://' %}{% assign project_image = page.image |
-  relative_url %}{% endunless %}<img class="article-image" src="{{ project_image }}" alt="{{ page.title }}" />{% endif %} {% if site.lang == 'el' and
+  {% assign project_title = page.title %}{% if site.lang == 'el' and page.title_el %}{% assign project_title = page.title_el %}{% endif %} {% if
+  page.image %}{% assign project_image = page.image %}{% unless project_image contains '://' %}{% assign project_image = page.image | relative_url
+  %}{% endunless %}<img class="article-image" src="{{ project_image }}" alt="{{ project_title }}" />{% endif %} {% if site.lang == 'el' and
   page.body_el %}{{ page.body_el | markdownify }}{% else %}{{ content }}{% endif %}
 </article>
