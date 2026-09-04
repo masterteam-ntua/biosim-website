@@ -31,15 +31,15 @@ permalink: /
       </div>
     </div>
     <div class="hero-meta-row">
-      <div class="hero-actions">
-        {% assign lang_prefix = '' %}{% if site.lang != site.default_lang %}{% assign lang_prefix = '/' | append: site.lang %}{% endif %}
-        <a class="button" href="{{ lang_prefix | append: '/research/' | relative_url }}">{% t home.cta_research %}</a>
-        <a class="button secondary" href="{{ lang_prefix | append: '/contact/' | relative_url }}">{% t home.cta_contact %}</a>
-      </div>
       <div class="stats" data-aos="fade-up" data-aos-delay="100">
         <div class="stat-card"><span class="stat-number" data-count="{{ site.lab.stats.publications }}">0</span><span class="stat-label">{% t home.stats_publications %}</span></div>
         <div class="stat-card"><span class="stat-number" data-count="{{ site.lab.stats.members }}">0</span><span class="stat-label">{% t home.stats_members %}</span></div>
         <div class="stat-card"><span class="stat-number" data-count="{{ site.lab.stats.years }}">0</span><span class="stat-label">{% t home.stats_years %}</span></div>
+      </div>
+      <div class="hero-actions">
+        {% assign lang_prefix = '' %}{% if site.lang != site.default_lang %}{% assign lang_prefix = '/' | append: site.lang %}{% endif %}
+        <a class="button" href="{{ lang_prefix | append: '/research/' | relative_url }}">{% t home.cta_research %}</a>
+        <a class="button secondary" href="{{ lang_prefix | append: '/contact/' | relative_url }}">{% t home.cta_contact %}</a>
       </div>
     </div>
   </div>
