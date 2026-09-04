@@ -124,9 +124,9 @@ html[data-theme="light"] .logo-rgb { display: block; }
 .hero { position: relative; min-height: 78vh; display: grid; align-items: center; overflow: hidden; }
 #tsparticles { position: absolute; inset: 0; opacity: 0.52; }
 .hero-content { position: relative; z-index: 1; display: grid; align-items: center; justify-items: start; min-height: min(760px, calc(100vh - 72px)); padding: 92px 0 56px; }
-.hero-content .hero-panel { position: absolute; top: 52px; bottom: 34px; left: 0; z-index: 2; width: min(732px, 50vw); pointer-events: none; border: 1px solid color-mix(in srgb, var(--line) 72%, transparent); border-radius: 32px; background: color-mix(in srgb, var(--navy) 72%, transparent); backdrop-filter: blur(18px) saturate(0.94); -webkit-backdrop-filter: blur(18px) saturate(0.94); box-shadow: 0 24px 80px color-mix(in srgb, var(--navy) 32%, transparent); -webkit-mask-image: linear-gradient(90deg, black 0.01%, black 90%, transparent 100%); mask-image: linear-gradient(90deg, black 0.01%, black 90%, transparent 100%); }
 .hero-copy { position: relative; z-index: 3; width: min(660px, 50vw); padding: 0 clamp(16px, 3vw, 28px); margin-left: 0; text-align: left; }
 .hero-copy::before { display: none; }
+.hero-intro-panel { display: inline-block; width: min(100%, 560px); padding: clamp(20px, 3vw, 32px); border: 1px solid var(--line); border-radius: 28px; background: var(--card); box-shadow: var(--shadow); }
 .eyebrow { color: var(--teal); text-transform: uppercase; letter-spacing: 0.14em; font-weight: 800; font-size: 0.78rem; }
 h1, h2, h3 { font-family: var(--font-heading); line-height: 1.08; margin: 0 0 18px; }
 h1 { font-size: clamp(2.65rem, 8vw, 6rem); letter-spacing: -0.025em; }
@@ -138,8 +138,7 @@ h3 { font-size: 1.25rem; }
 .typed { color: var(--teal); }
 .hero-logo-title { margin-bottom: 16px; }
 .hero-logo-title img { width: min(460px, 82vw); }
-.hero-visual { position: absolute; top: 52px; bottom: 34px; left: 50%; z-index: 1; width: min(1320px, calc(100vw - 32px)); overflow: hidden; border-radius: 42px; background: color-mix(in srgb, var(--navy) 86%, transparent); opacity: 0.78; transform: translateX(-50%); }
-.hero-visual::before { content: ""; position: absolute; inset: 0; z-index: 2; pointer-events: none; background: radial-gradient(ellipse at 32% 50%, transparent 10%, color-mix(in srgb, var(--navy) 32%, transparent) 72%), linear-gradient(180deg, rgba(0, 200, 232, 0.18), transparent 42%), linear-gradient(90deg, color-mix(in srgb, var(--navy) 28%, transparent), transparent 12%, transparent 88%, color-mix(in srgb, var(--navy) 28%, transparent)); }
+.hero-visual { position: absolute; top: 52px; bottom: 34px; left: 50%; z-index: 1; width: min(1320px, calc(100vw - 32px)); overflow: hidden; border-radius: 42px; background: color-mix(in srgb, var(--navy) 86%, transparent); transform: translateX(-50%); }
 .hero-swiper, .hero-swiper .swiper-wrapper, .hero-swiper .swiper-slide { height: 100%; }
 .hero-swiper.swiper { height: 100%; padding: 0; border-radius: inherit; overflow: hidden; }
 .hero-swiper .swiper-slide { display: flex; align-items: center; justify-content: center; background: color-mix(in srgb, var(--navy) 92%, transparent); }
@@ -301,11 +300,9 @@ html[data-theme="dark"] .site-footer .logo-dark { display: block; filter: bright
   body.nav-open .mobile-nav-toggle span:nth-child(2) { opacity: 0; }
   body.nav-open .mobile-nav-toggle span:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
   .hero-content { min-height: 0; padding-top: 72px; }
-  .hero-content .hero-panel { display: none; }
   .hero-copy { width: 100%; margin-left: 0; text-align: left; }
   .hero-copy::before { display: none; }
   .hero-visual { position: relative; inset: auto; width: 100%; aspect-ratio: 16 / 10; min-height: 0; max-height: 420px; margin-top: 24px; margin-right: 0; border-radius: 28px; opacity: 1; transform: none; -webkit-mask-image: none; mask-image: none; }
-  .hero-visual::before { background: linear-gradient(180deg, color-mix(in srgb, var(--navy) 42%, transparent), transparent 52%); }
   .stats, .grid, .gallery, .two-grid, .news-swiper-grid { grid-template-columns: 1fr 1fr; }
 }
 
