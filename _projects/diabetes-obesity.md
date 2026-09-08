@@ -1,11 +1,14 @@
 ---
 layout: project
 title: Diabetes and Obesity Management
+title_el: Διαχείριση Διαβήτη και Παχυσαρκίας
 importance: 1
 image: https://www.biosim.ntua.gr/file/get/research/phpDMtZOx.png
-tags: [diabetes, obesity, prevention]
-summary_en: Prevention, early detection, and improved management of diabetes and obesity through modeling and smart health tools.
-summary_el: Πρόληψη, έγκαιρη ανίχνευση και βελτιωμένη διαχείριση διαβήτη και παχυσαρκίας μέσω μοντελοποίησης και ευφυών εργαλείων υγείας.
+tags: [diabetes, obesity, digital health]
+summary_en: Data-driven AI, decision-support, and digital intervention tools for proactive, personalized diabetes and obesity management.
+summary_el: Μέθοδοι Τεχνητής Νοημοσύνης, υποστήριξης αποφάσεων και ψηφιακών παρεμβάσεων για προληπτική και εξατομικευμένη διαχείριση διαβήτη και παχυσαρκίας.
+body_el: >-
+  Η αυξανόμενη συχνότητα εμφάνισης του διαβήτη και της παχυσαρκίας, σε συνδυασμό με τις μακροχρόνιες επιπλοκές τους και την επίδρασή τους στην ποιότητα ζωής, αναδεικνύει την ανάγκη για αποτελεσματική πρόληψη, έγκαιρη εκτίμηση κινδύνου και εξατομικευμένη διαχείριση. Η ερευνητική μας δραστηριότητα εστιάζει στην ανάπτυξη ερμηνεύσιμων μεθόδων Τεχνητής Νοημοσύνης και μοντέλων βασισμένων σε δεδομένα, τα οποία συνδυάζουν δεδομένα συνεχούς καταγραφής γλυκόζης, κλινικές πληροφορίες, φυσιολογικά σήματα, παράγοντες τρόπου ζωής και συμπεριφορικά δεδομένα. Οι προσεγγίσεις αυτές υποστηρίζουν εφαρμογές όπως η πρόβλεψη υπογλυκαιμίας και επιπλοκών που σχετίζονται με τον διαβήτη, η αυτοματοποιημένη ανίχνευση κλινικά σημαντικών συμβάντων και η εξατομικευμένη διαστρωμάτωση κινδύνου. Παράλληλα, μελετούμε ψηφιακές παρεμβάσεις υγείας, τεχνολογίες κινητής υγείας, παιχνίδια σοβαρού σκοπού, μηχανισμούς παιχνιδοποίησης και βιοανάδραση, με στόχο την ενίσχυση της συμμετοχής, την υιοθέτηση υγιεινότερων συμπεριφορών και τη μακροχρόνια αυτοδιαχείριση. Στόχος μας είναι η ανάπτυξη αξιόπιστων και εξατομικευμένων εργαλείων υποστήριξης αποφάσεων και ψηφιακών παρεμβάσεων που συμβάλλουν σε μια πιο προληπτική και ανθρωποκεντρική διαχείριση του διαβήτη και της παχυσαρκίας.
 ---
 
-The high prevalence of diabetes, poor health outcomes, and escalated treatment costs highlight the need for prevention, early detection, and improved management. BIOSIM research focuses on diabetes and obesity management, integrating data-driven models, lifestyle factors, clinical context, and patient-centered technologies.
+The increasing prevalence of diabetes and obesity, together with their long-term complications and impact on quality of life, highlights the need for effective prevention, early risk assessment, and personalized disease management. Our research focuses on the development of data-driven and interpretable artificial intelligence methods that integrate continuous glucose monitoring, clinical information, physiological signals, lifestyle factors, and behavioral data. These approaches support tasks such as prediction of hypoglycemia and diabetes-related complications, automated detection of clinically relevant events, and personalized risk stratification. In parallel, we investigate digital health interventions, mobile health technologies, serious games, gamification, and biofeedback to promote engagement, healthier behaviors, and long-term self-management. Our goal is to develop reliable and personalized decision-support and digital intervention tools that contribute to more proactive and patient-centered management of diabetes and obesity.
