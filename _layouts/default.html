@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{ site.lang | default: site.default_lang }}" data-theme="light">
+<html lang="{{ site.lang | default: site.default_lang }}">
   <head>
     {% include head.html %}
   </head>
@@ -8,7 +8,6 @@
     <header class="site-header">
       <a class="brand" href="{{ lang_prefix | append: '/' | relative_url }}" aria-label="{{ site.title }} home">
         <img class="brand-logo logo-rgb" src="{{ '/biosim_logo_files/svg/biosim_logo.svg' | relative_url }}" alt="BIOSIM logo" />
-        <img class="brand-logo logo-dark" src="{{ '/biosim_logo_files/svg/biosim_logo_grayscale.svg' | relative_url }}" alt="BIOSIM logo" />
       </a>
       <button class="mobile-nav-toggle" type="button" aria-controls="primary-nav" aria-expanded="false" aria-label="Open navigation">
         <span></span>
@@ -38,7 +37,6 @@
         {% else %}
         <a class="lang-switch" href="{{ '/el' | append: page.url | relative_url }}">ΕΛ</a>
         {% endif %}
-        <button class="theme-toggle" type="button" aria-label="Toggle dark and light mode">◐</button>
       </div>
     </header>
     <button class="mobile-nav-backdrop" type="button" aria-label="Close navigation"></button>
@@ -48,7 +46,6 @@
     <footer class="site-footer">
       <p>
         <img class="footer-logo logo-rgb" src="{{ '/biosim_logo_files/svg/biosim_logo.svg' | relative_url }}" alt="BIOSIM logo" />
-        <img class="footer-logo logo-dark" src="{{ '/biosim_logo_files/svg/biosim_logo_grayscale.svg' | relative_url }}" alt="BIOSIM logo" />
       </p>
       <p class="copyright">© {{ 'now' | date: '%Y' }} BIOSIM Laboratory. All rights reserved.</p>
     </footer>

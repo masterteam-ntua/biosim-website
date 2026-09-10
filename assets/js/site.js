@@ -1,13 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const savedTheme = localStorage.getItem("biosim-theme");
-  document.documentElement.dataset.theme = savedTheme || "light";
-
-  document.querySelector(".theme-toggle")?.addEventListener("click", () => {
-    const next = document.documentElement.dataset.theme === "dark" ? "light" : "dark";
-    document.documentElement.dataset.theme = next;
-    localStorage.setItem("biosim-theme", next);
-  });
-
   const mobileNavToggle = document.querySelector(".mobile-nav-toggle");
   const mobileNavBackdrop = document.querySelector(".mobile-nav-backdrop");
   const mobileNav = document.querySelector(".site-nav");
@@ -59,8 +50,8 @@ document.addEventListener("DOMContentLoaded", () => {
         background: { color: { value: "transparent" } },
         fpsLimit: 60,
         particles: {
-          color: { value: ["#00c8e8", "#28f0f8", "#ffffff"] },
-          links: { color: "#00c8e8", distance: 145, enable: true, opacity: 0.18, width: 1 },
+          color: { value: "#ffffff" },
+          links: { color: "#ffffff", distance: 145, enable: true, opacity: 0.18, width: 1 },
           move: { enable: true, speed: 0.65 },
           number: { value: 58, density: { enable: true, area: 900 } },
           opacity: { value: 0.3 },
