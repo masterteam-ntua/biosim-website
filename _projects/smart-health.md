@@ -2,7 +2,7 @@
 layout: project
 title: Smart Health Systems
 title_el: Ευφυή Συστήματα Υγείας
-importance: 5
+importance: 23
 image: https://www.biosim.ntua.gr/file/get/research/phpt2x10k.png
 tags: [smart health, wearable sensing, digital health]
 summary_en: Intelligent and adaptive digital health systems for remote monitoring, prevention, rehabilitation, and personalized intervention.

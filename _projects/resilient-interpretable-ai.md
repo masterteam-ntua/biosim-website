@@ -2,7 +2,7 @@
 layout: project
 title: Resilient and Interpretable AI
 title_el: Ανθεκτική και Ερμηνεύσιμη Τεχνητή Νοημοσύνη
-importance: 1
+importance: 20
 image: /assets/img/projects/explainable-multimodal-ai.webp
 tags: [multimodal AI, explainability, domain adaptation]
 summary_en: Resilient, interpretable, and multimodal AI methods for reliable clinical predictions under real-world variability.

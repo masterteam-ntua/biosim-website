@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Computational and Cognitive Neuroscience
-importance: 4
+importance: 22
 image: https://www.biosim.ntua.gr/file/get/research/phpEP0uA0.png
 tags: [neuroscience, EEG, cognitive state]
 summary_en: EEG-driven and multimodal frameworks for real-time assessment of cognitive load, attention, and fatigue.
