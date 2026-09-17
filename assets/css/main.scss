@@ -170,6 +170,8 @@ h3 { font-size: 1.25rem; }
 .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); gap: 22px; }
 .two-grid { display: grid; grid-template-columns: minmax(0, 1.18fr) minmax(320px, 0.82fr); gap: 28px; align-items: start; }
 .card, .member-card, .news-card { padding: 24px; overflow: hidden; }
+.research-intro { margin-bottom: 28px; }
+.research-intro p:last-child { margin-bottom: 0; }
 .research-card-link { display: block; color: inherit; }
 .home-research-showcase { display: grid; grid-template-columns: minmax(0, 0.9fr) minmax(360px, 1.1fr); gap: clamp(24px, 4vw, 56px); align-items: center; overflow: hidden; box-shadow: var(--blue-shadow); transition: box-shadow var(--smooth-hover), transform var(--smooth-hover); }
 .home-research-showcase:hover, .home-research-showcase:focus-within { box-shadow: inset 0 0 0 5px var(--teal), var(--blue-shadow); transform: scale(1.005); }

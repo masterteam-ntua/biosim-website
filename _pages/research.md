@@ -16,6 +16,16 @@ nav_order: 2
 
 <h2>{% t research.areas %}</h2>
 
+<div class="article-card research-intro" data-aos="fade-up">
+  {% if site.lang == 'el' %}
+    <p>Το εργαστήριο BioSim μελετά ολοκληρωμένες προσεγγίσεις που συνδυάζουν πολυτροπικά δεδομένα υγείας, τεχνητή νοημοσύνη και μηχανική μάθηση, φυσιολογική και υπολογιστική μοντελοποίηση, βιοϊατρική απεικόνιση, ψηφιακές τεχνολογίες υγείας και παθοφυσιολογικές γνώσεις. Στόχος είναι ο εντοπισμός εξατομικευμένων βιοδεικτών, ο χαρακτηρισμός της ετερογένειας των ασθενειών, η υποστήριξη της έγκαιρης διάγνωσης και της εκτίμησης κινδύνου, καθώς και η διευκόλυνση μιας πιο αποτελεσματικής και εξατομικευμένης διαχείρισης των ασθενειών.</p>
+    <p>Σε όλες τις ερευνητικές δραστηριότητες, δίνεται ιδιαίτερη έμφαση στην ανάπτυξη αξιόπιστων και κλινικά ουσιωδών μεθοδολογιών τεχνητής νοημοσύνης, που αντιμετωπίζουν κρίσιμες προκλήσεις σχετικά με την ερμηνευσιμότητα, την αβεβαιότητα, τη γενικευσιμότητα, τη δικαιοσύνη, τον μετριασμό της μεροληψίας και την ανθεκτικότητα σε ετερογενείς πληθυσμούς.</p>
+  {% else %}
+    <p>BioSim develops integrative approaches that combine multimodal health data, artificial intelligence and machine learning, physiological and computational modelling, biomedical imaging, digital health technologies, and pathophysiological knowledge. The aim is to identify personalized biomarkers, characterize disease heterogeneity, support early diagnosis and risk assessment, and enable more effective and individualized disease management.</p>
+    <p>Across its research activities, particular emphasis is placed on the development of reliable and clinically meaningful AI methodologies, addressing critical challenges related to interpretability, uncertainty, generalizability, fairness, bias mitigation, and robustness across heterogeneous populations, acquisition devices, data modalities, and clinical environments.</p>
+  {% endif %}
+</div>
+
 {% assign research_areas = site.projects | sort: 'importance' %}
 
 <div class="grid">
