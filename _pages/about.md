@@ -44,7 +44,7 @@ permalink: /
   </div>
 </section>
 
-<section class="section">
+<section class="section home-section">
   <div class="container">
     <div class="article-card home-research-showcase" data-aos="fade-up">
       <div class="home-research-copy">
@@ -85,7 +85,7 @@ permalink: /
   </div>
 </section>
 
-<section class="section">
+<section class="section home-section">
   <div class="container">
     <div class="section-heading" data-aos="fade-up">
       <div><h2>{% t home.latest_news %}</h2></div>
@@ -125,7 +125,7 @@ permalink: /
   </div>
 </section>
 
-<section class="section">
+<section class="section home-section">
   <div class="container">
     <div class="section-heading" data-aos="fade-up">
       <div><h2>{% t home.featured_projects %}</h2></div>
