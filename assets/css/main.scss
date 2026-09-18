@@ -120,7 +120,7 @@ img { max-width: 100%; display: block; }
 
 .hero { position: relative; display: grid; align-items: center; min-height: calc(100vh - 72px); overflow: hidden; }
 #tsparticles { position: absolute; inset: 0; opacity: 0.52; }
-.hero, .home-research-showcase { --blue-shadow: 0 22px 58px rgba(0, 202, 237, 0.28), 0 8px 20px rgba(0, 202, 237, 0.16); --smooth-hover: 0.34s cubic-bezier(0.2, 0.8, 0.2, 1); }
+.hero, .home-research-showcase { --blue-shadow: 0 0 28px rgba(0, 202, 237, 0.2), 0 0 58px rgba(0, 202, 237, 0.16); --smooth-hover: 0.34s cubic-bezier(0.2, 0.8, 0.2, 1); }
 .hero-content { position: relative; z-index: 1; display: grid; align-content: center; grid-template-rows: auto auto; gap: 18px; min-height: calc(100vh - 72px); padding: clamp(16px, 2.2vh, 30px) 0; }
 .hero-main { --hero-panel-height: clamp(320px, calc(100vh - 260px), 560px); display: grid; grid-template-columns: minmax(260px, 3fr) minmax(0, 7fr); gap: 18px; align-items: stretch; min-height: 0; }
 .hero-intro-panel { display: grid; align-content: center; width: 100%; height: var(--hero-panel-height); min-height: 0; padding: clamp(18px, 2.4vw, 28px); border: 0; border-radius: 28px; background: #fff; color: var(--graphite); box-shadow: var(--blue-shadow); transition: box-shadow var(--smooth-hover), transform var(--smooth-hover); }
