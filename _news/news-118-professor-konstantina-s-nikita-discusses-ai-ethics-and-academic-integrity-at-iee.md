@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Professor Konstantina S. Nikita Discusses AI Ethics and Academic Integrity at IEEE AP-S Panel"
-short_title: "Professor Konstantina S. Nikita Discusses AI Ethics and Academic Integrity at IEEE AP-S Panel"
+short_title: "AI Ethics Panel at IEEE AP-S"
 date: 2026-09-17
 source_url: https://www.biosim.ntua.gr/en/news/118
 image: /assets/img/news/professor-konstantina-s-nikita-discusses-ai-ethics-and-academic-integrity-at-iee.webp

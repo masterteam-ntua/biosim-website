@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'PhD Thesis Defense by Eleftherios Kalafatis titled "Content generalization and automated testing through intelligent agents in dynamic serious games for health"'
-short_title: 'PhD Thesis Defense by Eleftherios Kalafatis titled "Content generalization and automated testing through intelligent agents in dynamic serious games for health"'
+short_title: "PhD Defense: Eleftherios Kalafatis"
 date: 2026-09-16
 source_url: https://www.biosim.ntua.gr/en/news/117
 image: /assets/img/news/phd-thesis-defense-by-eleftherios-kalafatis-titled-content-generalization-and-au.webp

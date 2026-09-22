@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'PhD Thesis Defense by Theofanis Ganitidis titled "Development of drift-adaptive machine learning methods to support health desicion making in dynamic data contexts"'
-short_title: 'PhD Thesis Defense by Theofanis Ganitidis titled "Development of drift-adaptive machine learning methods to support health desicion making in dynamic data contexts"'
+short_title: "PhD Defense: Theofanis Ganitidis"
 date: 2026-09-16
 source_url: https://www.biosim.ntua.gr/en/news/116
 image: /assets/img/news/phd-thesis-defense-by-theofanis-ganitidis-titled-development-of-drift-adaptive-m.webp
