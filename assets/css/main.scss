@@ -269,7 +269,9 @@ h3 { font-size: 1.25rem; }
 .thesis-year li { margin-bottom: 14px; color: var(--muted); }
 .thesis-year li:last-child { margin-bottom: 0; }
 .swiper { width: 100%; padding: 8px 2px 42px; }
-.news-swiper.swiper { --news-shadow-space: clamp(36px, 5vw, 64px); padding: var(--news-shadow-space) var(--news-shadow-space) calc(var(--news-shadow-space) + 20px); margin-top: calc(8px - var(--news-shadow-space)); margin-bottom: calc(12px - var(--news-shadow-space)); }
+.home-news-section { overflow-x: clip; }
+.news-swiper.swiper-initialized { overflow: visible; }
+.news-swiper.swiper-initialized .swiper-slide:not(.swiper-slide-active) { visibility: hidden; }
 .news-swiper .swiper-slide { display: flex; height: auto; }
 .swiper-pagination-bullet { background: var(--teal); }
 

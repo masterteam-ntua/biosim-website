@@ -85,7 +85,7 @@ permalink: /
   </div>
 </section>
 
-<section class="section home-section">
+<section class="section home-section home-news-section">
   <div class="container">
     <div class="section-heading" data-aos="fade-up">
       <div><h2>{% t home.latest_news %}</h2></div>
