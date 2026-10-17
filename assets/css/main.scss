@@ -240,17 +240,21 @@ h3 { font-size: 1.25rem; }
 .project-back-link { display: inline-block; margin-bottom: 20px; }
 .project-detail-header { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin-bottom: 24px; }
 .project-detail-header .tags { margin: 0; }
-.project-facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); gap: 16px; margin: 0 0 30px; }
-.project-facts > div { min-width: 0; padding: 18px 20px; border: 1px solid var(--line); border-radius: 18px; }
-.project-facts dt { margin-bottom: 10px; font-weight: 800; }
+.project-facts { display: grid; gap: 12px; margin: 0 0 30px; }
+.project-facts > div:not(.project-partners) { display: flex; flex-wrap: wrap; gap: 6px 12px; }
+.project-facts dt { font-weight: 800; }
 .project-facts dd { margin: 0; color: var(--muted); overflow-wrap: anywhere; }
-.project-facts ul { margin: 0; padding-left: 18px; }
-.project-facts li + li { margin-top: 6px; }
+.project-partners { margin-bottom: 10px; }
+.project-partners dt { margin-bottom: 12px; }
+.project-partners ul { display: flex; flex-wrap: wrap; gap: 8px; margin: 0; padding: 0; list-style: none; }
+.project-partners li { padding: 7px 12px; border-radius: 999px; background: #f1f7f8; color: var(--graphite); overflow-wrap: anywhere; }
 .project-description { max-width: 80ch; line-height: 1.7; }
 .project-description p:last-child { margin-bottom: 0; }
 .project-list { display: grid; gap: 12px; }
 .project-list-item { display: grid; grid-template-columns: minmax(0, 1fr) minmax(220px, 0.34fr); gap: 18px; align-items: start; padding: 18px 20px; border: 1px solid var(--line); border-radius: 18px; background: color-mix(in srgb, var(--card) 86%, transparent); }
 .project-list-item h3 { margin-bottom: 8px; font-size: 1.05rem; }
+.project-list-item h3 a { color: inherit; }
+.project-list-item h3 a:hover { color: var(--teal); }
 .project-list-item p { margin: 0; color: var(--muted); }
 .project-list-item .project-status { margin-bottom: 12px; }
 .project-list-item .tags { justify-content: flex-end; margin-top: 0; }

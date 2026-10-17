@@ -2,9 +2,9 @@
 layout: page
 ---
 
-{% assign project = site.data.projects | where: 'slug', page.project_slug | first %} {% assign description = project.description_en %}{% if site.lang
-== 'el' and project.description_el %}{% assign description = project.description_el %}{% endif %} {% assign lang_prefix = '' %}{% if site.lang !=
-site.default_lang %}{% assign lang_prefix = '/' | append: site.lang %}{% endif %}
+{% assign project = site.data.projects | where: 'slug', page.project_slug | first %} {% assign description = project.description_en | default:
+project.summary_en %}{% if site.lang == 'el' and project.description_el %}{% assign description = project.description_el %}{% endif %} {% assign
+lang_prefix = '' %}{% if site.lang != site.default_lang %}{% assign lang_prefix = '/' | append: site.lang %}{% endif %}
 <a class="project-back-link" href="{{ lang_prefix | append: '/projects/' | relative_url }}">← {% t projects.all_projects %}</a>
 <article class="article-card funded-project-detail" data-aos="fade-up">
   <div class="project-detail-header">
@@ -15,7 +15,7 @@ site.default_lang %}{% assign lang_prefix = '/' | append: site.lang %}{% endif %
   project.partners or project.duration or project.framework %}
   <dl class="project-facts">
     {% if project.partners %}
-    <div>
+    <div class="project-partners">
       <dt>{% t projects.partners %}</dt>
       <dd>
         <ul>

@@ -69,6 +69,17 @@
     of Type 1 Diabetes Mellitus and obesity in children and adolescents.
   summary_el: Ολοκληρωμένη πλατφόρμα ΤΠΕ, παιχνιδοποίησης και βιοανάδρασης για αυτοδιαχείριση
     ΣΔΤ1 και παχυσαρκίας σε παιδιά και εφήβους.
+  slug: "endorse"
+  source_url: "https://www.biosim.ntua.gr/en/project/35"
+  duration: "03/2018 - 03/2022"
+  partners:
+    - "ICCS NTUA"
+    - "EPIKNPI (UOA)"
+    - "UBITECH"
+    - "PEGNEON"
+  framework: "ΕΣΠΑ 2014-2020"
+  description_en: |
+    The project aims at the design, implementation and evaluation of a prototype integrated platform based on advanced and emerging Information and Communication Technologies (ICT), gamification and biofeedback mechanisms facilitating self-management of health in Type 1 Diabetes Mellitus (T1DM) and obesity. ENDORSE will focus on the development of a pervasive environment able to deliver applications and services with the ultimate goal to raise awareness, to train, to monitor, to comply, to promote healthy lifestyle behavioral changes and to support decision-making by placing the target groups (children and adolescents with T1DM and/or obesity) at the center of their healthcare.
 - title_en: smarty4covid
   status: completed
   featured: true
@@ -81,6 +92,19 @@
     using explainable deep learning and audio biomarkers.
   summary_el: Πολυτροπικό πλαίσιο για εκτίμηση κινδύνου και παρακολούθηση COVID-19
     με εξηγήσιμη βαθιά μάθηση και ηχητικούς βιοδείκτες.
+  slug: "smarty4covid"
+  source_url: "https://www.biosim.ntua.gr/en/project/36"
+  duration: "12/2021 - 12/2022"
+  partners:
+    - "ICCS NTUA"
+    - "Evangelismos Hospital"
+  framework: "HFRI"
+  description_en: |
+    The project aims at the development of an Intelligent Multimodal Framework for COVID-19 Risk Assessment and Monitoring based on Explainable Deep Learning. Multimodal deep learning techniques will be applied on heterogeneous data, consisting of self-reported risk factors, along with audio recordings of breathing, voice and speech, towards the discovery of novel biomarkers of infection and disease progression with the ultimate goal to (i) increase the sensitivity of the screening procedure by detecting cases with high risk of COVID-19 infection, (ii) enable the remote monitoring of patients with COVID-19, and (iii) provide alert signals in case of emergency.
+
+    The project advances the current state of the art by initiating innovative clinical pilots involving hospitalized patients with COVID-19 through a strategic partnership with the AHEPA Hospital. It is expected that the application of AI on the heterogeneous data (e.g. medical history, laboratory exams, audio recordings of breath, speech and cough) that will be collected within the framework of the clinical pilots will produce new biomarkers of disease progression.
+
+    Besides the version used within the clinical study under the supervision of healthcare professionals, smarty4covid has released a web-based application [smarty4covid](http://www.smarty4covid.org) to facilitate crowd sourcing data collection. This parallel study aims at the development of models able to predict the risk of COVID-19 infection and provide biomarkers for disease progression in infected non-hospitalized individuals.
 - title_en: Cockpit Crew Health Monitoring
   status: completed
   title_el: Ανάπτυξη Συστήματος Παρακολούθησης της Κατάστασης Υγείας των Πιλότων Αεροσκαφών
@@ -93,6 +117,17 @@
     processing to support pilot incapacitation warnings.
   summary_el: Παρακολούθηση φυσιολογικών παραμέτρων πιλότων με αισθητήρες και επεξεργασία
     σημάτων/εικόνας για έγκαιρη προειδοποίηση.
+  slug: "cockpit-crew-health-monitoring"
+  source_url: "https://www.biosim.ntua.gr/en/project/33"
+  duration: "01/2018 - 12/2021"
+  partners:
+    - "ICCS NTUA"
+    - "Hellenic Aerospace Industry"
+    - "National and Kapodistrian University of Athens"
+    - "MOD/GDOSY/DIDEAP"
+  framework: "ΕΣΠΑ 2014-2020"
+  description_en: |
+    Human factors are the principal cause of aircraft accidents, at a rate of 70 – 80%. Of these accidents, 10% are due to "disease" and the rest are due to "human error". "Pilot incapacitation" is the term used in the literature to describe the inability of a pilot, who is part of the operating crew, to carry out his flight duties, because of one or more factors which arise in flight and affect either human physiology (i.e. disease, hypoxia) or human performance (i.e. fatigue). The incapacitation can be physical or mental, acute or progressive, evident or latent. It is evident that acute and latent incapacitation is the most dangerous for the flight safety. The COCKPIT project aims to the "in flight" monitoring -in a flight simulator environment- of a set of human physiology parameters (heart rate, breath rate, hemoglobin oxygen saturation, muscle tone and sleepiness), by using specialized sensors and advanced signal and image processing techniques. In particular, COCKPIT's goal is to develop: (i) a real time "Cockpit Crew Health Monitoring System" and (ii) an "Early Warning System for the Second Pilot" so he resumes the control of the aircraft, thus minimizing the probability that an aircraft accident happens.
 - title_en: SMART-BLISTER
   status: completed
   featured: true
@@ -105,6 +140,16 @@
     to support medication adherence.
   summary_el: Έξυπνη συσκευασία blister με παθητικό τυπωμένο ηλεκτρονικό κύκλωμα και
     επικοινωνία με πληροφοριακό σύστημα νέφους.
+  slug: "smart-blister"
+  source_url: "https://www.biosim.ntua.gr/en/project/34"
+  duration: "01/2018 - 12/2021"
+  partners:
+    - "ICCS NTUA"
+    - "AMCO"
+    - "BODERM"
+  framework: "ΕΣΠΑ 2014-2020"
+  description_en: |
+    The goal of the SMART BLISTER project is to study, design and develop a novel smart blister concept based on a passive electronic circuit that will be printed on available blisters with the use of conductive or high resistance one layer inks. A small electronic device will be used to activate the blister and communicate with a central information cloud computing system. The project aspires to develop a concept/device that will have low cost in mass production and can be easily adopted and used in real life. The integrated system consisting of the prototype blister, the activation device and the central information and communication system will inform patient about his/her treatment and provide alert signals in case of a dosage omission, thus increasing the level of medical adherence.
 - title_en: EDUSAFE
   status: completed
   title_el: EDUSAFE
@@ -117,6 +162,14 @@
     safety in extreme environments.
   summary_el: Εκπαίδευση και έρευνα σε συστήματα εικονικής και επαυξημένης πραγματικότητας
     για ασφάλεια σε ακραία περιβάλλοντα.
+  slug: "edusafe"
+  source_url: "https://www.biosim.ntua.gr/en/project/1"
+  duration: "2012 - 2015"
+  partners:
+    - "Public and private organizations and leading institutions in France, Germany, Greece, Italy and Switzerland"
+  framework: "FP7-Marie Curie ITN"
+  description_en: |
+    EDUSAFE is a 4-year Marie Curie ITN project that provides training for 10 Early Stage Researchers and 2 Experienced Researchers. The project focuses on research into the use of Virtual Reality (VR) and Augmented Reality (AR) during planned and emergency maintenance in extreme environments (nuclear installations, space, deep sea etc). The scientific objective of EDUSAFE is research into advanced VR and AR technologies for a personnel safety system platform, including features, methods and tools. Current technology is not acceptable because of significant time-lag in communication and data transmission, missing multi-input interfaces, and simultaneous supervision of multiple workers who are working in the extreme environment. The aim is to technically advance and combine several technologies and integrate them as integral part of a personnel safety system to improve safety, maintain availability, reduce errors and decrease the time needed for scheduled or sudden interventions.
 - title_en: MOSAIC
   status: completed
   title_el: MOSAIC
@@ -128,6 +181,22 @@
     diabetes risk, complications, and management.
   summary_el: Μοντέλα και τεχνικές προσομοίωσης για παράγοντες που επηρεάζουν τον
     κίνδυνο, τις επιπλοκές και τη διαχείριση του διαβήτη.
+  slug: "mosaic"
+  source_url: "https://www.biosim.ntua.gr/en/project/4"
+  duration: "2012 - 2015"
+  partners:
+    - "Medtronic Iberica S.A."
+    - "University of Padova"
+    - "Universidad Politecnica de Madrid"
+    - "University of Pavia"
+    - "Fondazione Salvatore Maugeri Clinica del Lavoro e della Riabilitazione"
+    - "Asociacion Espanola Para el Desarrollo de la Epidemiologia Clinica"
+    - "Lunds Universitet"
+    - "Soluciones Tecnologias para la Salud y el Bienestar SA"
+    - "Folkhalsan Research Center"
+    - "National Technical University of Athens"
+  description_en: |
+    MOSAIC will address two very specific aspects linked to the prediction of risk of developing diabetes (type 2 and gestational) and complications associated to diabetes. These objectives respond to a widely recognized problem related to diabetes management and have the potential to have a major impact in the way diabetes is currently diagnosed and followed in Europe. The MOSAIC consortium counts with the expertise of four modelling partners who have worked over 25 years in the development of models of the human metabolic response in diabetes that will be enhanced in the project with the incorporation of elements that provide information related to environmental and clinical factors that prove to be relevant for the objectives defined such as socio-economic aspects, geographic localization, cultural background, nutrition, etc. Multiple data bases cutting across geographic boundaries are available to the MOSAIC consortium as a result of the activities of previous studies and projects of the members, such as (a) METABO 7FP EU project; (b) from the transversal study "Healthy Breakfast" enriched with Medtronic's CareLink© reports for continuous glucose monitoring systems; (c) two large longitudinal epidemiological studies over 10 years long (VIVA study, BOTNIA prospective study); (d) outpatient data treated by FSM, Health Department 'Valencia-La Fe', ASL Pavia program over more than 10 years and (e) other data bases generated in ongoing 7FP EU studies like ePREDICE. MOSAIC will integrate these models into an already existing platform for diabetes management and remote monitoring, NOMHAD Chronic, to facilitate the interpretation and visualization of the data and to enable a comprehensive understanding of the information by the health care professionals. At the same time this platform will be used during the validation phase of the project to acquire data during the prospective study to feed the models under test.
 - title_en: mBioRF
   status: completed
   title_el: Πολυεπίπεδη εκτίμηση βιολογικών αποτελεσμάτων ηλεκτρομαγνητικών πεδίων
@@ -139,6 +208,18 @@
     waves at cellular, tissue, and neurophysiological levels.
   summary_el: Πολυεπίπεδη μελέτη βιολογικών αποτελεσμάτων ηλεκτρομαγνητικών πεδίων
     ραδιοσυχνοτήτων σε κύτταρα, ιστούς και νευροφυσιολογία.
+  slug: "mbiorf"
+  source_url: "https://www.biosim.ntua.gr/en/project/5"
+  duration: "2012 - 2015"
+  partners:
+    - "University of Patras (Department of Electrical and Computer Engineering)"
+    - "National Technical University of Athens (School of Electrical and Computer Engineering)"
+    - "University of Thessaly (Biology Unit, School of Humanities)"
+    - "University of Ioannina (Department of Pathology, Medical School)"
+    - "University Mental Health Research Institute"
+    - "National University of Athens (1st Department of Psychiatry, Medical School)"
+  description_en: |
+    Researh project mBioRF aims to produce beyond state of the art multilevel research data on Biological effects of RafioFrequency (RF) ElectroMagnetic (EM) waves. The research project is structured to be developed in three (3) main levels: i) Cellular level: A thorough, in depth study on biological effects of low level EM Fields (EMF) radiation is foreseen. mBioRF will explore the production of free radicals from cells and generation of an oxidative stress state. The study will be done in total peripheral blood lymphocytes isolated from human volunteers in an attempt to minimize any overstatements from the misdetection of any experimental effects due to the use of cell cultures etc. Furthermore, the study will take place under a realistic scenario during which isolated human blood lymphocytes will be exposed to a modulated signal of mobile phones (e.g. 3rd Generation-UMTS) under controlled conditions in order to well define the radiation. Numerical dosimetry study will enable the detailed characterization of the exposure conditions. ii) Tissue level: Emphasis will be placed on dosimetric outcomes for children and other groups (e.g. pregnant women), which are considered of potential sensitivity. The study will focus on the calculation of EM dosimetric quantities, in comparison with international reference levels, taking into consideration a) the inter-subject variability in the numerical description of anatomical human models, b) the use of updated, age-related dielectric properties that characterize biological tissues and have been introduced in recent literature and c) the accurate description of the EM source. Moreover, it will explore the need for more complex and combined design scenarios, such as the use of portable sensors or other antennas in the presence of mobile phones or uncontrolled environments of general EM radiation. Additionally, the temperature (and potential conductivity) variation will be measured non-invasively in experimental head models and healthy volunteer participants, based on microwave radiometry methods. The experimental data will be combined with the corresponding computed ones, along with EM absorbed power information. iii) Neurophysiological level: A human volunteers study aims to evaluate potential alternations in ElectroEncephaloGram (EEG) and Evoked Potentials (EP) recordings, due to 3G EM irradiation. EP will be recorded due to acoustic or/and optical stimuli. Advanced Digital Signal Processing (DSP) methods will be used in order to detect potential statistically significant differences. In order to study the potential neurophysiological effects, alternations in the product of temperature and conductivity of brain tissue will be also recorded in real time and will be combined with the available information concerning the EM power absorption.
 - title_en: DEM-II-MED
   status: completed
   title_el: Εμφυτεύσιμες και καταπόσιμες ιατρικές διατάξεις
@@ -150,6 +231,13 @@
     devices with telemetry and telemedicine links.
   summary_el: Μεθοδολογία σχεδίασης και αξιολόγησης εμφυτεύσιμων και καταπόσιμων ιατρικών
     διατάξεων με τηλεμετρία και τηλεϊατρική.
+  slug: "dem-ii-med"
+  source_url: "https://www.biosim.ntua.gr/en/project/6"
+  duration: "2012 - 2015"
+  partners:
+    - "National Technical University of Athens (School of Electrical and Computer Engineering)"
+  description_en: |
+    Biotelemetry permits the measurement of physiological signals at a distance. Its latest application is in implantable and ingestible medical devices (IIMDs). In this project, a Design-and-Evaluation closed-loop Methodology for biotelemetry-telemedicine-integrated systems of antenna-enabled IIMDs (DEMIIMD) is implemented. The DEMIIMD consists of five interconnected design-and-evaluation steps (1. data/power circuit, 2. IIMD-antenna, 3. biotelemetry link, 4. patient safety, 5. telemedicine link), and one overall evaluation step. Application-specific requirements must be taken into account at all steps to render the design suitable for the application at hand. Studies will be developed in six workpackages (WPs). The first five WPs will address research issues raised within the first five steps of the DEMIIMD, respectively. Emphasis will be on IIMD-antenna design, biotelemetry link modeling and performance, and safety. Extensive numerical and in-vitro/in-vivo studies will be performed. Electronics and biotelemetry-telemedicine-integration issues will also be addressed. The sixth WP will be devoted to numerical and in-vitro studies to validate the DEMIIMD within the framework of a novel system for wireless intracranial pressure (ICP) monitoring, as an alternative to the traditional wired approaches. Novelty lies in the proposal of the DEMIIMD as a standardized procedure which addresses interconnecting interdisciplinary challenges to design and test integrated systems for antenna-enabled IIMDs. Significant progress beyond the state of the art will be provided, with the highlights being: optimized design algorithms for miniature IIMD-antennas, reliable antenna testing, thermal/multi-source/in-vitro dosimetry for IIMDs, novel methods to assess tissue temperature rise, in- and out-of-body channel modeling, biotelemetry-telemedicine-integration, and a novel wireless approach to ICP monitoring.
 - title_en: SIFEM
   status: completed
   title_el: SIFEM
@@ -161,6 +249,22 @@
     for multi-scale inner-ear modeling.
   summary_el: Σημασιολογική υποδομή που συνδέει εργαλεία πεπερασμένων στοιχείων και
     αποθετήρια μοντέλων για το έσω ους.
+  slug: "sifem"
+  source_url: "https://www.biosim.ntua.gr/en/project/7"
+  duration: "2012 - 2015"
+  partners:
+    - "National University of Ireland (Digital Enterprise Research Institute)"
+    - "ΕΠΙΣΕΥ"
+    - "University of Southampton (Institute of Sound and Vibration Research)"
+    - "Linkopings Universitet"
+    - "BioIRC d.o.o. Kragujevac"
+    - "INTRASOFT International SA"
+    - "University College London (Ear Institute)"
+    - "National & Kapodistrian University of Athens (1st Department of Otolaryngology - Head & Neck Surgery)"
+    - "The Methodist Hospital Research Institute"
+    - "The Research Trust of Victoria University of Wellington"
+  description_en: |
+    The clinical evidence indicates that the number of people with all levels of hearing impairment and hearing loss is rising mainly due to a growing global population and longer life expectancies. Hearing loss caused by pathology in the cochlea or the cochlear nerve is classified as sensorineural hearing loss. The study of the normal function and pathology of the inner ear has unique difficulties as it is inaccessible during life and so, conventional techniques of pathologic studies such as biopsy and surgical excision are not feasible. SIFEM focuses on the development of a Semantic Infostructure interlinking an open source Finite Element Tool with existing data, models and new knowledge for the multi-scale modelling of the inner-ear with regard to the sensorineural hearing loss. The experts will have access to both the data (micro-CT images, histological data) and inner ear models, while the open-source developed tools and the SIFEM Conceptual Model will be contributed to the VPH toolkit enhancing their reusability. These SIFEM open source tools and services enhance and accelerate the delivery of validated and robust multi-scale models by focusing on: (i) Finite Element Models manipulation and development, (ii) cochlea reconstruction and (iii) 3D inner ear models visualization. The final outcome is the development of a functional, 3D, multi-scale and validated inner-ear model that includes details of the micromechanics, cochlea geometry, supporting structures, surrounding fluid environment and vibration patterns. In the open context that the project addresses, the results can be used to better identify the mechanisms that are responsible for the highly sensitive and dynamic properties of hearing loss. These result to the description of alterations that are connected to diverse cochlear disorders and assist the experts to better assess each patient's condition leading to more efficient treatment and rehabilitation planning and, in long-term, to personalized healthcare.
 - title_en: Carotid Atherosclerosis
   status: completed
   title_el: Η αθηρωματική πλάκα στην καρωτίδα
@@ -172,6 +276,17 @@
     management of symptomatic and asymptomatic patients.
   summary_el: Πολυεπιστημονική προσέγγιση της αθηρωμάτωσης στην καρωτίδα για βέλτιστη
     διαχείριση συμπτωματικών και ασυμπτωματικών ασθενών.
+  slug: "carotid-atherosclerosis"
+  source_url: "https://www.biosim.ntua.gr/en/project/8"
+  duration: "2011 - 2014"
+  partners:
+    - "National Technical University of Athens (School of Electrical and Computer Engineering)"
+    - "National & Kapodistrian University of Athens"
+    - "VIDAVO S.A."
+    - "DIGIMED S.A."
+    - 'Ecole Centrale de Paris (Medical Imaging and Computer Vision Group "MAS VISION/GALEN")'
+  description_en: |
+    The scope of the project is a multiscientific view of atherosclerosis in the carotid artery by investigating environmental causes and clinical manifestations of the disease. Specifically, the project attempts to (a) identify novel quantitative indicators for the diagnosis of atherosclerosis by associating biochemical, biomechanical and imaging parameters, (b) achieve a personalized management of the disease and (c) develop an integrated information system that can be used in clinical practice to improve health services.
 - title_en: Non-ionizing radiation source registry study
   status: completed
   title_el: Μελέτη καταγραφής πηγών μη-ιονίζουσας ακτινοβολίας
@@ -182,6 +297,13 @@
     and linking the database with GIS.
   summary_el: Μελέτη για τεύχη δημοπράτησης έργου καταγραφής πηγών μη ιονίζουσας ακτινοβολίας
     και σύνδεσης βάσης δεδομένων με GIS.
+  slug: "non-ionizing-radiation-source-registry-study"
+  source_url: "https://www.biosim.ntua.gr/en/project/11"
+  duration: "2011 - 2013"
+  partners:
+    - "National Technical University of Athens (School of Electrical and Computer Engineering)"
+  description_en: |
+    The scope of the project is to conduct a study that aims to prepare the auctioning documents for a proposal which scope is to list/record sources of non-ionizing radiation. The proposal involves a) the recording of the main sources of non-ionizing radiation, including: i) high-voltage lines and substations, ii) radio and telecommunications stations, iii) wireless communications stations, iv) radar, as well as b) the installation of a database and its connection with the GIS (Geographic Information System).
 - title_en: Emerging EMF Technologies and Health Risk Management
   status: completed
   title_el: Emerging EMF Technologies and Health Risk Management
@@ -192,6 +314,13 @@
     exposure characteristics, health concerns, and risk communication.
   summary_el: Δομή ανταλλαγής γνώσης για νέες τεχνολογίες ΗΜΠ, χαρακτηριστικά έκθεσης,
     πιθανές επιπτώσεις στην υγεία και επικοινωνία κινδύνου.
+  slug: "emerging-emf-technologies-and-health-risk-management"
+  source_url: "https://www.biosim.ntua.gr/en/project/9"
+  duration: "2008 - 2012"
+  partners:
+    - "27 European countries"
+  description_en: |
+    The main objective of the project is to create a structure in which researchers in the field of EMF and health can share knowledge and information on: 1. How existing EMF technologies change either in their operating characteristics or in novel ways and applications in which they are used, 2. Identifying what entirely new EMF technologies are introduced and on what time-scale, 3. What novel emission and operating characteristics might result and what impact these would have on the device-specific and overall EMF exposure of people, 4. What possible health effects could consequently arise and the scientific evidence for health concerns if any, 5. How such concerns should be addressed through the use of evidence-based information, and 6. What tools are effective in communicating and managing such risks and perceived risks. And, effectively publish all such information in the public sector for the benefit of all stakeholders.
 - title_en: NEUROMATH
   status: completed
   title_el: NEUROMATH
@@ -202,6 +331,13 @@
     from non-invasive neuroelectric and hemodynamic measurements.
   summary_el: Μαθηματικές μέθοδοι εκτίμησης εγκεφαλικής δραστηριότητας και συνδεσιμότητας
     από μη επεμβατικές μετρήσεις.
+  slug: "neuromath"
+  source_url: "https://www.biosim.ntua.gr/en/project/32"
+  duration: "2007 - 2011"
+  partners:
+    - "Selected laboratories from the following COST countries: Austria, Belgium, Denmark, Finland, France, Germany, Greece, Hungary, Italy, Netherlands, Poland, Switzerland, Turkey, and United Kingdom"
+  description_en: |
+    The main objective of the Action is to increase the knowledge on the mathematical methods able to estimate the cortical activity and connectivity in the human brain from non invasive neuroelectric and hemodynamic measurements. Additional objectives include the developing of new techniques for the multimodal integration of neuroelectromagnetic and hemodynamic measurements, and their application in several contexts, from the study of human cortical activity during cognitive tasks to the field of the brain computer interface. The NEUROMATH Action aimed to develop an European network in the neuroscience field which, if possible, should become reference in Europe and contribute to the scientific development of the domain.
 - title_en: Neuronal network dynamics in motor disorders
   status: completed
   title_el: Υπολογιστικές μέθοδοι για δυναμική δικτύων νευρώνων σε κινητικές διαταραχές
@@ -212,6 +348,14 @@
     control of neurological dysfunctions.
   summary_el: Υπολογιστικές μέθοδοι χρονοβηματισμού για δυναμική δικτύων νευρώνων
     και έλεγχο νευρολογικών δυσλειτουργιών.
+  slug: "neuronal-network-dynamics-in-motor-disorders"
+  source_url: "https://www.biosim.ntua.gr/en/project/12"
+  duration: "2008 - 2010"
+  partners:
+    - "School of electrical and computer engineering (N.T.U.A.)"
+    - "«Evangelismos» Hospital"
+  description_en: |
+    The project aims at the development of tools for a deeper understanding of the physiology of neurological functions and their divergence from normal functionality, and the use of these tools to control neurological disorders. In collaboration with the team of neurosurgeons of the Neurosurgery Clinic at the Hospital "Evangelismos", for the first time in Greece we collect and analyze data of intracranial recordings from patients who underwent surgery for electrode placement for "deep stimulation" of the nuclei of the brain. The project is divided into three components: (a) the development of mathematical models starting from the microscopic level, based on the physiology of neural cells to effectively approach the dynamic behavior of real cases, (b) the development of modern computational methods for the systematic analysis of models to identify the critical parameters, which determine changes in the behavior of the neural system with the appearance of malfunctions (eg. Alzheimer's Parkinson) and (c) the development of modern control methods for the regulation and control of emerging pathologies.
 - title_en: Computational tools for Parkinson's disease and resistant epilepsy
   status: completed
   title_el: Υπολογιστικά εργαλεία για νόσο Parkinson και ανθεκτική επιληψία
@@ -222,6 +366,16 @@
     modeling to assist functional interventions.
   summary_el: Αλγόριθμοι και εργαλεία επεξεργασίας εγκεφαλικών σημάτων και μοντελοποίησης
     για υποβοήθηση λειτουργικών παρεμβάσεων.
+  slug: "computational-tools-for-parkinson-s-disease-and-resistant-epilepsy"
+  source_url: "https://www.biosim.ntua.gr/en/project/28"
+  duration: "2006 - 2009"
+  partners:
+    - "National Technical University of Athens (School of Electrical and Computer Engineering)"
+    - "National & Kapodistrian University of Athens (Medical School)"
+    - "Bio-Signal Analysis Laboratory-Electrical and Computer Engineering Department (University of Houston)"
+    - "MEDTRON SYSTEMS INC. CORPORATION"
+  description_en: |
+    The surgical treatment of chronic neurological diseases that cannot be adequately treated by medicines is widely applied for two diseases: epilepsy and Parkinson's disease. This project aims at the development of advanced computational algorithms and software tools for the digital processing of brain signals (EEG, microelectrode recordings) and for the computational modelling of brain structures/functions based on individualized anatomical and neurophysiological data. The computational tools that will be developed will mainly aim at the establishment of quantitative features (measures) to assist diagnosis, treatment and evaluation of therapeutic outcome in Parkinson's disease and epilepsy. Furthermore, the applicability of the developed algorithms and computational tools to other neurological/ neuropsychiatric diseases will be investigated.
 - title_en: Micro2DNA
   status: completed
   title_el: Micro2DNA
@@ -232,6 +386,23 @@
     and silicon-based detection.
   summary_el: Ολοκληρωμένο μικρορευστονικό σύστημα πολυμερών για εξαγωγή, πολλαπλασιασμό
     και ανίχνευση DNA.
+  slug: "micro2dna"
+  source_url: "https://www.biosim.ntua.gr/en/project/30"
+  duration: "2006 - 2009"
+  partners:
+    - "Intracom (Greece)"
+    - "Tyndall (Ireland)"
+    - "Leti (France)"
+    - "Forth (Greece)"
+    - "NTE (Spain)"
+    - "Sensl (Ireland)"
+    - "Sciona (United Kingdom)"
+    - "NTUA (Greece)"
+    - "NCSR (Greece)"
+    - "Oxford University (United Kingdom)"
+    - "Charles University (Czech Republic)"
+  description_en: |
+    The project is going to develop a single device integrated micro system for nucleic acid extraction, purification, PCR amplification, reagent mixing, biochemical reactions and finally DNA micro array detection in real time. The technologies combined are silicon-based for the implementation of the DNA micro array detection and polymer-based for the construction of the micro fluidic module. A chip that will be developed in the project will be ideally suited for being integrated in the portable low cost system and will perform the signal transduction, interpretation and data analysis. The aim is to deliver a product targeting to point-of-care applications, with emphasis on providing very rapid and accurate results. The micro system which will be developed will be validated in four different healthcare applications.
 - title_en: SMARTDIAB
   status: completed
   title_el: SMARTDIAB
@@ -242,6 +413,19 @@
     and glucose-insulin metabolic modeling.
   summary_el: Ευφυές σύστημα έγχυσης ινσουλίνης με τηλεματική, GSM, WPAN και μοντελοποίηση
     γλυκόζης-ινσουλίνης.
+  slug: "smartdiab"
+  source_url: "https://www.biosim.ntua.gr/en/project/3"
+  duration: "2005 - 2008"
+  partners:
+    - "MICREL"
+    - "DATAMED"
+    - "University of Athens"
+    - "Q-SYSTEMS"
+    - "University of Crete"
+    - "ICCS"
+    - "Athens Medical Center"
+  description_en: |
+    Development of a smart insulin infusion system for patients with diabetes, using telematics and embedded GSM and WPAN technologies. Issues relating to the management of medical data of patients with diabetes, processing and development of simulation models of the metabolic glucose-insulin system, combined with the monitoring of blood glucose levels and insulin injection technologies, are the main objects of the project. Particular emphasis is placed on safety during transport, treatment and management of medical patient data.
 - title_en: fastGATE
   status: completed
   title_el: fastGATE
@@ -252,6 +436,15 @@
     efficiency on distributed computing platforms.
   summary_el: Τεχνικές ελάττωσης πολυπλοκότητας για βελτίωση της απόδοσης προσομοιώσεων
     Monte Carlo GATE σε κατανεμημένες πλατφόρμες.
+  slug: "fastgate"
+  source_url: "https://www.biosim.ntua.gr/en/project/10"
+  duration: "2005 - 2008"
+  partners:
+    - "School of Electrical and Computer Engineering - National Technical University of Athens"
+    - "Crump Institute for Molecular Imaging, David Geffen School of Medicine at UCLA."
+    - "Hardware and Software Engineering Ltd"
+  description_en: |
+    GATE is a novel openSource toolkit for simulation of full-edged clinical PET and SPECT systems. It allows the user to model realistic nuclear medicine experiments with an easy to use, yet powerful, scripting language. GATE simulations are CPU-bound computations, in the sense that most of the work corresponds to numerical calculations related to particle transport. Thus, realistic imaging simulations, including transmission tomography, usually take weeks or months to complete in state-of-the-art single-CPU computers. However, it is also generally true that Monte Carlo simulations are excellent candidates for embarrassingly parallel solutions to the computational problem, because the amount of interprocess communication is small, and usually only at process start-up and termination. In addition, variance reduction techniques provide execution speed up since a number of physical processes such as photon splitting, electron history repetition etc can improve the efficiency of the simulated code. It is possible to further improve the efficiency by optimizing transport parameters such as electron energy cut-off, maximum electron energy step size, photon energy cut-off, a cut-off for kerma approximation and use of delta scattering technique, without loss of calculation accuracy. The aim of the proposed project is the implementation and application of variance reduction techniques (VRTs) in order to speedup the execution time of the GATE Monte Carlo simulation package on distributed computing platforms and the development of a cluster in BIOSIM.
 - title_en: Non ionizing radiation and public health
   status: completed
   title_el: Μη ιοντίζουσα ακτινοβολία και δημόσια υγεία
@@ -261,6 +454,11 @@
   summary_en: Research activity on non-ionizing radiation and public-health implications.
   summary_el: Ερευνητική δραστηριότητα για μη ιοντίζουσα ακτινοβολία και επιπτώσεις
     στη δημόσια υγεία.
+  slug: "non-ionizing-radiation-and-public-health"
+  source_url: "https://www.biosim.ntua.gr/en/project/27"
+  duration: "2007 - 2008"
+  partners:
+    - "School of electrical and computer engineering (N.T.U.A.)"
 - title_en: Telemedicine network for Aegean and Cyprus remote areas
   status: completed
   title_el: Δίκτυο τηλεϊατρικής για απομακρυσμένες περιοχές στο Αιγαίο και την Κύπρο
@@ -271,6 +469,11 @@
     video, image transmission, and specialist consultation.
   summary_el: Δίκτυο τηλεϊατρικής για επείγουσα φροντίδα με βιοσήματα, video, εικόνες
     και συμβουλευτική από ειδικευμένους ιατρούς.
+  slug: "telemedicine-network-for-aegean-and-cyprus-remote-areas"
+  source_url: "https://www.biosim.ntua.gr/en/project/13"
+  duration: "2006 - 2007"
+  description_en: |
+    Design and development of telemedicine services to serve the needs of the inhabitants of the region, focusing on situations of emergency medical care. Services will be based on technologies that enable the collection and transmission of important diagnostic biosignals (ECG, blood pressure, pulse oximetry, temperature), the collection and transmission of video signals or image sequences. Services include diagnosis, medical support in long distances and counseling services in remote medical units (ambulance, rural health centers, provincial doctors, etc.) by specialists at regional hospitals or medical centers.
 - title_en: EMedIT
   status: completed
   title_el: EMedIT
@@ -281,6 +484,11 @@
     to reduce the digital divide.
   summary_el: Οδικός χάρτης ΤΠΕ, υπηρεσίες υποστήριξης, εκπαίδευση και συνεργασίες
     στη Νοτιοανατολική Μεσόγειο.
+  slug: "emedit"
+  source_url: "https://www.biosim.ntua.gr/en/project/15"
+  duration: "2006 - 2007"
+  description_en: |
+    EMedIT 's main objectives focus upon: i) providing a roadmap of transnational integration into a common framework regarding ICT in the EastMed (EM) region, ii) promoting support services including training to ICT regional authorities and public bodies on an equal basis, iii) discussing relevant ICT issues and iv) fostering the development of ICT, thus reducing the "digital divide" gap in the EastMed. Short term outcomes of EMedIT are the establishment of cooperation and networking between all EM actors involved in ICT and the provision of Support Services and Training Assistance to the regulatory institutions, telecom operators and other relevant bodies in 4 EM countries, while the long term outcomes are the eestablishment of a unified and coherent method of acting, thinking and policy-making on ICT in the region and thus establish concrete benefits for them as well as for the public they serve.
 - title_en: Small animal biological process simulation
   status: completed
   title_el: Προσομοίωση και μοντελοποίηση σύνθετων βιολογικών διεργασιών σε μικρά
@@ -292,6 +500,14 @@
     and related medical-imaging applications.
   summary_el: Βελτιστοποίηση εξειδικευμένης γ-camera για απεικόνιση μικρών ζώων και
     συναφείς εφαρμογές ιατρικής απεικόνισης.
+  slug: "small-animal-biological-process-simulation"
+  source_url: "https://www.biosim.ntua.gr/en/project/16"
+  duration: "2005 - 2007"
+  partners:
+    - "Institute of Communication and Computer Systems (ICCS)- National Technical University of Athens"
+    - "Computer Engineer, Head of Computer Engineering Section - Faculty of Electrical Engineering, Polytechnic University of Tirana"
+  description_en: |
+    Small animal imaging is a very important research field in order to develop new radiopharmaceuticals for clinical application. Still clinical used devices are not optimised for small animal imaging, where very high spatial resolution and sensitivity is needed. A new generation of compact gamma cameras based on Position Sensitive Photomutiplier Tubes (PSPMTs) offer submillimeter resolution. These detectors are used in small animal imaging since the performance of such cameras meets the need of high resolution and high sensitivity. Such systems find clinical application as well. The most promising field for such a system is scintimammography, where metabolic information is necessary in order to discriminate benign from malicious tumors. Several parameters of imaging with PSPMTs can be studied and optimised, including crystals, collimators, data acquisition and signal and image analysis. ΑThe main objective of the proposed project is the optimization of a dedicated camera suitable for small animal imaging, which is hosted by the Greek part. In terms of this project the Greek and the Albanian team will collaborate in order to exchange knowledge in the field of detector development, crystal simulation and medical imaging. The optimised detector will be assessed using phantoms, small animals and possibly patients.
 - title_en: INTERMED
   status: completed
   title_el: INTERMED
@@ -302,6 +518,11 @@
     tele-diagnosis, and e-learning in remote Mediterranean regions.
   summary_el: Ευρυζωνική τηλεπικοινωνιακή πλατφόρμα για τηλεσυνεργασία, τηλεπαρακολούθηση,
     τηλεδιάγνωση και εκπαίδευση στη Μεσόγειο.
+  slug: "intermed"
+  source_url: "https://www.biosim.ntua.gr/en/project/29"
+  duration: "2006 - 2007"
+  description_en: |
+    Aim of the proposed project is the design, development and management of a pilot trans-, East-Mediterranean broadband communication platform for the provision of medical services for both citizens and travellers in remote/isolated regions of Mediterranean Sea , and in board ships travelling across it. The services will improve the quality of life and the feeling of safety concerning the health of citizens and travellers in the aforementioned area, through, among others, t ele-collaboration, tele-monitoring, tele-diagnosis, and e learning capabilities.
 - title_en: EMC Related to Wireless Communications
   status: completed
   title_el: EMC Related to Wireless Communications
@@ -312,6 +533,20 @@
     communications with emphasis on 3G/UMTS systems.
   summary_el: Σειρά μεταπτυχιακών μαθημάτων για ηλεκτρομαγνητική συμβατότητα σε ασύρματες
     επικοινωνίες με έμφαση σε 3G/UMTS.
+  slug: "emc-related-to-wireless-communications"
+  source_url: "https://www.biosim.ntua.gr/en/project/31"
+  duration: "2005 - 2007"
+  partners:
+    - "University of Sciences and Technologies Of Lille"
+    - "Polytechnic University of Turin"
+    - "University of Hannover"
+    - "Catholical Higher Educational Institute Brugge Oostende"
+    - "National Technical University of Athens (N.T.U.A)"
+    - 'University of Rome "La Sapienza"'
+    - "University of York"
+    - "Polytechnic University of Marche (Ancona)"
+  description_en: |
+    Line of postgraduate courses of total duration of 60 hours with regard to subjects of electromagnetic compatibility in systems of wireless communications with accent in the systems of mobile communications of 3G (UMTS).
 - title_en: Protection from non-ionizing radiation of mobile communications
   status: completed
   title_el: Προστασία κοινού από μη ιοντίζουσα ακτινοβολία συστημάτων κινητών επικοινωνιών
@@ -322,6 +557,13 @@
     with emphasis on children and protective measures.
   summary_el: Μελέτη έκθεσης του κοινού σε ακτινοβολία τερματικών και σταθμών βάσης,
     με έμφαση στα παιδιά και στα μέτρα προστασίας.
+  slug: "protection-from-non-ionizing-radiation-of-mobile-communications"
+  source_url: "https://www.biosim.ntua.gr/en/project/14"
+  duration: "01/2006 - 12/2006"
+  partners:
+    - "National Technical University of Athens (School of Electrical and Computer Engineering, School of Rural and Surveying Engineering)"
+  description_en: |
+    The project attempts to study the effects on the general population - with emphasis on children - due to non ionizing electromagnetic radiation of mobile terminal equipment and base stations of mobile communications and identify measures for their protection.
 - title_en: AMICA
   status: completed
   title_el: AMICA
@@ -332,6 +574,9 @@
     decision-making and prevent errors.
   summary_el: Συγκέντρωση δεδομένων και γνώσης στο σημείο φροντίδας για βελτίωση ιατρικών
     αποφάσεων και αποτροπή λαθών.
+  slug: "amica"
+  source_url: "https://www.biosim.ntua.gr/en/project/17"
+  duration: "01/2004 - 12/2006"
 - title_en: Small animal PET
   status: completed
   title_el: Monte-Carlo προσομοίωση συστημάτων small animal PET
@@ -342,6 +587,14 @@
     systems for small-animal imaging and tumor detection.
   summary_el: Monte Carlo προσομοίωση τομογραφικών συστημάτων PET μικρών διαστάσεων
     και υψηλής διακριτικής ικανότητας.
+  slug: "small-animal-pet"
+  source_url: "https://www.biosim.ntua.gr/en/project/18"
+  duration: "01/2005 - 12/2006"
+  partners:
+    - "Institute of Communication and Computer Systems (ICCS) - National Technical University of Athens"
+    - "Polytechnic University of Madrid"
+  description_en: |
+    The aim of the proposed research work is the study, using Monte-Carlo simulation, of a new generation, high-resolution, small-dimension positron emission tomography systems suitable for small animal imaging (small animal PET) and potentially for the detection of small size breast tumours. Such small animal PET systems have been used experimentally for imaging of breast phantoms and lately clinical studies have shown that this technique can be used complementary to standard X-ray mammography, towards an accurate and early diagnosis of the disease, which plays a significant role in the design of the treatment plan and the treatment outcome. Monte-Carlo simulation is a tool that is widely used during the design steps. When the components of the system are described in detail, Monte-Carlo simulation takes into account the geometry, the characteristics, the physical properties of the materials and the possible interactions with incident photons and "predicts" systems response. Monte-Carlo simulations will be carried out using dedicated codes, simSET and GATE. The results of these studies will be used during the design steps of the detector systems in order to optimize their performance. The implementation of the simulation will be based on the GRID concept, using the EGEE platform (Enabling Grids for E-science in Europe), which is built on the GEANT EU research network, as it also occurs with the GATE platform.
 - title_en: Potential Health Implications from Mobile Communication Systems
   status: completed
   title_el: Potential Health Implications from Mobile Communication Systems
@@ -352,6 +605,13 @@
     from mobile communication systems.
   summary_el: Διερεύνηση πιθανών επιπτώσεων στην υγεία από έκθεση σε ηλεκτρομαγνητική
     ακτινοβολία συστημάτων κινητών επικοινωνιών.
+  slug: "potential-health-implications-from-mobile-communication-systems"
+  source_url: "https://www.biosim.ntua.gr/en/project/19"
+  duration: "2001 - 2005"
+  partners:
+    - "19 European countries"
+  description_en: |
+    The main objective is to obtain a better understanding of possible health impacts of emerging technologies, especially related to communication and information technologies, that may result in exposure to electro-magnetic fields.
 - title_en: Inverse Scattering for Medical Diagnosis
   status: completed
   title_el: Επίλυση του Προβλήματος της Αντίστροφης Σκέδασης
@@ -362,6 +622,13 @@
     of biological media for medical diagnosis.
   summary_el: Αλγόριθμοι αντίστροφης σκέδασης για προσδιορισμό σχήματος και δείκτη
     διάθλασης βιολογικών αντικειμένων.
+  slug: "inverse-scattering-for-medical-diagnosis"
+  source_url: "https://www.biosim.ntua.gr/en/project/20"
+  duration: "06/2000 - 10/2002"
+  partners:
+    - "Faculty of Applied Mathematics and Physics, National Technical University of Athens"
+  description_en: |
+    Development of algorithms for solving the inverse scattering problem in order to define the shape and the diffraction index of biological media. Development of computerized source-code for serial and parallel execution.
 - title_en: GALENOS
   status: completed
   title_el: Ανάπτυξη συστήματος εικονικής προσομοίωσης και σχεδίασης αγωγής στην ακτινο-ογκολογία
@@ -372,6 +639,17 @@
     with image processing, 3D visualization, and tele-collaboration.
   summary_el: Σύστημα εικονικής προσομοίωσης και σχεδίασης ακτινοθεραπείας με επεξεργασία
     εικόνας, 3D οπτικοποίηση και τηλεσυνεργασία.
+  slug: "galenos"
+  source_url: "https://www.biosim.ntua.gr/en/project/21"
+  duration: "05/1999 - 04/2001"
+  partners:
+    - "Philips Hellas Medical Systems"
+    - "Medical School, University of Athens"
+    - '"Saint Savas" General District Anticancer Hospital of Athens'
+    - '"Metaxa" General District Anticancer Hospital of Piraeus'
+    - "Medical School, University of Patras"
+  description_en: |
+    Development of a system for virtual simulation and treatment planning in radiation oncology. Advanced digital image processing techniques have been applied to CT images. Additionally, tools for three-dimensional (3D) visualization of organs or selected regions of interest have been implemented. The system incorporates a database where patient data and relevant information can be stored and retrieved. The access in the database is permitted only to authorized users. The user-friendly interface makes the software handy and accessible to clinicians, while telematic components allow tele-collaboration with other clinics.
 - title_en: Rational Assessment of Health Effects Related to Mobile Phones
   status: completed
   title_el: Rational Assessment of Health Effects Related to the Use of Mobile Phones
@@ -382,6 +660,13 @@
     exposure to mobile-phone radiation.
   summary_el: Τυποποίηση πειραματικών και υπολογιστικών διαδικασιών για εκτίμηση έκθεσης
     κεφαλής σε ακτινοβολία κινητών τηλεφώνων.
+  slug: "rational-assessment-of-health-effects-related-to-mobile-phones"
+  source_url: "https://www.biosim.ntua.gr/en/project/22"
+  duration: "10/1999 - 09/2001"
+  partners:
+    - 'Department of Electronic Engineering, University of Rome "La Sapienza"'
+  description_en: |
+    Formulation of standards for experimental and numerical procedures used to evaluate the exposure of human head in electromagnetic radiation of mobile phones. Design of mobile phone antennas and device structures in order to minimize human head exposure.
 - title_en: CT-Based Diagnostic Ability Improvement
   status: completed
   title_el: Αύξηση διαγνωστικής δυνατότητας εικόνων αξονικής τομογραφίας
@@ -392,6 +677,13 @@
     segmentation, feature extraction, and 3D visualization.
   summary_el: Σύστημα διαχείρισης και υποστήριξης διάγνωσης εικόνων CT με επεξεργασία
     εικόνας και τηλεματική συνεργασία.
+  slug: "ct-based-diagnostic-ability-improvement"
+  source_url: "https://www.biosim.ntua.gr/en/project/23"
+  duration: "04/1998 - 04/2001"
+  partners:
+    - "Medical School, University of Athens"
+  description_en: |
+    Development of an integrated system for CT data archiving, management and diagnosis support, enabling also telematic cooperation between remote users. The system provides DICOM compatible tools for digital image processing and database management of CT images. The software features algorithms for image pre-processing, tools for manual or semi-automatic segmentation, automatic calculation of geometrical features, and three-dimensional (3D) visualization of organs or selected regions of interest.
 - title_en: Biomedical Effects of Electromagnetic Fields
   status: completed
   title_el: Biomedical Effects of Electromagnetic Fields
@@ -402,6 +694,13 @@
     users, and medical applications of electromagnetic waves.
   summary_el: Μελέτη επιπτώσεων ηλεκτρομαγνητικών κυμάτων στην υγεία, με έμφαση σε
     χρήστες κινητών, και εφαρμογές στην ιατρική.
+  slug: "biomedical-effects-of-electromagnetic-fields"
+  source_url: "https://www.biosim.ntua.gr/en/project/24"
+  duration: "1997 - 2000"
+  partners:
+    - "About 18 European countries"
+  description_en: |
+    Biomedical effects of electromagnetic fields, with emphasis on the mobile phone users. Application of electromagnetic waves in medicine.
 - title_en: VIRTUOSO
   status: completed
   title_el: VIRTUOSO
@@ -413,6 +712,19 @@
     with telematics collaboration between centers.
   summary_el: Εικονική προσομοίωση και σχεδίαση θεραπείας στην ακτινο-ογκολογία με
     τηλεματική συνεργασία κέντρων.
+  slug: "virtuoso"
+  source_url: "https://www.biosim.ntua.gr/en/project/2"
+  duration: "08/1997 - 07/1999"
+  partners:
+    - "Nucletron BV"
+    - "Zentrum fur Graphische Datenverarbeitung e.V."
+    - "Gesellschaft fur Medizintechnik GmbH"
+    - "ATM Group Europe AB"
+    - "Stadtische Kliniken Offenbach"
+    - "Universitasklinik fur Strahlentherapie-Radioonkologie, Innsbruck"
+  framework: "EC-Telematics HC4024"
+  description_en: |
+    The project scope was on the one hand the "virtualisation" of the complete treatment planning procedure, and on the other hand to make the virtual patient available of different sites than those of its physical location, thus allowing telematics co-operation of radio-oncology centres. The project efforts have been focused on developing the innovative telematics tasks and implementing these on existing professional and commercially available technology.
 - title_en: Mobile Phone Antenna Optimization
   status: completed
   title_el: Βελτιστοποίηση κεραίας και δομής συσκευής κινητού τηλεφώνου
@@ -423,6 +735,13 @@
     human-head electromagnetic exposure.
   summary_el: Βελτιστοποίηση κεραίας και συσκευής κινητού για ελαχιστοποίηση έκθεσης
     κεφαλής σε ηλεκτρομαγνητική ακτινοβολία.
+  slug: "mobile-phone-antenna-optimization"
+  source_url: "https://www.biosim.ntua.gr/en/project/25"
+  duration: "05/1997 - 04/1999"
+  partners:
+    - "University of Nottingham"
+  description_en: |
+    Optimization of mobile phone antenna and device structure in order to minimize the exposure of human head to electromagnetic radiation. Application of numerical simulation methods in combination with measurements on biological tissue phantoms.
 - title_en: CEPHOS
   status: completed
   title_el: CEPHOS
@@ -433,3 +752,19 @@
     for human exposure assessment from mobile communication devices.
   summary_el: Ευρωπαϊκή τυποποίηση διαδικασιών εκτίμησης έκθεσης σε ακτινοβολία συσκευών
     κινητής τηλεφωνίας.
+  slug: "cephos"
+  source_url: "https://www.biosim.ntua.gr/en/project/26"
+  duration: "10/1997 - 11/1999"
+  partners:
+    - "Alcatel"
+    - "University of Bradford"
+    - "Centre National d' Etudes des Telecommunications, CNET"
+    - "Centro Studi e Laboratori Telecomunicazioni S.p.A., CSELT"
+    - "ENEA"
+    - "Finnish Institute of Occupational Health"
+    - "National Physics Laboratory"
+    - "University of Bristol"
+    - "University of Bordeaux"
+    - "University of Ancona"
+  description_en: |
+    European standardization of procedures based on computational and experimental techniques for the assessment of human exposure to the electromagnetic radiation of mobile communication terminal equipment.
