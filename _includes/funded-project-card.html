@@ -1,0 +1,35 @@
+{% assign project = include.project %} {% assign project_title = project.title_en %}{% if site.lang == 'el' and project.title_el %}{% assign
+project_title = project.title_el %}{% endif %} {% assign project_summary = project.summary_en %}{% if site.lang == 'el' and project.summary_el %}{%
+assign project_summary = project.summary_el %}{% endif %} {% assign lang_prefix = '' %}{% if site.lang != site.default_lang %}{% assign lang_prefix =
+'/' | append: site.lang %}{% endif %}
+<article class="card funded-project-card" data-aos="fade-up">
+  {% if project.image %}{% assign project_image = project.image %}{% unless project_image contains '://' %}{% assign project_image = project.image |
+  relative_url %}{% endunless %}<img src="{{ project_image }}" alt="{{ project_title | escape }}" />{% endif %} {% include project-status.html
+  project=project %}
+  <h3>
+    {% if project.slug %}<a href="{{ lang_prefix | append: '/projects/' | append: project.slug | append: '/' | relative_url }}">{{ project_title }}</a
+    >{% else %}{{ project_title }}{% endif %}
+  </h3>
+  <p>{{ project_summary }}</p>
+  {% if project.duration or project.framework %}
+  <dl class="project-card-meta">
+    {% if project.duration %}
+    <div>
+      <dt>{% t projects.duration %}</dt>
+      <dd>{{ project.duration }}</dd>
+    </div>
+    {% endif %}{% if project.framework %}
+    <div>
+      <dt>{% t projects.framework %}</dt>
+      <dd>{{ project.framework }}</dd>
+    </div>
+    {% endif %}
+  </dl>
+  {% endif %}
+  <div class="tags">{% for tag in project.tags %}<span class="tag">{{ tag }}</span>{% endfor %}</div>
+  {% if project.slug %}<a
+    class="project-details-link"
+    href="{{ lang_prefix | append: '/projects/' | append: project.slug | append: '/' | relative_url }}"
+    >{% t projects.details %} <span aria-hidden="true">→</span></a
+  >{% endif %}
+</article>

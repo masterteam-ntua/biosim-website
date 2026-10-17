@@ -1,0 +1,42 @@
+---
+layout: page
+---
+
+{% assign project = site.data.projects | where: 'slug', page.project_slug | first %} {% assign description = project.description_en %}{% if site.lang
+== 'el' and project.description_el %}{% assign description = project.description_el %}{% endif %} {% assign lang_prefix = '' %}{% if site.lang !=
+site.default_lang %}{% assign lang_prefix = '/' | append: site.lang %}{% endif %}
+<a class="project-back-link" href="{{ lang_prefix | append: '/projects/' | relative_url }}">← {% t projects.all_projects %}</a>
+<article class="article-card funded-project-detail" data-aos="fade-up">
+  <div class="project-detail-header">
+    {% include project-status.html project=project %}
+    <div class="tags">{% for tag in project.tags %}<span class="tag">{{ tag }}</span>{% endfor %}</div>
+  </div>
+  {% if project.image %}<img class="article-image" src="{{ project.image | relative_url }}" alt="{{ page.title | escape }}" />{% endif %} {% if
+  project.partners or project.duration or project.framework %}
+  <dl class="project-facts">
+    {% if project.partners %}
+    <div>
+      <dt>{% t projects.partners %}</dt>
+      <dd>
+        <ul>
+          {% for partner in project.partners %}
+          <li>{{ partner }}</li>
+          {% endfor %}
+        </ul>
+      </dd>
+    </div>
+    {% endif %} {% if project.duration %}
+    <div>
+      <dt>{% t projects.duration %}</dt>
+      <dd>{{ project.duration }}</dd>
+    </div>
+    {% endif %} {% if project.framework %}
+    <div>
+      <dt>{% t projects.framework %}</dt>
+      <dd>{{ project.framework }}</dd>
+    </div>
+    {% endif %}
+  </dl>
+  {% endif %}
+  <div class="project-description">{{ description | markdownify }}</div>
+</article>

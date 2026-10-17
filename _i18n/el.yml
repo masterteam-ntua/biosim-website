@@ -24,6 +24,14 @@ research:
   areas: Ερευνητικές Περιοχές
   diploma_theses: Διπλωματικές Εργασίες
   phd_theses: Διδακτορικές Διατριβές
+projects:
+  in_progress: Σε εξέλιξη
+  completed: Ολοκληρωμένο
+  partners: Εταίροι
+  duration: Διάρκεια
+  framework: Πλαίσιο χρηματοδότησης
+  details: Περισσότερα για το έργο
+  all_projects: Όλα τα έργα
 publications:
   search: Αναζήτηση δημοσιεύσεων
   search_placeholder: Τίτλος, συγγραφέας, περιοδικό...

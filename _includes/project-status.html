@@ -1,0 +1,5 @@
+{% if include.project.status %}
+<span class="project-status project-status--{{ include.project.status }}"
+  >{% if include.project.status == 'in_progress' %}{% t projects.in_progress %}{% else %}{% t projects.completed %}{% endif %}</span
+>
+{% endif %}

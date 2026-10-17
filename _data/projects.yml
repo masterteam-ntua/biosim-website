@@ -1,5 +1,64 @@
 ---
+- title_en: "DEEP-HEALTH: Strengthening Research Excellence and Innovation in Digital Health Across Widening Europe"
+  slug: deep-health
+  status: in_progress
+  featured: true
+  home_featured: true
+  tags:
+    - digital health
+    - AI
+    - precision oncology
+  summary_en: Strengthening European research partnerships and capacity in AI-driven digital health, with joint work in precision oncology and mental health monitoring.
+  summary_el: Ενίσχυση των ευρωπαϊκών ερευνητικών συνεργασιών στην ψηφιακή υγεία με ΤΝ, με κοινή έρευνα στην ογκολογία ακριβείας και την παρακολούθηση της ψυχικής υγείας.
+  partners:
+    - National Technical University of Athens (NTUA, Coordinator)
+    - Fraunhofer
+    - IDIBAPS–CERCA
+    - Hospital Clínic de Barcelona (HCB)
+    - Break Even
+    - Leibniz University Hannover (LUH)
+    - Brno University of Technology (BUT)
+    - University of Brest (UBO)
+    - Council of European BioRegions (CEBR)
+    - CEITEC
+  duration: 10/2026 – 09/2031
+  framework: Horizon Europe – WIDERA (Excellence Hubs)
+  description_en: |
+    DEEP-HEALTH aims to strengthen research excellence and innovation capacity in AI-driven and data-enabled health technologies by establishing sustainable collaborations between higher education institutions in Widening and non-Widening European countries. The project focuses on enhancing scientific competitiveness, accelerating digital transformation, and modernizing institutional research and innovation practices through coordinated activities in research excellence, capacity building, infrastructure development, and interdisciplinary collaboration.
+
+    A central objective of DEEP-HEALTH is the development of a joint Strategic Research and Innovation Agenda (SRIA) to identify common scientific priorities and foster long-term cooperation in AI-augmented HealthTech. The project will assess existing research and digital infrastructures, identify technological and institutional gaps, and promote the adoption of interoperable digital systems, FAIR data management practices, and responsible AI methodologies. Complementary activities will support institutional reform, researcher training, staff mobility, entrepreneurship, and engagement with healthcare organizations, industry, and policymakers.
+
+    To translate these efforts into concrete scientific outcomes, DEEP-HEALTH will implement collaborative seed research and innovation activities focusing on precision oncology and mental health monitoring. These activities will investigate advanced multimodal AI methodologies integrating heterogeneous biomedical data, including medical imaging, molecular and clinical information, physiological signals, and data from wearable and connected medical devices. Particular emphasis will be placed on explainability, robustness, generalizability, and clinically meaningful validation, with the aim of supporting patient stratification, prognostic modelling, personalized disease monitoring, and the identification of clinically relevant digital biomarkers.
+
+    Through the integration of institutional development, digital innovation, and clinically oriented collaborative research, DEEP-HEALTH is expected to strengthen the research capabilities and international visibility of participating institutions, establish sustainable HealthTech partnerships, and facilitate future joint research proposals, infrastructure investments, and innovation initiatives.
+- title_en: "ResilientAI: An Integrated Framework for Detecting and Addressing Domain Shifts in Dynamic Data to Enhance the Robustness and Reliability of Machine Learning Models for Food Safety"
+  slug: resilient-ai
+  status: in_progress
+  featured: true
+  home_featured: true
+  tags:
+    - food safety
+    - machine learning
+    - domain shift
+  summary_en: Adaptive and explainable AI for reliable food safety risk prediction as data and conditions change.
+  summary_el: Προσαρμοστική και εξηγήσιμη ΤΝ για αξιόπιστη πρόβλεψη κινδύνων στην ασφάλεια τροφίμων υπό μεταβαλλόμενες συνθήκες.
+  partners:
+    - ICCS–NTUA (BioSim)
+    - AGROKNOW
+  duration: 11/2026 – 10/2029
+  framework: Ερευνώ–Καινοτομώ | ΕΣΠΑ 2021-2027
+  description_en: |
+    ResilientAI aims to develop an intelligent framework for enhancing the robustness, reliability, and interpretability of machine learning models used for food safety risk prediction. The project addresses a fundamental challenge in the deployment of AI systems: the deterioration of predictive performance when models encounter evolving data distributions, known as domain shifts. By combining multimodal learning, continuous data monitoring, explainable AI, and adaptive machine learning, ResilientAI seeks to support reliable risk assessment and informed decision-making in the food supply chain.
+
+    The project focuses on the development of advanced methodologies for integrating heterogeneous data sources, including historical food safety incidents, environmental conditions, agricultural practices, and supply chain information, to improve the prediction of emerging food safety risks. Particular emphasis is placed on the early detection and characterization of domain shifts, uncertainty quantification, and the generation of interpretable predictions. Novel domain adaptation and generalization strategies will be investigated to enable predictive models to maintain their performance under changing conditions, while providing insights into the factors influencing their predictions and potential corrective actions.
+
+    The developed methodologies will be integrated into FOODAKAI, AGROKNOW's commercially available AI-powered food safety intelligence platform, and evaluated through representative use cases involving the prediction of food contamination risks, particularly those associated with mycotoxins and heavy metals. The project will also develop interactive tools that enable food safety professionals and data analysts to monitor model performance, understand detected distribution shifts, and support appropriate adaptation strategies.
+
+    Through the collaboration between ICCS–NTUA and AGROKNOW, ResilientAI aims to bridge advanced AI research and industrial applications, contributing to more transparent, adaptive, and trustworthy decision-support systems for food safety. The project is expected to enhance the capacity to anticipate and mitigate emerging risks, strengthen food quality assurance practices, and ultimately contribute to the protection of public health.
 - title_en: ENDORSE
+  status: completed
+  featured: true
+  home_featured: true
   title_el: ENDORSE
   image: "/assets/img/projects/endorse.webp"
   tags:
@@ -11,6 +70,8 @@
   summary_el: Ολοκληρωμένη πλατφόρμα ΤΠΕ, παιχνιδοποίησης και βιοανάδρασης για αυτοδιαχείριση
     ΣΔΤ1 και παχυσαρκίας σε παιδιά και εφήβους.
 - title_en: smarty4covid
+  status: completed
+  featured: true
   title_el: smarty4covid
   image: "/assets/img/projects/smarty4covid.webp"
   tags:
@@ -21,6 +82,7 @@
   summary_el: Πολυτροπικό πλαίσιο για εκτίμηση κινδύνου και παρακολούθηση COVID-19
     με εξηγήσιμη βαθιά μάθηση και ηχητικούς βιοδείκτες.
 - title_en: Cockpit Crew Health Monitoring
+  status: completed
   title_el: Ανάπτυξη Συστήματος Παρακολούθησης της Κατάστασης Υγείας των Πιλότων Αεροσκαφών
     σε Πραγματικό Χρόνο
   tags:
@@ -32,6 +94,8 @@
   summary_el: Παρακολούθηση φυσιολογικών παραμέτρων πιλότων με αισθητήρες και επεξεργασία
     σημάτων/εικόνας για έγκαιρη προειδοποίηση.
 - title_en: SMART-BLISTER
+  status: completed
+  featured: true
   title_el: Σύστημα Διασφάλισης της Φαρμακευτικής Συμμόρφωσης Χρόνιων Ασθενών
   image: "/assets/img/projects/smart-blister.webp"
   tags:
@@ -42,6 +106,7 @@
   summary_el: Έξυπνη συσκευασία blister με παθητικό τυπωμένο ηλεκτρονικό κύκλωμα και
     επικοινωνία με πληροφοριακό σύστημα νέφους.
 - title_en: EDUSAFE
+  status: completed
   title_el: EDUSAFE
   image: "/assets/img/projects/edusafe.webp"
   tags:
@@ -53,6 +118,7 @@
   summary_el: Εκπαίδευση και έρευνα σε συστήματα εικονικής και επαυξημένης πραγματικότητας
     για ασφάλεια σε ακραία περιβάλλοντα.
 - title_en: MOSAIC
+  status: completed
   title_el: MOSAIC
   image: "/assets/img/projects/mosaic.webp"
   tags:
@@ -63,6 +129,7 @@
   summary_el: Μοντέλα και τεχνικές προσομοίωσης για παράγοντες που επηρεάζουν τον
     κίνδυνο, τις επιπλοκές και τη διαχείριση του διαβήτη.
 - title_en: mBioRF
+  status: completed
   title_el: Πολυεπίπεδη εκτίμηση βιολογικών αποτελεσμάτων ηλεκτρομαγνητικών πεδίων
     ραδιοσυχνοτήτων
   tags:
@@ -73,6 +140,7 @@
   summary_el: Πολυεπίπεδη μελέτη βιολογικών αποτελεσμάτων ηλεκτρομαγνητικών πεδίων
     ραδιοσυχνοτήτων σε κύτταρα, ιστούς και νευροφυσιολογία.
 - title_en: DEM-II-MED
+  status: completed
   title_el: Εμφυτεύσιμες και καταπόσιμες ιατρικές διατάξεις
   image: "/assets/img/projects/dem-ii-med.webp"
   tags:
@@ -83,6 +151,7 @@
   summary_el: Μεθοδολογία σχεδίασης και αξιολόγησης εμφυτεύσιμων και καταπόσιμων ιατρικών
     διατάξεων με τηλεμετρία και τηλεϊατρική.
 - title_en: SIFEM
+  status: completed
   title_el: SIFEM
   image: "/assets/img/projects/sifem.webp"
   tags:
@@ -93,6 +162,7 @@
   summary_el: Σημασιολογική υποδομή που συνδέει εργαλεία πεπερασμένων στοιχείων και
     αποθετήρια μοντέλων για το έσω ους.
 - title_en: Carotid Atherosclerosis
+  status: completed
   title_el: Η αθηρωματική πλάκα στην καρωτίδα
   image: "/assets/img/projects/carotid-atherosclerosis.webp"
   tags:
@@ -103,6 +173,7 @@
   summary_el: Πολυεπιστημονική προσέγγιση της αθηρωμάτωσης στην καρωτίδα για βέλτιστη
     διαχείριση συμπτωματικών και ασυμπτωματικών ασθενών.
 - title_en: Non-ionizing radiation source registry study
+  status: completed
   title_el: Μελέτη καταγραφής πηγών μη-ιονίζουσας ακτινοβολίας
   tags:
     - non-ionizing radiation
@@ -112,6 +183,7 @@
   summary_el: Μελέτη για τεύχη δημοπράτησης έργου καταγραφής πηγών μη ιονίζουσας ακτινοβολίας
     και σύνδεσης βάσης δεδομένων με GIS.
 - title_en: Emerging EMF Technologies and Health Risk Management
+  status: completed
   title_el: Emerging EMF Technologies and Health Risk Management
   tags:
     - EMF
@@ -121,6 +193,7 @@
   summary_el: Δομή ανταλλαγής γνώσης για νέες τεχνολογίες ΗΜΠ, χαρακτηριστικά έκθεσης,
     πιθανές επιπτώσεις στην υγεία και επικοινωνία κινδύνου.
 - title_en: NEUROMATH
+  status: completed
   title_el: NEUROMATH
   tags:
     - brain activity
@@ -130,6 +203,7 @@
   summary_el: Μαθηματικές μέθοδοι εκτίμησης εγκεφαλικής δραστηριότητας και συνδεσιμότητας
     από μη επεμβατικές μετρήσεις.
 - title_en: Neuronal network dynamics in motor disorders
+  status: completed
   title_el: Υπολογιστικές μέθοδοι για δυναμική δικτύων νευρώνων σε κινητικές διαταραχές
   tags:
     - neuroscience
@@ -139,6 +213,7 @@
   summary_el: Υπολογιστικές μέθοδοι χρονοβηματισμού για δυναμική δικτύων νευρώνων
     και έλεγχο νευρολογικών δυσλειτουργιών.
 - title_en: Computational tools for Parkinson's disease and resistant epilepsy
+  status: completed
   title_el: Υπολογιστικά εργαλεία για νόσο Parkinson και ανθεκτική επιληψία
   tags:
     - Parkinson
@@ -148,6 +223,7 @@
   summary_el: Αλγόριθμοι και εργαλεία επεξεργασίας εγκεφαλικών σημάτων και μοντελοποίησης
     για υποβοήθηση λειτουργικών παρεμβάσεων.
 - title_en: Micro2DNA
+  status: completed
   title_el: Micro2DNA
   tags:
     - microfluidics
@@ -157,6 +233,7 @@
   summary_el: Ολοκληρωμένο μικρορευστονικό σύστημα πολυμερών για εξαγωγή, πολλαπλασιασμό
     και ανίχνευση DNA.
 - title_en: SMARTDIAB
+  status: completed
   title_el: SMARTDIAB
   tags:
     - diabetes
@@ -166,6 +243,7 @@
   summary_el: Ευφυές σύστημα έγχυσης ινσουλίνης με τηλεματική, GSM, WPAN και μοντελοποίηση
     γλυκόζης-ινσουλίνης.
 - title_en: fastGATE
+  status: completed
   title_el: fastGATE
   tags:
     - Monte Carlo
@@ -175,6 +253,7 @@
   summary_el: Τεχνικές ελάττωσης πολυπλοκότητας για βελτίωση της απόδοσης προσομοιώσεων
     Monte Carlo GATE σε κατανεμημένες πλατφόρμες.
 - title_en: Non ionizing radiation and public health
+  status: completed
   title_el: Μη ιοντίζουσα ακτινοβολία και δημόσια υγεία
   tags:
     - radiation
@@ -183,6 +262,7 @@
   summary_el: Ερευνητική δραστηριότητα για μη ιοντίζουσα ακτινοβολία και επιπτώσεις
     στη δημόσια υγεία.
 - title_en: Telemedicine network for Aegean and Cyprus remote areas
+  status: completed
   title_el: Δίκτυο τηλεϊατρικής για απομακρυσμένες περιοχές στο Αιγαίο και την Κύπρο
   tags:
     - telemedicine
@@ -192,6 +272,7 @@
   summary_el: Δίκτυο τηλεϊατρικής για επείγουσα φροντίδα με βιοσήματα, video, εικόνες
     και συμβουλευτική από ειδικευμένους ιατρούς.
 - title_en: EMedIT
+  status: completed
   title_el: EMedIT
   tags:
     - ICT
@@ -201,6 +282,7 @@
   summary_el: Οδικός χάρτης ΤΠΕ, υπηρεσίες υποστήριξης, εκπαίδευση και συνεργασίες
     στη Νοτιοανατολική Μεσόγειο.
 - title_en: Small animal biological process simulation
+  status: completed
   title_el: Προσομοίωση και μοντελοποίηση σύνθετων βιολογικών διεργασιών σε μικρά
     πειραματόζωα
   tags:
@@ -211,6 +293,7 @@
   summary_el: Βελτιστοποίηση εξειδικευμένης γ-camera για απεικόνιση μικρών ζώων και
     συναφείς εφαρμογές ιατρικής απεικόνισης.
 - title_en: INTERMED
+  status: completed
   title_el: INTERMED
   tags:
     - telehealth
@@ -220,6 +303,7 @@
   summary_el: Ευρυζωνική τηλεπικοινωνιακή πλατφόρμα για τηλεσυνεργασία, τηλεπαρακολούθηση,
     τηλεδιάγνωση και εκπαίδευση στη Μεσόγειο.
 - title_en: EMC Related to Wireless Communications
+  status: completed
   title_el: EMC Related to Wireless Communications
   tags:
     - EMC
@@ -229,6 +313,7 @@
   summary_el: Σειρά μεταπτυχιακών μαθημάτων για ηλεκτρομαγνητική συμβατότητα σε ασύρματες
     επικοινωνίες με έμφαση σε 3G/UMTS.
 - title_en: Protection from non-ionizing radiation of mobile communications
+  status: completed
   title_el: Προστασία κοινού από μη ιοντίζουσα ακτινοβολία συστημάτων κινητών επικοινωνιών
   tags:
     - mobile communications
@@ -238,6 +323,7 @@
   summary_el: Μελέτη έκθεσης του κοινού σε ακτινοβολία τερματικών και σταθμών βάσης,
     με έμφαση στα παιδιά και στα μέτρα προστασίας.
 - title_en: AMICA
+  status: completed
   title_el: AMICA
   tags:
     - decision support
@@ -247,6 +333,7 @@
   summary_el: Συγκέντρωση δεδομένων και γνώσης στο σημείο φροντίδας για βελτίωση ιατρικών
     αποφάσεων και αποτροπή λαθών.
 - title_en: Small animal PET
+  status: completed
   title_el: Monte-Carlo προσομοίωση συστημάτων small animal PET
   tags:
     - PET
@@ -256,6 +343,7 @@
   summary_el: Monte Carlo προσομοίωση τομογραφικών συστημάτων PET μικρών διαστάσεων
     και υψηλής διακριτικής ικανότητας.
 - title_en: Potential Health Implications from Mobile Communication Systems
+  status: completed
   title_el: Potential Health Implications from Mobile Communication Systems
   tags:
     - mobile systems
@@ -265,6 +353,7 @@
   summary_el: Διερεύνηση πιθανών επιπτώσεων στην υγεία από έκθεση σε ηλεκτρομαγνητική
     ακτινοβολία συστημάτων κινητών επικοινωνιών.
 - title_en: Inverse Scattering for Medical Diagnosis
+  status: completed
   title_el: Επίλυση του Προβλήματος της Αντίστροφης Σκέδασης
   tags:
     - inverse scattering
@@ -274,6 +363,7 @@
   summary_el: Αλγόριθμοι αντίστροφης σκέδασης για προσδιορισμό σχήματος και δείκτη
     διάθλασης βιολογικών αντικειμένων.
 - title_en: GALENOS
+  status: completed
   title_el: Ανάπτυξη συστήματος εικονικής προσομοίωσης και σχεδίασης αγωγής στην ακτινο-ογκολογία
   tags:
     - radiation oncology
@@ -283,6 +373,7 @@
   summary_el: Σύστημα εικονικής προσομοίωσης και σχεδίασης ακτινοθεραπείας με επεξεργασία
     εικόνας, 3D οπτικοποίηση και τηλεσυνεργασία.
 - title_en: Rational Assessment of Health Effects Related to Mobile Phones
+  status: completed
   title_el: Rational Assessment of Health Effects Related to the Use of Mobile Phones
   tags:
     - mobile phones
@@ -292,6 +383,7 @@
   summary_el: Τυποποίηση πειραματικών και υπολογιστικών διαδικασιών για εκτίμηση έκθεσης
     κεφαλής σε ακτινοβολία κινητών τηλεφώνων.
 - title_en: CT-Based Diagnostic Ability Improvement
+  status: completed
   title_el: Αύξηση διαγνωστικής δυνατότητας εικόνων αξονικής τομογραφίας
   tags:
     - CT
@@ -301,6 +393,7 @@
   summary_el: Σύστημα διαχείρισης και υποστήριξης διάγνωσης εικόνων CT με επεξεργασία
     εικόνας και τηλεματική συνεργασία.
 - title_en: Biomedical Effects of Electromagnetic Fields
+  status: completed
   title_el: Biomedical Effects of Electromagnetic Fields
   tags:
     - EMF
@@ -310,6 +403,7 @@
   summary_el: Μελέτη επιπτώσεων ηλεκτρομαγνητικών κυμάτων στην υγεία, με έμφαση σε
     χρήστες κινητών, και εφαρμογές στην ιατρική.
 - title_en: VIRTUOSO
+  status: completed
   title_el: VIRTUOSO
   image: "/assets/img/projects/virtuoso.webp"
   tags:
@@ -320,6 +414,7 @@
   summary_el: Εικονική προσομοίωση και σχεδίαση θεραπείας στην ακτινο-ογκολογία με
     τηλεματική συνεργασία κέντρων.
 - title_en: Mobile Phone Antenna Optimization
+  status: completed
   title_el: Βελτιστοποίηση κεραίας και δομής συσκευής κινητού τηλεφώνου
   tags:
     - antenna
@@ -329,6 +424,7 @@
   summary_el: Βελτιστοποίηση κεραίας και συσκευής κινητού για ελαχιστοποίηση έκθεσης
     κεφαλής σε ηλεκτρομαγνητική ακτινοβολία.
 - title_en: CEPHOS
+  status: completed
   title_el: CEPHOS
   tags:
     - dosimetry

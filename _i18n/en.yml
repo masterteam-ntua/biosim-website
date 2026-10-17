@@ -24,6 +24,14 @@ research:
   areas: Research Areas
   diploma_theses: Diploma Theses
   phd_theses: PhD Theses
+projects:
+  in_progress: In Progress
+  completed: Completed
+  partners: Partners
+  duration: Duration
+  framework: Framework
+  details: Project details
+  all_projects: All projects
 publications:
   search: Search publications
   search_placeholder: Title, author, venue...
