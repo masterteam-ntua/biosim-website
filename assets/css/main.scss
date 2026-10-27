@@ -181,6 +181,7 @@ h3 { font-size: 1.25rem; }
 .home-research-copy .button { justify-self: start; margin-top: 8px; }
 .article-card .button { text-decoration: none; }
 .research-area-swiper { width: 100%; height: 100%; padding: 2px 0 42px; }
+.research-swipe-hint { display: none; }
 .research-area-swiper .swiper-slide { display: flex; height: auto; opacity: 0.28; transform: scale(0.92); transition: opacity 0.24s ease, transform 0.24s ease; }
 .research-area-swiper .swiper-slide-active { opacity: 1; transform: scale(1); }
 .research-area-tile { display: block; width: 100%; min-height: 100%; padding: 14px; overflow: hidden; color: inherit; border: 1px solid var(--line); border-radius: 22px; background: var(--card); }
@@ -219,6 +220,7 @@ h3 { font-size: 1.25rem; }
 .news-card-preview { flex: none; max-height: var(--preview-max-height, none); min-height: 0; margin: 0; display: -webkit-box; overflow: hidden; line-height: 1.45; -webkit-box-orient: vertical; -webkit-line-clamp: var(--preview-lines, 3); }
 .news-swiper-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
 .news-swiper-grid .news-card { height: auto; }
+.mobile-news-list { display: none; }
 .tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
 .tag { border: 1px solid var(--line); border-radius: 999px; padding: 5px 10px; color: var(--muted); font-size: 0.82rem; }
 
@@ -322,7 +324,7 @@ h3 { font-size: 1.25rem; }
 @media (max-width: 900px) {
   body.nav-open { overflow: hidden; }
   body.nav-open .site-header { z-index: 100; }
-  .site-header { align-items: center; gap: 12px; backdrop-filter: none; }
+  .site-header { align-items: center; gap: 12px; background: var(--menu-bg); backdrop-filter: none; }
   .brand-logo { width: 128px; }
   .mobile-nav-toggle { display: block; order: 2; margin-left: auto; }
   .header-actions { order: 3; }
@@ -351,6 +353,18 @@ h3 { font-size: 1.25rem; }
 
 @media (max-width: 620px) {
   .stats, .grid, .gallery, .two-grid, .news-swiper-grid { grid-template-columns: 1fr; }
+  .home-news-section .news-swiper { display: none; }
+  .mobile-news-list { display: grid; gap: 18px; }
+  .mobile-news-list .news-card { height: auto; }
+  .research-area-swiper .swiper-slide { opacity: 1; transform: none; }
+  .research-swipe-hint { display: block; margin: 0 0 -12px; color: var(--muted); font-size: 0.85rem; }
+  .home-section .funded-project-card { padding: 20px; }
+  .home-section .funded-project-card img { width: min(100%, 260px); height: 120px; margin-bottom: 12px; object-position: left center; }
+  .home-section .funded-project-card h3 { margin: 10px 0 8px; }
+  .home-section .funded-project-card p { margin: 8px 0; line-height: 1.5; }
+  .home-section .funded-project-card .project-card-meta { gap: 3px; margin-top: 8px; }
+  .home-section .funded-project-card .tags { margin-top: 0; padding-top: 10px; }
+  .home-section .funded-project-card .project-details-link { margin-top: 12px; }
   .people-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .hero-content { padding-top: 72px; }
   .hero-visual { aspect-ratio: 4 / 3; border-radius: 22px; }

@@ -83,14 +83,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
     document.querySelectorAll(".research-area-swiper").forEach((el) => {
       new Swiper(el, {
-        autoplay: { delay: 3800, disableOnInteraction: false },
+        autoplay: window.matchMedia("(any-pointer: coarse), (prefers-reduced-motion: reduce)").matches
+          ? false
+          : { delay: 3800, disableOnInteraction: false },
         centeredSlides: true,
         loop: true,
         pagination: { el: el.querySelector(".swiper-pagination"), clickable: true },
-        slidesPerView: 1.18,
+        slidesPerView: 1,
         spaceBetween: 10,
         speed: 650,
-        breakpoints: { 760: { slidesPerView: 1.28, spaceBetween: 16 } },
+        breakpoints: { 621: { slidesPerView: 1.18 }, 760: { slidesPerView: 1.28, spaceBetween: 16 } },
       });
     });
 

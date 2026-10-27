@@ -61,6 +61,7 @@ permalink: /
         {% endif %}
         <a class="button secondary" href="{{ lang_prefix | append: '/research/' | relative_url }}">{% t home.cta_research %}</a>
       </div>
+      <p class="research-swipe-hint">{% t home.swipe_research %} <span aria-hidden="true">→</span></p>
       <div class="swiper research-area-swiper">
         <div class="swiper-wrapper">
           {% assign research_areas = site.projects | sort: 'importance' %}
@@ -89,33 +90,22 @@ permalink: /
   <div class="container">
     <div class="section-heading" data-aos="fade-up">
       <div><h2>{% t home.latest_news %}</h2></div>
-      <a class="button secondary" href="{{ lang_prefix | append: '/news/' | relative_url }}">{% t nav.news %}</a>
+      <a class="button secondary" href="{{ lang_prefix | append: '/news/' | relative_url }}">{% t home.all_news %}</a>
+    </div>
+    {% assign latest_news = site.news | sort: 'date' | reverse | slice: 0, 12 %}
+    <div class="mobile-news-list">
+      {% assign mobile_news = latest_news | slice: 0, 3 %}
+      {% for item in mobile_news %}{% include home-news-card.html item=item lang_prefix=lang_prefix %}{% endfor %}
     </div>
     <div class="swiper news-swiper" data-aos="fade-up">
       <div class="swiper-wrapper">
-        {% assign latest_news = site.news | sort: 'date' | reverse | slice: 0, 12 %}
         {% assign page1 = latest_news | slice: 0, 6 %}
         {% assign page2 = latest_news | slice: 6, 6 %}
         {% for page_items in (1..2) %}
           {% if page_items == 1 %}{% assign items = page1 %}{% else %}{% assign items = page2 %}{% endif %}
           <div class="swiper-slide">
             <div class="news-swiper-grid">
-              {% for item in items %}
-                <article class="news-card">
-                {% assign news_image = item.image %}
-                {% assign preview_title = item.short_title | default: item.title %}
-                {% if site.lang == 'el' %}{% assign preview_title = item.short_title_el | default: item.title_el | default: preview_title %}{% endif %}
-                {% assign long_title = item.title %}
-                {% if site.lang == 'el' and item.title_el %}{% assign long_title = item.title_el %}{% endif %}
-                {% assign preview_text = long_title %}
-                {% if preview_title == preview_text %}{% assign preview_text = item.content | strip_html %}{% endif %}
-                {% if site.lang == 'el' and item.summary_el %}{% assign preview_text = item.summary_el %}{% endif %}
-                <div class="news-card-media">{% if news_image %}<img src="{{ news_image | relative_url }}" alt="{{ preview_title | escape }}">{% endif %}</div>
-                <p class="meta news-card-meta">{{ item.date | date: "%b %-d, %Y" }}</p>
-                <h3 class="news-card-title"><a href="{{ lang_prefix | append: item.url | relative_url }}">{{ preview_title }}</a></h3>
-                  {% if preview_text %}<p class="news-card-preview">{{ preview_text }}</p>{% endif %}
-                </article>
-              {% endfor %}
+              {% for item in items %}{% include home-news-card.html item=item lang_prefix=lang_prefix %}{% endfor %}
             </div>
           </div>
         {% endfor %}

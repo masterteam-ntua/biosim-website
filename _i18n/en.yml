@@ -19,6 +19,8 @@ home:
   stats_members: Team members
   stats_years: Years active
   latest_news: Latest news
+  all_news: All news
+  swipe_research: Swipe to see more research areas
   featured_projects: Featured projects
 research:
   areas: Research Areas
