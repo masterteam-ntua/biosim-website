@@ -4,6 +4,7 @@ title: "Professor Konstantina Nikita Discusses the Risks and Limitations of AI-B
 short_title: "Prof. Nikita in Kathimerini on AI-Based Medical Self-Diagnosis"
 date: 2026-11-13
 source_url: https://www.biosim.ntua.gr/en/news/119
+image: /assets/img/news/professor-konstantina-nikita-discusses-ai-based-medical-self-diagnosis.jpg
 ---
 
 Professor Konstantina Nikita was featured in the Greek newspaper Kathimerini in an article titled “ChatGPT, What’s Wrong with Me? – The Pitfalls of Digital Self-Diagnosis”.
